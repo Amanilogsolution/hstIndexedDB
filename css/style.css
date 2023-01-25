@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+  }
+  .conatiner {
+    /* border: 1px solid red; */
+    width: 95%;
+    min-height: 100vh;
+    padding: 8px 20px;
+  }
+  .card {
+    height: 24vh;
+    /* border: 1px solid blue; */
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 1px 1px 4px 1px #e8e3e3;
+  }
+  .cardHeader {
+    height: 76%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    background: linear-gradient(90deg, #a3261d, #eb4034);
+  }
+  .cardFooter {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    padding-top: 13px;
+    color: gray;
+    font-size: 14px;
+  }
+  .cardHeader img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+  }
+  .cardHeader_content1 {
+    width: 68%;
+    /* border: 1px solid green; */
+    padding: 10px;
+  }
+  .cardHeader_content2 {
+    width: 30%;
+    border-left: 1px solid silver;
+    padding-top: 40px;
+    text-align: center;
+    color: white;
+  }
+  .cardHeader_content12 {
+    display: flex;
+    /* border: 1px solid white; */
+    width: 100%;
+    margin-top: 15px;
+    justify-content: space-around;
+  }
+  
+  #card2 .cardHeader {
+    background: linear-gradient(90deg, #1753b3, #1b5abf);
+  }
+  #card3 .cardHeader {
+    background: linear-gradient(90deg, #176fb3, #0a5691);
+  }
+  #card4 .cardHeader {
+    background: linear-gradient(90deg, #852e66, #732657);
+  }
+  
+  .search-cotainer {
+    height: 100vh;
+    width: 100vw;
+    font-size: 17px;
+  }
+  
+  .search-cotainer .int-div {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .search-cotainer .int-div input {
+    height: 40px;
+    padding-left: 5px;
+  }
+  .search-cotainer .int-div .btn-search {
+    background: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .search-cotainer .table-div {
+    width: 100%;
+    height: 88vh;
+    overflow: auto;
+  }
+  .search-cotainer .table-div table {
+    width: 100%;
+    font-size: 0.98rem;
+  }
+  .search-cotainer .table-div table,
+  th,
+  tr,
+  td {
+    border: 1px solid silver;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  .search-cotainer .table-div table th,
+  td {
+    padding: 0px 4px;
+  }
+  
