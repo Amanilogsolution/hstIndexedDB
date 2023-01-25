@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#009578">
     <title>IndexedDB</title>
-    <link rel ="manifest" href="manifest.json">
+    <!-- <link rel ="manifest" href="manifest.json"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
 </head>
 
@@ -45,14 +45,14 @@
     
     <script src="js/app.js"> </script>
     <script>
-        if("serviceWorker" in navigator){
-            navigator.serviceWorker.register("sw.js").then(registration=>{
-                console.log("SW Registration!");
-                console.log(registration)
-            }).catch(error => {
-                console.log(error)
-            })
-        }
+        // if("serviceWorker" in navigator){
+        //     navigator.serviceWorker.register("sw.js").then(registration=>{
+        //         console.log("SW Registration!");
+        //         console.log(registration)
+        //     }).catch(error => {
+        //         console.log(error)
+        //     })
+        // }
     </script>
 </body>
 </html>

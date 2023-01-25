@@ -2473,7 +2473,7 @@
 		PACK_NAME : "POP Splint KIT (POP Application KIT)",
 		PACK_EPC : "E200001933050045197015E6",
 		TRAY_NO : null,
-		PRODUCT_EPC : null,
+		PRODUCT_EPC : null, 
 		PRODUCT_NAME : null,
 		PRODUCT_QTY : null,
 		SKU_CODE : "24",
@@ -4065,17 +4065,19 @@ const idb = window.indexedDB;
         // console.log(db)
 
         // insert contacts
-        // insertContact(db, {
-        //     email: 'john.doe@outlook.com',
-        //     firstName: 'John',
-        //     lastName: 'Doe'
-        // });
 
-        // insertContact(db, {
-        //     email: 'jane.doe@gmail.com',
-        //     firstName: 'Jane',
-        //     lastName: 'Doe'
-        // });
+        // data.map((ele)=> {
+        //     return
+        //     insertContact(db, ele);
+        //     console.log(ele)})
+
+       for(i=0;i<data.length;i++){
+        insertContact(db,data[i])
+       }
+
+        // insertContact(db, 
+        //     data.map(ele => {return ele})
+        // );
 
 
         // get contact by id 1
