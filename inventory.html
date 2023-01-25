@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>IndexedDB</title>
+    <link rel ="manifest" href="manifest.json">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/style.css" />
+</head>
+
+
+<div class="search-cotainer">
+    <div class="int-div">
+      <input type="text" name="childCube" id="childCube" placeholder="Search" />
+      <button class="btn-search" onclick="searchchild()">Search</button>
+    </div>
+    <div class="table-div">
+      <table>
+        <thead>
+          <tr>
+           
+            <th>MT.CUBE</th>
+            <th>C.CUBE</th>
+            <th>Position</th>
+            <th>Pack Name</th>
+            <th>SKU</th>
+            <th>QTY</th>
+          </tr>
+        </thead>
+        <tbody id="invMatch">
+          
+        </tbody>
+      </table>
+    </div>
+  </div>
+ 
+
+
+
+
+ 
+    
+    <script src="js/app.js"> </script>
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("sw.js").then(registration=>{
+                console.log("SW Registration!");
+                console.log(registration)
+            }).catch(error => {
+                console.log(error)
+            })
+        }
+    </script>
+</body>
+</html>

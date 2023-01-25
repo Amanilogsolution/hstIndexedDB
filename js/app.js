@@ -37,17 +37,17 @@ const idb = window.indexedDB;
         const db = event.target.result;
 
         // insert contacts
-        // insertContact(db, {
-        //     email: 'john.doe@outlook.com',
-        //     firstName: 'John',
-        //     lastName: 'Doe'
-        // });
+        insertContact(db, {
+            email: 'john.doe@outlook.com',
+            firstName: 'John',
+            lastName: 'Doe'
+        });
 
-        // insertContact(db, {
-        //     email: 'jane.doe@gmail.com',
-        //     firstName: 'Jane',
-        //     lastName: 'Doe'
-        // });
+        insertContact(db, {
+            email: 'jane.doe@gmail.com',
+            firstName: 'Jane',
+            lastName: 'Doe'
+        });
 
 
         // get contact by id 1
