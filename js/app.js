@@ -4027,6 +4027,7 @@
 const idb = window.indexedDB;
 
 (function () {
+    
     // check for IndexedDB support
     if (!window.indexedDB) {
         console.log(`Your browser doesn't support IndexedDB`);
@@ -4223,9 +4224,10 @@ function removeDuplicates(arr) {
 
 
 function searchchild(){
- let id=document.getElementById('childCuve').value;
+ let id=document.getElementById('childCube').value;
  let uniqueArr = []
  let chunks=[]
+
 
  let matchedInventory = [];
  let unmatchedInventory = []
@@ -4237,12 +4239,7 @@ function searchchild(){
   }
   uniqueArr = removeDuplicates(chunks);
 
-  console.log(uniqueArr )
-//   return false
-
-
   uniqueArr.forEach(x => {
-    // console.log('data',x)
     const ldb = idb.open('CRM',1);
    
     ldb.onsuccess=  function(){
@@ -4259,12 +4256,8 @@ function searchchild(){
 
           if (!event.target.result) {
             unmatchedInventory.push(x)
-                // console.log(`The contact with ${x} not found`);
-                // alert('aa')
-                console.log(unmatchedInventory.length);
+       
            } else {
-            console.log(event.target.result)
-            //   inventoryMatch.push(`<tr> ${event.target.result.MC_NO}  <td> ${event.tar</tr>`)
             matchedInventory.push(event.target.result)
         
                 
@@ -4276,17 +4269,21 @@ function searchchild(){
 
     let inventoryMatch = []
 
+
   setTimeout(() => {
     matchedInventory.forEach((value)=> {
-        console.log('val',value)
-        inventoryMatch.push(`<tr> <td> ${value.MC_NO} </td>  <td> ${value.CC_NO} </td> <td> ${value.CC_POSITION} </td> <td> ${value.PACK_NO} </td> <td> ${value.SKU_NAME} </td> <td> ${value.SKU_QTY} </td> </tr>`)
+        inventoryMatch.push(`<tr> <td>${value.MC_NO}</td>  <td> ${value.CC_NO} </td> <td> ${value.CC_POSITION} </td> <td> ${value.PACK_NO} </td> <td> ${value.SKU_NAME} </td> <td> ${value.SKU_QTY} </td> </tr>`)
 
     
     })
 
-    console.log(inventoryMatch)
+   let str = inventoryMatch.toString().replaceAll(',','');
+   document.getElementById('invNotMatch').innerHTML = unmatchedInventory
+ 
+console.log(str);
+ 
 
-    document.getElementById('invMatch').innerHTML = inventoryMatch;
+    document.getElementById('invMatch').innerHTML = str;
 
     // alert(matchedInventory.length)
 
