@@ -1,6 +1,6 @@
 
 const idb = window.indexedDB;
- 
+
 (function () {
     // check for IndexedDB support
     if (!window.indexedDB) {
@@ -60,7 +60,7 @@ const idb = window.indexedDB;
         // get all contacts
         // getAllContacts(db);
 
-       // deleteContact(db, 1);
+        // deleteContact(db, 1);
 
     };
 
@@ -186,22 +186,22 @@ const idb = window.indexedDB;
     // }
 })();
 
-function searchchild(){
- let id=parseInt(document.getElementById('childCuve').value);
-    const ldb = idb.open('CRM',1);
-   
-    ldb.onsuccess=function(){
-       const db = ldb.result;
-         const txn = db.transaction('Contacts', 'readonly');
-    const store = txn.objectStore('Contacts');
+function searchchild() {
+    let id = parseInt(document.getElementById('childCuve').value);
+    const ldb = idb.open('CRM', 1);
 
-    let query = store.get(id);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('Contacts', 'readonly');
+        const store = txn.objectStore('Contacts');
 
-   query.onsuccess = (event) => {
-           
+        let query = store.get(id);
+
+        query.onsuccess = (event) => {
+
             if (!event.target.result) {
 
-                console.log(`The contact with ${id} not found`);
+                alert(`The contact with ${id} not found`);
             } else {
                 console.table(event.target.result);
             }
@@ -209,6 +209,6 @@ function searchchild(){
     }
     // const requests = window.indexedDB.open('CRM', 1);
     // console.log(requests.results);
-   
+
 }
 
