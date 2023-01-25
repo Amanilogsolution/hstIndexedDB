@@ -11,17 +11,18 @@
 
 
 <div class="search-cotainer">
-    <div style="margin:5px 5px 5px 5px;">
-        <input type="checkbox">
-    </div>
-    <div class="int-div">
+    <div class="int-div" >
       <input type="text" name="childCube" id="childCube" placeholder="Search" />
       <button class="btn-search" onclick="searchchild()">Search</button>
     </div>
     <div class="table-div">
-      <table>
+      <table  id="matchTable">
         <thead>
-          <tr> 
+          <tr>
+            <th col-span:6>Match Record</th>
+          </tr>
+          <tr>
+           
             <th>MT.CUBE</th>
             <th>C.CUBE</th>
             <th>Position</th>
@@ -34,6 +35,7 @@
           
         </tbody>
       </table>
+      <div id="invNotMatch" style="color:red"></div>
     </div>
   </div>
  
