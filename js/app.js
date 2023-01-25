@@ -4215,7 +4215,6 @@ const idb = window.indexedDB;
     // }
 })();
 
-<<<<<<< HEAD
 function removeDuplicates(arr) {
     return arr.filter((item, index) => arr.indexOf(item) === index);
   }
@@ -4269,26 +4268,6 @@ function searchchild(){
             matchedInventory.push(event.target.result)
         
                 
-=======
-function searchchild() {
-    let id = parseInt(document.getElementById('childCuve').value);
-    const ldb = idb.open('CRM', 1);
-
-    ldb.onsuccess = function () {
-        const db = ldb.result;
-        const txn = db.transaction('Contacts', 'readonly');
-        const store = txn.objectStore('Contacts');
-
-        let query = store.get(id);
-
-        query.onsuccess = (event) => {
-
-            if (!event.target.result) {
-
-                alert(`The contact with ${id} not found`);
-            } else {
-                console.table(event.target.result);
->>>>>>> 9140400e02f88501c0d36ca792b8b5c5d601e30d
             }
         };
     }
