@@ -5,19 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="theme-color" content="#009578">
     <title>IndexedDB</title>
-    <link rel ="manifest" href="manifest.json">
+    <!-- <link rel ="manifest" href="manifest.json"> -->
 </head>
 <body>
     <h1>Fresh project</h1>
 
     <div>
-        <input type="text" name="childCube" id="childCuve" > <button onclick="searchchild()">Search</button> 
-    </div>
-    
-    <!-- <script src="js/app.js">
+        <input type="text" name="childCube" id="childCuve" style="width:400px"> 
+        <button onclick="searchchild()">Search</button> 
 
-    </script> -->
-    <script>
+        <div>
+            <h1>Match</h1>
+            <table>
+                <thead>
+                    <tr>
+                    <th>MT.CUBE</th>
+                    <th>C.CUBE</th>
+                    <th>Position</th>
+                    <th>Pack name</th>
+                    <th>Sku name</th>
+                    <th>Qty</th>
+                    </tr>
+                </thead>
+                <tbody id="invMatch">
+                    
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h1>Not Match</h1>
+
+        </div>
+    </div>
+
+    <script src="js/app.js">
+
+    </script>
+    <!-- <script>
         if("serviceWorker" in navigator){
             navigator.serviceWorker.register("sw.js").then(registration=>{
                 console.log("SW Registration!");
@@ -26,6 +50,6 @@
                 console.log(error)
             })
         }
-    </script>
+    </script> -->
 </body>
 </html>
