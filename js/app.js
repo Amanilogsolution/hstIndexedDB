@@ -4056,6 +4056,12 @@ const idb = window.indexedDB;
 		let index1 = store.createIndex('CC_NO', 'CC_NO', {
 			unique: false
 		});
+
+		let index2 = store.createIndex('MC_NO', 'MC_NO', {
+			unique: false
+		});
+
+		
 	};
 
 	// handle the error event

@@ -23,7 +23,6 @@ function searchChildCube() {
                 console.log(`this ${id} not match`)
 
             } else {
-
                 localStorage['datas'] = JSON.stringify(event.target.result)
             }
         };
