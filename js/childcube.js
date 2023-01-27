@@ -63,11 +63,8 @@ function searchdata() {
 
 setTimeout(()=>{
     let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
-    // console.log(OtherInventory)
     document.getElementById('invNotMatch').innerHTML = OtherInventory
     document.getElementById('notmatchdnata').innerHTML = OtherInventory.length
-
-
 },1000)
 
   
@@ -131,7 +128,6 @@ document.getElementById('matchTable').style.display = 'flex';
     document.getElementById('invMisMatch').innerHTML = inventoryMisMatch
 
     document.getElementById('loading').style.display = 'none';
-
 
 }
 
