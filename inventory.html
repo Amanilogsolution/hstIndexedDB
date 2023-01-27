@@ -23,10 +23,13 @@
             <button class="btn-search" onclick="searchchild()" style="display: inline-flexbox;">Search</button>
            
         </div>
-   
+        
+        <div class="loading" id="loading" style="display: none; ">
+          <h1 style="text-align: center;">Loading....</h1>
+       </div>
         <!-- Start Apps + Features -->
         <div class="apps-features"  id="matchTable" style="display: none;">
-  
+            
           <!-- Start Apps -->
           <div class="apps">
             <h3 class="section-header">Inventory List</h3>
@@ -54,6 +57,8 @@
                    View <i class="fas fa-caret-right"></i> 
                 </div> -->
               </div>
+              
+
               <div id="invMatch">
                  
   
@@ -83,88 +88,22 @@
   
       </div>
     </div>
+    <div id="footer"  >
+      <div id="menu">
+        <ul>
+          <li><a href="inventory.html">Inventory</a>
+          </li>
+          <li><a href="childcube.html">Child Cube</a>
+          </li>
+          <li><a href="">Mother Cube </a>
+          </li>
+           
+         
+        </ul>
+      </div>
+    </div>
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- <div class="search-cotainer">
-    <div class="int-div" >
-      <input type="text" name="childCube" id="childCube" placeholder="Search" />
-      <button class="btn-search" onclick="searchchild()">Search</button>
-    </div>
-    <div>MatchCount<h1 id="MatchCount"></h1></div>
-    <div>UnMatchCount<h1 id="UnMatchCount"></h1></div>
-
-    <div class="table-div">
-      <table  id="matchTable">
-        <thead>
-          <tr>
-            <th col-span:6>Match Record</th>
-          </tr><div class="search-cotainer">
-    <div class="int-div" >
-      <input type="text" name="childCube" id="childCube" placeholder="Search" />
-      <button class="btn-search" onclick="searchchild()">Search</button>
-    </div>
-    <div class="table-div">
-      <table  id="matchTable">
-        <thead>
-          <tr>
-            <th col-span:6>Match Record</th>
-          </tr>
-          <tr> 
-            <th>MT.CUBE</th>
-            <th>C.CUBE</th>
-            <th>Position</th>
-            <th>Pack Name</th>
-            <th>SKU</th>
-            <th>QTY</th>
-          </tr>
-        </thead>
-        <tbody id="invMatch">
-          
-        </tbody>
-      </table>
-      <div id="invNotMatch" style="color:red"></div>
-    </div>
-  </div>
-          <tr> 
-            <th>MT.CUBE</th>
-            <th>C.CUBE</th>
-            <th>Position</th>
-            <th>Pack Name</th>
-            <th>SKU</th>
-            <th>QTY</th>
-          </tr>
-        </thead>
-        <tbody id="invMatch">
-          
-        </tbody>
-      </table>
-      <div id="invNotMatch" style="color:red"></div>
-    </div>
-  </div> -->
  
-
-
-
-
  
     
     <script src="js/app.js"> </script>
