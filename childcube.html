@@ -13,10 +13,13 @@
 <div class="search-cotainer">
     <div class="int-div" >
       <input type="text" name="childCube" id="childCube" placeholder="Search" />
-      <button class="btn-search" onclick="searchchild()">Search</button>
+      <button class="btn-search" onclick="searchChildCube()">Search</button>
+    </br>
+
+      <input type="text" name="childCube" id="child" placeholder="Search" />
+      <button class="btn-search" onclick="searchdata()">Search</button>
     </div>
-    <div>MatchCount<h1 id="MatchCount"></h1></div>
-    <div>UnMatchCount<h1 id="UnMatchCount"></h1></div>
+
 
     <div class="table-div">
       <table  id="matchTable">
@@ -48,7 +51,7 @@
 
  
     
-    <script src="js/app.js"> </script>
+    <script src="js/childcube.js"> </script>
     <!-- <script>
         if("serviceWorker" in navigator){
             navigator.serviceWorker.register("sw.js").then(registration=>{
