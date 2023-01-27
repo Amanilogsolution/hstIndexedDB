@@ -42,3 +42,30 @@ const idb = window.indexedDB;
         },1000)
 
 })();
+
+function ChildCube(value) {
+    let id = document.getElementById('childCube').value
+    console.log(value)
+
+    const ldb = idb.open('CRM', 1);
+
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('tbl_rfid', 'readonly');
+
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('MC_NO');
+        let query = index.getAll(id);
+
+        query.onsuccess = (event) => {
+
+            if (!event.target.result) {
+                console.log(`this ${id} not match`)
+            } else {
+                localStorage['datas'] = JSON.stringify(event.target.result)
+            }
+        };
+    }
+
+
+}
