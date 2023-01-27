@@ -4080,7 +4080,7 @@ const idb = window.indexedDB;
 		//     return
 		//     insertContact(db, ele);
 		//     console.log(ele)})
-
+		console.log('data lengyh',data.length);
 		for (i = 0; i < data.length; i++) {
 			insertContact(db, data[i])
 		}
@@ -4105,6 +4105,7 @@ const idb = window.indexedDB;
 	};
 
 	function insertContact(db, contact) {
+		 
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
 

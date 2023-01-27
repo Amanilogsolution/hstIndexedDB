@@ -35,9 +35,27 @@ const idb = window.indexedDB;
             };
 
         }
+        let motherCube = [];
         setTimeout(()=>{
 
-            console.log(datass)
+            datass.forEach((value) => {
+                motherCube.push(`
+                <div class="app" style="color:green">
+                    <div class="desc">            
+                    <button id="${value}" onclick="ChildCube(${value})">${value}</button>        
+                       
+                    </div>
+                    
+                    
+                     
+                     
+                    
+                    </div>
+                `)
+            })
+            document.getElementById('motherContainer').innerHTML = motherCube;
+            // console.log(motherCube);
+            // console.log(datass)
 
         },1000)
 
