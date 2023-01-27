@@ -4105,17 +4105,15 @@ const idb = window.indexedDB;
 
 		// get the Contacts object store
 		const store = txn.objectStore('tbl_rfid');
-		//
+		// console.log(contact)
 		let query = store.add(contact);
 
 		// handle success case
 		query.onsuccess = function (event) {
-			console.log(event);
 		};
 
 		// handle the error case
 		query.onerror = function (event) {
-			console.log(event.target.errorCode);
 		}
 
 		// close the database once the 
@@ -4238,8 +4236,7 @@ function searchchild() {
 	let matchedInventory = [];
 	let unmatchedInventory = []
 
-	let a = 0;
-	let b = 0;
+	
 	for (var i = 0, charsLength = id.length; i < charsLength; i += 24) {
 		chunks.push(id.substring(i, i + 24));
 	}
@@ -4265,8 +4262,6 @@ function searchchild() {
 
 				} else {
 					matchedInventory.push(event.target.result)
-
-
 				}
 			};
 		}
