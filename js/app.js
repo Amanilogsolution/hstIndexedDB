@@ -4050,7 +4050,7 @@ const idb = window.indexedDB;
 
 		// create an index on the email property
 		let index = store.createIndex('PACK_EPC', 'PACK_EPC', {
-			unique: true
+			unique: false
 		});
 
 		let index1 = store.createIndex('CC_NO', 'CC_NO', {
@@ -4074,7 +4074,7 @@ const idb = window.indexedDB;
 		//     return
 		//     insertContact(db, ele);
 		//     console.log(ele)})
-
+		console.log('data lengyh',data.length);
 		for (i = 0; i < data.length; i++) {
 			insertContact(db, data[i])
 		}
@@ -4099,13 +4099,14 @@ const idb = window.indexedDB;
 	};
 
 	function insertContact(db, contact) {
+		 
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
 
 		// get the Contacts object store
 		const store = txn.objectStore('tbl_rfid');
 		//
-		let query = store.put(contact);
+		let query = store.add(contact);
 
 		// handle success case
 		query.onsuccess = function (event) {
