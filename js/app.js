@@ -4033,7 +4033,7 @@ const idb = window.indexedDB;
         console.log(`Your browser doesn't support IndexedDB`);
         return;
     }
-    console.log('hlllll')
+ 
 
     // open the CRM database with the version 1
     const request = indexedDB.open('CRM', 1);
@@ -4224,6 +4224,7 @@ function removeDuplicates(arr) {
 
 
 function searchchild(){
+	 
  let id=document.getElementById('childCube').value;
  let uniqueArr = []
  let chunks=[]
@@ -4272,13 +4273,45 @@ function searchchild(){
 
   setTimeout(() => {
     matchedInventory.forEach((value)=> {
-        inventoryMatch.push(`<tr> <td>${value.MC_NO}</td>  <td> ${value.CC_NO} </td> <td> ${value.CC_POSITION} </td> <td> ${value.PACK_NO} </td> <td> ${value.SKU_NAME} </td> <td> ${value.SKU_QTY} </td> </tr>`)
+        inventoryMatch.push(`
+		<div class="app">
+                  <div class="desc">                    
+                    <h3 class="name">${value.MC_NO}</h3>
+                  </div>
+                  <div class="type">                   
+                    <h3 class="name">${value.CC_NO}</h3>
+                  </div>
+				  <div class="type">                   
+				  <h3 class="name">${value.CC_POSITION}</h3>
+				</div>
+				<div class="type">                   
+				<h3 class="name">${value.PACK_NO}</h3>
+			  </div>
+			  <div class="type">                   
+			  <h3 class="name">${value.SKU_NAME}</h3>
+			</div>
+			<div class="type">                   
+			<h3 class="name">${value.SKU_QTY}</h3>
+		  </div>
+		   
+                 
+                  
+                </div>
+		`)
 
     
     })
 
    let str = inventoryMatch.toString().replaceAll(',','');
+
+   document.getElementById('matchTable').style.display = 'flex';
+   document.getElementById('matchdata').innerHTML = matchedInventory.length
+
+   document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
+ 
    document.getElementById('invNotMatch').innerHTML = unmatchedInventory
+
+   
  
 console.log(str);
  
