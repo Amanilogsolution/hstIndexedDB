@@ -23,10 +23,13 @@
             <button class="btn-search" onclick="searchchild()" style="display: inline-flexbox;">Search</button>
            
         </div>
-   
+        
+        <div class="loading" id="loading" style="display: none; ">
+          <h1 style="text-align: center;">Loading....</h1>
+       </div>
         <!-- Start Apps + Features -->
         <div class="apps-features"  id="matchTable" style="display: none;">
-  
+            
           <!-- Start Apps -->
           <div class="apps">
             <h3 class="section-header">Inventory List</h3>
@@ -51,6 +54,8 @@
                   <h3 class="name" style="color:white">QTY</h3>
                 </div>
               </div>
+              
+
               <div id="invMatch">
               </div> 
             </div>
@@ -72,8 +77,24 @@
         </div>
       </div>
     </div>
+    <div id="footer"  >
+      <div id="menu">
+        <ul>
+          <li><a href="inventory.html">Inventory</a>
+          </li>
+          <li><a href="childcube.html">Child Cube</a>
+          </li>
+          <li><a href="">Mother Cube </a>
+          </li>
+           
+         
+        </ul>
+      </div>
+    </div>
   </main>
-  
+ 
+ 
+    
     <script src="js/app.js"> </script>
     <script>
         // if("serviceWorker" in navigator){

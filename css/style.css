@@ -1020,3 +1020,43 @@ a {
     font-weight: bold;
     }
 }
+
+/* Footer link  */
+
+#menu a {
+  text-decoration:none;
+}
+
+#menu ul  {
+  list-style:none;
+ 
+}
+#menu ul li{
+
+  font-weight: bold;
+  color:#fff;
+  border: 1px solid white;
+  margin-left: 10px;
+   
+  padding:13px;
+  height: 40px;
+  border-radius: 5px;
+  
+}
+#menu ul li:hover{
+  cursor: pointer;
+  transform: scale(.5);
+}
+#menu ul li a {
+  
+  display:inline;
+  color:#fff;   
+}
+
+ul li {float: left; padding-right:10px; }
+
+#footer{
+  position: fixed;top:50%; background-color: black; width: 97%; padding: 10px; border-radius: 5px; overflow: auto;
+}
+
+ 

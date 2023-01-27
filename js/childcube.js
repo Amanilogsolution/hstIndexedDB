@@ -1,11 +1,10 @@
 const idb = window.indexedDB;
 
-var filtervalue ;
+var filtervalue;
 
-function searchChildCube () {
-    let id = document.getElementById('childCube').value 
+function searchChildCube() {
+    let id = document.getElementById('childCube').value
 
-    var ChildCulbedata = []
 
     const ldb = idb.open('CRM', 1);
 
@@ -14,7 +13,6 @@ function searchChildCube () {
         const txn = db.transaction('tbl_rfid', 'readonly');
 
         const store = txn.objectStore('tbl_rfid');
-        console.log(store)
         const index = store.index('CC_NO');
         let query = index.getAll(id);
 
@@ -26,28 +24,23 @@ function searchChildCube () {
 
             } else {
 
-                console.log(event.target.result)
                 localStorage['datas'] = JSON.stringify(event.target.result)
-                // filtervalue.push(event.target.value)
-                // searchdata(event.target.result)
-                // ChildCulbedat = event.target.result
             }
         };
+
+        document.getElementById('search2').style.display = 'flex';
     }
-
-  
-
 }
 
 function removeDuplicates(arr) {
     return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
-  // console.log(filtervalue)
-    function searchdata  () {
-        const id = document.getElementById('child').value;
-        let uniqueArr = []
-        let chunks = []
+function searchdata() {
+    document.getElementById('loading').style.display = 'flex';
+    const id = document.getElementById('child').value;
+    let uniqueArr = []
+    let chunks = []
 
 
     for (var i = 0, charsLength = id.length; i < charsLength; i += 24) {
@@ -55,15 +48,90 @@ function removeDuplicates(arr) {
     }
     uniqueArr = removeDuplicates(chunks);
 
-        const data = JSON.parse(localStorage['datas'])
-        // data.filter(e=>console.log(e))
-        // console.log(data)
-        // console.log(uniqueArr)
+    const data = JSON.parse(localStorage['datas'])
 
-        let match = data.filter(e=> uniqueArr.includes(e.PACK_EPC))
-        let Mismatch = data.filter(e=> !uniqueArr.includes(e.PACK_EPC))
+    let inventoryMatch = [];
+    let inventoryMisMatch = [];
+    let match = data.filter(e => uniqueArr.includes(e.PACK_EPC))
+    let Mismatch = data.filter(e => !uniqueArr.includes(e.PACK_EPC))
 
-        console.log(match,Mismatch)
- 
+    let arr1 = []
+
+    for(i=0;i<data.length;i++){
+        arr1.push(data[i].PACK_EPC)
     }
+
+setTimeout(()=>{
+    let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
+    // console.log(OtherInventory)
+    document.getElementById('invNotMatch').innerHTML = OtherInventory
+    document.getElementById('notmatchdnata').innerHTML = OtherInventory.length
+
+
+},1000)
+
+  
+
+document.getElementById('matchTable').style.display = 'flex';
+
+    match.forEach((value) => {
+        inventoryMatch.push(`
+		<div class="app" style="color:green">
+            <div class="desc">                    
+                <h3 class="name">${value.MC_NO}</h3>
+            </div>
+            <div class="type">                   
+                <h3 class="name">${value.CC_NO}</h3>
+            </div>
+			<div class="type">                   
+				<h3 class="name">${value.CC_POSITION}</h3>
+			</div>
+			<div class="type">                   
+				<h3 class="name">${value.PACK_NO}</h3>
+			</div>
+			<div class="type">                   
+			  <h3 class="name" style="overflow:hidden; text-overflow:ellipsis;">${value.SKU_NAME}</h3>
+			</div>
+			<div class="type">                   
+			    <h3 class="name">${value.SKU_QTY}</h3>
+		    </div> 
+            </div>
+		`)
+    })
+
+    Mismatch.forEach((value) => {
+        inventoryMisMatch.push(`
+		<div class="app" style="color:red">
+            <div class="desc">                    
+                <h3 class="name">${value.MC_NO}</h3>
+            </div>
+            <div class="type">                   
+                <h3 class="name">${value.CC_NO}</h3>
+            </div>
+			<div class="type">                   
+				<h3 class="name">${value.CC_POSITION}</h3>
+			</div>
+			<div class="type">                   
+				<h3 class="name">${value.PACK_NO}</h3>
+			</div>
+			<div class="type">                   
+			  <h3 class="name" style="overflow:hidden; text-overflow:ellipsis;">${value.SKU_NAME}</h3>
+			</div>
+			<div class="type">                   
+			    <h3 class="name">${value.SKU_QTY}</h3>
+		    </div> 
+            </div>
+		`)
+    })
+
+    document.getElementById('invMatch').innerHTML = inventoryMatch
+
+    document.getElementById('matchdata').innerHTML = match.length
+
+    document.getElementById('invMisMatch').innerHTML = inventoryMisMatch
+
+    document.getElementById('loading').style.display = 'none';
+
+
+}
 
