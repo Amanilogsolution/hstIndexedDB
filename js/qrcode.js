@@ -48,10 +48,13 @@ function ScanKit() {
                 data.push(event.target.result)
             }
         };
+        setTimeout(()=>{
+            console.log(data)
+    
+        },1000)
 
     }
-    console.log(data)
-
+  
 
 }
 function ScanSKU() {
@@ -65,7 +68,7 @@ function ScanSKU() {
         const store = txn.objectStore('tbl_rfid');
         const index = store.index('SKU_CODE');
         let query = index.get(id);
-        let data = []
+        let data = [];
 
 
         query.onsuccess = (event) => {
@@ -77,9 +80,14 @@ function ScanSKU() {
                 data.push(event.target.result)
             }
         };
+        setTimeout(()=>{
+            console.log(data)
+    
+        },1000)
 
     }
-    console.log(data)
+   
+    
 
 
 }
