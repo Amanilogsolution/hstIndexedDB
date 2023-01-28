@@ -38,7 +38,7 @@ function ScanKit() {
         const index = store.index('PACK_EPC');
         let query = index.get(id);
         let data = []
-
+        let KITData = '';
         query.onsuccess = (event) => {
 
             if (!event.target.result) {
@@ -48,10 +48,28 @@ function ScanKit() {
                 data.push(event.target.result)
             }
         };
+        setTimeout(()=>{
+            data.forEach((value) => {
+                KITData=`
+                <div class="app">
+                    <div class="desc">                    
+                        <h3 class="name">${value.PACK_NO}</h3>
+                    </div>
+                    <div class="type">                   
+                        <h3 class="name">${value.SKU_NAME}</h3>
+                    </div>
+                    <div class="type">                   
+                    <h3 class="name">${value.SKU_CODE}</h3>
+                </div>
+                    </div>
+                `
+            }) 
+           document.getElementById('scandata').innerHTML= KITData
+    
+        },1000)
 
     }
-    console.log(data)
-
+  
 
 }
 function ScanSKU() {
@@ -66,7 +84,7 @@ function ScanSKU() {
         const index = store.index('SKU_CODE');
         let query = index.get(id);
         let data = [];
-
+        let SKUData = '';
 
         query.onsuccess = (event) => {
 
@@ -78,8 +96,29 @@ function ScanSKU() {
                 data.push(event.target.result)
             }
         };
-        console.log(data)
+        setTimeout(()=>{
+            console.log(data)
+            data.forEach((value) => {
+                SKUData=`
+                <div class="app">
+                    <div class="desc">                    
+                        <h3 class="name">${value.PACK_NO}</h3>
+                    </div>
+                    <div class="type">                   
+                        <h3 class="name">${value.SKU_NAME}</h3>
+                    </div>
+                    <div class="type">                   
+                    <h3 class="name">${value.SKU_CODE}</h3>
+                </div>
+                    </div>
+                `
+            }) 
+           document.getElementById('scandata').innerHTML= SKUData
+    
+        },1000)
+
     }
+   
     
 
 
