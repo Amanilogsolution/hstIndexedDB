@@ -42,14 +42,9 @@ const idb = window.indexedDB;
             motherCube.push(`
                 <div class="app" style="color:green">
                     <div class="desc">            
-                    <button id="${value}" onclick="ChildCube(${value})">${value}</button>        
+                    <button id="${value}" onclick="ChildCube(${value})" class="btn-search">${value}</button>        
                        
-                    </div>
-                    
-                    
-                     
-                     
-                    
+                    </div> 
                     </div>
                 `)
         })
@@ -66,8 +61,29 @@ function removeDuplicates(data) {
     uniqueSet = new Set(jsonObject);
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
     
+ var motherCube =[];
+    //console.log(uniqueArray);
 
-    console.log(uniqueArray);
+    uniqueArray.forEach((value) => {
+        motherCube.push(`
+		<div class="app">
+            <div class="desc">                    
+                <h3 class="name">${value.PACK_NO}</h3>
+            </div>
+            <div class="type">                   
+                <h3 class="name">${value.SKU_NAME}</h3>
+            </div>
+            <div class="type">                   
+            <h3 class="name">${value.SKU_CODE}</h3>
+        </div>
+            </div>
+		`)
+    }) 
+    console.log(motherCube);
+
+    document.getElementById('childCubeData').innerHTML = motherCube
+    
+   
 }
 
 
@@ -98,7 +114,8 @@ function ChildCube(value) {
 
         }
     };
-
+    
+    document.getElementById('invList').style.display='block'
 
 
 }
