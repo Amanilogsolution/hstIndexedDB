@@ -16,15 +16,17 @@
   <body>
     <div class="conatiner" >
       <div style="margin-top: 20px;">
-        <buttton class="btn-search" onclick="filterbutton()" >Identify SKU</buttton>
-        <buttton class="btn-search" >Identify Kit</buttton>
+        <buttton class="btn-search" onclick="ToogleButton('SKU')" >Identify SKU</buttton>
+        <buttton class="btn-search" onclick="ToogleButton('KIT')" >Identify Kit</buttton>
       </div>
-      <div class="head section-padding section-border-radius">
+      <div class="head section-padding section-border-radius" id="QRSearch" style="display: none;">
         <input type="text" name="childCube" id="childCube" class="input-search" placeholder="Search" />
-        <button class="btn-search" onclick="QRScan()" style="display: inline-flexbox;">Search SKU</button>
-        <button class="btn-search" onclick="QRScan()" style="display: inline-flexbox;">Search KIT</button>
+        <button class="btn-search" id="Skusearch" onclick="QRScan('SKU')" style="display: inline-flexbox;">Search SKU</button>
+        <button class="btn-search" id="Kitsearch" onclick="QRScan('KIT')" style="display: inline-flexbox;">Search KIT</button>
     </div>
     </div>
   </body>
  
 </html>
+<script src="js/qrcode.js"> </script>
+
