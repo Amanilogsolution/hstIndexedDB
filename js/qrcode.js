@@ -27,7 +27,7 @@ function QRScan(type) {
 
 function ScanKit() {
     let id = document.getElementById('childCube').value;
-    console.log(id)
+    
 
     const ldb = idb.open('CRM', 1);
 
@@ -65,7 +65,7 @@ function ScanSKU() {
         const store = txn.objectStore('tbl_rfid');
         const index = store.index('SKU_CODE');
         let query = index.get(id);
-        let data = []
+        let data = [];
 
 
         query.onsuccess = (event) => {
@@ -74,12 +74,13 @@ function ScanSKU() {
                 console.log(`this ${id} not match`)
 
             } else {
+                
                 data.push(event.target.result)
             }
         };
-
+        console.log(data)
     }
-    console.log(data)
+    
 
 
 }
