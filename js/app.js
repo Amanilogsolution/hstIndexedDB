@@ -4060,6 +4060,10 @@ const idb = window.indexedDB;
 		let index2 = store.createIndex('MC_NO', 'MC_NO', {
 			unique: false
 		});
+		let index3 = store.createIndex('SKU_CODE', 'SKU_CODE', {
+			unique: false
+		});
+	
 
 
 	};
@@ -4310,10 +4314,6 @@ function searchchild() {
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
 
 		document.getElementById('invNotMatch').innerHTML = unmatchedInventory
-
-
-
-		console.log(str);
 
 
 		document.getElementById('invMatch').innerHTML = str;

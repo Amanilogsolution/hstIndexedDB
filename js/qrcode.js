@@ -1,0 +1,7 @@
+function QRScan(){
+
+}
+
+function ScanKit(){
+    
+}
