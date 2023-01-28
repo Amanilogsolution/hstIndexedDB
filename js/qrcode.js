@@ -50,7 +50,6 @@ function ScanKit() {
         };
         setTimeout(()=>{
             console.log(data)
-    
         },1000)
 
     }
@@ -59,9 +58,7 @@ function ScanKit() {
 }
 function ScanSKU() {
     let id = document.getElementById('childCube').value;
-
     const ldb = idb.open('CRM', 1);
-
     ldb.onsuccess = function () {
         const db = ldb.result;
         const txn = db.transaction('tbl_rfid', 'readonly');
@@ -70,19 +67,16 @@ function ScanSKU() {
         let query = index.get(id);
         let data = [];
 
-
         query.onsuccess = (event) => {
-
             if (!event.target.result) {
                 console.log(`this ${id} not match`)
-
             } else {
                 data.push(event.target.result)
             }
         };
         setTimeout(()=>{
             console.log(data)
-    
+
         },1000)
 
     }
