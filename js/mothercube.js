@@ -63,7 +63,6 @@ function removeDuplicates(data) {
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
     
  var motherCube =[];
-    //console.log(uniqueArray);
 
     uniqueArray.forEach((value) => {
         motherCube.push(`
