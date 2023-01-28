@@ -42,14 +42,9 @@ const idb = window.indexedDB;
                 motherCube.push(`
                 <div class="app" style="color:green">
                     <div class="desc">            
-                    <button id="${value}" onclick="ChildCube(${value})">${value}</button>        
+                    <button id="${value}" onclick="ChildCube(${value})" class="btn-search">${value}</button>        
                        
-                    </div>
-                    
-                    
-                     
-                     
-                    
+                    </div> 
                     </div>
                 `)
             })
