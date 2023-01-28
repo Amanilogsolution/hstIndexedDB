@@ -4061,7 +4061,7 @@ const idb = window.indexedDB;
 			unique: false
 		});
 
-		
+
 	};
 
 	// handle the error event
@@ -4080,7 +4080,7 @@ const idb = window.indexedDB;
 		//     return
 		//     insertContact(db, ele);
 		//     console.log(ele)})
-		console.log('data lengyh',data.length);
+		console.log('data lengyh', data.length);
 		for (i = 0; i < data.length; i++) {
 			insertContact(db, data[i])
 		}
@@ -4105,7 +4105,7 @@ const idb = window.indexedDB;
 	};
 
 	function insertContact(db, contact) {
-		 
+
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
 
@@ -4230,19 +4230,13 @@ function removeDuplicates(arr) {
 }
 
 
-
-
 function searchchild() {
 	document.getElementById('loading').style.display = 'flex';
 	let id = document.getElementById('childCube').value;
 	let uniqueArr = []
 	let chunks = []
-
-
 	let matchedInventory = [];
 	let unmatchedInventory = []
-
-	
 	for (var i = 0, charsLength = id.length; i < charsLength; i += 24) {
 		chunks.push(id.substring(i, i + 24));
 	}
