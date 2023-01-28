@@ -1,32 +1,73 @@
-<!DOCTYPE <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-      rel="stylesheet"
-    />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#009578">
+    <title>IndexedDB</title>
+    <!-- <link rel ="manifest" href="manifest.json"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-  </head>
-  <body>
-    <div class="conatiner" id="motherContainer">
-     
-        
-    
-    </div>
-
-    <script src="js/mothercube.js"> </script>
-
-
-
-  </body>
+</head>
  
+<main class="main">
+  
+    <div class="content">
+  
+      <div class="container">
+  
+        <!-- Start Header -->
+        <div class="head section-padding section-border-radius"  id="motherContainer">
+          
+        </div>
+        
+        <!-- <div class="loading" id="loading" style="display: none; ">
+          <h1 style="text-align: center;">Loading....</h1>
+       </div> -->
+        <!-- Start Apps + Features -->
+        <div class="apps-features"    >
+            
+          <!-- Start Apps -->
+          <div class="apps" style="display: none;" id="invList">
+            <h3 class="section-header">Inventory List</h3>
+            <div class="list-apps section-padding section-border-radius">
+              <div class="app" style="margin-bottom: 10px; background-color: blue;">
+                
+              
+               
+                <div class="type">                   
+                  <h3 class="name" style="color:white">Pack Name</h3>
+                </div>
+                <div class="type">                   
+                  <h3 class="name" style="color:white">SKU</h3>
+                </div>
+                <div class="type">                   
+                  <h3 class="name" style="color:white">QTY</h3>
+                </div>
+              </div>
+              <div id="childCubeData">
+              </div> 
+            </div>
+          </div>
+  
+          
+        </div>
+      </div>
+    </div>
+    
+  </main>
+ 
+ 
+    
+    <script src="js/mothercube.js"> </script>
+    <script>
+        // if("serviceWorker" in navigator){
+        //     navigator.serviceWorker.register("sw.js").then(registration=>{
+        //         console.log("SW Registration!");
+        //         console.log(registration)
+        //     }).catch(error => {
+        //         console.log(error)
+        //     })
+        // }
+    </script>
+</body>
 </html>
-
-
-
