@@ -48,9 +48,10 @@ const idb = window.indexedDB;
                     </div>
                 `)
         })
-        document.getElementById('motherContainer').innerHTML = motherCube;
-        // console.log(motherCube);
-        // console.log(datass)
+        let str = motherCube.toString().replaceAll(',', '');
+
+        document.getElementById('motherContainer').innerHTML = str;
+   
 
     }, 1000)
 
@@ -79,9 +80,11 @@ function removeDuplicates(data) {
             </div>
 		`)
     }) 
-    console.log(motherCube);
+    // console.log(motherCube);
+    let str = motherCube.toString().replaceAll(',', '');
 
-    document.getElementById('childCubeData').innerHTML = motherCube
+
+    document.getElementById('childCubeData').innerHTML = str
     
    
 }
@@ -108,8 +111,6 @@ function ChildCube(value) {
                 console.log(`this ${value} not match`)
             } else {
                 removeDuplicates(event.target.result)
-
-
             }
 
         }
@@ -121,7 +122,3 @@ function ChildCube(value) {
 }
 
 
-//     setTimeout(()=>{
-//         console.log(datass)
-// },1000)
-// }
