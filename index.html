@@ -73,79 +73,19 @@
         </div>
       </div>
       </a>
-
-      <!-- <div class="card" id="card3">
-        <div class="cardHeader">
-          <div class="cardHeader_content1">
-            <div style="display: flex;">
-              <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHEZ8jN4MlDEwzxSXGnYU7shtaCjbeMf6Ow&usqp=CAU">
-              <h3 style="color: white; margin: 15px 10px; font-size: 18px;">
-                Mother Cube
-              </h3>
-            </div>
-            <div class="cardHeader_content12">
-              <div>
-                <p style="color: silver; font-size: 11px;">FOOD</p>
-                <p style="color: white; font-size: 12px;">American Food</p>
-              </div>
-              <div>
-                <p style="color: silver; font-size: 11px;">TIME</p>
-                <p style="color: white; font-size: 12px;">10 Mins</p>
-              </div>
-              <div>
-                <p style="color: silver; font-size: 11px;">Price</p>
-                <p style="color: white; font-size: 12px;">USD 10</p>
-              </div>
-            </div>
-          </div>
-          <div class="cardHeader_content2">
-            <h2>5.0</h2>
-            <p style="font-size: 14px; margin-top: 5px;">1034 Rating</p>
-          </div>
-        </div>
-        <div class="cardFooter">
-          <p>PICKUP</p>
-          <p>DELEVER TO CREDIT</p>
-        </div>
-      </div> -->
-
-      <!-- <div class="card" id="card4">
-        <div class="cardHeader">
-          <div class="cardHeader_content1">
-            <div style="display: flex;">
-              <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKHEZ8jN4MlDEwzxSXGnYU7shtaCjbeMf6Ow&usqp=CAU">
-              <h3 style="color: white; margin: 15px 10px; font-size: 18px;">
-                Macdonalds
-              </h3>
-            </div>
-            <div class="cardHeader_content12">
-              <div>
-                <p style="color: silver; font-size: 11px;">FOOD</p>
-                <p style="color: white; font-size: 12px;">American Food</p>
-              </div>
-              <div>
-                <p style="color: silver; font-size: 11px;">TIME</p>
-                <p style="color: white; font-size: 12px;">10 Mins</p>
-              </div>
-              <div>
-                <p style="color: silver; font-size: 11px;">Price</p>
-                <p style="color: white; font-size: 12px;">USD 10</p>
-              </div>
-            </div>
-          </div>
-          <div class="cardHeader_content2">
-            <h2>5.0</h2>
-            <p style="font-size: 14px; margin-top: 5px;">1034 Rating</p>
-          </div>
-        </div>
-        <div class="cardFooter">
-          <p>PICKUP</p>
-          <p>DELEVER TO CREDIT</p>
-        </div>
-      </div> -->
     </div>
+
+    <script src="js/app.js"> </script>
+    <script>
+        if("serviceWorker" in navigator){
+            navigator.serviceWorker.register("sw.js").then(registration=>{
+                console.log("SW Registration!");
+                console.log(registration)
+            }).catch(error => {
+                console.log(error)
+            })
+        }
+    </script>
   </body>
  
 </html>

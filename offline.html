@@ -4,16 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>IndexedDB</title>
+    <link href="css/style.css" rel="stylesheet"/>
+
 </head>
 <body>
-    <h1>Offline project</h1>
-
-    <div>
-        <input type="text" name="childCube" id="childCuve" > <button onclick="searchchild()">Search</button> 
-    </div>
-    <!-- <script src="js/app.js">
-
-    </script> -->
+    <h1>Offline by aman project</h1>
+    <main class="main">
+  
+        <div class="content">
+      
+          <div class="container">
+            <a href="./childcube.html">Child</a>
+      
+            <!-- Start Header -->
+            <div class="head section-padding section-border-radius">
+                <input type="text" name="childCube" id="childCube" class="input-search" placeholder="Search" />
+                <button class="btn-search" onclick="searchchild()" style="display: inline-flexbox;">Search</button>
+            </div>
+            
+            <div class="loading" id="loading" style="display: none; ">
+              <h1 style="text-align: center;">Loading....</h1>
+           </div>
+            <!-- Start Apps + Features -->
+            <div class="apps-features"  id="matchTable" style="display: none;">
+                
+              <!-- Start Apps -->
+              <div class="apps">
+                <h3 class="section-header">Inventory List</h3>
+                <div class="list-apps section-padding section-border-radius">
+                  <div class="app" style="margin-bottom: 10px; background-color: blue;">
+                    <div class="desc">                    
+                      <h3 class="name" style="color:white">MT.CUBE</h3>
+                    </div>
+                    <div class="type">                   
+                      <h3 class="name" style="color:white">C.CUBE</h3>
+                    </div>
+                    <div class="type">                   
+                      <h3 class="name" style="color:white">Position</h3>
+                    </div>
+                    <div class="type">                   
+                      <h3 class="name" style="color:white">Pack Name</h3>
+                    </div>
+                    <div class="type">                   
+                      <h3 class="name" style="color:white">SKU</h3>
+                    </div>
+                    <div class="type">                   
+                      <h3 class="name" style="color:white">QTY</h3>
+                    </div>
+                  </div>
+                  <div id="invMatch">
+                  </div> 
+                </div>
+              </div>
+      
+              <!-- Start Features -->
+              <div class="features"  id="matchTable">
+                <h3 class="section-header">Total Match / Mismatch</h3>
+                <div class="feature section-padding section-border-radius">
+                  <div class="price-container">
+                    <h4>Match : <span style="color:green" id="matchdata"></span></h4>
+                     
+                  </div>
+                  <h4 class="desc">Mismatch : <span style="color:red" id="notmatchdnata"></span></h4>
+                  <h4 class="desc">Mismatch Value: 
+                    <div id="invNotMatch" style="color:red"></div> </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+         
+      </main>
+    <script src="js/app.js">
+        
+    </script>
   
 </body>
 </html>

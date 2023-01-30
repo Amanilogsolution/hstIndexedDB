@@ -27,7 +27,7 @@ function QRScan(type) {
 
 function ScanKit() {
     let id = document.getElementById('childCube').value;
-    
+
 
     const ldb = idb.open('CRM', 1);
 
@@ -48,9 +48,9 @@ function ScanKit() {
                 data.push(event.target.result)
             }
         };
-        setTimeout(()=>{
+        setTimeout(() => {
             data.forEach((value) => {
-                KITData=`
+                KITData = `
                 <div class="app">
                     <div class="desc">                    
                         <h3 class="name">${value.PACK_NO}</h3>
@@ -63,20 +63,18 @@ function ScanKit() {
                 </div>
                     </div>
                 `
-            }) 
-           document.getElementById('scandata').innerHTML= KITData
-    
-        },1000)
+            })
+            document.getElementById('scandata').innerHTML = KITData
+
+        }, 1000)
 
     }
-  
+
 
 }
 function ScanSKU() {
     let id = document.getElementById('childCube').value;
-
     const ldb = idb.open('CRM', 1);
-
     ldb.onsuccess = function () {
         const db = ldb.result;
         const txn = db.transaction('tbl_rfid', 'readonly');
@@ -87,19 +85,17 @@ function ScanSKU() {
         let SKUData = '';
 
         query.onsuccess = (event) => {
-
             if (!event.target.result) {
                 console.log(`this ${id} not match`)
-
             } else {
-                
+
                 data.push(event.target.result)
             }
         };
-        setTimeout(()=>{
+        setTimeout(() => {
             console.log(data)
             data.forEach((value) => {
-                SKUData=`
+                SKUData = `
                 <div class="app">
                     <div class="desc">                    
                         <h3 class="name">${value.PACK_NO}</h3>
@@ -112,14 +108,11 @@ function ScanSKU() {
                 </div>
                     </div>
                 `
-            }) 
-           document.getElementById('scandata').innerHTML= SKUData
-    
-        },1000)
+            })
+            document.getElementById('scandata').innerHTML = SKUData
+
+        }, 1000)
 
     }
-   
-    
-
 
 }
