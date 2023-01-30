@@ -14,19 +14,74 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
   </head>
   <body>
-    <div class="conatiner" >
-      <div style="margin-top: 20px;">
-        <buttton class="btn-search" onclick="ToogleButton('SKU')" >Identify SKU</buttton>
-        <buttton class="btn-search" onclick="ToogleButton('KIT')" >Identify Kit</buttton>
+    <main class="main">
+  
+      <div class="content">
+    
+        <div class="container">
+    
+          <!-- Start Header -->
+          <div class="head section-padding section-border-radius">
+            <div class=" " >
+              <div style="margin-top: 20px;">
+                <buttton class="btn-search" onclick="ToogleButton('SKU')" >Identify SKU</buttton>
+                <buttton class="btn-search" onclick="ToogleButton('KIT')" >Identify Kit</buttton>
+              </div>
+              <div class="head section-padding section-border-radius" id="QRSearch" style="display: none;">
+                <input type="text" name="childCube" id="childCube" class="input-search" placeholder="Search" />
+                <button class="btn-search" id="Skusearch" onclick="QRScan('SKU')" style="display: inline-flexbox;">Search SKU</button>
+                <button class="btn-search" id="Kitsearch" onclick="QRScan('KIT')" style="display: inline-flexbox;">Search KIT</button>
+            </div>          </div>
+          
+          <!-- <div class="loading" id="loading" style="display: none; ">
+            <h1 style="text-align: center;">Loading....</h1>
+         </div> -->
+          <!-- Start Apps + Features -->
+          <div class="apps-features"   >
+              
+            <!-- Start Apps -->
+            <div class="apps">
+              <h3 class="section-header">Inventory List</h3>
+              <div class="list-apps section-padding section-border-radius">
+                <div class="app" style="margin-bottom: 10px; background-color: blue;">
+                  
+                  
+                  
+                  <div class="type">                   
+                    <h3 class="name" style="color:white">Pack Name</h3>
+                  </div>
+                  <div class="type">                   
+                    <h3 class="name" style="color:white">SKU</h3>
+                  </div>
+                  <div class="type">                   
+                    <h3 class="name" style="color:white">QTY</h3>
+                  </div>
+                </div>
+                <div id="scandata">
+
+                </div>
+              </div>
+            </div>
+    
+            <!-- Start Features -->
+             
+          </div>
+        </div>
       </div>
-      <div class="head section-padding section-border-radius" id="QRSearch" style="display: none;">
-        <input type="text" name="childCube" id="childCube" class="input-search" placeholder="Search" />
-        <button class="btn-search" id="Skusearch" onclick="QRScan('SKU')" style="display: inline-flexbox;">Search SKU</button>
-        <button class="btn-search" id="Kitsearch" onclick="QRScan('KIT')" style="display: inline-flexbox;">Search KIT</button>
+      
+    </main>
+ 
+
+
+
+
+
+  
     </div>
-    </div>
+
+    <script src="js/qrcode.js"> </script> 
   </body>
  
 </html>
-<script src="js/qrcode.js"> </script>
+
 

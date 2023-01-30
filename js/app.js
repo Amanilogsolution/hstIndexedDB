@@ -4075,36 +4075,12 @@ const idb = window.indexedDB;
 
 	// handle the success event
 	request.onsuccess = (event) => {
-		const db = event.target.result;
-		// console.log(db)
+	const db = event.target.result;
 
-		// insert contacts
-
-		// data.map((ele)=> {
-		//     return
-		//     insertContact(db, ele);
-		//     console.log(ele)})
 		console.log('data lengyh', data.length);
 		for (i = 0; i < data.length; i++) {
 			insertContact(db, data[i])
 		}
-
-		// insertContact(db, 
-		//     data.map(ele => {return ele})
-		// );
-
-
-		// get contact by id 1
-		//getContactById(db, 3);
-
-
-		// get contact by email
-		// getContactByEmail(db, 'jane.doe@gmail.com');
-
-		// get all contacts
-		// getAllContacts(db);
-
-		// deleteContact(db, 1);
 
 	};
 
@@ -4127,7 +4103,6 @@ const idb = window.indexedDB;
 		}
 
 		// close the database once the 
-		// transaction completes
 		txn.oncomplete = function () {
 			db.close();
 		};
