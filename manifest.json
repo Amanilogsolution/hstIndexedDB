@@ -1,15 +1,24 @@
 {
-    "name" : "Indexed DB",
-    "short_name":"Indexed",
-    "start_url":".",
-    "background_color":"#6dcdb1",
-    "theme_color":"#009578",
-    "display":"standalone",
+    "short_name": "mySiteName",
+    "name": "mySiteName",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#ffffff",
+    "theme-color": "#ffffff",
+    "background_color": "#000000",
+    "background-color": "#000000",
+    "description": "my site description",
     "icons": [
-        {
-            "src": "/img/icon-144.png",
-            "type": "image/png",
-            "sizes": "114x114"
-        }
+      {
+        "src": "/img/icon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      },
+      {
+        "src": "/img/icon-144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+      }
     ]
-}
+  }
+  
