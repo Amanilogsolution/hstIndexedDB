@@ -7,9 +7,9 @@
     "display":"standalone",
     "icons": [
         {
-            "src": "/images/logo.png",
+            "src": "/img/icon-144.png",
             "type": "image/png",
-            "sizes": "1024x1024"
+            "sizes": "114x114"
         }
     ]
 }
