@@ -4109,99 +4109,6 @@ const idb = window.indexedDB;
 	}
 
 
-	// function getContactById(db, id) {
-	//     const txn = db.transaction('Contacts', 'readonly');
-	//     const store = txn.objectStore('Contacts');
-
-	//     let query = store.get(id);
-
-	//     query.onsuccess = (event) => {
-	//         if (!event.target.result) {
-	//             console.log(`The contact with ${id} not found`);
-	//         } else {
-	//             console.table(event.target.result);
-	//         }
-	//     };
-
-	//     query.onerror = (event) => {
-	//         console.log(event.target.errorCode);
-	//     }
-
-	//     txn.oncomplete = function () {
-	//         db.close();
-	//     };
-	// };
-
-	// function getContactByEmail(db, email) {
-	//     const txn = db.transaction('Contacts', 'readonly');
-	//     const store = txn.objectStore('Contacts');
-
-	//     // get the index from the Object Store
-	//     const index = store.index('email');
-	//     // query by indexes
-	//     let query = index.get(email);
-
-	//     // return the result object on success
-	//     query.onsuccess = (event) => {
-	//         console.table(query.result); // result objects
-	//     };
-
-	//     query.onerror = (event) => {
-	//         console.log(event.target.errorCode);
-	//     }
-
-	//     // close the database connection
-	//     txn.oncomplete = function () {
-	//         db.close();
-	//     };
-	// }
-
-	// function getAllContacts(db) {
-	//     const txn = db.transaction('Contacts', "readonly");
-	//     const objectStore = txn.objectStore('Contacts');
-
-	//     objectStore.openCursor().onsuccess = (event) => {
-	//         let cursor = event.target.result;
-	//         if (cursor) {
-	//             let contact = cursor.value;
-	//             console.log(contact);
-	//             // continue next record
-	//             cursor.continue();
-	//         }
-	//     };
-	//     // close the database connection
-	//     txn.oncomplete = function () {
-	//         db.close();
-	//     };
-	// }
-
-
-	// function deleteContact(db, id) {
-	//     // create a new transaction
-	//     const txn = db.transaction('Contacts', 'readwrite');
-
-	//     // get the Contacts object store
-	//     const store = txn.objectStore('Contacts');
-	//     //
-	//     let query = store.delete(id);
-
-	//     // handle the success case
-	//     query.onsuccess = function (event) {
-	//         console.log(event);
-	//     };
-
-	//     // handle the error case
-	//     query.onerror = function (event) {
-	//         console.log(event.target.errorCode);
-	//     }
-
-	//     // close the database once the 
-	//     // transaction completes
-	//     txn.oncomplete = function () {
-	//         db.close();
-	//     };
-
-	// }
 })();
 
 function removeDuplicates(arr) {
@@ -4220,25 +4127,17 @@ function searchchild() {
 		chunks.push(id.substring(i, i + 24));
 	}
 	uniqueArr = removeDuplicates(chunks);
-
 	uniqueArr.forEach(x => {
 		const ldb = idb.open('CRM', 1);
-
 		ldb.onsuccess = function () {
 			const db = ldb.result;
 			const txn = db.transaction('tbl_rfid', 'readonly');
 			const store = txn.objectStore('tbl_rfid');
-
-
 			const index = store.index('PACK_EPC');
 			let query = index.get(x);
-
-
 			query.onsuccess = (event) => {
-
 				if (!event.target.result) {
 					unmatchedInventory.push(x)
-
 				} else {
 					matchedInventory.push(event.target.result)
 				}
@@ -4248,8 +4147,6 @@ function searchchild() {
 	})
 
 	let inventoryMatch = []
-
-
 	setTimeout(() => {
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(`
@@ -4271,63 +4168,21 @@ function searchchild() {
 			</div>
 			<div class="type">                   
 			<h3 class="name">${value.SKU_QTY}</h3>
-		  </div>
-		   
-                 
-                  
+		  </div>       
             </div>
 		`)
-
-
 		})
 
 		let str = inventoryMatch.toString().replaceAll(',', '');
-
 		document.getElementById('matchTable').style.display = 'flex';
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
-
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
-
 		document.getElementById('invNotMatch').innerHTML = unmatchedInventory
-
-
 		document.getElementById('invMatch').innerHTML = str;
-
-		// alert(matchedInventory.length)
 		document.getElementById('loading').style.display = 'none';
 	}, 1000);
 
 
-
-
-
-
-
-
-
-	// console.log(a,b);
-	// return false;
-
-	//     console.log('UnMatched',unmatchedInventory)
-
-
-
-	//   for(let i=0;i<matchedInventory.length;i++){
-	//     alert('hh')
-	//     console.log(matchedInventory[0])
-	//   }
-	//   console.log('table',matchedInventory)
-
-	//   console.log('UnMatched',unmatchedInventory)
-	//   unmatchedInventory.map(ele=>console.log(ele))
-
-
-
-
-
-
-	// const requests = window.indexedDB.open('CRM', 1);
-	// console.log(requests.results);
 
 }
 
