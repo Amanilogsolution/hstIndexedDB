@@ -4077,36 +4077,36 @@ const idb = window.indexedDB;
 	request.onsuccess = (event) => {
 	const db = event.target.result;
 
-		// console.log('data lengyh', data.length);
-		// for (i = 0; i < data.length; i++) {
-		// 	insertContact(db, data[i])
-		// }
+		console.log('data lengyh', data.length);
+		for (i = 0; i < data.length; i++) {
+			insertContact(db, data[i])
+		}
 
 	};
 
-	// function insertContact(db, contact) {
+	function insertContact(db, contact) {
 
-	// 	// create a new transaction
-	// 	const txn = db.transaction('tbl_rfid', 'readwrite');
+		// create a new transaction
+		const txn = db.transaction('tbl_rfid', 'readwrite');
 
-	// 	// get the Contacts object store
-	// 	const store = txn.objectStore('tbl_rfid');
-	// 	// console.log(contact)
-	// 	let query = store.add(contact);
+		// get the Contacts object store
+		const store = txn.objectStore('tbl_rfid');
+		// console.log(contact)
+		let query = store.add(contact);
 
-	// 	// handle success case
-	// 	query.onsuccess = function (event) {
-	// 	};
+		// handle success case
+		query.onsuccess = function (event) {
+		};
 
-	// 	// handle the error case
-	// 	query.onerror = function (event) {
-	// 	}
+		// handle the error case
+		query.onerror = function (event) {
+		}
 
-	// 	// close the database once the 
-	// 	txn.oncomplete = function () {
-	// 		db.close();
-	// 	};
-	// }
+		// close the database once the 
+		txn.oncomplete = function () {
+			db.close();
+		};
+	}
 
 
 })();
