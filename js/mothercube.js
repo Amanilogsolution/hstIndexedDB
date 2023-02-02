@@ -17,7 +17,6 @@ const idb = window.indexedDB;
         query.onsuccess = (event) => {
 
             if (!event.target.result) {
-                // unmatchedInventory.push(id)
                 console.log(`this ${id} not match`)
 
             } else {
@@ -29,8 +28,7 @@ const idb = window.indexedDB;
 
                     }
                 })
-                // console.log(event.target.result)
-                //  event.target.result
+     
             }
         };
 
@@ -39,12 +37,10 @@ const idb = window.indexedDB;
     setTimeout(() => {
 
         datass.forEach((value,index) => {
-            console.log(index)
             motherCube.push(`
                 <div class="app mt-2" style="color:green">
                     <div class="desc">            
-                    <button class="btn btn-success " id="${value}" onclick="ChildCube(${value})" class="btn-search">Child Cube${index+1}</button>        
-                       
+                    <button class="btn btn-success " id="${value}" onclick="ChildCube(${value})" class="btn-search">Child Cube${index+1}</button>       
                     </div> 
                     </div>
                 `)
