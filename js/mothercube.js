@@ -42,7 +42,7 @@ const idb = window.indexedDB;
             motherCube.push(`
                 <div class="app" style="color:green">
                     <div class="desc">            
-                    <button id="${value}" onclick="ChildCube(${value})" class="btn-search">${value}</button>        
+                    <button class="btn btn-success " id="${value}" onclick="ChildCube(${value})" class="btn-search">${value}</button>        
                        
                     </div> 
                     </div>
@@ -66,17 +66,12 @@ function removeDuplicates(data) {
 
     uniqueArray.forEach((value) => {
         motherCube.push(`
-		<div class="app">
-            <div class="desc">                    
-                <h3 class="name">${value.PACK_NO}</h3>
-            </div>
-            <div class="type">                   
-                <h3 class="name">${value.SKU_NAME}</h3>
-            </div>
-            <div class="type">                   
-            <h3 class="name">${value.SKU_CODE}</h3>
-        </div>
-            </div>
+		 
+            <tr>
+            <td>${value.PACK_NO}</td>
+            <td>${value.SKU_NAME}</td>
+            <td>${value.SKU_CODE}</td>
+            </tr>
 		`)
     }) 
     // console.log(motherCube);

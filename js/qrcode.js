@@ -51,17 +51,11 @@ function ScanKit() {
         setTimeout(() => {
             data.forEach((value) => {
                 KITData = `
-                <div class="app">
-                    <div class="desc">                    
-                        <h3 class="name">${value.PACK_NO}</h3>
-                    </div>
-                    <div class="type">                   
-                        <h3 class="name">${value.SKU_NAME}</h3>
-                    </div>
-                    <div class="type">                   
-                    <h3 class="name">${value.SKU_CODE}</h3>
-                </div>
-                    </div>
+                <tr>
+                <td>${value.PACK_NO}</td>
+                <td>${value.SKU_NAME}</td>
+                <td>${value.SKU_CODE}</td>
+                </tr>   
                 `
             })
             document.getElementById('scandata').innerHTML = KITData
@@ -96,17 +90,13 @@ function ScanSKU() {
             console.log(data)
             data.forEach((value) => {
                 SKUData = `
-                <div class="app">
-                    <div class="desc">                    
-                        <h3 class="name">${value.PACK_NO}</h3>
-                    </div>
-                    <div class="type">                   
-                        <h3 class="name">${value.SKU_NAME}</h3>
-                    </div>
-                    <div class="type">                   
-                    <h3 class="name">${value.SKU_CODE}</h3>
-                </div>
-                    </div>
+               
+
+                    <tr>
+                    <td>${value.PACK_NO}</td>
+                    <td>${value.SKU_NAME}</td>
+                    <td>${value.SKU_CODE}</td>
+                    </tr>   
                 `
             })
             document.getElementById('scandata').innerHTML = SKUData
