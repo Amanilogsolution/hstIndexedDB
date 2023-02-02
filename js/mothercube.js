@@ -89,6 +89,7 @@ function removeDuplicates(data) {
 }
 function mcid(MCNO){
     localStorage.setItem('MCID',MCNO);
+    window.location.href = 'motherChildCude.html';
 }
 
 
