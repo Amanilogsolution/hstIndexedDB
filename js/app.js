@@ -4076,7 +4076,6 @@ const idb = window.indexedDB;
 	// handle the success event
 	request.onsuccess = (event) => {
 	const db = event.target.result;
-	console.log(db)
 
 		// console.log('data lengyh', data.length);
 		for (i = 0; i < data.length; i++) {
@@ -4086,7 +4085,6 @@ const idb = window.indexedDB;
 	};
 
 	function insertContact(db, contact) {
-		console.log(contact)
 
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
