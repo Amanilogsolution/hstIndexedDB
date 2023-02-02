@@ -38,15 +38,20 @@ const idb = window.indexedDB;
     let motherCube = [];
     setTimeout(() => {
 
-        datass.forEach((value) => {
+        datass.forEach((value,index) => {
+            console.log(index)
             motherCube.push(`
-                <div class="app" style="color:green">
-                    <div class="desc">            
-                    <button class="btn btn-success " id="${value}" onclick="ChildCube(${value})" class="btn-search">${value}</button>        
-                       
-                    </div> 
+
+            <div class="col-md-4 mt-3">
+            <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${value})">
+                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Child Cube ${index+1}</h5>
+                    
                     </div>
-                `)
+                    </div>
+            </div>   
+        `)
         })
         let str = motherCube.toString().replaceAll(',', '');
 
@@ -68,9 +73,9 @@ function removeDuplicates(data) {
         motherCube.push(`
 		 
             <tr>
-            <td>${value.PACK_NO}</td>
-            <td>${value.SKU_NAME}</td>
-            <td>${value.SKU_CODE}</td>
+            <td>${value.CC_NO}</td>
+            <td>${value.CC_NAME}</td>
+         
             </tr>
 		`)
     }) 
@@ -82,12 +87,16 @@ function removeDuplicates(data) {
     
    
 }
-
+function mcid(MCNO){
+    localStorage.setItem('MCID',MCNO);
+}
 
 
 function ChildCube(value) {
+
+
     // let id = document.getElementById('childCube').value
-    console.log(value)
+    
     let input = ''+value
     const ldb = idb.open('CRM', 1);
 
