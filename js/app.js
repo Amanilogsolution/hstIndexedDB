@@ -4076,8 +4076,9 @@ const idb = window.indexedDB;
 	// handle the success event
 	request.onsuccess = (event) => {
 	const db = event.target.result;
+	console.log(db)
 
-		console.log('data lengyh', data.length);
+		// console.log('data lengyh', data.length);
 		for (i = 0; i < data.length; i++) {
 			insertContact(db, data[i])
 		}
@@ -4085,6 +4086,7 @@ const idb = window.indexedDB;
 	};
 
 	function insertContact(db, contact) {
+		console.log(contact)
 
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
@@ -4110,79 +4112,3 @@ const idb = window.indexedDB;
 
 
 })();
-
-function removeDuplicates(arr) {
-	return arr.filter((item, index) => arr.indexOf(item) === index);
-}
-
-
-function searchchild() {
-	document.getElementById('loading').style.display = 'flex';
-	let id = document.getElementById('childCube').value;
-	let uniqueArr = []
-	let chunks = []
-	let matchedInventory = [];
-	let unmatchedInventory = []
-	for (var i = 0, charsLength = id.length; i < charsLength; i += 24) {
-		chunks.push(id.substring(i, i + 24));
-	}
-	uniqueArr = removeDuplicates(chunks);
-	uniqueArr.forEach(x => {
-		const ldb = idb.open('CRM', 1);
-		ldb.onsuccess = function () {
-			const db = ldb.result;
-			const txn = db.transaction('tbl_rfid', 'readonly');
-			const store = txn.objectStore('tbl_rfid');
-			const index = store.index('PACK_EPC');
-			let query = index.get(x);
-			query.onsuccess = (event) => {
-				if (!event.target.result) {
-					unmatchedInventory.push(x)
-				} else {
-					matchedInventory.push(event.target.result)
-				}
-			};
-		}
-
-	})
-
-	let inventoryMatch = []
-	setTimeout(() => {
-		matchedInventory.forEach((value) => {
-			inventoryMatch.push(`
-		<div class="app">
-                  <div class="desc">                    
-                    <h3 class="name">${value.MC_NO}</h3>
-                  </div>
-                  <div class="type">                   
-                    <h3 class="name">${value.CC_NO}</h3>
-                  </div>
-				  <div class="type">                   
-				  <h3 class="name">${value.CC_POSITION}</h3>
-				</div>
-				<div class="type">                   
-				<h3 class="name">${value.PACK_NO}</h3>
-			  </div>
-			  <div class="type">                   
-			  <h3 class="name">${value.SKU_NAME}</h3>
-			</div>
-			<div class="type">                   
-			<h3 class="name">${value.SKU_QTY}</h3>
-		  </div>       
-            </div>
-		`)
-		})
-
-		let str = inventoryMatch.toString().replaceAll(',', '');
-		document.getElementById('matchTable').style.display = 'flex';
-		document.getElementById('matchdata').innerHTML = matchedInventory.length
-		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
-		document.getElementById('invNotMatch').innerHTML = unmatchedInventory
-		document.getElementById('invMatch').innerHTML = str;
-		document.getElementById('loading').style.display = 'none';
-	}, 1000);
-
-
-
-}
-

@@ -17,9 +17,9 @@
   <!-- START HERE -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
     <div class="container">
-      <a href="/" class="navbar-brand">
+      <a href="#" class="navbar-brand">
         <img src="img/mlogo.png" width="50" height="50" alt="">
-        <h3 class="d-inline align-middle">CRO AWL</h3>
+        <h3 class="d-inline align-middle">CROAWL</h3>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         <span class="navbar-toggler-icon"></span>
@@ -27,16 +27,19 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="#home" class="nav-link">Home</a>
+            <a href="/" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
+            <a href="inventoryInner.html" class="nav-link">Inventory</a>
           </li>
           <li class="nav-item">
-            <a href="#authors" class="nav-link">Meet The Authors</a>
+            <a href="childcube.html" class="nav-link">Child Cube</a>
           </li>
           <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
+            <a href="inventory.html" class="nav-link">RFID</a>
+          </li>
+          <li class="nav-item">
+            <a href="qrScan.html" class="nav-link">QR Scan</a>
           </li>
         </ul>
       </div>
@@ -118,6 +121,7 @@
   <script src="js/bootstrap.min.js" ></script>
 
     <script src="js/app.js"> </script>
+    
     <script>
         if("serviceWorker" in navigator){
             navigator.serviceWorker.register("sw.js").then(registration=>{
