@@ -1,6 +1,6 @@
 const CACHE_NAME = "version-1";
 const self = this;
-const cachedata = ['index.html','identtificationInner.html','inventoryInner.html'
+const cachedata = ['index.html','identtificationInner.html','motherCube.html'
 ,'randomInventory.html','inventory.html','qrScan.html','childcube.html','css/style.css','js/app.js'
 ,'js/childcube.js','js/mothercube.js','js/qrcode.js','js/inventory.js','js/bootstrap.min.js','js/jquery-3.3.1.min.js','css/boostrap.css','img/mlogo.png'
 
