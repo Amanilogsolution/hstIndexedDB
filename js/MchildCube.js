@@ -214,8 +214,11 @@ function packData(value){
     setTimeout(()=>{
 
        const data =  TotalData.filter(data => data.CC_NO == value)
+       localStorage["packSkuDatas"] = JSON.stringify(data)
+
 
        const Packdatass = getUniqueListBy(data,'PACK_NO')
+       localStorage["packDatas"] = JSON.stringify(Packdatass)
 
        
     
