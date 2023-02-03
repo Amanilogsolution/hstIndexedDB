@@ -44,7 +44,7 @@ function removeDuplicates(data) {
         <div class="card">
           <div class="card-body-mccube">
               <div class="row">
-                <div class="col bg-success m-1" >
+                <div class="col bg-success m-1"  onclick="packData(${childCube[0]['CC_NO']})" >
                 ${childCube[0]['CC_NO']},${childCube[0]['CC_NAME']}
                 </div> 
                 <div class="col bg-success m-1" onclick="packData(${childCube[1]['CC_NO']})">

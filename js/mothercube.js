@@ -42,9 +42,9 @@ const idb = window.indexedDB;
 
             <div class="col-md-4 mt-3">
             <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${index+1})">
-                    <img class="card-img-top" src="..." alt="Card image cap">
+                    <img class="card-img-top" src="img/motherBox.png" alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Mother Cube ${index+1}</h5>
+                        <h5 class="card-title"><strong>Mother Cube ${index+1} </strong></h5>
                     </div>
                     </div>
             </div>   
