@@ -210,12 +210,9 @@ function removeDuplicates(data) {
 
 
 function packData(value){
-    alert(value)
     setTimeout(()=>{
-        console.log(TotalData)
 
-       const data =  TotalData.filter(data => data.CC_NO == 1)
-       console.log(data)
+       const data =  TotalData.filter(data => data.CC_NO == value)
 
        const Packdatass = getUniqueListBy(data,'PACK_NO')
 
