@@ -6,14 +6,16 @@ const idb = window.indexedDB;
     // console.log('hllll')
 
     const datass = []
-
+  
     ldb.onsuccess = function () {
+       
         const db = ldb.result;
-        const txn = db.transaction('tbl_rfid', 'readonly');
-        const store = txn.objectStore('tbl_rfid');
+        const txn = db.transaction('inventory', 'readonly');
+        const store = txn.objectStore('inventory');
         const index = store.index('MC_NO');
+     
         let query = index.getAll();
-
+        
         query.onsuccess = (event) => {
 
             if (!event.target.result) {
@@ -35,7 +37,7 @@ const idb = window.indexedDB;
     }
     let motherCube = [];
     setTimeout(() => {
-
+        con
         datass.forEach((value,index) => {
             motherCube.push(`
 
@@ -85,6 +87,7 @@ function removeDuplicates(data) {
 }
 function mcid(MCNO){
     localStorage.setItem('MCID',MCNO);
+    window.location.href = 'motherChildCude.html';
 }
 
 
