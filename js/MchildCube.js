@@ -1,17 +1,17 @@
 // const idb = window.indexedDB;
 
 (function () {
-    const input = localStorage.getItem('MCID')
+    const input = Number(localStorage.getItem('MCID'))
     console.log(input)
 
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
 
     const datass = []
 
     ldb.onsuccess = function () {
         const db = ldb.result;
-        const txn = db.transaction('tbl_rfid', 'readonly');
-        const store = txn.objectStore('tbl_rfid');
+        const txn = db.transaction('inventory', 'readonly');
+        const store = txn.objectStore('inventory');
         const index = store.index('MC_NO');
         let query = index.getAll(input);
 

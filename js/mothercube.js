@@ -2,7 +2,7 @@ const idb = window.indexedDB;
 
 (function () {
 
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
     // console.log('hllll')
 
     const datass = []
@@ -40,7 +40,7 @@ const idb = window.indexedDB;
             motherCube.push(`
 
             <div class="col-md-4 mt-3">
-            <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${value})">
+            <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${index+1})">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Child Cube ${index+1}</h5>
