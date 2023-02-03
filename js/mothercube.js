@@ -17,7 +17,6 @@ const idb = window.indexedDB;
         query.onsuccess = (event) => {
 
             if (!event.target.result) {
-                // unmatchedInventory.push(id)
                 console.log(`this ${id} not match`)
 
             } else {
@@ -29,8 +28,7 @@ const idb = window.indexedDB;
 
                     }
                 })
-                // console.log(event.target.result)
-                //  event.target.result
+     
             }
         };
 
@@ -39,7 +37,6 @@ const idb = window.indexedDB;
     setTimeout(() => {
 
         datass.forEach((value,index) => {
-            console.log(index)
             motherCube.push(`
 
             <div class="col-md-4 mt-3">
@@ -47,7 +44,6 @@ const idb = window.indexedDB;
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
                         <h5 class="card-title">Child Cube ${index+1}</h5>
-                    
                     </div>
                     </div>
             </div>   
