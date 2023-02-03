@@ -44,9 +44,9 @@ function removeDuplicates(data) {
         <div class="card">
           <div class="card-body-mccube">
               <div class="row">
-                <a href="pack.html" onclick="packData(${childCube[0]['CC_NO']})"><div class="col bg-success m-1" >
+                <div class="col bg-success m-1" >
                 ${childCube[0]['CC_NO']},${childCube[0]['CC_NAME']}
-                </div></a>
+                </div> 
                 <div class="col bg-success m-1" onclick="packData(${childCube[1]['CC_NO']})">
                 ${childCube[1]['CC_NO']},${childCube[1]['CC_NAME']}
                 </div>
@@ -220,7 +220,7 @@ function packData(value){
        const Packdatass = getUniqueListBy(data,'PACK_NO')
        localStorage["packDatas"] = JSON.stringify(Packdatass)
 
-       
+       window.location.href="pack.html"
     
     },1000)
 }
