@@ -37,7 +37,6 @@ const idb = window.indexedDB;
     }
     let motherCube = [];
     setTimeout(() => {
-        con
         datass.forEach((value,index) => {
             motherCube.push(`
 
@@ -45,7 +44,7 @@ const idb = window.indexedDB;
             <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${index+1})">
                     <img class="card-img-top" src="..." alt="Card image cap">
                     <div class="card-body">
-                        <h5 class="card-title">Child Cube ${index+1}</h5>
+                        <h5 class="card-title">Mother Cube ${index+1}</h5>
                     </div>
                     </div>
             </div>   
