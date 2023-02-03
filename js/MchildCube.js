@@ -15,6 +15,7 @@ var TotalData
             if (!event.target.result) {
                 console.log(`this ${value} not match`)
             } else {
+                console.log(event.target.result)
                 removeDuplicates(event.target.result)
           
             }
@@ -27,6 +28,7 @@ function getUniqueListBy(arr, key) {
 }
 
 function removeDuplicates(data) {
+    
     jsonObject = data.map(JSON.stringify);
     uniqueSet = new Set(jsonObject);
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
