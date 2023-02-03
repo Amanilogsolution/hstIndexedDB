@@ -37,7 +37,7 @@ const idb = window.indexedDB;
     }
     let motherCube = [];
     setTimeout(() => {
-        con
+
         datass.forEach((value,index) => {
             motherCube.push(`
 
