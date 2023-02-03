@@ -93,7 +93,7 @@ function mcid(MCNO){
 function ChildCube(value) {
 
 
-    // let id = document.getElementById('childCube').value
+    // let id = document.getElementById('childCub alert('amresh')e').value
     
     let input = ''+value
     const ldb = idb.open('CRM', 1);
