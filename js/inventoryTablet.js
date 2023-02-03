@@ -1,4 +1,4 @@
-var data = [
+var data1 = [
      {
           ID:1,
       MC_NO: 1,

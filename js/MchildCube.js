@@ -7,8 +7,8 @@ var TotalData
     const ldb = idb.open('CRM', 2);
     ldb.onsuccess = function () {
         const db = ldb.result;
-        const txn = db.transaction('inventory', 'readonly');
-        const store = txn.objectStore('inventory');
+        const txn = db.transaction('tbl_rfid', 'readonly');
+        const store = txn.objectStore('tbl_rfid');
         const index = store.index('MC_NO');
         let query = index.getAll(input);
         query.onsuccess = (event) => {
@@ -35,7 +35,6 @@ function removeDuplicates(data) {
     TotalData =  Array.from(uniqueSet).map(JSON.parse);
 
     const childCube = getUniqueListBy(uniqueArray,'CC_NO')
-    console.log( childCube[0]['CC_NO'],childCube[0]['CC_NAME']);
     let childCubeArray = [];   
      
        

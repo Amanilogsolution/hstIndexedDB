@@ -29,7 +29,7 @@ function ScanKit() {
     let id = document.getElementById('childCube').value;
 
 
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
 
     ldb.onsuccess = function () {
         const db = ldb.result;
@@ -68,7 +68,7 @@ function ScanKit() {
 }
 function ScanSKU() {
     let id = document.getElementById('childCube').value;
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
     ldb.onsuccess = function () {
         const db = ldb.result;
         const txn = db.transaction('tbl_rfid', 'readonly');

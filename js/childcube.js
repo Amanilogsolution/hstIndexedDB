@@ -6,7 +6,7 @@ function searchChildCube() {
     let id = document.getElementById('childCube').value
 
 
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
 
     ldb.onsuccess = function () {
         const db = ldb.result;
