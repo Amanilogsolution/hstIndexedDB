@@ -23,8 +23,9 @@
 
 function dataDetils(value){
 
+    let skudata = localStorage.setItem('SKUDATA',value);
     let TotalData = JSON.parse(localStorage["packSkuDatas"]);
-    console.log(TotalData)
+    //console.log(TotalData)
     const data =  TotalData.filter(data => data.PACK_NO == value)
     console.log(data)
 
