@@ -39,8 +39,21 @@ function removeDuplicates(data) {
 
 }
 
-setTimeout(()=>{
-    console.log(TotalData)
 
-},1000)
+
+(function packData(value){
+    setTimeout(()=>{
+        console.log(TotalData)
+
+       const data =  TotalData.filter(data => data.CC_NO == 1)
+       console.log(data)
+
+       const Packdatass = getUniqueListBy(data,'PACK_NO')
+
+       console.log(Packdatass)
+    
+    },1000)
+})();
+
+
 

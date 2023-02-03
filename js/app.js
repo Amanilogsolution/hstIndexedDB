@@ -4041,6 +4041,7 @@ const idb = window.indexedDB;
 	// create the Contacts object store and indexes
 	request.onupgradeneeded = (event) => {
 		let db = event.target.result;
+        console.log(db)
 
 		// create the Contacts object store 
 		// with auto-increment id
