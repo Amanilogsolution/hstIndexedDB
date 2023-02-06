@@ -1,5 +1,5 @@
 const idb = window.indexedDB;
-var TotalData 
+var TotalData
 
 
 (function () {
@@ -21,10 +21,11 @@ var TotalData
             }
         }
     }
-})();
+  }
+)();
 
 function getUniqueListBy(arr, key) {
-    return [...new Map(arr.map(item => [item[key], item])).values()]
+  return [...new Map(arr.map(item => [item[key], item])).values()]
 }
 
 function removeDuplicates(data) {
@@ -43,7 +44,7 @@ function removeDuplicates(data) {
      {
      // console.log(value.CC_NO,value.CC_NAME)
      volume1.push(`
-  <a href="pack.html" class="text-decoration-none subchild-child-cube text-success">
+  <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-success">
   <div class="card   mb-resp px-0 py-1">
  <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
   </div>
@@ -57,7 +58,7 @@ function removeDuplicates(data) {
       {
       // console.log(value.CC_NO,value.CC_NAME)
       volume2.push(`
-   <a href="pack.html" class="text-decoration-none subchild-child-cube text-primary">
+   <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-primary">
    <div class="card  mb-resp px-0 py-1">
   <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
    </div>
@@ -69,7 +70,7 @@ function removeDuplicates(data) {
        {
        // console.log(value.CC_NO,value.CC_NAME)
        volume3.push(`
-    <a href="pack.html" class="text-decoration-none subchild-child-cube text-warning">
+    <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-warning">
     <div class="card   mb-resp px-0 py-1">
    <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
     </div>
@@ -87,17 +88,19 @@ function removeDuplicates(data) {
 
 
 
-function packData(value){
-    setTimeout(()=>{
+function packData(value) {
+  console.log(value)
+  setTimeout(() => {
 
-       const data =  TotalData.filter(data => data.CC_NO == value)
-       localStorage["packSkuDatas"] = JSON.stringify(data)
-       const Packdatass = getUniqueListBy(data,'PACK_NO')
-       localStorage["packDatas"] = JSON.stringify(Packdatass)
+    const data = TotalData.filter(data => data.CC_NO == value)
+    localStorage["packSkuDatas"] = JSON.stringify(data)
+    const Packdatass = getUniqueListBy(data, 'PACK_NO')
+    console.log(Packdatass)
+    localStorage["packDatas"] = JSON.stringify(Packdatass)
 
-       window.location.href="pack.html"
-    
-    },1000)
+    window.location.href = "pack.html"
+
+  }, 1000)
 }
 
 

@@ -17,6 +17,8 @@ function searchchild() {
 	 
 	document.getElementById('loading').style.display = 'flex';
 	let id = document.getElementById('childCube').value;
+	console.log(id)
+
 	let uniqueArr = []
 	let chunks = []
 	let matchedInventory = [];
@@ -25,6 +27,7 @@ function searchchild() {
 		chunks.push(id.substring(i, i + 24));
 	}
 	uniqueArr = removeDuplicates(chunks);
+
 	uniqueArr.forEach(x => {
 		const ldb = idb.open('CRM', 2);
 		ldb.onsuccess = function () {
@@ -38,6 +41,7 @@ function searchchild() {
 					unmatchedInventory.push(x)
 				} else {
 					matchedInventory.push(event.target.result)
+
 				}
 			};
 		}
@@ -69,6 +73,7 @@ function searchchild() {
 			 
 		`)
 	})
+	console.log(inventoryNotMatch)
   
 		let str = inventoryMatch.toString().replaceAll(',', '');
 		let str1 = inventoryNotMatch.toString().replaceAll(',', '');

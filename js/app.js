@@ -14869,10 +14869,12 @@ const idb = window.indexedDB;
 	// open the CRM database with the version 1
 	const request = indexedDB.open('CRM', 1);
 
+	// console.log(request)
+
 	// create the Contacts object store and indexes
 	request.onupgradeneeded = (event) => {
 		let db = event.target.result;
-        console.log(db)
+		console.log(db.objectStore)
 
 		// create the Contacts object store 
 		// with auto-increment id
@@ -29865,6 +29867,7 @@ const idb = window.indexedDB;
 
 		// create a new transaction
 		const txn = db.transaction('tbl_rfid', 'readwrite');
+
 
 		// get the Contacts object store
 		const store = txn.objectStore('tbl_rfid');

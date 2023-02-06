@@ -34,6 +34,7 @@ function removeDuplicates(arr) {
     return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
+
 function searchdata() {
     document.getElementById('loading').style.display = 'flex';
     const id = document.getElementById('child').value;
