@@ -3,10 +3,10 @@ const idb = window.indexedDB;
 var filtervalue;
 
 function searchChildCube() {
-    let id = document.getElementById('childCube').value
+    let id = Number(document.getElementById('childCube').value)
 
 
-    const ldb = idb.open('CRM', 1);
+    const ldb = idb.open('CRM', 2);
 
     ldb.onsuccess = function () {
         const db = ldb.result;
@@ -19,7 +19,6 @@ function searchChildCube() {
         query.onsuccess = (event) => {
 
             if (!event.target.result) {
-                // unmatchedInventory.push(id)
                 console.log(`this ${id} not match`)
 
             } else {
@@ -38,6 +37,7 @@ function removeDuplicates(arr) {
 function searchdata() {
     document.getElementById('loading').style.display = 'flex';
     const id = document.getElementById('child').value;
+    console.log(id);
     let uniqueArr = []
     let chunks = []
 
@@ -63,70 +63,55 @@ function searchdata() {
 setTimeout(()=>{
     let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
     document.getElementById('invNotMatch').innerHTML = OtherInventory
-    document.getElementById('notmatchdnata').innerHTML = OtherInventory.length
 },1000)
 
   
 
-document.getElementById('matchTable').style.display = 'flex';
 
     match.forEach((value) => {
         inventoryMatch.push(`
-		<div class="app" style="color:green">
-            <div class="desc">                    
-                <h3 class="name">${value.MC_NO}</h3>
-            </div>
-            <div class="type">                   
-                <h3 class="name">${value.CC_NO}</h3>
-            </div>
-			<div class="type">                   
-				<h3 class="name">${value.CC_POSITION}</h3>
-			</div>
-			<div class="type">                   
-				<h3 class="name">${value.PACK_NO}</h3>
-			</div>
-			<div class="type">                   
-			  <h3 class="name" style="overflow:hidden; text-overflow:ellipsis;">${value.SKU_NAME}</h3>
-			</div>
-			<div class="type">                   
-			    <h3 class="name">${value.SKU_QTY}</h3>
-		    </div> 
-            </div>
+        <tr class="text-success">
+        <td>${value.MC_NO}</td>
+        <td>${value.CC_NO}</td>
+        <td>${value.SKU_NAME}</td>
+        </tr> 
 		`)
     })
 
     Mismatch.forEach((value) => {
         inventoryMisMatch.push(`
-		<div class="app" style="color:red">
-            <div class="desc">                    
-                <h3 class="name">${value.MC_NO}</h3>
-            </div>
-            <div class="type">                   
-                <h3 class="name">${value.CC_NO}</h3>
-            </div>
-			<div class="type">                   
-				<h3 class="name">${value.CC_POSITION}</h3>
-			</div>
-			<div class="type">                   
-				<h3 class="name">${value.PACK_NO}</h3>
-			</div>
-			<div class="type">                   
-			  <h3 class="name" style="overflow:hidden; text-overflow:ellipsis;">${value.SKU_NAME}</h3>
-			</div>
-			<div class="type">                   
-			    <h3 class="name">${value.SKU_QTY}</h3>
-		    </div> 
-            </div>
+        <tr class="text-danger">
+        <td>${value.MC_NO}</td>
+        <td>${value.CC_NO}</td>
+        <td>${value.SKU_NAME}</td>
+        </tr>
 		`)
     })
 
-    document.getElementById('invMatch').innerHTML = inventoryMatch
+    console.log(inventoryMisMatch)
+
+    let Matchstr = inventoryMatch.toString().replaceAll(',', '');
+    let MisMatchstr = inventoryMisMatch.toString().replaceAll(',', '');
+
+
+
+    document.getElementById('invMatch').innerHTML = Matchstr
+    document.getElementById('invMisMatch').innerHTML = MisMatchstr
+
 
     document.getElementById('matchdata').innerHTML = match.length
 
-    document.getElementById('invMisMatch').innerHTML = inventoryMisMatch
+    document.getElementById('notmatchdnata').innerHTML = Mismatch.length
 
     document.getElementById('loading').style.display = 'none';
+
+    document.getElementById('summery').style.display = 'flex';
+    document.getElementById('matchsummary').style.display = 'flex';
+    document.getElementById('mismatchsummary').style.display = 'flex';
+
+
+
+    
 
 }
 

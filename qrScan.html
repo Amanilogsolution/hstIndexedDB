@@ -1,7 +1,6 @@
  
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,119 +15,116 @@
 
 <body id="home" data-spy="scroll" data-target="#main-nav">
   <!-- START HERE -->
-  <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
+  <nav class="navbar navbar-expand-md navbar-light fixed-top py-2" id="main-nav">
     <div class="container">
-      <a href="#" class="navbar-brand">
-        <img src="img/mlogo.png" width="50" height="50" alt="">
-        <h3 class="d-inline align-middle">CROAWL</h3>
+      <a href="#home" class="navbar-brand navbar-brand">
+        <img src="img/logo.png" width="60" height="60" alt="logo">
+        <h3 class="d-inline align-middle">CR<span class="text-danger">AWL</span></h3>
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-        <span class="navbar-toggler-icon"></span>
+        &#9776;
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a href="/" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">
+              <img class="fa" src="./img/house.svg" height="18" width="18" alt="Home" />
+              Home</a>
           </li>
           <li class="nav-item">
-            <a href="inventoryInner.html" class="nav-link">Inventory</a>
+            <a href="motherCube.html" class="nav-link">
+              <img class="fa" src="./img/inventry_icon.svg" height="20" width="20" alt="Inventory" />
+
+              Inventory</a>
           </li>
           <li class="nav-item">
-            <a href="childcube.html" class="nav-link">Child Cube</a>
+            <a href="childcube.html" class="nav-link">
+              <img class="fa" src="./img/childCube.png" height="20" width="20" alt="Child Cube" />
+              Child Cube</a>
           </li>
           <li class="nav-item">
-            <a href="inventory.html" class="nav-link">RFID</a>
+            <a href="qrScan.html" class="nav-link">
+              <img class="fa" src="./img/qr-code-scan.svg" height="18" width="18" alt="QR Scan" />
+              QR Scan</a>
           </li>
           <li class="nav-item">
-            <a href="qrScan.html" class="nav-link">QR Scan</a>
+            <a href="inventory.html" class="nav-link">
+              <img class="fa" src="./img/barcode-scanner.png" height="18" width="18" alt="RFID Scanner" />
+              RFID</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
 
+  <section id="boxes" class="px-2">
+    <h1 class="mt-4 "><a href="../index.html" class="text-danger">Home</a> > <a href="../Pages/Identification.html"
+      class="text-dark text-decoration-none">Identification</a> ><a href="../Pages/RandomInventory.html"
+      class="text-dark text-decoration-none">Random Inventory</a> > QR Scan</h1>
 
-  <!-- Boxes-->
-  <section id="boxes" class="px-2 py-2 ">
-    <div class="container mt-5">
-      <h1> QR Scan</h1> 
-        <div class="input-group">
-          <div class=" " >
-            <div style="margin-top: 20px;">
-              <buttton class="btn btn-primary" onclick="ToogleButton('SKU')">Identify SKU</buttton>
-              <buttton class="btn btn-primary" onclick="ToogleButton('KIT')" >Identify Kit</buttton>
-            </div>
-           
-            <div class="mt-5" id="QRSearch" style="display: none;">
-              <input class="form-control width100" name="childCube" id="childCube" >
-              <span class="input-group-btn">
-                 
-                  <button class="btn btn-success" id="Skusearch" onclick="QRScan('SKU')" style="display: inline-flexbox;">Search SKU</button>
-                  <button class="btn btn-success" id="Kitsearch" onclick="QRScan('KIT')" style="display: inline-flexbox;">Search KIT</button>
-    
-              </span>
-               
-            
-      </div> 
-      <div class="loading" id="loading" style="display: none; ">
-        <h1 style="text-align: center;">Loading....</h1>
-      </div> 
-    </div>
-  </section>
-  <section id="boxes" class="px-2 py-2 ">
-    <div class="row py-3 px-3">
+      <div class="card rounded shadow3-gray py-2 px-3 mb-2">
+        <p>QR Scan:- </p>
+        <div class="d-flex">
+            <button class="btn btn-success" onclick="ToogleButton('SKU')">Identify Sku</button>
+            <button class="btn btn-danger mx-3" onclick="ToogleButton('KIT')">Identify Kit</button>
+        </div>
 
-      <div class="col-md-4">
-        <table class="table">
-          <thead>
-            <tr> 
-              <th scope="col">Pack Name</th>
-              <th scope="col">SKU</th>
-              <th scope="col">QTY</th>
-            </tr>
-          </thead>
-          <tbody id="scandata">
-            
-          </tbody>
-        </table>
-      
-       
-      
+        <div class="form-row mt-2">
+            <input type="text" name="childCube" id="childCube" class="form-control" style="width:80%;"
+                placeholder="Enter Identify sku" />
+                <button class="btn btn-outline-danger" id="Skusearch" onclick="QRScan('SKU')" style="display: none;">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                      <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                    </svg>
+              </button>
+            <button class="btn btn-outline-danger" id="Kitsearch"  onclick="QRScan('KIT')" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                </svg>
+          </button>
+        </div>
     </div>
-     
-    </div>  
-  </section> 
+
+
+    <div class="rounded shadow3-gray text-dark parent-top-child-table">
+        <div class=" text-dark parent-child-table">
+            <table class="table table-striped table-bordered w-100">
+                <thead class="text-center ">
+                    <tr>
+                        <th scope="col">Pack Name</th>
+                        <th scope="col">Sku</th>
+                        <th scope="col">Qty</th>
+                    </tr>
+                </thead>
+                <tbody  id="scandata">
+              
+                </tbody>
+            </table>
+        </div>
+    </div> 
+</section>
+
   <!-- Footer -->
-  <footer class="bg-dark text-center text-white" id="footer-main">
-    <!-- Grid container -->
-    <div class="container p-4">
-      <!-- Section: Social media -->
+  <footer class="bg-light text-center text-dark card-footer shadow-top" id="footer-main">
+    <div class="container py-3">
       <section>
-        <!-- Facebook -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
-
-        <!-- Twitter -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
-
-        <!-- Google -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
-
-        <!-- Instagram -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-instagram"></i></a>
-
-        <!-- Linkedin -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
-
-        <!-- Github -->
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fab fa-github"></i></a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="index.html" role="button">
+          <img class="fa" src="./img/house.svg" height="20" width="20" alt="Home" />
+        </a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="qrScan.html" role="button">
+          <img class="fa" src="./img/qr-code-scan.svg" height="20" width="20" alt="QR Scan" />
+        </a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="inventory.html" role="button">
+          <img class="fa" src="./img/barcode-scanner.png" height="20" width="20" alt="RFID Scanner" />
+        </a>
+        <a class="btn btn-outline-dark btn-floating " href="childcube.html" role="button">
+          <img class="fa" src="./img/childCube.png" height="25" width="25" alt="Child Cube" />
+        </a>
+        <a class="btn btn-outline-dark btn-floating m-1" href="motherCube.html" role="button">
+          <img class="fa" src="./img/inventry_icon.svg" height="20" width="20" alt="Inventory" />
+        </a>
       </section>
-      <!-- Section: Social media -->
-
-      <!-- Section: Form -->
-
     </div>
-    <!-- Grid container -->
-
   </footer>
   <!-- <script src="js/jquery-3.3.1.min.js"  ></script> -->
 

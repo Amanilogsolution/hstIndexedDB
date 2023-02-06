@@ -10,8 +10,8 @@ const idb = window.indexedDB;
     ldb.onsuccess = function () {
        
         const db = ldb.result;
-        const txn = db.transaction('inventory', 'readonly');
-        const store = txn.objectStore('inventory');
+        const txn = db.transaction('tbl_rfid', 'readonly');
+        const store = txn.objectStore('tbl_rfid');
         const index = store.index('MC_NO');
      
         let query = index.getAll();
