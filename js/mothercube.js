@@ -40,14 +40,20 @@ const idb = window.indexedDB;
         datass.forEach((value,index) => {
             motherCube.push(`
 
-            <div class="col-md-4 mt-3">
-            <div class="card" style="width: 18rem;"  id="${value}" onclick="mcid(${index+1})">
-                    <img class="card-img-top" src="img/motherBox.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title"><strong>Mother Cube ${index+1} </strong></h5>
-                    </div>
-                    </div>
-            </div>   
+            
+            <div class="col-md-3 py-1">
+                    <a href="motherChildCude.html" class="text-decoration-none">
+                        <div class="card text-center mb-resp" id="${value}" onclick="mcid(${index+1})">
+                            <div class="card-body px-0 py-1 shadow3-gray">
+                                <div class="motherBox-card mt-0">
+                                    <img src="../img/motherBox.png" alt="" class="motherbox-image">
+                                </div>
+                                <h3 class="card-title">Mother Cube ${index+1}</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
         `)
         })
         let str = motherCube.toString().replaceAll(',', '');
@@ -64,29 +70,27 @@ function removeDuplicates(data) {
     uniqueSet = new Set(jsonObject);
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
     
- var motherCube =[];
+//  var motherCube =[];
 
-    uniqueArray.forEach((value) => {
-        motherCube.push(`
+//     uniqueArray.forEach((value) => {
+//         motherCube.push(`
 		 
-            <tr>
-            <td>${value.CC_NO}</td>
-            <td>${value.CC_NAME}</td>
+//             <tr>
+//             <td>${value.CC_NO}</td>
+//             <td>${value.CC_NAME}</td>
          
-            </tr>
-		`)
-    }) 
+//             </tr>
+// 		`)
+//     }) 
     // console.log(motherCube);
-    let str = motherCube.toString().replaceAll(',', '');
-
-
-    document.getElementById('childCubeData').innerHTML = str
+    // let str = motherCube.toString().replaceAll(',', '');
+    // document.getElementById('childCubeData').innerHTML = str
     
    
 }
 function mcid(MCNO){
     localStorage.setItem('MCID',MCNO);
-    window.location.href = 'motherChildCude.html';
+    //window.location.href = 'motherChildCude.html';
 }
 
 

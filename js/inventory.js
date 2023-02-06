@@ -7,8 +7,9 @@ function removeDuplicates(arr) {
 
 
 function searchchild() {
-    console.log('asdsdsd')
+     
 	var searchValue = document.getElementById("childCube").value;
+	console.log(searchValue);
 	if(searchValue == ''){
 		alert('Search Text is empty');
 		return false;
@@ -25,7 +26,7 @@ function searchchild() {
 	}
 	uniqueArr = removeDuplicates(chunks);
 	uniqueArr.forEach(x => {
-		const ldb = idb.open('CRM', 1);
+		const ldb = idb.open('CRM', 2);
 		ldb.onsuccess = function () {
 			const db = ldb.result;
 			const txn = db.transaction('tbl_rfid', 'readonly');
@@ -71,6 +72,9 @@ function searchchild() {
   
 		let str = inventoryMatch.toString().replaceAll(',', '');
 		let str1 = inventoryNotMatch.toString().replaceAll(',', '');
+		document.getElementById('matchTable').style.display = 'flex';
+
+		document.getElementById('summery').style.display = 'flex';
 		document.getElementById('matchTable').style.display = 'flex';
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
