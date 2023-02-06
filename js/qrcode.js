@@ -1,15 +1,16 @@
 const idb = window.indexedDB;
 
 function ToogleButton(type) {
-    document.getElementById('QRSearch').style.display = 'block'
+    
+    // document.getElementById('QRSearch').style.display = 'block'
     if (type == 'SKU') {
-        document.getElementById('Skusearch').style.display = 'block'
+        document.getElementById('Skusearch').style.display = 'flex'
         document.getElementById('Kitsearch').style.display = 'none'
         document.getElementById('childCube').value = ''
 
     } else {
         document.getElementById('Skusearch').style.display = 'none'
-        document.getElementById('Kitsearch').style.display = 'block'
+        document.getElementById('Kitsearch').style.display = 'flex'
         document.getElementById('childCube').value = ''
 
     }
@@ -27,8 +28,9 @@ function QRScan(type) {
 
 function ScanKit() {
     let id = document.getElementById('childCube').value;
+    console.log(id)
 
-
+ 
     const ldb = idb.open('CRM', 2);
 
     ldb.onsuccess = function () {
@@ -68,8 +70,8 @@ function ScanKit() {
 }
 function ScanSKU() {
     let id = document.getElementById('childCube').value;
-    console.log(id)
-    const ldb = idb.open('CRM', 1);
+    console.log('asdf',id);
+    const ldb = idb.open('CRM', 2);
     ldb.onsuccess = function () {
         const db = ldb.result;
         const txn = db.transaction('tbl_rfid', 'readonly');

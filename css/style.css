@@ -22,11 +22,17 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
+  
 }
 
 #boxes {
   min-height: 75vh;
   overflow: auto;
+}
+.shadow-top{
+  /* box-shadow: -2px -2px 6px #000; */
+  box-shadow: -2px -2px 5px #a64b32;
+
 }
 
 @media screen and (min-height:550px) {
