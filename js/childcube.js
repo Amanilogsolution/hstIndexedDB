@@ -3,7 +3,7 @@ const idb = window.indexedDB;
 var filtervalue;
 
 function searchChildCube() {
-    let id = document.getElementById('childCube').value
+    let id = Number(document.getElementById('childCube').value)
 
 
     const ldb = idb.open('CRM', 2);
@@ -35,9 +35,11 @@ function removeDuplicates(arr) {
     return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
+
 function searchdata() {
     document.getElementById('loading').style.display = 'flex';
     const id = document.getElementById('child').value;
+    console.log(id)
     let uniqueArr = []
     let chunks = []
 
