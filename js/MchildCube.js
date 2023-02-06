@@ -45,7 +45,7 @@ function removeDuplicates(data) {
      volume1.push(`
   <a href="pack.html" class="text-decoration-none subchild-child-cube text-success">
   <div class="card   mb-resp px-0 py-1">
- <h6 > <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</h6>
+ <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
   </div>
 </a>
 
@@ -59,7 +59,7 @@ function removeDuplicates(data) {
       volume2.push(`
    <a href="pack.html" class="text-decoration-none subchild-child-cube text-primary">
    <div class="card  mb-resp px-0 py-1">
-  <h6 > <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</h6>
+  <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
    </div>
  </a>
  
@@ -71,7 +71,7 @@ function removeDuplicates(data) {
        volume3.push(`
     <a href="pack.html" class="text-decoration-none subchild-child-cube text-warning">
     <div class="card   mb-resp px-0 py-1">
-   <h6 > <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</h6>
+   <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
     </div>
   </a>
   
