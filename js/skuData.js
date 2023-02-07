@@ -7,10 +7,11 @@
     var skuData =[];
     data.forEach((value,index) => {
         skuData.push(` 
-            <tr>
+            <tr style="font-size:3vw">
             <td>${index+1}</td>
             <td>${value.SKU_NAME}</td>
             <td>${value.SKU_QTY}</td>
+            <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
             <td>${value.PACK_EXPIRY}</td>
             </tr>
 		`)

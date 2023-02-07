@@ -1,10 +1,15 @@
 (function () {
     
     let pdata = JSON.parse(localStorage["packDatas"]);
-     console.log(pdata);
+    let pSkudata = JSON.parse(localStorage["packSkuDatas"]);
 
-
- 
+     for(i=0;i<pdata.length;i++){
+     var count = 0
+     pSkudata.filter((data)=> { 
+         data.PACK_NAME===pdata[i]['PACK_NAME']?count=count+1:null
+         pdata[i]['SKU_QTY'] = count
+     })
+    }
 
     var packCubeData =[];
     pdata.forEach((value,index) => {
@@ -13,6 +18,7 @@
             <td>${index+1}</td>
             <td>${value.PACK_NAME}</td>
             <td>${value.SKU_QTY}</td>
+            <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
             <td>${value.PACK_EXPIRY}</td>
             </tr>
 		`)
