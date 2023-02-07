@@ -44,6 +44,7 @@ function removeDuplicates(data) {
      {
      // console.log(value.CC_NO,value.CC_NAME)
      volume1.push(`
+    
   <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-success">
   <div class="card   mb-resp px-0 py-1">
  <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
