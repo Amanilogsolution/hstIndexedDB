@@ -72876,19 +72876,21 @@
 		   request.onerror = (event) => {
 			   console.error(`Database error: ${event.target.errorCode}`);
 		   };
+
 	   
 		   // handle the success event
 		   request.onsuccess = (event) => {
 		   const db = event.target.result;
+
 	   
 			   // console.log('data lengyh', data.length);
 			   for (i = 0; i < data.length; i++) {
-				   insertContact(db, data[i])
+				   insertContact(db, data[i],data.length)
 			   }
 	   
 		   };
-	   
-		   function insertContact(db, contact) {
+
+		   function insertContact(db, contact,length) {
 	   
 			   // create a new transaction
 			   const txn = db.transaction('tbl_rfid', 'readwrite');
@@ -72910,6 +72912,7 @@
 			   txn.oncomplete = function () {
 				   db.close();
 			   };
+			 
 		   }
 	   
 	   
