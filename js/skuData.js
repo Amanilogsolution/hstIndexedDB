@@ -9,7 +9,7 @@
         skuData.push(` 
             <tr class="text-center">
             <td>${index+1}</td>
-            <td>${value.SKU_NAME}</td>
+            <td class="text-wrap">${value.SKU_NAME}</td>
             <td>${value.SKU_QTY}</td>
             <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
             <td>${value.PACK_EXPIRY}</td>
