@@ -50,6 +50,7 @@ function ScanKit() {
                 data.push(event.target.result)
             }
         };
+         
         setTimeout(() => {
             data.forEach((value) => {
                 KITData = `
@@ -60,6 +61,8 @@ function ScanKit() {
                 </tr>   
                 `
             })
+          
+             
             document.getElementById('scandata').innerHTML = KITData
 
         }, 1000)

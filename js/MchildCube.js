@@ -43,40 +43,68 @@ function removeDuplicates(data) {
      for(let i=0;i<=11;i++)
      {
      // console.log(value.CC_NO,value.CC_NAME)
-     volume1.push(`
+     volume1.push(` 
+     <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+    <div class="col-sm mb-2">
+    <div class="card p-3" style="height:190px; width:290px">
+    <div class="d-flex flex-row">
+      <img src="img/childCube.png" width="90" height="70">
+        <div class="d-flex flex-column ml-2">
+        <span>${childCube[i]['CC_NO']}</span>
+        <span >
+        ${childCube[i]['CC_NAME']}
+        </span>
+        
+        </div>
+      </div> 
+    </div>
+    </div></a>
     
-  <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-success">
-  <div class="card   mb-resp px-0 py-1">
- <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
-  </div>
-</a>
-
+ 
         `)
       }
 
 
-      for(let i=11;i<=23;i++)
+      for(let i=12;i<=23;i++)
       {
       // console.log(value.CC_NO,value.CC_NAME)
       volume2.push(`
-   <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-primary">
-   <div class="card  mb-resp px-0 py-1">
-  <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
-   </div>
- </a>
- 
+      <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+      <div class="col-sm mb-2">
+      <div class="card p-3" style="height:190px; width:290px">
+      <div class="d-flex flex-row">
+        <img src="img/childCube.png" width="90" height="70">
+          <div class="d-flex flex-column ml-2">
+          <span>${childCube[i]['CC_NO']}</span>
+          <span >
+          ${childCube[i]['CC_NAME']}
+          </span>
+          
+          </div>
+        </div> 
+      </div>
+      </div></a>
          `)
        }
-       for(let i=23;i<=35;i++)
+       for(let i=24;i<=35;i++)
        {
        // console.log(value.CC_NO,value.CC_NAME)
        volume3.push(`
-    <a onClick="packData(${childCube[i]['CC_NO']})" class="text-decoration-none subchild-child-cube text-warning">
-    <div class="card   mb-resp px-0 py-1">
-   <small> <span class="text-danger">${childCube[i]['CC_NO']}</span>, ${childCube[i]['CC_NAME']}</small>
-    </div>
-  </a>
-  
+       <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+       <div class="col-sm mb-2">
+       <div class="card p-3" style="height:190px; width:290px">
+       <div class="d-flex flex-row">
+         <img src="img/childCube.png" width="90" height="70">
+           <div class="d-flex flex-column ml-2">
+           <span>${childCube[i]['CC_NO']}</span>
+           <span >
+           ${childCube[i]['CC_NAME']}
+           </span>
+           
+           </div>
+         </div> 
+       </div>
+       </div></a>
           `)
         }
       let str1 = volume1.toString().replaceAll(',', '');
