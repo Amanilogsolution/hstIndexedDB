@@ -56,12 +56,14 @@
       </div>
     </div>
   </nav>
-
+  <div style="background-color: #f8f9fa;" class="ml-3 font-italic"> 
+    <h6 class="mt-4 "><a href="index.html" class="text-danger"><small>Home</small></a> > <a href="identtificationInner.html"
+      class="text-dark text-decoration-none"><small>Identification</small></a> ><a href="identtificationInner.html"
+      class="text-dark text-decoration-none"><small>Random Inventory</small></a> > <small>QR Scan</small></h6>
+    </div>
   <section id="boxes" class="px-2">
     <div class="container">
-    <h6 class="mt-4 "><a href="index.html" class="text-danger">Home</a> > <a href="identtificationInner.html"
-      class="text-dark text-decoration-none">Identification</a> ><a href="identtificationInner.html"
-      class="text-dark text-decoration-none">Random Inventory</a> > QR Scan</h6>
+   
 
       <div class="card rounded shadow3-gray py-2 px-3 mb-2">
         <p>QR Scan:- </p>
@@ -72,7 +74,7 @@
 
         <div class="form-row mt-2">
             <input type="text" name="childCube" id="childCube" class="form-control" style="width:80%;"
-                placeholder="Enter Identify sku" />
+                placeholder="Search..." />
                 <button class="btn btn-outline-danger" id="Skusearch" onclick="QRScan('SKU')" style="display: none;">
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
                       <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
@@ -86,20 +88,22 @@
         </div>
     </div>
 
-
+<div class="row">
+  <table class="table"  id="skudata" >
+    <thead class="text-center ">
+        <tr>
+            <th >Pack Name</th>
+            <th >Sku</th>
+            <th >Qty</th>
+        </tr>
+    </thead>
+    <tbody  id="scandata">
+  
+    </tbody>
+</table>
+</div>
      
-            <table class="table"  id="skudata" >
-                <thead class="text-center ">
-                    <tr>
-                        <th >Pack Name</th>
-                        <th >Sku</th>
-                        <th >Qty</th>
-                    </tr>
-                </thead>
-                <tbody  id="scandata">
-              
-                </tbody>
-            </table>
+           
         </div>
     
 </section>

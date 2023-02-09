@@ -55,12 +55,27 @@ function searchchild() {
 	setTimeout(() => {
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(`
-			<tr>
-		 
-			<td>${value.MC_NAME}</td>
-			<td>${value.CC_NAME}</td>
-			<td>${value.SKU_NAME}</td>
-		  </tr>
+			 
+
+		  <ul class="list-group">
+		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+			M.Cube / C.Cube
+			
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center">
+		  <small> ${value.MC_NAME} <br />${value.CC_NAME} </small>
+		   
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+			Pack
+			 
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center">
+		  <small>${value.PACK_NAME} </small>
+			 
+		  </li>
+		</ul>
+			 
 		`)
 		})
 
@@ -84,7 +99,7 @@ function searchchild() {
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
 
-		document.getElementById('invNotMatch').innerHTML = str1
+		// document.getElementById('invNotMatch').innerHTML = str1
 
 
 		document.getElementById('invMatch').innerHTML = str;

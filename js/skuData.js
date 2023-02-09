@@ -7,7 +7,7 @@
     var skuData =[];
     data.forEach((value,index) => {
         skuData.push(` 
-            <tr class="text-center">
+            <tr class="text-center" style="font-size:12px">
             <td>${index+1}</td>
             <td class="text-wrap">${value.SKU_NAME}</td>
             <td>${value.SKU_QTY}</td>
