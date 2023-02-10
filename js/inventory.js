@@ -51,14 +51,24 @@ function searchchild() {
 	let inventoryMatch = [];
 	let inventoryNotMatch =[];
 	let SkuData = []
-	
+	let motherCubeName = '';
 
 	setTimeout(() => {
 
-		// console.log(matchedInventory[0][0]['SKU_CODE'])
-
+	 //console.log('demo',matchedInventory[0][0]['MC_NAME']);
+        motherCubeName = matchedInventory[0][0]['MC_NAME'];
 		matchedInventory[0].forEach((value) => {
-			console.log(value['SKU_NAME'])
+			SkuData.push(` 
+		 
+		  <li class="list-group-item">
+			 ${value['SKU_NAME']}
+			
+		  </li>
+		  
+		 
+			 
+		`)
+			 
 		})
 
 
@@ -67,9 +77,7 @@ function searchchild() {
 
 		
 		matchedInventory.forEach((value) => {
-			inventoryMatch.push(`
-			 
-
+			inventoryMatch.push(` 
 		  <ul class="list-group mb-4">
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
 			M.Cube  
@@ -114,7 +122,9 @@ function searchchild() {
 
 		// document.getElementById('invNotMatch').innerHTML = str1
 
-
+		let SkuDataVal = SkuData.toString().replaceAll(',', '');
+		document.getElementById('skudatavalue').innerHTML = SkuDataVal
+		document.getElementById('mcName').innerHTML = motherCubeName;
 		document.getElementById('invMatch').innerHTML = str;
 		document.getElementById('loading').style.display = 'none';
 	}, 1000);
