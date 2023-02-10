@@ -35,7 +35,7 @@ function searchchild() {
 			const txn = db.transaction('tbl_rfid', 'readonly');
 			const store = txn.objectStore('tbl_rfid');
 			const index = store.index('PACK_EPC');
-			let query = index.get(x);
+			let query = index.getAll(x);
 			query.onsuccess = (event) => {
 				if (!event.target.result) {
 					unmatchedInventory.push(x)
@@ -53,14 +53,32 @@ function searchchild() {
 	
 
 	setTimeout(() => {
+
+			console.log(matchedInventory[0].length)
+		
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(`
-			<tr>
-		 
-			<td>${value.MC_NAME}</td>
-			<td>${value.CC_NAME}</td>
-			<td>${value.SKU_NAME}</td>
-		  </tr>
+			 
+
+		  <ul class="list-group">
+		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+			M.Cube / C.Cube
+			
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center">
+		  <small> ${value[0]['MC_NAME']} <br />${value[0]['CC_NAME']} </small>
+		   
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+			Pack
+			 
+		  </li>
+		  <li class="list-group-item d-flex justify-content-between align-items-center">
+		  <small>${value[0]['PACK_NAME']}   ${matchedInventory[0].length} </small>
+			 
+		  </li>
+		</ul>
+			 
 		`)
 		})
 
@@ -84,7 +102,7 @@ function searchchild() {
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
 
-		document.getElementById('invNotMatch').innerHTML = str1
+		// document.getElementById('invNotMatch').innerHTML = str1
 
 
 		document.getElementById('invMatch').innerHTML = str;

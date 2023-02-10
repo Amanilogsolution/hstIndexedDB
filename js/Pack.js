@@ -14,7 +14,7 @@
     var packCubeData =[];
     pdata.forEach((value,index) => {
         packCubeData.push(` 
-            <tr onclick="dataDetils(${value.PACK_NO})" class="text-center">
+            <tr onclick="dataDetils(${value.PACK_NO})" class="text-center" style="font-size:14px">
             <td>${index+1}</td>
             <td>${value.PACK_NAME}</td>
             <td>${value.SKU_QTY}</td>
