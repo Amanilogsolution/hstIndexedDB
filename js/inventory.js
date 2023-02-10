@@ -55,7 +55,26 @@ function searchchild() {
 
 	setTimeout(() => {
 
-		// console.log(matchedInventory[0][0]['SKU_CODE'])
+		console.log(matchedInventory.length)
+
+		if(matchedInventory.length>0){
+
+			for(i=0;i<matchedInventory.length;i++){
+				if(matchedInventory[i][0]['MC_NAME'] == matchedInventory[i+1][0]['MC_NAME']){
+					console.log(matchedInventory[0][0]['MC_NAME'])
+
+
+
+				}else{
+					for(i=0;i<matchedInventory.length;i++)
+
+					console.log(matchedInventory[i][0]['MC_NAME'])
+				}
+			}
+
+		}
+
+
 
 		matchedInventory[0].forEach((value) => {
 			console.log(value['SKU_NAME'])
@@ -68,8 +87,6 @@ function searchchild() {
 		
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(`
-			 
-
 		  <ul class="list-group">
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
 			M.Cube / C.Cube
