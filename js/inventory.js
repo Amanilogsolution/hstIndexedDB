@@ -50,11 +50,21 @@ function searchchild() {
 
 	let inventoryMatch = [];
 	let inventoryNotMatch =[];
+	let SkuData = []
 	
 
 	setTimeout(() => {
 
-			console.log(matchedInventory[0].length)
+		// console.log(matchedInventory[0][0]['SKU_CODE'])
+
+		matchedInventory[0].forEach((value) => {
+			console.log(value['SKU_NAME'])
+		})
+
+
+
+
+
 		
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(`
@@ -108,6 +118,8 @@ function searchchild() {
 		document.getElementById('invMatch').innerHTML = str;
 		document.getElementById('loading').style.display = 'none';
 	}, 1000);
+
+
 
 
 
