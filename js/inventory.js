@@ -60,21 +60,21 @@ function searchchild() {
 			inventoryMatch.push(`
 			 
 
-		  <ul class="list-group">
+		  <ul class="list-group mb-4">
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			M.Cube / C.Cube
+			M.Cube  
 			
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small> ${value[0]['MC_NAME']} <br />${value[0]['CC_NAME']} </small>
+		  <small> ${value[0]['MC_NAME']} </small>
 		   
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			Pack
+			Pack <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>
 			 
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small>${value[0]['PACK_NAME']}   ${matchedInventory[0].length} </small>
+		  <small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}    </small>
 			 
 		  </li>
 		</ul>
