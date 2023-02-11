@@ -38,7 +38,7 @@ function removeDuplicates(arr) {
 function searchdata() {
     document.getElementById('loading').style.display = 'flex';
     const id = document.getElementById('child').value;
-    console.log(id);
+    //console.log(id);
     let uniqueArr = []
     let chunks = []
 
@@ -57,11 +57,26 @@ function searchdata() {
     
     let mothercube = match[0]['MC_NO'];
     let childcube = match[0]['CC_NO'];
-    let arr1 = []
-
+    let arr1 = [];
+    let SkuData = [];
     for(i=0;i<data.length;i++){
         arr1.push(data[i].PACK_EPC)
     }
+
+    // Fetch Child Cube SKU Data
+
+
+    match.forEach((value , index) => {
+        SkuData.push(`  
+      <tr>
+      <th scope="row"><small>${++index}</small></th>
+      <td><small >${value['SKU_NAME']}</small></td>
+      <td><small>${value['SKU_QTY']}</small></td> 
+    </tr>			 
+    `)			 
+    })	
+ 
+    // End
 
 setTimeout(()=>{
     let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
@@ -84,7 +99,7 @@ setTimeout(()=>{
     // match.forEach((value) => {
         inventoryMatch = (`
         <tr class="text-dark" style="font-size:14px">
-        <td>${match[0].PACK_NAME}</td>
+        <td data-toggle="modal" data-target="#exampleModal">${match[0].PACK_NAME}</td>
         <td>${match.length}</td>
         <td>${match[0].BATCH_EXPIRY}</td>
         </tr> 
@@ -101,12 +116,12 @@ setTimeout(()=>{
 		`)
     })
 
-    console.log(inventoryMisMatch)
+    console.log('demoasdfasdf',inventoryMatch);
 
     let Matchstr = inventoryMatch.toString().replaceAll(',', '');
     let MisMatchstr = inventoryMisMatch.toString().replaceAll(',', '');
 
-    
+    //console.log('Found',Matchstr);
     document.getElementById('mCube').innerHTML = mothercube;
     document.getElementById('cCube').innerHTML = childcube;
 
@@ -127,7 +142,7 @@ setTimeout(()=>{
    // document.getElementById('ccubesum').style.display = 'flex';
     
 
-
+    document.getElementById('skudatavalue').innerHTML = SkuData;
     
 
 }
