@@ -52,18 +52,26 @@ function searchchild() {
 	let inventoryNotMatch =[];
 	let SkuData = []
 	let motherCubeName = '';
-
+	let childCubeName = '';
 	setTimeout(() => {
 
-	 //console.log('demo',matchedInventory[0][0]['MC_NAME']);
+	 console.log('demo',matchedInventory[0][0]['CC_NAME']);
+
         motherCubeName = matchedInventory[0][0]['MC_NAME'];
-		matchedInventory[0].forEach((value) => {
+		childCubeName = matchedInventory[0][0]['CC_NAME'];
+		matchedInventory[0].forEach((value , index) => {
 			SkuData.push(` 
 		 
-		  <li class="list-group-item">
-			 ${value['SKU_NAME']}
+		 
+		  <tr>
+		  <th scope="row"><small>${++index}</small></th>
+		  <td><small>${value['SKU_NAME']}</small></td>
+		  <td><small>${value['SKU_QTY']}</small></td>
+		 
+		</tr>
 			
-		  </li>
+			
+		   
 		  
 		 
 			 
@@ -79,16 +87,10 @@ function searchchild() {
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(` 
 		  <ul class="list-group mb-4">
-		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			M.Cube  
-			
-		  </li>
-		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small> ${value[0]['MC_NAME']} </small>
 		   
-		  </li>
+		 
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			Pack <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>
+		  ${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>
 			 
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center">
@@ -118,13 +120,15 @@ function searchchild() {
 		document.getElementById('summery').style.display = 'flex';
 		document.getElementById('matchTable').style.display = 'flex';
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
-		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
+		//document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
 
 		// document.getElementById('invNotMatch').innerHTML = str1
 
 		let SkuDataVal = SkuData.toString().replaceAll(',', '');
 		document.getElementById('skudatavalue').innerHTML = SkuDataVal
 		document.getElementById('mcName').innerHTML = motherCubeName;
+		document.getElementById('cchildcubename').innerHTML = childCubeName;
+		//document.getElementById('childCubeNames').innerHTML = childCubeName;
 		document.getElementById('invMatch').innerHTML = str;
 		document.getElementById('loading').style.display = 'none';
 	}, 1000);
