@@ -51,23 +51,17 @@ function searchchild() {
 	let inventoryMatch = [];
 	let inventoryNotMatch =[];
 	let SkuData = []
-	
+	let motherCubeName = '';
 
 	setTimeout(() => {
 
-		console.log(matchedInventory.length)
 
 		if(matchedInventory.length>0){
-
 			for(i=0;i<matchedInventory.length;i++){
 				if(matchedInventory[i][0]['MC_NAME'] == matchedInventory[i+1][0]['MC_NAME']){
 					console.log(matchedInventory[0][0]['MC_NAME'])
-
-
-
 				}else{
 					for(i=0;i<matchedInventory.length;i++)
-
 					console.log(matchedInventory[i][0]['MC_NAME'])
 				}
 			}
@@ -77,67 +71,45 @@ function searchchild() {
 
 
 		matchedInventory[0].forEach((value) => {
-			console.log(value['SKU_NAME'])
+			SkuData.push(`<li class="list-group-item"> ${value['SKU_NAME']}</li>`)
 		})
 
-
-
-
-
-		
 		matchedInventory.forEach((value) => {
-			inventoryMatch.push(`
-		  <ul class="list-group">
+			inventoryMatch.push(` 
+		  <ul class="list-group mb-4">
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			M.Cube / C.Cube
-			
+			M.Cube  
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small> ${value[0]['MC_NAME']} <br />${value[0]['CC_NAME']} </small>
-		   
+		  <small> ${value[0]['MC_NAME']} </small>
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-			Pack
-			 
+			Pack <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>
 		  </li>
 		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small>${value[0]['PACK_NAME']}   ${matchedInventory[0].length} </small>
-			 
+		  <small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>
 		  </li>
-		</ul>
-			 
-		`)
+		</ul> `)
 		})
 
 		unmatchedInventory.forEach((value) => {
 			inventoryNotMatch.push(`
-			
   				<li class="list-group-item list-group-item-warning">
 				<h6>${value} </h6></li>
-
-			 
 		`)
-	})
-	console.log(inventoryNotMatch)
-  
+	})  
 		let str = inventoryMatch.toString().replaceAll(',', '');
 		let str1 = inventoryNotMatch.toString().replaceAll(',', '');
 		document.getElementById('matchTable').style.display = 'flex';
-
 		document.getElementById('summery').style.display = 'flex';
 		document.getElementById('matchTable').style.display = 'flex';
 		document.getElementById('matchdata').innerHTML = matchedInventory.length
 		document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
-
-		// document.getElementById('invNotMatch').innerHTML = str1
-
-
+		let SkuDataVal = SkuData.toString().replaceAll(',', '');
+		document.getElementById('skudatavalue').innerHTML = SkuDataVal
+		document.getElementById('mcName').innerHTML = motherCubeName;
 		document.getElementById('invMatch').innerHTML = str;
 		document.getElementById('loading').style.display = 'none';
 	}, 1000);
-
-
-
-
 
 }
