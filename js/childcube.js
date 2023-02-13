@@ -111,7 +111,7 @@ setTimeout(()=>{
         <tr class="text-dark" style="font-size:14px">
         <td>${value.PACK_NAME}</td>
         <td>${value.SKU_QTY}</td>
-        <td>${value.BATCH_EXPIRY}</td>
+        <td>${value.BATCH_EXPIRY }</td>
         </tr>
 		`)
     })
