@@ -72882,17 +72882,26 @@
 		   request.onsuccess = (event) => {
 		   const db = event.target.result;
 
-	   
+		   if(localStorage.getItem('databaseLength') != data.length){
 			   // console.log('data lengyh', data.length);
+<<<<<<< HEAD
 			   for (i = 0; i < data.length; i++) {
 				console.log(i,data.length)
 				   insertContact(db, data[i],data.length,i)
+=======
+			   for (i = 0; i <= data.length; i++) {
+					insertContact(db, data[i],data.length,i)
+			
+>>>>>>> 192e6ab16cf2ac809e139adaa54650d404ba7c0b
 			   }
+			}else{
+				console.log('Already Data')
+			}
 	   
 		   };
 
-		   function insertContact(db, contact,length) {
-	   
+		   function insertContact(db, contact,length,index) {
+		
 			   // create a new transaction
 			   const txn = db.transaction('tbl_rfid', 'readwrite');
 	   
@@ -72903,6 +72912,19 @@
 	   
 			   // handle success case
 			   query.onsuccess = function (event) {
+				console.log(index,length);
+				if(index < length){
+					console.log(index,length)
+					document.getElementById('loading').style.display = 'flex';
+
+			
+				}else{
+				console.log('hiiii',index,length)
+				localStorage.setItem('databaseLength',length)
+				document.getElementById('loading').style.display = 'none';
+			
+			
+				}
 			   };
 	   
 			   // handle the error case

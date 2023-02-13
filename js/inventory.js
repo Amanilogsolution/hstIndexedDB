@@ -1,13 +1,9 @@
-const idb = window.indexedDB;
-
-
+const idb = window.indexedDB; 
 function removeDuplicates(arr) {
 	return arr.filter((item, index) => arr.indexOf(item) === index);
-}
+} 
 
-
-function searchchild() {
-     
+function searchchild() { 
 	var searchValue = document.getElementById("childCube").value;
 	console.log(searchValue);
 	if(searchValue == ''){
@@ -17,8 +13,7 @@ function searchchild() {
 	 
 	document.getElementById('loading').style.display = 'flex';
 	let id = document.getElementById('childCube').value;
-	console.log(id)
-
+	console.log(id) 
 	let uniqueArr = []
 	let chunks = []
 	let matchedInventory = [];
@@ -53,79 +48,53 @@ function searchchild() {
 	let SkuData = []
 	let motherCubeName = '';
 	let childCubeName = '';
-	setTimeout(() => {
-
-	 console.log('demo',matchedInventory[0][0]['CC_NAME']);
-
-        motherCubeName = matchedInventory[0][0]['MC_NAME'];
+	setTimeout(() => { 
+		//console.log('demo',matchedInventory[0][0]['CC_NAME']); 
+    	motherCubeName = matchedInventory[0][0]['MC_NAME'];
 		childCubeName = matchedInventory[0][0]['CC_NAME'];
 		matchedInventory[0].forEach((value , index) => {
-			SkuData.push(` 
+			SkuData.push(`  
 		  <tr>
 		  <th scope="row"><small>${++index}</small></th>
 		  <td><small>${value['SKU_NAME']}</small></td>
-		  <td><small>${value['SKU_QTY']}</small></td>
-		 
+		  <td><small>${value['SKU_QTY']}</small></td> 
 		</tr>			 
-		`)	 
-		})
-
-		if(matchedInventory.length>0){
-			for(i=0;i<matchedInventory.length;i++){
-				if(matchedInventory[i][0]['MC_NAME'] == matchedInventory[i+1][0]['MC_NAME']){
-					console.log(matchedInventory[0][0]['MC_NAME'])
-				}else{
-					for(i=0;i<matchedInventory.length;i++)
-					console.log(matchedInventory[i][0]['MC_NAME'])
-				}
-			}
-
-		}
-
-
-
-		matchedInventory[0].forEach((value) => {
-			SkuData.push(`<li class="list-group-item"> ${value['SKU_NAME']}</li>`)
-		})
-
+		`)			 
+		})		
 		matchedInventory.forEach((value) => {
 			inventoryMatch.push(` 
-		  <ul class="list-group mb-4">
-		   
-		 
-		  <li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-		  ${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>
-			 
-		  </li>
-		  <li class="list-group-item d-flex justify-content-between align-items-center">
-		  <small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>
-		  </li>
-		</ul> `)
+				<ul class="list-group mb-4">		 
+				<li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+				${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>			 
+				</li>
+				<li class="list-group-item d-flex justify-content-between align-items-center">
+				<small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>	 
+				</li>
+				</ul>			 
+			`)
 		})
 
 		unmatchedInventory.forEach((value) => {
-			inventoryNotMatch.push(`
+			inventoryNotMatch.push(` 
   				<li class="list-group-item list-group-item-warning">
-				<h6>${value} </h6></li>
-		`)
-	})  
-		let str = inventoryMatch.toString().replaceAll(',', '');
-		let str1 = inventoryNotMatch.toString().replaceAll(',', '');
-		document.getElementById('matchTable').style.display = 'flex';
-		document.getElementById('summery').style.display = 'flex';
-		document.getElementById('matchTable').style.display = 'flex';
-		document.getElementById('matchdata').innerHTML = matchedInventory.length
-		//document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length
-
-		// document.getElementById('invNotMatch').innerHTML = str1
-
-		let SkuDataVal = SkuData.toString().replaceAll(',', '');
-		document.getElementById('skudatavalue').innerHTML = SkuDataVal
-		document.getElementById('mcName').innerHTML = motherCubeName;
-		document.getElementById('cchildcubename').innerHTML = childCubeName;
-		//document.getElementById('childCubeNames').innerHTML = childCubeName;
-		document.getElementById('invMatch').innerHTML = str;
-		document.getElementById('loading').style.display = 'none';
-	}, 1000);
-
+				<h6>${value} </h6></li> 
+		    `)
+	    })
+		console.log(inventoryNotMatch) 
+			let str = inventoryMatch.toString().replaceAll(',', '');
+			let str1 = inventoryNotMatch.toString().replaceAll(',', '');
+			document.getElementById('matchTable').style.display = 'flex'; 
+			document.getElementById('summery').style.display = 'flex';
+			document.getElementById('matchTable').style.display = 'flex';
+			document.getElementById('matchdata').innerHTML = matchedInventory.length
+			//document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length 
+			// document.getElementById('invNotMatch').innerHTML = str1 
+			let SkuDataVal = SkuData.toString().replaceAll(',', '');
+			document.getElementById('skudatavalue').innerHTML = SkuDataVal
+			document.getElementById('mcName').innerHTML = motherCubeName;
+			document.getElementById('cchildcubename').innerHTML = childCubeName;
+			//document.getElementById('childCubeNames').innerHTML = childCubeName;
+			document.getElementById('invMatch').innerHTML = str;
+			document.getElementById('loading').style.display = 'none';
+		}, 1000); 
 }
