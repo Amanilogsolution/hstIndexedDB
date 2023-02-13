@@ -72884,15 +72884,9 @@
 
 		   if(localStorage.getItem('databaseLength') != data.length){
 			   // console.log('data lengyh', data.length);
-<<<<<<< HEAD
-			   for (i = 0; i < data.length; i++) {
-				console.log(i,data.length)
-				   insertContact(db, data[i],data.length,i)
-=======
 			   for (i = 0; i <= data.length; i++) {
 					insertContact(db, data[i],data.length,i)
 			
->>>>>>> 192e6ab16cf2ac809e139adaa54650d404ba7c0b
 			   }
 			}else{
 				console.log('Already Data')
