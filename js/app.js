@@ -72885,7 +72885,8 @@
 	   
 			   // console.log('data lengyh', data.length);
 			   for (i = 0; i < data.length; i++) {
-				   insertContact(db, data[i],data.length)
+				console.log(i,data.length)
+				   insertContact(db, data[i],data.length,i)
 			   }
 	   
 		   };
