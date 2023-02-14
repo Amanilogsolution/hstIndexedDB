@@ -95,8 +95,6 @@ function mcid(MCNO){
 
 
 function ChildCube(value) {
-
-
     // let id = document.getElementById('childCub alert('amresh')e').value
     
     let input = ''+value
