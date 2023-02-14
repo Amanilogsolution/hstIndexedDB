@@ -72825,6 +72825,8 @@
 	}
    ]
 
+
+
    
 
 	   const idb = window.indexedDB;
@@ -72836,6 +72838,7 @@
 			   console.log(`Your browser doesn't support IndexedDB`);
 			   return;
 		   }
+		   
 	   
 	   
 		   // open the CRM database with the version 1
@@ -72886,7 +72889,6 @@
 			   // console.log('data lengyh', data.length);
 			   for (i = 0; i <= data.length; i++) {
 					insertContact(db, data[i],data.length,i)
-			
 			   }
 			}else{
 				console.log('Already Data')
@@ -72909,11 +72911,8 @@
 				console.log(index,length);
 				if(index < length){
 					console.log(index,length)
-					document.getElementById('loading').style.display = 'flex';
-
-			
+					document.getElementById('loading').style.display = 'flex'
 				}else{
-				console.log('hiiii',index,length)
 				localStorage.setItem('databaseLength',length)
 				document.getElementById('loading').style.display = 'none';
 			

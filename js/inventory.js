@@ -30,7 +30,7 @@ function searchchild() {
 			const txn = db.transaction('tbl_rfid', 'readonly');
 			const store = txn.objectStore('tbl_rfid');
 			const index = store.index('PACK_EPC');
-			let query = index.getAll(x);
+			let query = index.get(x);
 			query.onsuccess = (event) => {
 				if (!event.target.result) {
 					unmatchedInventory.push(x)
@@ -49,52 +49,87 @@ function searchchild() {
 	let motherCubeName = '';
 	let childCubeName = '';
 	setTimeout(() => { 
-		//console.log('demo',matchedInventory[0][0]['CC_NAME']); 
-    	motherCubeName = matchedInventory[0][0]['MC_NAME'];
-		childCubeName = matchedInventory[0][0]['CC_NAME'];
-		matchedInventory[0].forEach((value , index) => {
-			SkuData.push(`  
-		  <tr>
-		  <th scope="row"><small>${++index}</small></th>
-		  <td><small>${value['SKU_NAME']}</small></td>
-		  <td><small>${value['SKU_QTY']}</small></td> 
-		</tr>			 
-		`)			 
-		})		
-		matchedInventory.forEach((value) => {
-			inventoryMatch.push(` 
-				<ul class="list-group mb-4">		 
-				<li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
-				${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>			 
-				</li>
-				<li class="list-group-item d-flex justify-content-between align-items-center">
-				<small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>	 
-				</li>
-				</ul>			 
-			`)
-		})
+		console.log(matchedInventory)
+	// 	if(matchedInventory.length>1){
+	// 		console.log(matchedInventory[1][0]['MC_NAME'])
 
-		unmatchedInventory.forEach((value) => {
-			inventoryNotMatch.push(` 
-  				<li class="list-group-item list-group-item-warning">
-				<h6>${value} </h6></li> 
-		    `)
-	    })
-		console.log(inventoryNotMatch) 
-			let str = inventoryMatch.toString().replaceAll(',', '');
-			let str1 = inventoryNotMatch.toString().replaceAll(',', '');
-			document.getElementById('matchTable').style.display = 'flex'; 
-			document.getElementById('summery').style.display = 'flex';
-			document.getElementById('matchTable').style.display = 'flex';
-			document.getElementById('matchdata').innerHTML = matchedInventory.length
-			//document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length 
-			// document.getElementById('invNotMatch').innerHTML = str1 
-			let SkuDataVal = SkuData.toString().replaceAll(',', '');
-			document.getElementById('skudatavalue').innerHTML = SkuDataVal
-			document.getElementById('mcName').innerHTML = motherCubeName;
-			document.getElementById('cchildcubename').innerHTML = childCubeName;
-			//document.getElementById('childCubeNames').innerHTML = childCubeName;
-			document.getElementById('invMatch').innerHTML = str;
-			document.getElementById('loading').style.display = 'none';
+	// 		for(var j=0;j<=matchedInventory.length;++j){
+	// 			if(j== matchedInventory.length){
+	// 				--j
+	// 			}
+
+	// 		if(matchedInventory[j][0]['MC_NAME'] == matchedInventory[j+1][0]['MC_NAME'] ){
+	// 			console.log(matchedInventory)
+	// 			// matchedInventory.forEach((value) => {
+	// 			// 	inventoryMatch.push(` 
+	// 			// 		<ul class="list-group mb-4">		 
+	// 			// 		<li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+	// 			// 		${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>			 
+	// 			// 		</li>
+	// 			// 		<li class="list-group-item d-flex justify-content-between align-items-center">
+	// 			// 		<small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>	 
+	// 			// 		</li>
+	// 			// 		</ul>			 
+	// 			// 	`)
+	// 			// })
+
+				
+	// 		}
+
+	// 		else{
+	// 			console.log('not same mc no')
+	// 		}
+	// 	}
+		
+	// 	}else{
+	// 	//console.log('demo',matchedInventory[0][0]['CC_NAME']); 
+    // 	motherCubeName = matchedInventory[0][0]['MC_NAME'];
+	// 	childCubeName = matchedInventory[0][0]['CC_NAME'];
+	// 	matchedInventory[0].forEach((value , index) => {
+	// 		SkuData.push(`  
+	// 	  <tr>
+	// 	  <th scope="row"><small>${++index}</small></th>
+	// 	  <td><small>${value['SKU_NAME']}</small></td>
+	// 	  <td><small>${value['SKU_QTY']}</small></td> 
+	// 	</tr>			 
+	// 	`)			 
+	// 	})		
+	// 	matchedInventory.forEach((value) => {
+	// 		inventoryMatch.push(` 
+	// 			<ul class="list-group mb-4">		 
+	// 			<li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">
+	// 			${value[0]['MC_NAME']} <span class="badge badge-danger badge-pill float-right">QTY : ${matchedInventory[0].length}</span>			 
+	// 			</li>
+	// 			<li class="list-group-item d-flex justify-content-between align-items-center">
+	// 			<small data-toggle="modal" data-target="#exampleModal">${value[0]['PACK_NAME']}</small>	 
+	// 			</li>
+	// 			</ul>			 
+	// 		`)
+	// 	})
+
+	// 	unmatchedInventory.forEach((value) => {
+	// 		inventoryNotMatch.push(` 
+  	// 			<li class="list-group-item list-group-item-warning">
+	// 			<h6>${value} </h6></li> 
+	// 	    `)
+	//     })
+	// 	console.log(inventoryNotMatch) 
+	// 		let str = inventoryMatch.toString().replaceAll(',', '');
+	// 		let str1 = inventoryNotMatch.toString().replaceAll(',', '');
+	// 		document.getElementById('matchTable').style.display = 'flex'; 
+	// 		document.getElementById('summery').style.display = 'flex';
+	// 		document.getElementById('matchTable').style.display = 'flex';
+	// 		document.getElementById('matchdata').innerHTML = matchedInventory.length
+	
+	// 		//document.getElementById('notmatchdnata').innerHTML = unmatchedInventory.length 
+	// 		// document.getElementById('invNotMatch').innerHTML = str1 
+	// 		let SkuDataVal = SkuData.toString().replaceAll(',', '');
+	// 		document.getElementById('skudatavalue').innerHTML = SkuDataVal
+	// 		document.getElementById('mcName').innerHTML = motherCubeName;
+	// 		document.getElementById('cchildcubename').innerHTML = childCubeName;
+	// 		//document.getElementById('childCubeNames').innerHTML = childCubeName;
+	// 		document.getElementById('invMatch').innerHTML = str;
+	// 		document.getElementById('loading').style.display = 'none';
+	// }
 		}, 1000); 
 }
