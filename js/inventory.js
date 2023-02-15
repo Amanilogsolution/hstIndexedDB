@@ -56,22 +56,7 @@ function searchchild() {
 		let result2 = Object.keys(result)  
 		 
         
-        // for(i=0;i<result2.length;i++){
-		// 	displayInvetory += '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">'+ result[`${result2[i]}`][0]['MC_NAME']+ '</li>'
-          
-        //     for(j=0;j<result[`${result2[i]}`].length;j++){
-		// 		count[result[`${result2[i]}`][j]['PACK_NAME']] = (count[result[`${result2[i]}`][j]['PACK_NAME']] || 0) +1
-				
-              
-        //     } 
-        // }
-		// let result3 = Object.keys(count) 
-		// for(k=0;k<result3.length;k++){
-		// 	console.log(result3[k] , count[`${result3[k]}`])
-
-		// 	displayInvetory += '<li class="list-group-item d-flex justify-content-between align-items-center" data-toggle="modal" data-target="#exampleModal">'+ result3[k] + count[`${result3[k]}`]+ '</li></ul>'
-			
-		// }
+  
 
 		for(i=0;i<result2.length;i++){
 			displayInvetory += '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">'+ result[`${result2[i]}`][0]['MC_NAME']+ '</li>'
