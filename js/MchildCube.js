@@ -36,7 +36,8 @@ function removeDuplicates(data) {
     TotalData =  Array.from(uniqueSet).map(JSON.parse);
 
     const childCube = getUniqueListBy(uniqueArray,'CC_NO')
-    console.log( childCube[0]['CC_NO'],childCube[0]['CC_NAME']);
+    console.log(childCube);
+    console.log("demo",childCube[0]['CC_NO'],childCube[0]['CC_NAME']);
     let volume1 = [];   
     let volume2 = [];   
     let volume3 = [];   

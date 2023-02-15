@@ -53,7 +53,10 @@ function searchchild() {
 			return x;
 		 },{})
 
-		let result2 = Object.keys(result)   
+		let result2 = Object.keys(result)  
+		 
+        
+  
 
 		for(i=0;i<result2.length;i++){
 			displayInvetory += '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">'+ result[`${result2[i]}`][0]['MC_NAME']+ '</li>'
