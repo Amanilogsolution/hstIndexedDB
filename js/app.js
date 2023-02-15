@@ -7638,7 +7638,7 @@
 				   unique: false
 			   });
 	   
-			   let index1 = store.createIndex('CC_NO', 'CC_NO', {
+			   let index1 = store.createIndex('CC_NO', 'CC_EPCNO', {
 				   unique: false
 			   });
 	   
@@ -7649,9 +7649,6 @@
 				   unique: false
 			   });
 		   
-		   
-	   
-	   
 		   };
 	   
 		   // handle the error event
