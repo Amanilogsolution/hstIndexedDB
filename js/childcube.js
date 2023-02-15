@@ -47,7 +47,7 @@ function searchdata() {
         chunks.push(id.substring(i, i + 24));
     }
     uniqueArr = removeDuplicates(chunks);
-    console.log(uniqueArr)
+    // console.log(uniqueArr)
 
     const data = JSON.parse(localStorage['datas'])
     
@@ -57,51 +57,36 @@ function searchdata() {
 
     let match = data.filter(e => uniqueArr.includes(e.PACK_EPC))
     let Mismatch = data.filter(e => !uniqueArr.includes(e.PACK_EPC))
-    let mothercube = 'mc1';
-    let childcube = 'cc1';
+    console.log(match.length)
+    let mothercube = match.length>0 ? match[0]['MC_NO'] : '';
+    let childcube = match.length>0 ? match[0]['CC_NO'] : '';
     let arr1 = [];
-    let SkuData = [];
     for(i=0;i<data.length;i++){ arr1.push(data[i].PACK_EPC)}
-
-    match.forEach((value , index) => {
-    SkuData.push(`  
-      <tr>
-      <th scope="row"><small>${++index}</small></th>
-      <td><small >${value['SKU_NAME']}</small></td>
-      <td><small>${value['SKU_QTY']}</small></td> 
-    </tr>			 
-    `)			 
-    })	
 
 setTimeout(()=>{
     let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
+    // console.log('dkjhkdnhvkdh',OtherInventory)
 },1000)
-console.log(match)
-
     var result = match.reduce((x,y)=>{
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y)
         return x;
      },{})
-     console.log('llll',result)
 
      let result2 = Object.keys(result)  
      for(i=0;i<result2.length;i++){
-        console.log(result[`${result2[i]}`])
-
         var resultdata = result[`${result2[i]}`].reduce((x,y)=>{
-            (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y)
+            (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y)
             return x;
          },{})
-         console.log('hii', resultdata)
+         let result3 = Object.keys(resultdata)  
         inventoryMatch.push(`
-        <tr class="text-dark" style="font-size:14px">
+        <tr class="text-dark" style="font-size:14px" onClick="match('${result[result2[i]][0]['PACK_EPC']}')">
         <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
-        <td>${result[`${result2[i]}`].length}</td>
+        <td>${result3.length}</td>
          <td>${result[`${result2[i]}`][0]['BATCH_EXPIRY']}</td>
         </tr> 
 		`)
      }
-     console.log(Mismatch)
      var resultdata = Mismatch.reduce((x,y)=>{
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y)
         return x;
@@ -120,10 +105,6 @@ console.log(match)
 
      }
 
-   
-
-
-
     let Matchstr = inventoryMatch.toString().replaceAll(',', '');
     let MisMatchstr = inventoryMisMatch.toString().replaceAll(',', '');
     document.getElementById('mCube').innerHTML = mothercube;
@@ -136,6 +117,50 @@ console.log(match)
     document.getElementById('summery').style.display = 'flex';
     document.getElementById('matchsummary').style.display = 'flex';
     document.getElementById('mismatchsummary').style.display = 'flex';    
-    document.getElementById('skudatavalue').innerHTML = SkuData;
+}
+function match(value){
+    var packData =[];
+	 
+    const ldb = idb.open('CRM', 2);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('tbl_rfid', 'readonly'); 
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query = index.getAll(value);
+        query.onsuccess = (event) => {
+            if (!event.target.result) {
+                console.log(`this ${value} not match`)
+            } else {
+                packData.push(event.target.result)
+            }
+        }
+    };
+    setTimeout(()=>{
+        let SkuData = [];
+
+
+        packData[0].forEach((value , index) => {
+            SkuData.push(`  
+              <tr>
+              <th scope="row"><small>${++index}</small></th>
+              <td><small >${value['SKU_NAME']}</small></td>
+              <td><small>${value['SKU_QTY']}</small></td> 
+            </tr>			 
+            `)			 
+            })	
+
+            let str = SkuData.toString().replaceAll(',', '');
+
+
+            document.getElementById('skudatavalue').innerHTML = str;
+
+
+
+    },1000)
+
+
+
+
 }
 
