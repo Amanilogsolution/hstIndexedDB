@@ -59,8 +59,6 @@ function removeDuplicates(data) {
       </div> 
     </div>
     </div></a>
-    
- 
         `)
       }
 
