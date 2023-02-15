@@ -55,8 +55,11 @@ function searchdata() {
     let match = data.filter(e => uniqueArr.includes(e.PACK_EPC))
     let Mismatch = data.filter(e => !uniqueArr.includes(e.PACK_EPC))
     
-    let mothercube = match[0]['MC_NO'];
-    let childcube = match[0]['CC_NO'];
+    // let mothercube = match[0]['MC_NO'];
+    // let childcube = match[0]['CC_NO'];
+
+     let mothercube = 'MC';
+     let childcube = 'CC';
     let arr1 = [];
     let SkuData = [];
     for(i=0;i<data.length;i++){
