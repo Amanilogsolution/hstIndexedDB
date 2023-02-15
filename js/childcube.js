@@ -4,16 +4,13 @@ var filtervalue;
 function ChildCube(){
     let data = document.getElementById('childCube').value
 
-    // data = 'C00000000000000000000005C00000000000000000000001E28069950000400E7CC56D42'
     let chunks = []
     const childcubeDropdown = []
 
     for (var i = 0, charsLength = data.length; i < charsLength; i += 24) {
 		chunks.push(data.substring(i, i + 24));
 	}
-	uniqueArr = removeDuplicates(chunks);
-    console.log(uniqueArr)
-   
+	uniqueArr = removeDuplicates(chunks);   
     uniqueArr.forEach(x=>{
 
         const ldb = idb.open('CRM', 2);
@@ -32,20 +29,15 @@ function ChildCube(){
                 console.log(`this ${x} not match`)
 
             } else {
-                console.log(event.target.result)
                 childcubeDropdown.push(event.target.result) 
    
             }
         };
-      
-
-        // document.getElementById('search2').style.display = 'flex';
     }
 
     })
     setTimeout(()=>{
         const dropdown = []
-        console.log(childcubeDropdown)
 
         dropdown.push(
             `<option hidden value="">Please Select Child Cube</option>`
@@ -57,7 +49,6 @@ function ChildCube(){
             )
              )
 
-             console.log(dropdown)
              document.getElementById('childcubesearch').style.display='none'
              document.getElementById('childcubeDropdown').style.display='flex'
              document.getElementById('selectedChildCube').innerHTML=dropdown
@@ -125,6 +116,58 @@ function searchdata() {
 
 setTimeout(()=>{
     let OtherInventory = uniqueArr.filter((e => !arr1.includes(e)))
+    const datass = []
+
+    OtherInventory.forEach(x=>{
+
+        const ldb = idb.open('CRM', 2);
+
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('tbl_rfid', 'readonly');
+
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query = index.get(x);
+
+        query.onsuccess = (event) => {
+
+            if (!event.target.result) {
+                console.log(`this ${x} not match`)
+
+            } else {
+                datass.push(event.target.result) 
+   
+            }
+        };
+    }
+
+    })
+    setTimeout(()=>{
+
+        console.log(datass)
+        const invdata = []
+
+        for(i=0;i<datass.length;i++){
+            console.log(datass[i].CC_NAME)
+     
+            invdata.push(`
+            <tr class="text-dark" style="font-size:14px" >
+            <td data-toggle="modal" data-target="#exampleModal">${datass[i].CC_NAME}</td>
+            <td>${datass[i].PACK_NAME}</td>
+            <td>${datass[i].PACK_EXPIRY}</td>
+
+            </tr> 
+            `)
+            document.getElementById('wrongkitsummary').style.display = 'flex'
+
+            document.getElementById('wrongKitFound').innerHTML = invdata
+         }
+
+       
+
+    },1000)
+
 },1000)
     var result = match.reduce((x,y)=>{
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y)
