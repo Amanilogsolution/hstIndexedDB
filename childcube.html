@@ -87,11 +87,17 @@
     <section id="boxes" class="px-2 mb-1">
       <div class="row py-1  rounded" style="background-color: #FFE8E6;">
         <label for="inventory" class="col-sm-2 col-form-label ml-1"><strong>Child Cube </strong></label>
-        <div class="input-group px-3 ">
+        <div class="input-group px-3" id="childcubesearch">
           <input class="form-control" name="childCube" id="childCube" placeholder="Search">
           <span class="input-group-btn">
-            <button class="btn btn-primary" onclick="searchChildCube()" style="display: inline-flexbox;">Search</button>
+            <button class="btn btn-primary" onclick="ChildCube()" style="display: inline-flexbox;">Search</button>
           </span>
+        </div>
+        <div class="input-group px-3" id="childcubeDropdown" style="display:none">
+          <select class="form-control p-2" id="selectedChildCube" onChange="searchChildCube(event)">
+                
+          </select>
+          
         </div>
         <div class="form-group px-3">
           <div id="search2" style="display: none; margin-top: 10px;">
