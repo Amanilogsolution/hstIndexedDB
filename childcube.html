@@ -82,7 +82,7 @@
   <div class="container">
     <section id="boxes" class="px-2 mb-1">
       <div class="row">
-        <div class="col-md-12 float-right"> <a type="button" href="javascript:void(0);" onclick="window.location.reload(true);" class="float-right btn btn-outline-info btn btn-sm">Refresh</a></div>
+        <div class="col-md-12 float-right"> <a type="button" href="javascript:void(0);" onclick="window.location.reload(true);" class="float-right btn btn-outline-dark btn btn-sm mb-1">Refresh</a></div>
       </div>
       
       <div class="row py-1  rounded" style="background-color: #FFE8E6;">
@@ -90,9 +90,9 @@
         <label for="inventory" class="col-sm-2 col-form-label ml-1"><strong>Child Cube </strong></label>
      
         <div class="input-group px-3" id="childcubesearch">
-          <input class="form-control" name="childCube" type="" id="childCube" placeholder="Search">
+          <input class="form-control" name="childCube" type="" id="childCube" placeholder="Scan">
           <span class="input-group-btn">
-            <button class="btn btn-primary" onclick="ChildCube()" style="display: inline-flexbox;">Search</button>
+            <button class="btn btn-primary" onclick="ChildCube()" style="display: inline-flexbox;">Scan</button>
           </span>
         </div>
         <div class="input-group px-3" id="childcubeDropdown" style="display:none">
@@ -103,9 +103,9 @@
      
         <div class="form-group px-3">
           <div id="search2" style="display: none; margin-top: 10px;">
-            <input class="form-control   border border-white" name="childCube" id="child" placeholder="Search">
+            <input class="form-control   border border-white" name="childCube" id="child" placeholder="Scan">
             <span class="input-group-btn">
-              <button class="btn btn-primary" onclick="searchdata()" style="display: inline-flexbox;">Search</button>
+              <button class="btn btn-primary" onclick="searchdata()" style="display: inline-flexbox;">Scan</button>
             </span>
           </div>
         </div>
@@ -132,8 +132,10 @@
           <div class="rounded shadow3-gray text-dark parent-top-child-table mt-2 mb-3" style="display: none;"
             id="matchsummary">
             <div class=" text-dark parent-child-table">
+              <h6 class="text-success text-center py-2">Total Kit Found</h6>
               <table class="table table-striped table-bordered w-100" style="font-size: 14px;">
-                <thead class="text-center bg-success text-white">
+                <thead class="text-center bg-success text-white" style="font-size:12px">
+                 
                   <tr>
                     <th scope="col">Kit</th>
                     <th>View</th>
@@ -150,8 +152,9 @@
           <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white mb-4 " style="display: none; "
             id="mismatchsummary">
             <div class=" text-dark parent-child-table">
+              <h6 class="text-danger text-center py-2">Total Kit Short</h6>
               <table class="table table-striped table-bordered">
-                <thead class="text-center bg-danger text-white ">
+                <thead class="text-center bg-danger text-white " style="font-size:12px">
                   <tr>
                     <th scope="col">Kit</th>
                     <th>View</th>
@@ -165,11 +168,12 @@
               </table>
             </div>
           </div>
-          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white pt-3" style="display: none; "
+          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white" style="display: none; "
           id="wrongkitsummary">
           <div class=" text-dark parent-child-table">
+            <h6 class="text-warning text-center py-2">Other</h6>
             <table class="table table-striped table-bordered">
-              <thead class="text-center bg-warning text-white ">
+              <thead class="text-center bg-warning text-white " style="font-size:12px">
                 <tr>
                   <th scope="col">Child Cube</th>
                   <th>View</th>
