@@ -70,15 +70,15 @@ function searchchild() {
 			displayInvetory +=`
 			<li class="list-group-item d-flex justify-content-between align-items-center" onClick="ab('${result1[result3[j]][0]['PACK_EPC']}')" data-toggle="modal" data-target="#exampleModal">
 			 ${result1[result3[j]][0]['PACK_NAME']}  
-			 <span class="badge badge-success float-right">  ${result1[result3[j]].length} </span></li></ul>`
+			 <span class="badge badge-success  float-right">  ${result1[result3[j]].length} </span></li></ul>`
 	 	   
 		} 
 			
 		}
 		document.getElementById('summery').style.display='flex';
 		document.getElementById('loading').style.display='none';
-		 document.getElementById('matchdata').innerHTML = matchedInventory.length;
-		 document.getElementById('invMatch').innerHTML = displayInvetory;
+		document.getElementById('matchdata').innerHTML = matchedInventory.length;
+		document.getElementById('invMatch').innerHTML = displayInvetory;
 	}, 1000); 
 
 	

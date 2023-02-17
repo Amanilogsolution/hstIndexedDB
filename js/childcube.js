@@ -66,8 +66,11 @@ function searchChildCube(e) {
                 localStorage['datas'] = JSON.stringify(event.target.result)
             }
         };
-
+         
         document.getElementById('search2').style.display = 'flex';
+        document.getElementById("child").focus();
+
+
     }
 }
 
@@ -195,6 +198,14 @@ function searchdata() {
     mismatchdatalength.map(x => mismatchsum += x);
 
     console.log('mismatch',mismatchsum)
+
+
+
+
+
+
+
+     
 
     let Matchstr = inventoryMatch.toString().replaceAll(',', '');
     let MisMatchstr = inventoryMisMatch.toString().replaceAll(',', '');
