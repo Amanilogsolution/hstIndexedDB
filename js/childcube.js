@@ -1,5 +1,7 @@
 const idb = window.indexedDB;
-
+(function foucuschilc(){
+    document.getElementById('childCube').focus();
+    })();
 var filtervalue;
 function ChildCube() {
     let data = document.getElementById('childCube').value

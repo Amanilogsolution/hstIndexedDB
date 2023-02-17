@@ -32,7 +32,7 @@
   </style>
 </head>
 
-<body id="home" data-spy="scroll" data-target="#main-nav">
+<body id="home" data-spy="scroll" data-target="#main-nav" onload="foucusinv()">
   <!-- START HERE -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-2" id="main-nav">
     <div class="container">
@@ -88,7 +88,7 @@
             <div class="col-md-6">
               <div class="form-row ml-2" >
                 <input type="text" id="childCube" name="childCube" class="form-control " style="width:85%;"
-                    placeholder="Enter inventory no." />
+                    placeholder="Scan Inventory." />
                     <button class="btn btn-outline-danger" onclick="searchchild()">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-search" viewBox="0 0 16 16">

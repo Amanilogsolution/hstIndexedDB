@@ -1,5 +1,9 @@
 const idb = window.indexedDB; 
 
+(function foucusinv(){
+document.getElementById('childCube').focus();
+})();
+
 function removeDuplicates(arr) {
 	return arr.filter((item, index) => arr.indexOf(item) === index);
 } 
