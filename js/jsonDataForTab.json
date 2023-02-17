@@ -1,0 +1,48 @@
+[
+    { 
+         "MC_NO": "1", 
+         "CC_NO": "1", 
+         "PACK_CODE": 1,
+         "PACK_QTY":10,
+         "PACK_NAME": "Limb Amputation KIT", 
+         "PACK_BATCHNO": "C100001B00001",
+         "PACK_EXPIRY": "2023-12-01"
+        },
+        {	 
+         "MC_NO": "1",	 
+         "CC_NO": "1",	 
+         "PACK_CODE": 1,
+         "PACK_QTY":9,
+         "PACK_NAME": "Limb Amputation KIT",
+         "PACK_BATCHNO": "C100001B00002",
+         "PACK_EXPIRY": "2024-12-01"
+        },
+        {
+         "MC_NO": "1",	 
+         "CC_NO": "1",	 
+         "PACK_CODE": 2,
+         "PACK_QTY":11,
+         "PACK_NAME": "Ringer Lactate (RL) KIT",
+         "PACK_BATCHNO": "C100002B00001",
+         "PACK_EXPIRY": "2023-12-01" 
+        },
+        {
+         "MC_NO": "1",	 
+         "CC_NO": "2",	 
+         "PACK_CODE": 2,
+         "PACK_QTY":11,
+         "PACK_NAME": "Large Burn KIT",
+         "PACK_BATCHNO": "C200001B00001",
+         "PACK_EXPIRY": "2025-12-01"
+        } 
+    ,
+        {
+         "MC_NO": "1",	 
+         "CC_NO": "2",	 
+         "PACK_CODE": 3,
+         "PACK_QTY":7,
+         "PACK_NAME": "SMALL BURN KIT",
+         "PACK_BATCHNO": "C200003B00001",
+         "PACK_EXPIRY": "2025-12-01"
+        } 
+    ]
