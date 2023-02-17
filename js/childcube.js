@@ -126,12 +126,15 @@ function searchdata() {
                 invdata.push(`
             <tr class="text-dark" style="font-size:14px" >
             <td data-toggle="modal" data-target="#exampleModal">${datass[i].CC_NAME}</td>
+            <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
             <td>${datass[i].PACK_NAME}</td>
             <td>${datass[i].PACK_EXPIRY}</td>
             </tr> 
             `)
+            let Wrongdata = invdata.toString().replaceAll(',', '');
+
                 document.getElementById('wrongkitsummary').style.display = 'flex'
-                document.getElementById('wrongKitFound').innerHTML = invdata
+                document.getElementById('wrongKitFound').innerHTML = Wrongdata
             }
 
         }, 1000)
@@ -157,6 +160,7 @@ function searchdata() {
         inventoryMatch.push(`
         <tr class="text-dark" style="font-size:14px" onClick="match('${result[result2[i]][0]['PACK_EPC']}')">
         <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
+        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
         <td>${result3.length}</td>
          <td>${result[`${result2[i]}`][0]['BATCH_EXPIRY']}</td>
         </tr> 
@@ -185,7 +189,9 @@ function searchdata() {
 
         inventoryMisMatch.push(`
         <tr class="text-dark" style="font-size:14px" onClick="match('${resultdatapack[result3[0]][0]['PACK_EPC']}')">
+       
         <td data-toggle="modal" data-target="#exampleModal">${mismatchChildCube[i]}</td>
+        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
         <td>${result3.length}</td>
         <td>${resultdata[`${mismatchChildCube[i]}`][0]['BATCH_EXPIRY']}</td>
         </tr>

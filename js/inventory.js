@@ -68,8 +68,9 @@ function searchchild() {
 		let result3 = Object.keys(result1) 
 		for(j=0;j<result3.length;j++){
 			displayInvetory +=`
-			<li class="list-group-item d-flex justify-content-between align-items-center" onClick="ab('${result1[result3[j]][0]['PACK_EPC']}')" data-toggle="modal" data-target="#exampleModal">
-			 ${result1[result3[j]][0]['PACK_NAME']}  
+			<li class="list-group-item d-flex justify-content-between align-items-center" onClick="ab('${result1[result3[j]][0]['PACK_EPC']}')">
+			 <span  data-toggle="modal" data-target="#exampleModal">${result1[result3[j]][0]['PACK_NAME']}</span>  
+			 <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span>
 			 <span class="badge badge-success  float-right">  ${result1[result3[j]].length} </span></li></ul>`
 	 	   
 		} 
