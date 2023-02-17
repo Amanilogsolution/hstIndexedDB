@@ -4,8 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-    integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/all.css">
   <link rel="stylesheet" href="css/boostrap.css">
   <link rel="stylesheet" href="css/style.css">
   <!-- <link rel="manifest" href="manifest.json" > -->
@@ -21,8 +20,7 @@
       top: 0;
       left: 0;
       opacity: 0.7;
-      background-color: rgba(0, 0, 0, 0.5);
-      ;
+      background-color: rgba(0, 0, 0, 0.5); 
       z-index: 99;
     }
 
@@ -37,8 +35,7 @@
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-2" id="main-nav">
     <div class="container">
       <a href="index.html" class="navbar-brand navbar-brand">
-        <img src="img/logo.png"   height="60" alt="logo">
-       
+        <img src="img/logo.png"   height="60" alt="logo"> 
       </a>
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
         &#9776;
@@ -53,7 +50,6 @@
           <li class="nav-item">
             <a href="motherCube.html" class="nav-link">
               <img class="fa" src="./img/inventry_icon.svg" height="20" width="20" alt="Inventory" />
-
               Inventory</a>
           </li>
           <li class="nav-item">
@@ -75,18 +71,24 @@
       </div>
     </div>
   </nav>
-
   <!-- Boxes-->
   <div style="background-color: #f8f9fa;" class="ml-3 font-italic">
     <h6 class="mt-4 "><a href="index.html" class="text-danger"><small>Home</small></a> > <a
         href="identtificationInner.html" class="text-dark text-decoration-none"><small>Identification</small></a> >
       <small>Child Cube</small>
+     
     </h6>
   </div>
   <div class="container">
     <section id="boxes" class="px-2 mb-1">
+      <div class="row">
+        <div class="col-md-12 float-right"> <a href="javascript:void(0);" onclick="window.location.reload(true);" class="float-right">Refresh</a></div>
+      </div>
+      
       <div class="row py-1  rounded" style="background-color: #FFE8E6;">
+       
         <label for="inventory" class="col-sm-2 col-form-label ml-1"><strong>Child Cube </strong></label>
+     
         <div class="input-group px-3" id="childcubesearch">
           <input class="form-control" name="childCube" id="childCube" placeholder="Search">
           <span class="input-group-btn">
@@ -94,11 +96,11 @@
           </span>
         </div>
         <div class="input-group px-3" id="childcubeDropdown" style="display:none">
-          <select class="form-control p-2" id="selectedChildCube" onChange="searchChildCube(event)">
-                
+          <select class="form-control p-2" style="font-size: 12px;" id="selectedChildCube" onChange="searchChildCube(event)">
+               
           </select>
-          
         </div>
+     
         <div class="form-group px-3">
           <div id="search2" style="display: none; margin-top: 10px;">
             <input class="form-control" name="childCube" id="child" placeholder="Search">
@@ -144,7 +146,7 @@
               </table>
             </div>
           </div>
-          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white " style="display: none; "
+          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white mb-4 " style="display: none; "
             id="mismatchsummary">
             <div class=" text-dark parent-child-table">
               <table class="table table-striped table-bordered">
@@ -161,14 +163,14 @@
               </table>
             </div>
           </div>
-          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white " style="display: none; "
+          <div class="rounded shadow3-gray text-dark parent-top-child-table bg-white pt-3" style="display: none; "
           id="wrongkitsummary">
           <div class=" text-dark parent-child-table">
             <table class="table table-striped table-bordered">
               <thead class="text-center bg-warning text-white ">
                 <tr>
+                  <th scope="col">Child Cube</th>
                   <th scope="col">Kit</th>
-                  <th scope="col">QTY</th>
                   <th scope="col">Expiry</th>
                 </tr>
               </thead>

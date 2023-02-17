@@ -77,8 +77,8 @@ function searchchild() {
 		}
 		document.getElementById('summery').style.display='flex';
 		document.getElementById('loading').style.display='none';
-		 document.getElementById('matchdata').innerHTML = matchedInventory.length;
-		 document.getElementById('invMatch').innerHTML = displayInvetory;
+		document.getElementById('matchdata').innerHTML = matchedInventory.length;
+		document.getElementById('invMatch').innerHTML = displayInvetory;
 	}, 1000); 
 
 	

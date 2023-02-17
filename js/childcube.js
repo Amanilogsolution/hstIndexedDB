@@ -83,8 +83,11 @@ function searchChildCube(e) {
                 localStorage['datas'] = JSON.stringify(event.target.result)
             }
         };
-
+         
         document.getElementById('search2').style.display = 'flex';
+        document.getElementById("child").focus();
+
+
     }
 }
 
@@ -162,7 +165,9 @@ setTimeout(()=>{
             `)
             document.getElementById('wrongkitsummary').style.display = 'flex'
 
-            document.getElementById('wrongKitFound').innerHTML = invdata
+            let wkf = invdata.toString().replaceAll(',', '');
+
+            document.getElementById('wrongKitFound').innerHTML = wkf
          }
 
        
