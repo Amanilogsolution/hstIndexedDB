@@ -7612,12 +7612,7 @@ var data =[
 			   console.log(`Your browser doesn't support IndexedDB`);
 			   return;
 		   }
-	   
-		   $.getJSON('js/data.json', function() {
-			$('#stage').html('<p> Name: ' + amresh + '</p>');
-			$('#stage').append('<p>Age : ' + 60+ '</p>');
-			$('#stage').append('<p> Sex: ' + male + '</p>');
-		 });
+	 
 		  
 		   // open the CRM database with the version 1
 		   const request = indexedDB.open('CRM', 1);
