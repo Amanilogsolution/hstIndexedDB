@@ -5,7 +5,7 @@
     "display": "standalone",
     "theme_color": "#ffffff",
     
-    "background_color": "#000000",
+    "background_color": "#ffffff",
     
     "description": "my site description",
     "icons": [

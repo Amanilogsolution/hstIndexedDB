@@ -30,7 +30,7 @@
   </style>
 </head>
 
-<body id="home" data-spy="scroll" data-target="#main-nav">
+<body id="home" data-spy="scroll" data-target="#main-nav" onload="foucuschilc()">
   <!-- START HERE -->
   <nav class="navbar navbar-expand-md navbar-light fixed-top py-2" id="main-nav">
     <div class="container">
@@ -82,7 +82,7 @@
   <div class="container">
     <section id="boxes" class="px-2 mb-1">
       <div class="row">
-        <div class="col-md-12 float-right"> <a href="javascript:void(0);" onclick="window.location.reload(true);" class="float-right">Refresh</a></div>
+        <div class="col-md-12 float-right"> <a type="button" href="javascript:void(0);" onclick="window.location.reload(true);" class="float-right btn btn-outline-info btn btn-sm">Refresh</a></div>
       </div>
       
       <div class="row py-1  rounded" style="background-color: #FFE8E6;">
@@ -90,7 +90,7 @@
         <label for="inventory" class="col-sm-2 col-form-label ml-1"><strong>Child Cube </strong></label>
      
         <div class="input-group px-3" id="childcubesearch">
-          <input class="form-control" name="childCube" id="childCube" placeholder="Search">
+          <input class="form-control" name="childCube" type="" id="childCube" placeholder="Search">
           <span class="input-group-btn">
             <button class="btn btn-primary" onclick="ChildCube()" style="display: inline-flexbox;">Search</button>
           </span>
@@ -103,7 +103,7 @@
      
         <div class="form-group px-3">
           <div id="search2" style="display: none; margin-top: 10px;">
-            <input class="form-control" name="childCube" id="child" placeholder="Search">
+            <input class="form-control   border border-white" name="childCube" id="child" placeholder="Search">
             <span class="input-group-btn">
               <button class="btn btn-primary" onclick="searchdata()" style="display: inline-flexbox;">Search</button>
             </span>
