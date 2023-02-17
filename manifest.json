@@ -10,12 +10,12 @@
     "description": "my site description",
     "icons": [
       {
-        "src": "/img/rfid.png",
+        "src": "/img/logo.png",
         "type": "image/png",
         "sizes": "144x144"
       },
       {
-        "src": "/img/rfid.png",
+        "src": "/img/logo.png",
         "type": "image/png",
         "sizes": "144x144"
       }
