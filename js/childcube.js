@@ -126,11 +126,11 @@ function searchdata() {
 
             for (i = 0; i < datass.length; i++) {
                 invdata.push(`
-            <tr class="text-dark" style="font-size:14px" >
-            <td data-toggle="modal" data-target="#exampleModal">${datass[i].CC_NAME}</td>
-            <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
-            <td>${datass[i].PACK_NAME}</td>
-            <td>${datass[i].PACK_EXPIRY}</td>
+            <tr class="text-dark" style="font-size:12px" >
+            <td data-toggle="modal" data-target="#exampleModal" style="width:20px">${datass[i].CC_NAME}</td>
+            <td style="width:10px"> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:20px;" /></span></td>
+            <td style="width:10px">${datass[i].PACK_NAME}</td>
+            <td style="width:20px">${datass[i].PACK_EXPIRY}</td>
             </tr> 
             `)
             let Wrongdata = invdata.toString().replaceAll(',', '');
