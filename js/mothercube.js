@@ -67,35 +67,20 @@ const idb = window.indexedDB;
 
 function removeDuplicates(data) {
     jsonObject = data.map(JSON.stringify);
+    console.log(jsonObject)
     uniqueSet = new Set(jsonObject);
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
     
-//  var motherCube =[];
 
-//     uniqueArray.forEach((value) => {
-//         motherCube.push(`
-		 
-//             <tr>
-//             <td>${value.CC_NO}</td>
-//             <td>${value.CC_NAME}</td>
-         
-//             </tr>
-// 		`)
-//     }) 
-    // console.log(motherCube);
-    // let str = motherCube.toString().replaceAll(',', '');
-    // document.getElementById('childCubeData').innerHTML = str
     
    
 }
 function mcid(MCNO){
     localStorage.setItem('MCID',MCNO);
-    //window.location.href = 'motherChildCude.html';
 }
 
 
 function ChildCube(value) {
-    // let id = document.getElementById('childCub alert('amresh')e').value
     
     let input = ''+value
     const ldb = idb.open('CRM', 1);
