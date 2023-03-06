@@ -112,6 +112,7 @@ function ab(value) {
 
 		setTimeout(()=>{
 			let SkuData = []
+			console.log(packData[0][0])
 				packData[0].forEach((value , index) => {
 			SkuData.push(`  
 		  <tr>
@@ -121,8 +122,10 @@ function ab(value) {
 		</tr>			 
 		`)			 
 		})
+		let data = `${packData[0][0].CC_NO } ${packData[0][0].CC_NAME}`
 		let str = SkuData.toString().replaceAll(',', '');
 		document.getElementById('skudatavalue').innerHTML = str
+		document.getElementById('modaltitle').innerHTML = data
 		},1000)
 
 }

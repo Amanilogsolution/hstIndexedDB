@@ -37,13 +37,18 @@ const idb = window.indexedDB;
     }
     let motherCube = [];
     setTimeout(() => {
+        console.log(datass)
         datass.forEach((value,index) => {
+            console.log(value)
+            if(index>1){
+                return false
+            }else{
             motherCube.push(`
 
             
             <div class="col-md-3 py-1">
                     <a href="motherChildCude.html" class="text-decoration-none">
-                        <div class="card text-center mb-resp" id="${value}" onclick="mcid(${index+1})">
+                        <div class="card text-center mb-resp" id="${value}" onclick="mcid('${value}')">
                             <div class="card-body px-0 py-1 shadow3-gray">
                                 <div class="motherBox-card mt-0">
                                     <img src="../img/motherBox.png" alt="" class="motherbox-image">
@@ -55,6 +60,7 @@ const idb = window.indexedDB;
                 </div>
 
         `)
+            }
         })
         let str = motherCube.toString().replaceAll(',', '');
 
@@ -76,6 +82,7 @@ function removeDuplicates(data) {
    
 }
 function mcid(MCNO){
+    console.log(MCNO)
     localStorage.setItem('MCID',MCNO);
 }
 
