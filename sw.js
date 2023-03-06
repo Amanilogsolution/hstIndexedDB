@@ -8,7 +8,7 @@ const self = this;
 
 const cachedata = ['index.html','identtificationInner.html','motherCube.html','randomInventory.html','inventory.html','qrScan.html','childcube.html','motherChildCude.html','pack.html','skudata.html','css/style.css','css/all.css','css/boostrap.css','js/app.js','js/childcube.js','js/mothercube.js','js/MchildCube.js','js/qrcode.js','js/inventory.js','js/inventoryTablet.js','js/bootstrap.min.js','js/jquery-3.3.1.min.js','js/Pack.js','js/skuData.js'
 ,'img/motherBox.png','img/barcode-scanner.png','img/childCube.png','img/house.svg','img/identi.png','img/image2vector.svg','img/inventry_icon.png','img/inventry_icon.svg',
-'img/logo.png','img/qr-code-scan.png','img/qr-code-scan.svg','img/qr-code.svg','img/qrcode.svg','img/random.svg','img/rfi.svg','img/eye.png','img/noImage.jpg']
+'img/logo.png','img/qr-code-scan.png','img/qr-code-scan.svg','img/qr-code.svg','img/qrcode.svg','img/random.svg','img/rfi.svg','img/eye.png','img/noImage.jpg','img/KT0008.png','img/KT0029.png','img/KT0088.png','img/KT0093.png','img/KT0099.png','img/KT0124.png']
 
 self.addEventListener("install",e=> {
     e.waitUntil(
