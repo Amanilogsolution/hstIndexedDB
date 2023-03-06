@@ -2,41 +2,46 @@
     
     let pdata = JSON.parse(localStorage["packDatas"]);
     let pSkudata = JSON.parse(localStorage["packSkuDatas"]);
-
-     for(i=0;i<pdata.length;i++){
-     var count = 0
-     var balance = 0
-     pSkudata.filter((data)=> { 
-        //  data.PACK_NAME===pdata[i]['PACK_NAME']?count=count+1:null
-         if(data.PACK_NAME===pdata[i]['PACK_NAME']){
-            count=count+1
-            data.Status==""?balance=balance+1:null
-         }else{
-            null
-         }
-         pdata[i]['SKU_QTY'] = count
-         pdata[i]['Balance_QTY'] = balance
-
-     })
-    }
-    console.log(pdata)
+   
+    uniqueArr = removeDuplicates(pSkudata);
 
 
-    var packCubeData =[];
-    pdata.forEach((value,index) => {
-        packCubeData.push(` 
-            <tr onclick="dataDetils(${value.PACK_NO})" class="text-center" style="font-size:14px">
-            <td>${index+1}</td>
-            <td>${value.PACK_NAME}</td>
-            <td>${value.SKU_QTY}</td>
-            <td>${value.Balance_QTY}</td>
-            <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
-            <td>${value.PACK_EXPIRY}</td>
-            </tr>
-		`)
-    }) 
-    let str = packCubeData.toString().replaceAll(',', '');
-    document.getElementById('packData').innerHTML = str
+    for(i=0;i<pdata.length;i++){
+        console.log(pdata[i])
+        var count = 0
+        var balance = 0
+        uniqueArr.filter((data)=> { 
+            console.log('newww',data.PACK_NAME)
+            if(data.PACK_NAME === pdata[i]['PACK_NAME']){
+                count=count+1
+                data.Status==""?balance=balance+1:null
+            }else{
+                null
+            }
+            pdata[i]['Count'] = count
+            pdata[i]['BalanceCount'] = balance
+   
+        })
+       }
+       setTimeout(()=>{
+        console.log(pdata)
+        var packCubeData =[];
+        pdata.forEach((value,index) => {
+            packCubeData.push(` 
+                <tr onclick="dataDetils(${value.PACK_NO})" class="text-center" style="font-size:14px">
+                <td>${index+1}</td>
+                <td>${value.PACK_NAME}</td>
+                <td>${value.Count}</td>
+                <td>${value.BalanceCount}</td>
+                <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
+                <td>${value.PACK_EXPIRY}</td>
+                </tr>
+            `)
+        }) 
+        let str = packCubeData.toString().replaceAll(',', '');
+        document.getElementById('packData').innerHTML = str
+       },1000)
+ 
 })();
 
 function dataDetils(value){
@@ -51,6 +56,23 @@ function dataDetils(value){
 
 }
 
+function removeDuplicates(arr) {
+
+   
+     console.log(arr)
+
+     seen = Object.create(null),
+    result = arr.filter(o => {
+        var key = ['PACK_NAME', 'PACK_EPC'].map(k => o[k]).join('|');
+        if (!seen[key]) {
+            seen[key] = true;
+            return true;
+        }
+    });
+    return result;
+
+    
+}
 
 
 
