@@ -27,13 +27,17 @@
         console.log(pdata)
         var packCubeData =[];
         pdata.forEach((value,index) => {
+            console.log(value.PACK_CODE)
+            
+        
+           
             packCubeData.push(` 
                 <tr onclick="dataDetils(${value.PACK_NO})" class="text-center" style="font-size:14px">
                 <td>${index+1}</td>
                 <td>${value.PACK_NAME}</td>
                 <td>${value.Count}</td>
                 <td>${value.BalanceCount}</td>
-                <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
+                <td><img src="img/${value.PACK_CODE}.png" onerror="this.onerr=null;this.src='img/childCube.png'" width="60" height="60" alt=""></td>
                 <td>${value.PACK_EXPIRY}</td>
                 </tr>
             `)
@@ -43,6 +47,8 @@
        },1000)
  
 })();
+
+
 
 function dataDetils(value){
 
