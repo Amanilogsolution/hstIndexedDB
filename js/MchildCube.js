@@ -3,7 +3,8 @@ var TotalData
 
 
 (function () {
-    const input = Number(localStorage.getItem('MCID'))
+    const input = localStorage.getItem('MCID')
+    console.log(input)
     const ldb = idb.open('CRM', 2);
     ldb.onsuccess = function () {
         const db = ldb.result;
@@ -35,17 +36,17 @@ function removeDuplicates(data) {
     uniqueArray = Array.from(uniqueSet).map(JSON.parse);
     TotalData =  Array.from(uniqueSet).map(JSON.parse);
 
-    const childCube = getUniqueListBy(uniqueArray,'CC_NO')
-    console.log(childCube);
-    console.log("demo",childCube[0]['CC_NO'],childCube[0]['CC_NAME']);
+    const childCube = getUniqueListBy(uniqueArray,'CC_EPCNO')
+    // console.log(childCube);
+    console.log("demo",childCube[0]['CC_EPCNO'],childCube[0]['CC_NAME']);
     let volume1 = [];   
     let volume2 = [];   
     let volume3 = [];   
      for(let i=0;i<=11;i++)
      {
-     // console.log(value.CC_NO,value.CC_NAME)
+    //  console.log(childCube[i]['CC_EPCNO'])
      volume1.push(` 
-     <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+     <a onClick="packData('${childCube[i]['CC_EPCNO']}')" class="text-primary" disabled> 
     <div class="col-sm mb-2">
     <div class="card p-3" style="height:190px; width:290px">
     <div class="d-flex flex-row">
@@ -68,7 +69,7 @@ function removeDuplicates(data) {
       {
       // console.log(value.CC_NO,value.CC_NAME)
       volume2.push(`
-      <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+      <a onClick="packData('${childCube[i]['CC_EPCNO']}')" class="text-primary" disabled> 
       <div class="col-sm mb-2">
       <div class="card p-3" style="height:190px; width:290px">
       <div class="d-flex flex-row">
@@ -89,7 +90,7 @@ function removeDuplicates(data) {
        {
        // console.log(value.CC_NO,value.CC_NAME)
        volume3.push(`
-       <a onClick="packData(${childCube[i]['CC_NO']})" class="text-primary" disabled> 
+       <a onClick="packData('${childCube[i]['CC_EPCNO']}')" class="text-primary" disabled> 
        <div class="col-sm mb-2">
        <div class="card p-3" style="height:190px; width:290px">
        <div class="d-flex flex-row">
@@ -118,9 +119,12 @@ function removeDuplicates(data) {
 
 function packData(value) {
   console.log(value)
+  console.log(TotalData)
   setTimeout(() => {
 
-    const data = TotalData.filter(data => data.CC_NO == value)
+    const data = TotalData.filter(data => data.CC_EPCNO === value)
+
+    console.log(data)
     localStorage["packSkuDatas"] = JSON.stringify(data)
     const Packdatass = getUniqueListBy(data, 'PACK_NO')
     console.log(Packdatass)

@@ -5,11 +5,22 @@
 
      for(i=0;i<pdata.length;i++){
      var count = 0
+     var balance = 0
      pSkudata.filter((data)=> { 
-         data.PACK_NAME===pdata[i]['PACK_NAME']?count=count+1:null
+        //  data.PACK_NAME===pdata[i]['PACK_NAME']?count=count+1:null
+         if(data.PACK_NAME===pdata[i]['PACK_NAME']){
+            count=count+1
+            data.Status==""?balance=balance+1:null
+         }else{
+            null
+         }
          pdata[i]['SKU_QTY'] = count
+         pdata[i]['Balance_QTY'] = balance
+
      })
     }
+    console.log(pdata)
+
 
     var packCubeData =[];
     pdata.forEach((value,index) => {
@@ -18,6 +29,7 @@
             <td>${index+1}</td>
             <td>${value.PACK_NAME}</td>
             <td>${value.SKU_QTY}</td>
+            <td>${value.Balance_QTY}</td>
             <td><img src="img/childCube.png" width="60" height="60" alt="logo"></td>
             <td>${value.PACK_EXPIRY}</td>
             </tr>

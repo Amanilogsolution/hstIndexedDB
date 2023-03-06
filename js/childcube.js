@@ -95,6 +95,17 @@ function searchdata() {
     let inventoryMisMatch = [];
     let match = data.filter(e => uniqueArr.includes(e.PACK_EPC))
     let Mismatch = data.filter(e => !uniqueArr.includes(e.PACK_EPC))
+
+
+
+    // MAtch Data Update Data Start//
+    match.forEach(e => UpdateMatchData(e.PACK_EPC))
+    // console.log(Mismatch)
+    Mismatch.forEach(e => UpdateMisMatchData(e.PACK_EPC))
+
+     // MAtch Data Update Data End//
+
+
     let mothercube = match.length > 0 ? match[0]['MC_NO'] : '';
     let childcube = match.length > 0 ? match[0]['CC_NO'] : '';
     let arr1 = [];
@@ -146,6 +157,7 @@ function searchdata() {
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y)
         return x;
     }, {})
+    // console.log('Match',result
 
     let result2 = Object.keys(result)
     let mismatchdatalength = []
@@ -187,11 +199,8 @@ function searchdata() {
 
         let result3 = Object.keys(resultdatapack)
         mismatchdatalength.push(result3.length)
-
-
         inventoryMisMatch.push(`
         <tr class="text-dark" style="font-size:14px" onClick="match('${resultdatapack[result3[0]][0]['PACK_EPC']}')">
-       
         <td data-toggle="modal" data-target="#exampleModal">${mismatchChildCube[i]}</td>
         <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
         <td>${result3.length}</td>
@@ -206,14 +215,6 @@ function searchdata() {
     mismatchdatalength.map(x => mismatchsum += x);
 
     console.log('mismatch',mismatchsum)
-
-
-
-
-
-
-
-     
 
     let Matchstr = inventoryMatch.toString().replaceAll(',', '');
     let MisMatchstr = inventoryMisMatch.toString().replaceAll(',', '');
@@ -264,3 +265,78 @@ function match(value) {
     }, 1000)
 }
 
+const UpdateMatchData = (id)=>{
+    const ldb = idb.open('CRM', 2);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction(['tbl_rfid'], 'readwrite');
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query1 = index.getKey(id);
+        query1.onsuccess=(event) =>{
+            key=query1.result
+            UpdateCubeMatchData(query1.result,id) 
+        }
+     
+    }; 
+}
+
+const UpdateMisMatchData = (id)=>{
+    const ldb = idb.open('CRM', 2);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction(['tbl_rfid'], 'readwrite');
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query1 = index.getKey(id);
+        query1.onsuccess=(event) =>{
+            key=query1.result
+            UpdateCubeMisMatchData(query1.result,id) 
+        }
+     
+    }; 
+}
+
+const UpdateCubeMatchData = (key,value)=>{
+    const ldb = idb.open('CRM', 2);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('tbl_rfid', 'readwrite');
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query = index.get(value);
+        query.onsuccess = (event) => {
+            const data = event.target.result
+            data.Status=""
+            const updateRequest = store.put(data,key);
+            updateRequest.onsuccess = (event) => {
+                console.log(updateRequest.result);
+                console.log(data);
+
+            }
+          
+        }
+    }; 
+}
+
+const UpdateCubeMisMatchData = (key,value)=>{
+    const ldb = idb.open('CRM', 2);
+    ldb.onsuccess = function () {
+        const db = ldb.result;
+        const txn = db.transaction('tbl_rfid', 'readwrite');
+        const store = txn.objectStore('tbl_rfid');
+        const index = store.index('PACK_EPC');
+        let query = index.get(value);
+        query.onsuccess = (event) => {
+            const data = event.target.result
+            data.Status="N"
+            const updateRequest = store.put(data,key);
+            updateRequest.onsuccess = (event) => {
+                console.log(updateRequest.result);
+                console.log(data);
+
+            }
+          
+        }
+    }; 
+}
