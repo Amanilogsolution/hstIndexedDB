@@ -93814,6 +93814,16 @@ var data =[
 		   }
 	   })();
 
+        
+
+        function downloadfile(){
+          var a = document.createElement("a")
+          a.href = URL.createObjectURL(
+          new Blob([json], {type:"application/json"})
+          )
+          a.download = "myFile.json"
+          a.click()
+        }
      //    var downloadfile = () =>{
      //      downloadURI("./js/data.json", "data.json");    
      //    }
