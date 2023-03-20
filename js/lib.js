@@ -1,10 +1,12 @@
 let _fs
 try {
-  _fs = require('graceful-fs')
+  _fs = require('fs')
 } catch (_) {
   _fs = require('fs')
 }
 const universalify = require('./universality')
+
+
 const { stringify, stripBom } = require('./utils')
 
 async function _readFile (file, options = {}) {

@@ -1,3 +1,4 @@
+
 var data =[
      {
       ID: "1",
@@ -93704,17 +93705,6 @@ var data =[
     ]
    
     
-
-
-
-
-
-    
-      
-
-   
-
-
    
 	   const idb = window.indexedDB;
 	   
@@ -93796,8 +93786,6 @@ var data =[
 				if(index < length){
 					console.log(index,length)
 					document.getElementById('loading').style.display = 'flex';
-
-			
 				}else{
 				localStorage.setItem('databaseLength',length)
 				document.getElementById('loading').style.display = 'none';
@@ -93814,9 +93802,94 @@ var data =[
 		   }
 	   })();
 
-     //    var downloadfile = () =>{
-     //      downloadURI("./js/data.json", "data.json");    
-     //    }
+
+        (
+          function () {
+               let data = []
+               let uniqueArr = []
+               const ldb = idb.open('CRM', 2);
+               ldb.onsuccess = function () {
+                   const db = ldb.result;
+                   const txn = db.transaction('tbl_rfid', 'readonly');
+                   const store = txn.objectStore('tbl_rfid');
+                   const index = store.index('CC_NO');
+                   let query = index.getAll();
+                   query.onsuccess = (event) => {
+                       if (!event.target.result) {
+                           console.log(`this ${value} not match`)
+                       } else {
+                           event.target.result.map((ele)=>data.push(ele.CC_EPCNO))
+                           uniqueArr =  removeDuplicates(data)
+                           abc(uniqueArr)
+                           console.log(uniqueArr)
+                     
+
+                       }
+                   }
+
+               }
+             }
+        )();
+
+        var arr =[]
+
+        function abc(data){
+          // console.log(data)
+          data.map((element)=>{
+
+               const ldb = idb.open('CRM', 2);
+               ldb.onsuccess = function () {
+                   const db = ldb.result;
+                   const txn = db.transaction('tbl_rfid', 'readonly');
+                   const store = txn.objectStore('tbl_rfid');
+                   const index = store.index('CC_NO');
+                   let query = index.getAll(element);
+                   query.onsuccess = (event) => {
+                       if (!event.target.result) {
+                           console.log(`this ${value} not match`)
+                       } else {
+                           let childCube = getUniqueListBy(event.target.result,'PACK_NAME')
+                           childCube.map((el)=>{
+                                   console.log(el)
+                                   arr.push(el)
+                           })
+                           console.log(childCube)
+                       }
+                   }
+               }
+          })
+          setTimeout(()=>{
+               console.log(arr)
+               // localStorage.setItem('download',JSON.stringify(arr))
+               ReadWrite(arr)
+              },1000)
+
+        }
+        var jsonfile = require('./lib')
+        var file = './data.json'
+        var obj =[ { name: 'Amresh',age:10009,status:'Tooo Old' }]
+        
+
+        function ReadWrite(data){
+          console.log(data)
+     
+          jsonfile.writeFile(file, data, function (err) {
+          if (err) console.error(err)
+               })
+
+        }
+
+        function getUniqueListBy(arr, key) {
+          return [...new Map(arr.map(item => [item[key], item])).values()]
+        }
+
+        function removeDuplicates(arr) {
+          return arr.filter((item, index) => arr.indexOf(item) === index);
+     } 
+
+        var downloadfile = () =>{
+          downloadURI("./js/data.json", "data.json");    
+        }
 
      //    function downloadURI(uri, name) {
      //      var link = document.createElement("a");

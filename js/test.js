@@ -1,13 +1,21 @@
-const jsonfile = require('./lib')
- 
-const file = './data.json'
-const obj = { name: 'Amresh',age:10009,status:'Tooo Old' }
- 
-jsonfile.writeFile(file, obj, function (err) {
-  if (err) console.error(err)
-})
+var jsonfile = require('./lib')
+var file = './data.json'
 
-jsonfile.readFile(file, function (err, obj) {
-    if (err) console.error(err)
-    console.dir(obj)
-  })
+console.log(jsonfile)
+abc()
+
+function abc(){
+//   var data = JSON.parse(localStorage.getItem('download'))
+console.log(jsonfile)
+data = [{name:"aman lohan"}]
+    jsonfile.writeFile(file, data, function (err) {
+      if (err) console.error(err)
+    })
+
+    jsonfile.readFile(file, function (err, obj1) {
+      if (err) console.error(err)
+      console.dir(obj1)
+    })
+  }
+
+ 
