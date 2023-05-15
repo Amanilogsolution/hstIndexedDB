@@ -22,73 +22,69 @@ body {
   width: 50%;
   margin: auto;
   border-bottom: 1px #ddd solid;
-  
 }
 
 #boxes {
   min-height: 75vh;
-  
 }
-.shadow-top{
+.shadow-top {
   /* box-shadow: -2px -2px 6px #000; */
   /* box-shadow: -2px -2px 5px #a64b32; */
-
 }
 
-@media screen and (min-height:550px) {
+@media screen and (min-height: 550px) {
   #boxes {
     min-height: 60.5vh;
   }
 }
 
-@media screen and (min-height:600px) {
+@media screen and (min-height: 600px) {
   #boxes {
     min-height: 67vh;
   }
 }
 
-@media screen and (min-height:630px) {
+@media screen and (min-height: 630px) {
   #boxes {
     min-height: 69vh;
   }
 }
 
-@media screen and (min-height:700px) {
+@media screen and (min-height: 700px) {
   #boxes {
     min-height: 71vh;
   }
 }
 
-@media screen and (min-height:740px) {
+@media screen and (min-height: 740px) {
   #boxes {
     min-height: 73vh;
   }
 }
 
-@media screen and (min-height:790px) {
+@media screen and (min-height: 790px) {
   #boxes {
     min-height: 75vh;
   }
 }
 
-@media screen and (min-height:850px) {
+@media screen and (min-height: 850px) {
   #boxes {
     min-height: 77vh;
   }
 }
 
-@media screen and (min-height:950px) {
+@media screen and (min-height: 950px) {
   #boxes {
     min-height: 80vh;
   }
 }
 
-@media screen and (min-height:1060px) {
+@media screen and (min-height: 1060px) {
   #boxes {
     min-height: 82.5vh;
   }
 }
-
 
 /* #authors img {
   margin-top: -50px;
@@ -125,11 +121,7 @@ body {
   .mb-resp-author {
     margin-bottom: 3rem;
   } */
-
-
 }
-
-
 
 /* Mother BOX Start*/
 .motherBox-card {
@@ -158,7 +150,7 @@ body {
   border: 1px solid rgb(203, 202, 202);
 }
 
-@media screen and (max-width:360px) {
+@media screen and (max-width: 360px) {
   .parent-child-cube {
     flex-direction: column;
     align-items: center;
@@ -167,12 +159,9 @@ body {
   .subchild-child-cube {
     width: 100%;
   }
-
 }
 
 /* Child Cube End */
-
-
 
 /* parent-child-table && RFID Table && QR Scanpage Start*/
 .parent-top-child-table {
@@ -185,12 +174,29 @@ body {
   max-height: 70vh;
   width: 100%;
   overflow: auto;
-
 }
 
 .parent-child-table table thead {
   background: rgb(253, 198, 198);
   border: 1px solid rgb(165, 165, 165);
+}
+
+#loading {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+
+#loading-image {
+  z-index: 100;
 }
 
 /* .parent-child-table table,th,
