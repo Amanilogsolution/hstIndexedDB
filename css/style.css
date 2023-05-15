@@ -37,7 +37,7 @@ body {
 
 @media screen and (min-height:550px) {
   #boxes {
-    min-height: 65.5vh;
+    min-height: 60.5vh;
   }
 }
 
