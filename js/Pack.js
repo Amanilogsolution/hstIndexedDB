@@ -6,11 +6,10 @@
   uniqueArr = removeDuplicates(pSkudata);
 
   for (i = 0; i < pdata.length; i++) {
-    console.log(pdata[i]);
     var count = 0;
     var balance = 0;
     uniqueArr.filter((data) => {
-      console.log("newww", data.PACK_NAME);
+ 
       if (data.PACK_NAME === pdata[i]["PACK_NAME"]) {
         count = count + 1;
         data.Status == "" ? (balance = balance + 1) : null;
@@ -22,10 +21,8 @@
     });
   }
   setTimeout(() => {
-    console.log(pdata);
     var packCubeData = [];
     pdata.forEach((value, index) => {
-      console.log(value.PACK_CODE);
 
       packCubeData.push(` 
                 <tr onclick="dataDetils(${
@@ -51,14 +48,12 @@
 function dataDetils(value) {
   let skudata = localStorage.setItem("SKUDATA", value);
   let TotalData = JSON.parse(localStorage["packSkuDatas"]);
-  //console.log(TotalData)
   const data = TotalData.filter((data) => data.PACK_NO == value);
 
   window.location.href = "skudata.html";
 }
 
 function removeDuplicates(arr) {
-  console.log(arr);
 
   (seen = Object.create(null)),
     (result = arr.filter((o) => {

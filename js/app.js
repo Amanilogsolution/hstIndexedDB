@@ -93712,7 +93712,7 @@ var data =[
 	   
 		   // check for IndexedDB support
 		   if (!window.indexedDB) {
-			   console.log(`Your browser doesn't support IndexedDB`);
+			//    console.log(`Your browser doesn't support IndexedDB`);
 			   return;
 		   }
 	 
@@ -93750,7 +93750,7 @@ var data =[
 	   
 		   // handle the error event
 		   request.onerror = (event) => {
-			   console.error(`Database error: ${event.target.errorCode}`);
+			//    console.error(`Database error: ${event.target.errorCode}`);
 		   };
 
 	   
@@ -93765,7 +93765,7 @@ var data =[
 			
 			   }
 			}else{
-				console.log('Already Data')
+				// console.log('Already Data')
 			}
 	   
 		   };
@@ -93782,9 +93782,9 @@ var data =[
 	   
 			   // handle success case
 			   query.onsuccess = function (event) {
-				console.log(index,length);
+				// console.log(index,length);
 				if(index < length){
-					console.log(index,length)
+					// console.log(index,length)
 					document.getElementById('loading').style.display = 'flex';
 				}else{
 				localStorage.setItem('databaseLength',length)
@@ -93816,12 +93816,13 @@ var data =[
                    let query = index.getAll();
                    query.onsuccess = (event) => {
                        if (!event.target.result) {
-                           console.log(`this ${value} not match`)
+                         //   console.log(`this ${value} not match`)
                        } else {
                            event.target.result.map((ele)=>data.push(ele.CC_EPCNO))
                            uniqueArr =  removeDuplicates(data)
                            abc(uniqueArr)
-                           console.log(uniqueArr)
+                         //   console.log(uniqueArr)
+                     
 
                        }
                    }
@@ -93845,14 +93846,14 @@ var data =[
                    let query = index.getAll(element);
                    query.onsuccess = (event) => {
                        if (!event.target.result) {
-                           console.log(`this ${value} not match`)
+                         //   console.log(`this ${value} not match`)
                        } else {
                            let childCube = getUniqueListBy(event.target.result,'PACK_NAME')
                            childCube.map((el)=>{
-                                   console.log(el)
+                                   // console.log(el)
                                    arr.push(el)
                            })
-                           console.log(childCube)
+                         //   console.log(childCube)
                        }
                    }
                }
@@ -93860,25 +93861,17 @@ var data =[
       
 
         }
-       
+      
         
 
-     //    function ReadWrite(data){
-     //      console.log(data)
-     
-     //      jsonfile.writeFile(file, data, function (err) {
-     //      if (err) console.error(err)
-     //           })
 
-     //    }
+        function getUniqueListBy(arr, key) {
+          return [...new Map(arr.map(item => [item[key], item])).values()]
+        }
 
-     //    function getUniqueListBy(arr, key) {
-     //      return [...new Map(arr.map(item => [item[key], item])).values()]
-     //    }
-
-     //    function removeDuplicates(arr) {
-     //      return arr.filter((item, index) => arr.indexOf(item) === index);
-     // } 
+        function removeDuplicates(arr) {
+          return arr.filter((item, index) => arr.indexOf(item) === index);
+     } 
 
      //    var downloadfile = () =>{
      //      downloadURI("./js/data.json", "data.json");    

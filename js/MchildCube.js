@@ -4,7 +4,6 @@ var TotalData;
 (function () {
   document.getElementById("loading").style.display = "flex";
   const input = localStorage.getItem("MCID");
-  console.log(input);
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
     const db = ldb.result;
@@ -16,7 +15,6 @@ var TotalData;
       if (!event.target.result) {
         console.log(`this ${value} not match`);
       } else {
-        console.log(event.target.result);
         removeDuplicates(event.target.result);
       }
     };
@@ -34,13 +32,10 @@ function removeDuplicates(data) {
   TotalData = Array.from(uniqueSet).map(JSON.parse);
 
   const childCube = getUniqueListBy(uniqueArray, "CC_EPCNO");
-  // console.log(childCube);
-  console.log("demo", childCube[0]["CC_EPCNO"], childCube[0]["CC_NAME"]);
   let volume1 = [];
   let volume2 = [];
   let volume3 = [];
   for (let i = 0; i <= 11; i++) {
-    //  console.log(childCube[i]['CC_EPCNO'])
     volume1.push(` 
      <a onClick="packData('${childCube[i]["CC_EPCNO"]}')" class="text-primary" disabled> 
     <div class="col-sm mb-2">
@@ -61,7 +56,6 @@ function removeDuplicates(data) {
   }
 
   for (let i = 12; i <= 23; i++) {
-    // console.log(value.CC_NO,value.CC_NAME)
     volume2.push(`
       <a onClick="packData('${childCube[i]["CC_EPCNO"]}')" class="text-primary" disabled> 
       <div class="col-sm mb-2">
@@ -110,17 +104,11 @@ function removeDuplicates(data) {
 }
 
 function packData(value) {
-  console.log(value);
-  console.log(TotalData);
   setTimeout(() => {
     const data = TotalData.filter((data) => data.CC_EPCNO === value);
-
-    console.log(data);
     localStorage["packSkuDatas"] = JSON.stringify(data);
     const Packdatass = getUniqueListBy(data, "PACK_NO");
-    console.log(Packdatass);
     localStorage["packDatas"] = JSON.stringify(Packdatass);
-
     window.location.href = "pack.html";
   }, 1000);
 }

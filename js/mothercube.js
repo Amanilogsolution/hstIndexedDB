@@ -31,9 +31,7 @@ const idb = window.indexedDB;
   };
   let motherCube = [];
   setTimeout(() => {
-    console.log(datass);
     datass.forEach((value, index) => {
-      console.log(value);
       if (index > 1) {
         return false;
       } else {
