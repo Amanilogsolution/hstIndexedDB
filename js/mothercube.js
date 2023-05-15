@@ -1,49 +1,43 @@
 const idb = window.indexedDB;
 
 (function () {
+  document.getElementById("loading").style.display = "flex";
+  const ldb = idb.open("CRM", 2);
+  // console.log('hllll')
 
-    const ldb = idb.open('CRM', 2);
-    // console.log('hllll')
+  const datass = [];
 
-    const datass = []
-  
-    ldb.onsuccess = function () {
-       
-        const db = ldb.result;
-        const txn = db.transaction('tbl_rfid', 'readonly');
-        const store = txn.objectStore('tbl_rfid');
-        const index = store.index('MC_NO');
-     
-        let query = index.getAll();
-        
-        query.onsuccess = (event) => {
+  ldb.onsuccess = function () {
+    const db = ldb.result;
+    const txn = db.transaction("tbl_rfid", "readonly");
+    const store = txn.objectStore("tbl_rfid");
+    const index = store.index("MC_NO");
 
-            if (!event.target.result) {
-                console.log(`this ${id} not match`)
+    let query = index.getAll();
 
-            } else {
-                event.target.result.filter(e => {
-                    if (datass.includes(e.MC_NO)) {
-                        return;
-                    } else {
-                        datass.push(e.MC_NO)
-
-                    }
-                })
-     
-            }
-        };
-
-    }
-    let motherCube = [];
-    setTimeout(() => {
-        console.log(datass)
-        datass.forEach((value,index) => {
-            console.log(value)
-            if(index>1){
-                return false
-            }else{
-            motherCube.push(`
+    query.onsuccess = (event) => {
+      if (!event.target.result) {
+        console.log(`this ${id} not match`);
+      } else {
+        event.target.result.filter((e) => {
+          if (datass.includes(e.MC_NO)) {
+            return;
+          } else {
+            datass.push(e.MC_NO);
+          }
+        });
+      }
+    };
+  };
+  let motherCube = [];
+  setTimeout(() => {
+    console.log(datass);
+    datass.forEach((value, index) => {
+      console.log(value);
+      if (index > 1) {
+        return false;
+      } else {
+        motherCube.push(`
 
             
             <div class="col-md-3 py-1">
@@ -53,67 +47,54 @@ const idb = window.indexedDB;
                                 <div class="motherBox-card mt-0">
                                     <img src="../img/motherBox.png" alt="" class="motherbox-image">
                                 </div>
-                                <h3 class="card-title">Mother Cube ${index+1}</h3>
+                                <h3 class="card-title">Mother Cube ${
+                                  index + 1
+                                }</h3>
                             </div>
                         </div>
                     </a>
                 </div>
 
-        `)
-            }
-        })
-        let str = motherCube.toString().replaceAll(',', '');
-
-        document.getElementById('motherContainer').innerHTML = str;
-   
-
-    }, 1000)
-
+        `);
+      }
+    });
+    let str = motherCube.toString().replaceAll(",", "");
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("motherContainer").innerHTML = str;
+  }, 1000);
 })();
 
 function removeDuplicates(data) {
-    jsonObject = data.map(JSON.stringify);
-    console.log(jsonObject)
-    uniqueSet = new Set(jsonObject);
-    uniqueArray = Array.from(uniqueSet).map(JSON.parse);
-    
-
-    
-   
+  jsonObject = data.map(JSON.stringify);
+  console.log(jsonObject);
+  uniqueSet = new Set(jsonObject);
+  uniqueArray = Array.from(uniqueSet).map(JSON.parse);
 }
-function mcid(MCNO){
-    console.log(MCNO)
-    localStorage.setItem('MCID',MCNO);
+function mcid(MCNO) {
+  console.log(MCNO);
+  localStorage.setItem("MCID", MCNO);
 }
-
 
 function ChildCube(value) {
-    
-    let input = ''+value
-    const ldb = idb.open('CRM', 1);
+  let input = "" + value;
+  const ldb = idb.open("CRM", 1);
 
-    ldb.onsuccess = function () {
-        const db = ldb.result;
-        const txn = db.transaction('tbl_rfid', 'readonly');
+  ldb.onsuccess = function () {
+    const db = ldb.result;
+    const txn = db.transaction("tbl_rfid", "readonly");
 
-        const store = txn.objectStore('tbl_rfid');
-        const index = store.index('MC_NO');
-        let query = index.getAll(input);
+    const store = txn.objectStore("tbl_rfid");
+    const index = store.index("MC_NO");
+    let query = index.getAll(input);
 
-
-        query.onsuccess = (event) => {
-            if (!event.target.result) {
-                console.log(`this ${value} not match`)
-            } else {
-                removeDuplicates(event.target.result)
-            }
-
-        }
+    query.onsuccess = (event) => {
+      if (!event.target.result) {
+        console.log(`this ${value} not match`);
+      } else {
+        removeDuplicates(event.target.result);
+      }
     };
-    
-    document.getElementById('invList').style.display='block'
+  };
 
-
+  document.getElementById("invList").style.display = "block";
 }
-
-
