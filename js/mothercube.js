@@ -38,7 +38,7 @@ const idb = window.indexedDB;
         motherCube.push(`
 
             
-            <div class="col-md-3 py-1">
+            <div class="col-sm-3 py-1">
                     <a href="motherChildCude.html" class="text-decoration-none">
                         <div class="card text-center mb-resp" id="${value}" onclick="mcid('${value}')">
                             <div class="card-body px-0 py-1 shadow3-gray">
