@@ -9,7 +9,6 @@
     var count = 0;
     var balance = 0;
     uniqueArr.filter((data) => {
- 
       if (data.PACK_NAME === pdata[i]["PACK_NAME"]) {
         count = count + 1;
         data.Status == "" ? (balance = balance + 1) : null;
@@ -23,16 +22,17 @@
   setTimeout(() => {
     var packCubeData = [];
     pdata.forEach((value, index) => {
-
       packCubeData.push(` 
                 <tr  class="text-center" style="font-size:14px">
                 <td>${index + 1}</td>
                 <td onclick="dataDetils(${
                   value.PACK_NO
                 })" class="text-primary">${value.PACK_NAME}</td>
-                <td>${value.Count}</td>
-                <td>${value.BalanceCount}</td>
-                <td><img src="img/${
+                <td>${value.Count} / <span class="text-success">${
+        value.BalanceCount
+      }</span></td>
+                
+                <td ><img src="img/${
                   value.PACK_CODE
                 }.png" onerror="this.onerr=null;this.src='img/childCube.png'" width="60" height="60" alt=""></td>
                 <td>${value.PACK_EXPIRY}</td>
@@ -54,7 +54,6 @@ function dataDetils(value) {
 }
 
 function removeDuplicates(arr) {
-
   (seen = Object.create(null)),
     (result = arr.filter((o) => {
       var key = ["PACK_NAME", "PACK_EPC"].map((k) => o[k]).join("|");
