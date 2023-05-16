@@ -43,7 +43,7 @@ function removeDuplicates(data) {
     <div style="padding:20px 30px 30px 30px">  
     <img src="img/childCube.png" width="190" height="170">
     <h5 class="card-title text-center">${childCube[i]["CC_NO"]}</h5>   
-      <p class="card-text">${childCube[i]["CC_NAME"]}</p>    
+      <p class="card-text text-sm">${childCube[i]["CC_NAME"]}</p>    
     </div>
   </div>
 
