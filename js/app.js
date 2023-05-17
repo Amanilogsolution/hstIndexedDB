@@ -116246,7 +116246,7 @@ const idb = window.indexedDB;
     query.onsuccess = function (event) {
       // console.log(index,length);
       if (index < length) {
-        // console.log(index,length)
+        console.log(index,length)
         document.getElementById("loading").style.display = "flex";
       } else {
         localStorage.setItem("databaseLength", length);
