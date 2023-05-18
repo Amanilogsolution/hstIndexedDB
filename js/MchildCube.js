@@ -72,7 +72,7 @@ function searhChildCubeValue() {
       ${filterdata[i]["CC_NO"]} 
       </h5><p class="card-text"> 
       ${filterdata[i]["CC_NAME"]} 
-      </p></div></div>;`
+      </p></div></div>`
     );
   }
 
