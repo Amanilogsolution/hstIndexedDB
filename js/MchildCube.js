@@ -42,7 +42,7 @@ function removeDuplicates(data) {
       ${childCube[i]["CC_NO"]} 
       </h5><p class="card-text"> 
       ${childCube[i]["CC_NAME"]} 
-      </p></div></div>;`
+      </p></div></div>`
     );
   }
 
