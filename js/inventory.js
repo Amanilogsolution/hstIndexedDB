@@ -80,10 +80,8 @@ function searchchild() {
 			 <span class="badge badge-success  float-right">  ${result1[result3[j]].length} </span>
 			 <span  data-toggle="modal" data-target="#exampleModal">${result1[result3[j]][0]['BATCH_EXPIRY']}</span>  
 			 </li>
-			 </ul>`
-	 	   
-		} 
-			
+			 </ul>` 
+		} 	
 		}
 		document.getElementById('summery').style.display='flex';
 		document.getElementById('loading').style.display='none';
