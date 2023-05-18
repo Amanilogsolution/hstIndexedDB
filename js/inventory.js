@@ -18,7 +18,6 @@ function searchchild() {
 	 
 	//document.getElementById('loading').style.display = 'flex';
 	let id = document.getElementById('childCube').value;
-	console.log(id) 
 	let uniqueArr = []
 	let chunks = []
 	let matchedInventory = [];
@@ -53,9 +52,11 @@ function searchchild() {
 	setTimeout(() => { 
 		 
 		 var result = matchedInventory.reduce((x,y)=>{
-			(x[y.MC_NAME] = x[y.MC_NAME] || []).push(y)
+			(x[y.CC_NO] = x[y.CC_NO] || []).push(y)
 			return x;
 		 },{})
+
+		 console.log(result)
 
 		let result2 = Object.keys(result)  
 		 
@@ -73,9 +74,13 @@ function searchchild() {
 		for(j=0;j<result3.length;j++){
 			displayInvetory +=`
 			<li class="list-group-item d-flex justify-content-between align-items-center" onClick="ab('${result1[result3[j]][0]['PACK_EPC']}')">
+			<span  data-toggle="modal" data-target="#exampleModal">${result1[result3[j]][0]['CC_NO']}</span>  
 			 <span  data-toggle="modal" data-target="#exampleModal">${result1[result3[j]][0]['PACK_NAME']}</span>  
 			 <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span>
-			 <span class="badge badge-success  float-right">  ${result1[result3[j]].length} </span></li></ul>`
+			 <span class="badge badge-success  float-right">  ${result1[result3[j]].length} </span>
+			 <span  data-toggle="modal" data-target="#exampleModal">${result1[result3[j]][0]['BATCH_EXPIRY']}</span>  
+			 </li>
+			 </ul>`
 	 	   
 		} 
 			
