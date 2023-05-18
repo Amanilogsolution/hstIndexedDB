@@ -33,55 +33,52 @@ function removeDuplicates(data) {
 
   const childCube = getUniqueListBy(uniqueArray, "CC_EPCNO");
   let volume1 = [];
-  let volume2 = [];
-  let volume3 = [];
-  for (let i = 0; i <= 11; i++) {
-    volume1.push(` 
 
-    <div class="card mb-2" style="height: 20rem;" onClick="packData('${childCube[i]["CC_EPCNO"]}')" >
-    <div style="padding:20px 30px 30px 30px">  
-    <img src="img/childCube.png" width="190" height="170">
-    <h5 class="card-title text-center">${childCube[i]["CC_NO"]}</h5>   
-      <p class="card-text text-sm">${childCube[i]["CC_NAME"]}</p>    
-    </div>
-  </div>
+  let childCubeData = "";
 
-   
-        `);
+  for (let i = 0; i < childCube.length; i++) {
+    volume1.push(
+      `<div class="card mb-3" style="cursor:pointer" onClick="packData('${childCube[i]["CC_EPCNO"]}')"> <div class="card-body"> <img src="img/childCube.png" width="190" height="170"> <h5 class="card-title"> 
+      ${childCube[i]["CC_NO"]} 
+      </h5><p class="card-text"> 
+      ${childCube[i]["CC_NAME"]} 
+      </p></div></div>;`
+    );
   }
 
-  for (let i = 12; i <= 23; i++) {
-    volume2.push(`
-    <div class="card mb-2" style="height: 20rem;" onClick="packData('${childCube[i]["CC_EPCNO"]}')" >
-    
-    <div style="padding:20px 30px 30px 30px">  
-    <img src="img/childCube.png" width="190" height="170">
-    <h5 class="card-title text-center">${childCube[i]["CC_NO"]}</h5>   
-      <p class="card-text">${childCube[i]["CC_NAME"]}</p>    
-    </div>
-  </div>
-         `);
-  }
-  for (let i = 24; i <= 35; i++) {
-    // console.log(value.CC_NO,value.CC_NAME)
-    volume3.push(`
-    <div class="card mb-2" style="height: 20rem;" onClick="packData('${childCube[i]["CC_EPCNO"]}')" >
-    
-    <div style="padding:20px 30px 30px 30px">  
-    <img src="img/childCube.png" width="190" height="170">
-    <h5 class="card-title text-center">${childCube[i]["CC_NO"]}</h5>   
-      <p class="card-text">${childCube[i]["CC_NAME"]}</p>    
-    </div>
-  </div>
-          `);
-  }
   let str1 = volume1.toString().replaceAll(",", "");
-  let str2 = volume2.toString().replaceAll(",", "");
-  let str3 = volume3.toString().replaceAll(",", "");
+
   document.getElementById("volume1").innerHTML = str1;
-  document.getElementById("volume2").innerHTML = str2;
-  document.getElementById("volume3").innerHTML = str3;
+
   document.getElementById("loading").style.display = "none";
+}
+
+function searhChildCubeValue() {
+  let inputvalue = document.getElementById("searchVal").value;
+
+  uniqueArray = Array.from(uniqueSet).map(JSON.parse);
+  const datasearch = getUniqueListBy(uniqueArray, "CC_EPCNO");
+
+  const filterdata = datasearch.filter(({ CC_NAME }) =>
+    [CC_NAME].some((val) => val.includes(inputvalue.toUpperCase()))
+  );
+  console.log(filterdata);
+
+  let volume1 = [];
+
+  for (let i = 0; i < filterdata.length; i++) {
+    volume1.push(
+      `<div class="card mb-3" style="cursor:pointer" onClick="packData('${filterdata[i]["CC_EPCNO"]}')"> <div class="card-body"> <img src="img/childCube.png" width="190" height="170"> <h5 class="card-title"> 
+      ${filterdata[i]["CC_NO"]} 
+      </h5><p class="card-text"> 
+      ${filterdata[i]["CC_NAME"]} 
+      </p></div></div>;`
+    );
+  }
+
+  let str1 = volume1.toString().replaceAll(",", "");
+
+  document.getElementById("volume1").innerHTML = str1;
 }
 
 function packData(value) {
