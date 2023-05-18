@@ -141,14 +141,14 @@
               type="button"
               href="javascript:void(0);"
               onclick="window.location.reload(true);"
-              class="float-right btn btn-outline-dark btn btn-sm mb-1"
+              class="float-right btn btn-outline-success btn btn-sm mb-1"
               >Refresh</a
             >
           </div>
         </div>
 
-        <div class="row py-1 rounded" style="background-color: #ffe8e6">
-          <label for="inventory" class="col-sm-2 col-form-label ml-1"
+        <div class="row py-1 bg-light rounded">
+          <label for="inventory" class="text-muted ml-3" 
             ><strong>Child Cube </strong></label
           >
 
@@ -186,8 +186,8 @@
             ></select>
           </div>
 
-          <div class="form-group px-3">
-            <div id="search2" style="display: none; margin-top: 10px">
+          <div class="col-md-6 px-3">
+            <div class="" id="search2" style="display: none; margin-top: 10px">
               <input
                 class="form-control border border-white"
                 name="childCube"
@@ -216,29 +216,29 @@
           </div>
           <div class="container px-4 bg-white rounded shadow3-gray m-3">
             <div class="mb-2" style="display: none" id="summery">
-              <div class="row mt-2 p-2" style="font-size: 12px">
+              <div class="row mt-2 p-2" style="font-size: 15px">
                 <div class="col-md-4">
                   Total Kit Found :
                   <span
-                    class="badge badge-success badge-pill float-right"
+                    class="text-success float-right"
                     id="matchdata"
                   ></span>
                 </div>
                 <div class="col-md-4">
                   Total Kit Short :
                   <span
-                    class="badge badge-danger badge-pill float-right"
+                    class="text-danger float-right"
                     id="notmatchdnata"
                   ></span>
                 </div>
 
                 <div class="col-md-4">
                   Mother Cube :
-                  <span class="badge badge-info float-right" id="mCube"></span>
+                  <span class="text-muted " id="mCube"></span>
                 </div>
                 <div class="col-md-4">
                   Child Cube :
-                  <span class="badge badge-info float-right" id="cCube"></span>
+                  <span class="text-muted" id="cCube"></span>
                 </div>
               </div>
             </div>

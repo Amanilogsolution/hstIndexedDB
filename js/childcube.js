@@ -95,8 +95,8 @@ function searchdata() {
 
   // MAtch Data Update Data End//
 
-  let mothercube = match.length > 0 ? match[0]["MC_NO"] : "";
-  let childcube = match.length > 0 ? match[0]["CC_NO"] : "";
+  let mothercube = match.length > 0 ? match[0]["MC_NAME"] : "";
+  let childcube = match.length > 0 ? match[0]["CC_NAME"] : "";
   let arr1 = [];
   for (i = 0; i < data.length; i++) {
     arr1.push(data[i].PACK_EPC);
