@@ -86,13 +86,14 @@
             class="text-dark text-decoration-none"><small>Random Inventory</small> </a> >  -->
             <small>RFID</small> </h6>
         </div> 
-          <div class="row py-3  rounded" style="background-color: #FFE8E6;">
-            <label for="inventory" class="col-sm-2 col-form-label ml-3"><strong>identify kits</strong></label> 
+          <div class="row py-3  rounded bg-light" >
+            <label for="inventory" class="col-sm-2 col-form-label ml-3 text-muted"><strong>Identify Kits</strong></label> 
             <div class="col-md-6">
+              
               <div class="form-row ml-2" >
                 <input type="text" id="childCube" name="childCube" class="form-control " style="width:85%;"
                     placeholder="Scan Inventory." />
-                    <button class="btn btn-outline-danger" onclick="searchchild()">
+                    <button class="btn btn-outline-primary" onclick="searchchild()">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
@@ -108,16 +109,30 @@
             </div>
           </div>
           <div class="">  
-            <div class="row mt-2 border border-info rounded" style="display: none;" id="summery">
-              <div class="col border border-right-info  pt-2 pb-2">
-                Total Kit Found <span class="badge badge-success badge-pill float-right" id="matchdata"></span>
+            <div class="row mt-2  rounded" style="display: none;" id="summery">
+              <div class="col pt-2 text-center text-muted">
+                <h5>
+                Total Kit Found 
+                <span class="badge badge-success badge-pill " id="matchdata"></span></h5>
               </div>
               
             </div>
 
-            <div class="row py-3  rounded mt-2"   id="matchTable"  >
-              <div class="col-md-6"  id="invMatch">
-
+            <div class="row py-3  rounded"   id="matchTable" style="display:none" >
+              <div class="col-md-12"  >
+                <table class="table table-striped">
+                  <tr class="bg-info text-white">
+                  <th >
+                    C.C NO		
+                  </th>
+                  <th>KIT NAME</th>
+                  <th>KIT QTY</th>
+                  <th>	KIT EXPIRY</th>
+                </tr>
+                  <tbody  id="invMatch" >
+                    
+                  </tbody>
+                </table>
 
               </div>
             </div> 

@@ -18,7 +18,6 @@ function searchchild() {
 
   //document.getElementById('loading').style.display = 'flex';
   let id = document.getElementById("childCube").value;
-  console.log(id);
   let uniqueArr = [];
   let chunks = [];
   let matchedInventory = [];
@@ -49,17 +48,19 @@ function searchchild() {
   document.getElementById("loading").style.display = "flex";
   setTimeout(() => {
     var result = matchedInventory.reduce((x, y) => {
-      (x[y.MC_NAME] = x[y.MC_NAME] || []).push(y);
+      (x[y.CC_NO] = x[y.CC_NO] || []).push(y);
       return x;
     }, {});
+
+    console.log(result);
 
     let result2 = Object.keys(result);
 
     for (i = 0; i < result2.length; i++) {
-      displayInvetory +=
-        '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">' +
-        result[`${result2[i]}`][0]["MC_NAME"] +
-        "</li>";
+      //   displayInvetory +=
+      //     '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">' +
+      //     result[`${result2[i]}`][0]["MC_NAME"] +
+      //     "</li>";
       var result1 = result[`${result2[i]}`].reduce((x, y) => {
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
         return x;
@@ -67,23 +68,23 @@ function searchchild() {
 
       let result3 = Object.keys(result1);
       for (j = 0; j < result3.length; j++) {
-        displayInvetory += `
-			<li class="list-group-item d-flex justify-content-between align-items-center" onClick="ab('${
-        result1[result3[j]][0]["PACK_EPC"]
-      }')">
-			 <span  data-toggle="modal" data-target="#exampleModal">${
-         result1[result3[j]][0]["PACK_NAME"]
-       }</span>  
-			 <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span>
-			 <span class="badge badge-success  float-right">  ${
-         result1[result3[j]].length
-       } </span>
-	 <span>${result1[result3[j]][0]["BATCH_EXPIRY"]}</span>  
-	   </li>
-			 </ul>`;
+        displayInvetory += `<tr data-toggle="modal" data-target="#exampleModal" onClick="ab('${
+          result1[result3[j]][0]["PACK_EPC"]
+        }')">
+		<td>${result1[result3[j]][0]["CC_NO"]}</td>
+		<td>${result1[result3[j]][0]["PACK_NAME"]}</td>
+		<td><span class="badge badge-warning">${result1[result3[j]].length}</span></td>
+		<td><span class="badge badge-success">${new Date(
+      result1[result3[j]][0]["BATCH_EXPIRY"]
+    ).toLocaleDateString("en-GB")}
+		
+		
+		</span></td>
+		</tr>`;
       }
     }
     document.getElementById("summery").style.display = "flex";
+    document.getElementById("matchTable").style.display = "flex";
     document.getElementById("loading").style.display = "none";
     document.getElementById("matchdata").innerHTML = matchedInventory.length;
     document.getElementById("invMatch").innerHTML = displayInvetory;
@@ -121,8 +122,9 @@ function ab(value) {
 		</tr>			 
 		`);
     });
-    let data = `${packData[0][0].CC_NO} ${packData[0][0].CC_NAME}`;
+    let data = ` ${packData[0][0].CC_NAME}`;
     let str = SkuData.toString().replaceAll(",", "");
+    console.log(str);
     document.getElementById("skudatavalue").innerHTML = str;
     document.getElementById("modaltitle").innerHTML = data;
   }, 1000);
