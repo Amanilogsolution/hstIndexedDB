@@ -28,7 +28,15 @@
   #loading-image {
     z-index: 100;
   }
-
+  #childCube:focus{
+  outline: none;
+  border-color: white;
+  box-shadow: 0 0 3px white;
+  -moz-box-shadow: 0 0 3px white;
+  -webkit-box-shadow: 0 0 3px white;
+  background-color: white;
+  caret-color: white;
+}
   </style>
 </head>
 
@@ -79,26 +87,39 @@
  
     <div class="container"> 
       <section id="boxes" class="px-2 mb-1">
-        <div style="background-color: #f8f9fa;">
+        <div class="bg-light">
           <h6 class="mt-4 "><a href="index.html" class="text-danger"><small> Home</small></a> > 
             <!-- <a href="identtificationInner.html"
             class="text-dark text-decoration-none"><small>Identification</small> </a> ><a href="randomInventory.html"
             class="text-dark text-decoration-none"><small>Random Inventory</small> </a> >  -->
             <small>RFID</small> </h6>
         </div> 
-          <div class="row py-3  rounded bg-light" >
-            <label for="inventory" class="col-sm-2 col-form-label ml-3 text-muted"><strong>Identify Kits</strong></label> 
+          <div class="row py-1  rounded d-flex justify-content-around bg-light " >
+            <label for="inventory" class="mt-2 text-muted" ><strong>Identify Kits</strong></label>
+              <a
+                type="button"
+                href="javascript:void(0);"
+                onclick="window.location.reload(true);"   class="float-right btn btn-outline-primary "   
+                 
+                >Refresh</a>
+
+</div>
+
+
+
+
+<div>
+         
             <div class="col-md-6">
               
               <div class="form-row ml-2" >
-                <input type="text" id="childCube" name="childCube" class="form-control " style="width:85%;"
-                    placeholder="Scan Inventory." />
-                    <button class="btn btn-outline-primary" onclick="searchchild()">
+                <input type="text" id="childCube" name="childCube" class="form-control" style="width:85%; border-color: white;" onkeyup="searchchild()" />
+                    <!-- <button class="btn btn-outline-primary" onclick="searchchild()">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-search" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
                       </svg>
-                    </button>
+                    </button> -->
                 </div> 
             </div>
           </div>
