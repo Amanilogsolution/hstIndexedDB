@@ -11,7 +11,7 @@
     uniqueArr.filter((data) => {
       if (data.PACK_NAME === pdata[i]["PACK_NAME"]) {
         count = count + 1;
-        data.Status == "" ? (balance = balance + 1) : null;
+        data.Status == null ? (balance = balance + 1) : null;
       } else {
         null;
       }

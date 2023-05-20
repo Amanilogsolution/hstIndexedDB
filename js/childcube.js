@@ -240,13 +240,17 @@ function match(value) {
   };
   setTimeout(() => {
     let SkuData = [];
-
     packData[0].forEach((value, index) => {
       SkuData.push(`  
               <tr>
               <th scope="row"><small>${++index}</small></th>
               <td><small >${value["SKU_NAME"]}</small></td>
               <td><small>${value["SKU_QTY"]}</small></td> 
+              <td><span class="badge badge-success">${new Date(
+                value["BATCH_EXPIRY"]
+              ).toLocaleDateString("en-GB")}
+              </span></td>
+
             </tr>			 
             `);
     });
@@ -319,8 +323,7 @@ const UpdateCubeMisMatchData = (key, value) => {
       data.Status = "N";
       const updateRequest = store.put(data, key);
       updateRequest.onsuccess = (event) => {
-        console.log(updateRequest.result);
-        console.log(data);
+     
       };
     };
   };
