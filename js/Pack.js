@@ -34,7 +34,7 @@
                 
                 <td ><img src="img/${
                   value.PACK_CODE
-                }.png" onerror="this.onerr=null;this.src='img/childCube.png'" width="60" height="60" alt=""></td>
+                }.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" width="60" height="60" alt=""></td>
                 <td>${value.PACK_EXPIRY}</td>
                 </tr>
             `);

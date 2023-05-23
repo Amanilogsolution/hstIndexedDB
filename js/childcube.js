@@ -163,7 +163,7 @@ function searchdata() {
           result[result2[i]][0]["PACK_EPC"]
         }')">
         <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
+        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${result[result2[i]][0]["PACK_CODE"]}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
         <td>${result3.length}</td>
          <td>${result[`${result2[i]}`][0]["BATCH_EXPIRY"]}</td>
         </tr> 
@@ -188,6 +188,7 @@ function searchdata() {
 
     let result3 = Object.keys(resultdatapack);
     mismatchdatalength.push(result3.length);
+    console.log()
     inventoryMisMatch.push(`
         <tr class="text-dark" style="font-size:14px" onClick="match('${
           resultdatapack[result3[0]][0]["PACK_EPC"]
@@ -195,7 +196,7 @@ function searchdata() {
         <td data-toggle="modal" data-target="#exampleModal">${
           mismatchChildCube[i]
         }</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
+        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdatapack[result3[0]][0]["PACK_CODE"]}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
         <td>${result3.length}</td>
         <td>${resultdata[`${mismatchChildCube[i]}`][0]["BATCH_EXPIRY"]}</td>
         </tr>
@@ -328,3 +329,13 @@ const UpdateCubeMisMatchData = (key, value) => {
     };
   };
 };
+
+const imagemodal = (kitno) =>{
+  // alert(kitno)
+  const str = `<img class="img-fluid" src="img/${kitno}.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" style="width: 300px" />`  
+  // setTimeout(() => {
+  //   console.log(str)
+    document.getElementById('Imagedata').innerHTML = str
+
+  // },1000)
+}
