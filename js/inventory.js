@@ -9,12 +9,11 @@ function removeDuplicates(arr) {
 }
 
 function searchchild() {
-  var searchValue = document.getElementById("childCube").value;
-  console.log(searchValue);
-  if (searchValue == "") {
-    alert("Search Text is empty");
-    return false;
-  }
+  // alert("aasdf");
+  // if (searchValue == "") {
+  //   alert("Search Text is empty");
+  //   return false;
+  // }
 
   //document.getElementById('loading').style.display = 'flex';
   let id = document.getElementById("childCube").value;
