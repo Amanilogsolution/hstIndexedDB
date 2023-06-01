@@ -140,47 +140,88 @@ function searchdata() {
       }
     }, 1000);
   }, 1000);
+
+
+
+
   var result = match.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
     return x;
   }, {});
-  // console.log('Match',result
 
   let result2 = Object.keys(result);
   let mismatchdatalength = [];
   let matchdatalength = [];
-  let matchsum = 0;
 
   for (i = 0; i < result2.length; i++) {
     var resultdata = result[`${result2[i]}`].reduce((x, y) => {
-      (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+      (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
       return x;
     }, {});
+
+
     let result3 = Object.keys(resultdata);
     matchdatalength.push(result3.length);
-    inventoryMatch.push(`
-        <tr class="text-dark" style="font-size:14px" onClick="match('${
-          result[result2[i]][0]["PACK_EPC"]
-        }')">
-        <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${result[result2[i]][0]["PACK_CODE"]}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
-        <td>${result3.length}</td>
-         <td>${result[`${result2[i]}`][0]["BATCH_EXPIRY"]}</td>
-        </tr> 
-		`);
+
+    for(let s=0 ; s<result3.length ; s++){
+
+      var resultdatass = resultdata[`${result3[s]}`].reduce((x, y) => {
+        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        return x;
+      }, {});
+
+      let textColor = ''
+
+      var date = new Date();
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear();
+      if (month < 10) month = "0" + month;
+      if (day < 10) day = "0" + day;
+      var today = year + "-" + month + "-" + day;
+
+
+      const date1 = new Date(result3[s]);
+       const date2 = new Date(today);
+         const diffTime = date1-date2
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+      if(diffDays<0){
+          textColor='danger'
+      }else{
+         textColor='success'
+       }
+
+      let result4 = Object.keys(resultdatass);
+
+      inventoryMatch.push(`
+      <tr class="text-dark" style="font-size:14px" onClick="match('${
+        resultdata[`${result3[s]}`][0]['PACK_EPC']
+      }')">
+      <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
+      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdata[`${result3[s]}`][0]['PACK_EPC']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
+      <td>${result4.length}</td>
+       <td class='text-${textColor}'>${result3[s]}</td>
+      </tr> 
+  `);
+    }
+   
     const matchsum = matchdatalength.reduce((sum, num) => sum + num);
     document.getElementById("matchdata").innerHTML = matchsum;
   }
+
 
   var resultdata = Mismatch.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
     return x;
   }, {});
+
   let mismatchChildCube = Object.keys(resultdata);
+
   for (i = 0; i < mismatchChildCube.length; i++) {
+
     var resultdatapack = resultdata[`${mismatchChildCube[i]}`].reduce(
       (x, y) => {
-        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
         return x;
       },
       {}
@@ -188,26 +229,55 @@ function searchdata() {
 
     let result3 = Object.keys(resultdatapack);
     mismatchdatalength.push(result3.length);
-    console.log()
-    inventoryMisMatch.push(`
-        <tr class="text-dark" style="font-size:14px" onClick="match('${
-          resultdatapack[result3[0]][0]["PACK_EPC"]
-        }')">
-        <td data-toggle="modal" data-target="#exampleModal">${
-          mismatchChildCube[i]
-        }</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdatapack[result3[0]][0]["PACK_CODE"]}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
-        <td>${result3.length}</td>
-        <td>${resultdata[`${mismatchChildCube[i]}`][0]["BATCH_EXPIRY"]}</td>
-        </tr>
-		`);
+   
+    for(let s=0 ; s<result3.length ; s++){
+
+      var resultdatass = resultdatapack[`${result3[s]}`].reduce((x, y) => {
+        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        return x;
+      }, {});
+
+      let textColor = ''
+
+      var date = new Date();
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear();
+      if (month < 10) month = "0" + month;
+      if (day < 10) day = "0" + day;
+      var today = year + "-" + month + "-" + day;
+
+
+      const date1 = new Date(result3[s]);
+       const date2 = new Date(today);
+         const diffTime = date1-date2
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+      if(diffDays<0){
+          textColor='danger'
+      }else{
+         textColor='success'
+    }
+      
+      let result4 = Object.keys(resultdatass);
+
+      inventoryMisMatch.push(`
+      <tr class="text-dark" style="font-size:14px" onClick="match('${
+        resultdatapack[`${result3[s]}`][0]['PACK_EPC']
+      }')">
+      <td data-toggle="modal" data-target="#exampleModal">${
+        mismatchChildCube[i]
+      }</td>
+      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdatapack[`${result3[s]}`][0]['PACK_CODE']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
+      <td>${result4.length}</td>
+      <td class='text-${textColor}'>${result3[s]}</td>
+      </tr>
+  `);
+
+    }
   }
 
   let mismatchsum = 0;
-
   mismatchdatalength.map((x) => (mismatchsum += x));
-
-  console.log("mismatch", mismatchsum);
 
   let Matchstr = inventoryMatch.toString().replaceAll(",", "");
   let MisMatchstr = inventoryMisMatch.toString().replaceAll(",", "");
@@ -251,7 +321,6 @@ function match(value) {
                 value["BATCH_EXPIRY"]
               ).toLocaleDateString("en-GB")}
               </span></td>
-
             </tr>			 
             `);
     });
@@ -331,11 +400,8 @@ const UpdateCubeMisMatchData = (key, value) => {
 };
 
 const imagemodal = (kitno) =>{
-  // alert(kitno)
   const str = `<img class="img-fluid" src="img/${kitno}.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" style="width: 300px" />`  
-  // setTimeout(() => {
-  //   console.log(str)
+ 
     document.getElementById('Imagedata').innerHTML = str
 
-  // },1000)
 }

@@ -85,7 +85,7 @@ function packData(value) {
   setTimeout(() => {
     const data = TotalData.filter((data) => data.CC_EPCNO === value);
     localStorage["packSkuDatas"] = JSON.stringify(data);
-    const Packdatass = getUniqueListBy(data, "PACK_NO");
+    const Packdatass = getUniqueListBy(data, "PACK_CODE");
     localStorage["packDatas"] = JSON.stringify(Packdatass);
     window.location.href = "pack.html";
   }, 1000);
