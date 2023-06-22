@@ -72,7 +72,7 @@ function searhChildCubeValue() {
       ${filterdata[i]["CC_NO"]} 
       </h5><p class="card-text"> 
       ${filterdata[i]["CC_NAME"]} 
-      </p></div></div>;`
+      </p></div></div>`
     );
   }
 
@@ -85,7 +85,7 @@ function packData(value) {
   setTimeout(() => {
     const data = TotalData.filter((data) => data.CC_EPCNO === value);
     localStorage["packSkuDatas"] = JSON.stringify(data);
-    const Packdatass = getUniqueListBy(data, "PACK_NO");
+    const Packdatass = getUniqueListBy(data, "PACK_CODE");
     localStorage["packDatas"] = JSON.stringify(Packdatass);
     window.location.href = "pack.html";
   }, 1000);

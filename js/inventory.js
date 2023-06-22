@@ -76,8 +76,6 @@ function searchchild() {
 		<td><span class="badge badge-success">${new Date(
       result1[result3[j]][0]["BATCH_EXPIRY"]
     ).toLocaleDateString("en-GB")}
-		
-		
 		</span></td>
 		</tr>`;
       }
@@ -127,4 +125,9 @@ function ab(value) {
     document.getElementById("skudatavalue").innerHTML = str;
     document.getElementById("modaltitle").innerHTML = data;
   }, 1000);
+}
+
+function xvz(){
+  searchchild()
+
 }

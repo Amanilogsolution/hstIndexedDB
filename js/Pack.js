@@ -11,7 +11,7 @@
     uniqueArr.filter((data) => {
       if (data.PACK_NAME === pdata[i]["PACK_NAME"]) {
         count = count + 1;
-        data.Status == "" ? (balance = balance + 1) : null;
+        data.Status == null ? (balance = balance + 1) : null;
       } else {
         null;
       }
@@ -34,7 +34,7 @@
                 
                 <td ><img src="img/${
                   value.PACK_CODE
-                }.png" onerror="this.onerr=null;this.src='img/childCube.png'" width="60" height="60" alt=""></td>
+                }.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" width="60" height="60" alt=""></td>
                 <td>${value.PACK_EXPIRY}</td>
                 </tr>
             `);

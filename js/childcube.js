@@ -20,7 +20,6 @@ function ChildCube() {
       const store = txn.objectStore("tbl_rfid");
       const index = store.index("CC_NO");
       let query = index.get(x);
-
       query.onsuccess = (event) => {
         if (!event.target.result) {
           console.log(`this ${x} not match`);
@@ -32,7 +31,6 @@ function ChildCube() {
   });
   setTimeout(() => {
     const dropdown = [];
-
     dropdown.push(`<option hidden value="">Please Select Child Cube</option>`);
     childcubeDropdown.forEach((x) =>
       dropdown.push(`<option value="${x.CC_EPCNO}">${x.CC_NAME}</option>`)
@@ -48,7 +46,6 @@ function searchChildCube(e) {
   document.getElementById("loading").style.display = "flex";
   let id = e.target.value;
   const ldb = idb.open("CRM", 2);
-
   ldb.onsuccess = function () {
     const db = ldb.result;
     const txn = db.transaction("tbl_rfid", "readonly");
@@ -74,7 +71,6 @@ function removeDuplicates(arr) {
 
 function searchdata() {
   document.getElementById("loading").style.display = "flex";
-
   const id = document.getElementById("child").value;
   let uniqueArr = [];
   let chunks = [];
@@ -87,14 +83,11 @@ function searchdata() {
   let inventoryMisMatch = [];
   let match = data.filter((e) => uniqueArr.includes(e.PACK_EPC));
   let Mismatch = data.filter((e) => !uniqueArr.includes(e.PACK_EPC));
-
   // MAtch Data Update Data Start//
   match.forEach((e) => UpdateMatchData(e.PACK_EPC));
   // console.log(Mismatch)
   Mismatch.forEach((e) => UpdateMisMatchData(e.PACK_EPC));
-
   // MAtch Data Update Data End//
-
   let mothercube = match.length > 0 ? match[0]["MC_NAME"] : "";
   let childcube = match.length > 0 ? match[0]["CC_NAME"] : "";
   let arr1 = [];
@@ -124,7 +117,6 @@ function searchdata() {
     });
     setTimeout(() => {
       const invdata = [];
-
       for (i = 0; i < datass.length; i++) {
         invdata.push(`
             <tr class="text-dark" style="font-size:12px" >
@@ -133,44 +125,77 @@ function searchdata() {
             <td style="width:10px">${datass[i].PACK_NAME}</td>
             <td style="width:20px">${datass[i].PACK_EXPIRY}</td>
             </tr> 
-            `);
+          `);
         let Wrongdata = invdata.toString().replaceAll(",", "");
         document.getElementById("loading").style.display = "none";
         document.getElementById("wrongKitFound").innerHTML = Wrongdata;
       }
     }, 1000);
   }, 1000);
+
+
+
+
   var result = match.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
     return x;
   }, {});
-  // console.log('Match',result
 
   let result2 = Object.keys(result);
   let mismatchdatalength = [];
   let matchdatalength = [];
-  let matchsum = 0;
-
   for (i = 0; i < result2.length; i++) {
     var resultdata = result[`${result2[i]}`].reduce((x, y) => {
-      (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+      (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
       return x;
     }, {});
+
+
     let result3 = Object.keys(resultdata);
     matchdatalength.push(result3.length);
-    inventoryMatch.push(`
-        <tr class="text-dark" style="font-size:14px" onClick="match('${
-          result[result2[i]][0]["PACK_EPC"]
-        }')">
-        <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
-        <td>${result3.length}</td>
-         <td>${result[`${result2[i]}`][0]["BATCH_EXPIRY"]}</td>
-        </tr> 
-		`);
+
+    for(let s=0 ; s<result3.length ; s++){
+
+      var resultdatass = resultdata[`${result3[s]}`].reduce((x, y) => {
+        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        return x;
+      }, {});
+
+      let textColor = ''
+      var date = new Date();
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear();
+      if (month < 10) month = "0" + month;
+      if (day < 10) day = "0" + day;
+      var today = year + "-" + month + "-" + day;
+      const date1 = new Date(result3[s]);
+      const date2 = new Date(today);
+      const diffTime = date1-date2
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+      if(diffDays<0){
+          textColor='danger'
+      }else{
+         textColor='success'
+       }
+
+      let result4 = Object.keys(resultdatass);
+      inventoryMatch.push(`
+      <tr class="text-dark" style="font-size:14px" onClick="match('${
+        resultdata[`${result3[s]}`][0]['PACK_EPC']
+      }')">
+      <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
+      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdata[`${result3[s]}`][0]['PACK_EPC']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
+      <td>${result4.length}</td>
+       <td class='text-${textColor}'>${result3[s]}</td>
+      </tr> 
+  `);
+    }
+   
     const matchsum = matchdatalength.reduce((sum, num) => sum + num);
     document.getElementById("matchdata").innerHTML = matchsum;
   }
+
 
   var resultdata = Mismatch.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
@@ -180,34 +205,57 @@ function searchdata() {
   for (i = 0; i < mismatchChildCube.length; i++) {
     var resultdatapack = resultdata[`${mismatchChildCube[i]}`].reduce(
       (x, y) => {
-        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
         return x;
       },
       {}
     );
-
+    
     let result3 = Object.keys(resultdatapack);
-    mismatchdatalength.push(result3.length);
-    inventoryMisMatch.push(`
-        <tr class="text-dark" style="font-size:14px" onClick="match('${
-          resultdatapack[result3[0]][0]["PACK_EPC"]
-        }')">
-        <td data-toggle="modal" data-target="#exampleModal">${
-          mismatchChildCube[i]
-        }</td>
-        <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage"> <img src="img/eye.png" style="width:30px;" /></span></td>
-        <td>${result3.length}</td>
-        <td>${resultdata[`${mismatchChildCube[i]}`][0]["BATCH_EXPIRY"]}</td>
-        </tr>
-		`);
+
+    mismatchdatalength.push(result3.length);   
+    for(let s=0 ; s<result3.length ; s++){
+      var resultdatass = resultdatapack[`${result3[s]}`].reduce((x, y) => {
+        (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+        return x;
+      }, {});
+
+      let textColor = '';
+      var date = new Date();
+      var day = date.getDate();
+      var month = date.getMonth() + 1;
+      var year = date.getFullYear();
+      if (month < 10) month = "0" + month;
+      if (day < 10) day = "0" + day;
+      var today = year + "-" + month + "-" + day;
+      const date1 = new Date(result3[s]);
+      const date2 = new Date(today);
+      const diffTime = date1-date2
+      const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24)); 
+      if(diffDays<0){
+        textColor='danger'
+      }else{
+        textColor='success'
+    }
+      
+      let result4 = Object.keys(resultdatass);
+      inventoryMisMatch.push(`
+      <tr class="text-dark" style="font-size:14px" onClick="match('${
+        resultdatapack[`${result3[s]}`][0]['PACK_EPC']
+      }')">
+      <td data-toggle="modal" data-target="#exampleModal">${
+        mismatchChildCube[i]
+      }</td>
+      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdatapack[`${result3[s]}`][0]['PACK_CODE']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
+      <td>${result4.length}</td>
+      <td class='text-${textColor}'>${result3[s]}</td>
+      </tr>
+    `);
+    }
   }
 
   let mismatchsum = 0;
-
   mismatchdatalength.map((x) => (mismatchsum += x));
-
-  console.log("mismatch", mismatchsum);
-
   let Matchstr = inventoryMatch.toString().replaceAll(",", "");
   let MisMatchstr = inventoryMisMatch.toString().replaceAll(",", "");
   document.getElementById("mCube").innerHTML = mothercube;
@@ -222,7 +270,6 @@ function searchdata() {
 }
 function match(value) {
   var packData = [];
-
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
     const db = ldb.result;
@@ -240,17 +287,17 @@ function match(value) {
   };
   setTimeout(() => {
     let SkuData = [];
-
     packData[0].forEach((value, index) => {
-      SkuData.push(`  
-              <tr>
-              <th scope="row"><small>${++index}</small></th>
-              <td><small >${value["SKU_NAME"]}</small></td>
-              <td><small>${value["SKU_QTY"]}</small></td> 
-            </tr>			 
-            `);
+    SkuData.push(`  
+      <tr>
+        <th scope="row"><small>${++index}</small></th>
+        <td><small >${value["SKU_NAME"]}</small></td>
+        <td><small>${value["SKU_QTY"]}</small></td> 
+        <td><span class="badge badge-success">${new Date(value["BATCH_EXPIRY"]).toLocaleDateString("en-GB")}
+        </span></td>
+      </tr>			 
+     `);
     });
-
     let str = SkuData.toString().replaceAll(",", "");
     document.getElementById("skudatavalue").innerHTML = str;
   }, 1000);
@@ -259,50 +306,50 @@ function match(value) {
 const UpdateMatchData = (id) => {
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
-    const db = ldb.result;
-    const txn = db.transaction(["tbl_rfid"], "readwrite");
-    const store = txn.objectStore("tbl_rfid");
-    const index = store.index("PACK_EPC");
-    let query1 = index.getKey(id);
-    query1.onsuccess = (event) => {
-      key = query1.result;
-      UpdateCubeMatchData(query1.result, id);
+  const db = ldb.result;
+  const txn = db.transaction(["tbl_rfid"], "readwrite");
+  const store = txn.objectStore("tbl_rfid");
+  const index = store.index("PACK_EPC");
+  let query1 = index.getKey(id);
+  query1.onsuccess = (event) => {
+    key = query1.result;
+    UpdateCubeMatchData(query1.result, id);
     };
   };
 };
 
-const UpdateMisMatchData = (id) => {
+const UpdateMisMatchData = (id) => { 
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
-    const db = ldb.result;
-    const txn = db.transaction(["tbl_rfid"], "readwrite");
-    const store = txn.objectStore("tbl_rfid");
-    const index = store.index("PACK_EPC");
-    let query1 = index.getKey(id);
-    query1.onsuccess = (event) => {
-      key = query1.result;
-      UpdateCubeMisMatchData(query1.result, id);
-    };
+  const db = ldb.result;
+  const txn = db.transaction(["tbl_rfid"], "readwrite");
+  const store = txn.objectStore("tbl_rfid");
+  const index = store.index("PACK_EPC");
+  let query1 = index.getKey(id);
+  query1.onsuccess = (event) => {
+    key = query1.result;
+    UpdateCubeMisMatchData(query1.result, id);
+  };
   };
 };
 
 const UpdateCubeMatchData = (key, value) => {
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
-    const db = ldb.result;
-    const txn = db.transaction("tbl_rfid", "readwrite");
-    const store = txn.objectStore("tbl_rfid");
-    const index = store.index("PACK_EPC");
-    let query = index.get(value);
-    query.onsuccess = (event) => {
-      const data = event.target.result;
-      data.Status = "";
-      const updateRequest = store.put(data, key);
-      updateRequest.onsuccess = (event) => {
-        console.log(updateRequest.result);
-        console.log(data);
-      };
+  const db = ldb.result;
+  const txn = db.transaction("tbl_rfid", "readwrite");
+  const store = txn.objectStore("tbl_rfid");
+  const index = store.index("PACK_EPC");
+  let query = index.get(value);
+  query.onsuccess = (event) => {
+    const data = event.target.result;
+    data.Status = "";
+    const updateRequest = store.put(data, key);
+    updateRequest.onsuccess = (event) => {
+      console.log(updateRequest.result);
+      console.log(data);
     };
+  };
   };
 };
 
@@ -319,9 +366,14 @@ const UpdateCubeMisMatchData = (key, value) => {
       data.Status = "N";
       const updateRequest = store.put(data, key);
       updateRequest.onsuccess = (event) => {
-        console.log(updateRequest.result);
-        console.log(data);
       };
     };
   };
 };
+
+const imagemodal = (kitno) =>{
+  const str = `<img class="img-fluid" src="img/${kitno}.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" style="width: 300px" />`  
+ 
+    document.getElementById('Imagedata').innerHTML = str
+
+}

@@ -1034,7 +1034,7 @@ var data = [
     MC_EPC: "A01",
     CC_NO: "1/5",
     CC_NAME: "SURVIVOR BLANKET & CHEMICAL WARMER SET (BOX 1)",
-    CC_EPCNO: "C01000000000000000000005",
+    CC_EPCNO: "C01000000000000000000004",
     CC_POSITION: null,
     PACK_NO: "1",
     PACK_NAME: "SHELTER KIT",
@@ -116313,6 +116313,8 @@ function abc(data) {
     };
   });
 }
+
+ 
 
 function getUniqueListBy(arr, key) {
   return [...new Map(arr.map((item) => [item[key], item])).values()];
