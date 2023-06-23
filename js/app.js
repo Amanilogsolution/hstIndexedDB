@@ -116289,7 +116289,6 @@ const idb = window.indexedDB;
 var arr = [];
 
 function abc(data) {
-  // console.log(data)
   data.map((element) => {
     const ldb = idb.open("CRM", 2);
     ldb.onsuccess = function () {
@@ -116335,3 +116334,47 @@ function removeDuplicates(arr) {
 //      document.body.removeChild(link);
 //      delete link;
 //    }
+
+
+
+
+var stockData = [
+  {
+    "MC_NO":"01",
+  "CC_NO":"1/1",
+  "PACK_CODE":"KT0008",
+  "PACK_NAME":"Antibiotic KIT",
+  "PACK_BATCHNO":"B00820251201",
+  "PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"
+},
+  {
+    "MC_NO":"01",
+  "CC_NO":"1/13",
+  "PACK_CODE":"KT0008",
+  "PACK_NAME":"Antibiotic",
+  "PACK_BATCHNO":"B00820251201334",
+  "PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"
+}
+    ];
+
+function downloadCSV(args) {
+        var data, filename, link;
+
+  var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(stockData);
+  
+/*        var csv = {
+            data: stockData
+        };
+        if (csv == null) return;
+*/
+        filename = 'jsonDataForTab.json';
+
+//        if (!csv.match(/^data:text\/csv/i)) {
+ //           csv = 'data:text/json;charset=utf-8,' + csv;
+ //       }
+        data = encodeURI(csv);
+        link = document.createElement('a');
+        link.setAttribute('href', data);
+        link.setAttribute('download', filename);
+        link.click();
+    }
