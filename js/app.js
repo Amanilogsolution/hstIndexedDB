@@ -116212,6 +116212,9 @@ const idb = window.indexedDB;
     let index3 = store.createIndex("SKU_CODE", "SKU_CODE", {
       unique: false,
     });
+    let index4 = store.createIndex("PACK_CODE", "PACK_CODE", {
+      unique: false,
+    });
   };
 
   // handle the error event
@@ -116321,60 +116324,71 @@ function removeDuplicates(arr) {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
-//    var downloadfile = () =>{
-//      downloadURI("./js/data.json", "data.json");
-//    }
+    function removeDuplicatespack(data) {
 
-//    function downloadURI(uri, name) {
-//      var link = document.createElement("a");
-//      link.download = name;
-//      link.href = uri;
-//      document.body.appendChild(link);
-//      link.click();
-//      document.body.removeChild(link);
-//      delete link;
-//    }
+      let filteredpackdata=[]
+      const stockData = getUniqueListBypackcode(data, "PACK_EPC");
 
 
+      stockData.map((element)=>{
+
+        if(element.Status == "N"){
+
+          // filteredpackdata.push({
+          //   "MC_NO":element.MC_NO,
+          //     "CC_NO":element.CC_NO,
+          //     "PACK_CODE":element.PACK_CODE,
+          //     "PACK_NAME":element.PACK_NAME,
+          //     "PACK_BATCHNO":element.PACK_BATCHNO,
+          //     "PACK_EXPIRY":element.PACK_EXPIRY,
+          //   "PACK_QTY":"1"     
+          //  })
+
+        } 
+
+      })
+
+  
+     setTimeout(()=>{
+      var data, filename, link;
+      var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(filteredpackdata);
+            filename = 'jsonDataForTab.json';
+            data = encodeURI(csv);
+            link = document.createElement('a');
+            link.setAttribute('href', data);
+            link.setAttribute('download', filename);
+            link.click();
+
+     },1000) 
 
 
-var stockData = [
-  {
-    "MC_NO":"01",
-  "CC_NO":"1/1",
-  "PACK_CODE":"KT0008",
-  "PACK_NAME":"Antibiotic KIT",
-  "PACK_BATCHNO":"B00820251201",
-  "PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"
-},
-  {
-    "MC_NO":"01",
-  "CC_NO":"1/13",
-  "PACK_CODE":"KT0008",
-  "PACK_NAME":"Antibiotic",
-  "PACK_BATCHNO":"B00820251201334",
-  "PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"
-}
-    ];
+    }
+
+    function getUniqueListBypackcode(arr, key) {
+      return [...new Map(arr.map((item) => [item[key], item])).values()];
+    }
+
 
 function downloadCSV(args) {
-        var data, filename, link;
 
-  var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(stockData);
-  
-/*        var csv = {
-            data: stockData
-        };
-        if (csv == null) return;
-*/
-        filename = 'jsonDataForTab.json';
 
-//        if (!csv.match(/^data:text\/csv/i)) {
- //           csv = 'data:text/json;charset=utf-8,' + csv;
- //       }
-        data = encodeURI(csv);
-        link = document.createElement('a');
-        link.setAttribute('href', data);
-        link.setAttribute('download', filename);
-        link.click();
+  const ldb = idb.open("CRM", 2);
+  ldb.onsuccess = function () {
+    const db = ldb.result;
+    const txn = db.transaction("tbl_rfid", "readonly");
+    const store = txn.objectStore("tbl_rfid");
+    const index = store.index("PACK_EPC");
+    let query = index.getAll();
+    query.onsuccess = (event) => {
+      if (!event.target.result) {
+        console.log(`this ${value} not match`);
+      } else {
+        console.log(event.target.result);
+        removeDuplicatespack(event.target.result);
+
+      }
+    };
+  };
+
+
     }

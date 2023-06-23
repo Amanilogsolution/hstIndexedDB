@@ -374,7 +374,7 @@ const UpdateCubeMatchData = (key, value) => {
     let query = index.get(value);
     query.onsuccess = (event) => {
       const data = event.target.result;
-      data.Status = "";
+      data.Status = "Y";
       const updateRequest = store.put(data, key);
       updateRequest.onsuccess = (event) => {
         console.log(updateRequest.result);
