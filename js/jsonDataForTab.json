@@ -1,48 +1,15 @@
-[
-    { 
-         "MC_NO": "1", 
-         "CC_NO": "1", 
-         "PACK_CODE": 1,
-         "PACK_QTY":10,
-         "PACK_NAME": "Limb Amputation KIT", 
-         "PACK_BATCHNO": "C100001B00001",
-         "PACK_EXPIRY": "2023-12-01"
-        },
-        {	 
-         "MC_NO": "1",	 
-         "CC_NO": "1",	 
-         "PACK_CODE": 1,
-         "PACK_QTY":9,
-         "PACK_NAME": "Limb Amputation KIT",
-         "PACK_BATCHNO": "C100001B00002",
-         "PACK_EXPIRY": "2024-12-01"
-        },
-        {
-         "MC_NO": "1",	 
-         "CC_NO": "1",	 
-         "PACK_CODE": 2,
-         "PACK_QTY":11,
-         "PACK_NAME": "Ringer Lactate (RL) KIT",
-         "PACK_BATCHNO": "C100002B00001",
-         "PACK_EXPIRY": "2023-12-01" 
-        },
-        {
-         "MC_NO": "1",	 
-         "CC_NO": "2",	 
-         "PACK_CODE": 2,
-         "PACK_QTY":11,
-         "PACK_NAME": "Large Burn KIT",
-         "PACK_BATCHNO": "C200001B00001",
-         "PACK_EXPIRY": "2025-12-01"
-        } 
-    ,
-        {
-         "MC_NO": "1",	 
-         "CC_NO": "2",	 
-         "PACK_CODE": 3,
-         "PACK_QTY":7,
-         "PACK_NAME": "SMALL BURN KIT",
-         "PACK_BATCHNO": "C200003B00001",
-         "PACK_EXPIRY": "2025-12-01"
-        } 
-    ]
+[{"MC_NO":"01","CC_NO":"1\/13","PACK_CODE":"KT0008","PACK_NAME":"Antibiotic KIT","PACK_BATCHNO":"B00820251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"}
+  ,{"MC_NO":"01","CC_NO":"1\/13","PACK_CODE":"KT0088","PACK_NAME":"Pain Relief KIT","PACK_BATCHNO":"B08820251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"0"}
+  ,{"MC_NO":"01","CC_NO":"1\/15","PACK_CODE":"KT0055","PACK_NAME":"IV Cannulation KIT","PACK_BATCHNO":"B05520251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"17"}
+  ,{"MC_NO":"01","CC_NO":"1\/15","PACK_CODE":"KT0078","PACK_NAME":"Normal Saline (NS) KIT","PACK_BATCHNO":"B07820251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"17"},
+  {"MC_NO":"01","CC_NO":"1\/15","PACK_CODE":"KT0078","PACK_NAME":"Normal Saline (NS) KIT","PACK_BATCHNO":"B107820251201","PACK_EXPIRY":"2023-02-01","PACK_QTY":"17"},
+  {"MC_NO":"01","CC_NO":"1\/22","PACK_CODE":"KT0029","PACK_NAME":"Cockup Splint KIT","PACK_BATCHNO":"B02920251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"},
+  {"MC_NO":"01","CC_NO":"1\/22","PACK_CODE":"KT0093","PACK_NAME":"POP Splint KIT","PACK_BATCHNO":"B09320251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"9"},
+  {"MC_NO":"01","CC_NO":"1\/22","PACK_CODE":"KT0093","PACK_NAME":"POP Splint KIT","PACK_BATCHNO":"B09320251202","PACK_EXPIRY":"2023-02-01","PACK_QTY":"9"},
+  {"MC_NO":"01","CC_NO":"1\/22","PACK_CODE":"KT0099","PACK_NAME":"SAM Splint KIT","PACK_BATCHNO":"B09920251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"3"},
+  {"MC_NO":"01","CC_NO":"1\/22","PACK_CODE":"KT0124","PACK_NAME":"UEM - Splint KIT","PACK_BATCHNO":"B12420251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"1"},
+  {"MC_NO":"01","CC_NO":"1\/9","PACK_CODE":"KT0063","PACK_NAME":"Limb Amputation KIT","PACK_BATCHNO":"B06320251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"0"},
+  {"MC_NO":"01","CC_NO":"1\/9","PACK_CODE":"KT0063","PACK_NAME":"Limb Amputation KIT","PACK_BATCHNO":"B106320251201","PACK_EXPIRY":"2023-03-01","PACK_QTY":"0"},
+  {"MC_NO":"01","CC_NO":"1\/9","PACK_CODE":"KT0064","PACK_NAME":"Major Limb Bleed KIT","PACK_BATCHNO":"B06420251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"0"},
+  {"MC_NO":"01","CC_NO":"1\/9","PACK_CODE":"KT0065","PACK_NAME":"Major Torso Bleed KIT","PACK_BATCHNO":"B06520251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"0"},
+  {"MC_NO":"01","CC_NO":"1\/9","PACK_CODE":"KT0068","PACK_NAME":"Minor Bleed KIT","PACK_BATCHNO":"B06820251201","PACK_EXPIRY":"2025-12-01","PACK_QTY":"0"}]

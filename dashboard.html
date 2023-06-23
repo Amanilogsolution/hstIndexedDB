@@ -99,7 +99,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="./js/data.json"  style="cursor: pointer;" class="nav-link">
+              <a href="./js/jsonDataForTab.json" download="jsonDataForTab.json" style="cursor: pointer;" class="nav-link">
                 <img class="fa" src="./img/barcode-scanner.png" height="18" width="18" alt="RFID Scanner" />
                 Download</a>
             </li>
@@ -107,6 +107,7 @@
         </div>
       </div>
     </nav>
+    
     <!-- Boxes-->
     <section id="boxes" class="px-2">
       <div class="loading" id="loading" style="display: none">
@@ -172,6 +173,7 @@
         </div>
       </div>
     </section>
+    <button onclick="downloadCSV('aman.json')">Click</button>
     <!-- Footer -->
     <footer
       class="bg-light text-center text-dark card-footer shadow-top"

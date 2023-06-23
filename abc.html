@@ -1,0 +1,20 @@
+var xDataValuesdash =  [    [ 'Anantapur', 10, '#C21466' ],
+    [ 'Anantapur', 20, '#A983D0' ],
+    [ 'Chittoor', 30, '#A993D0' ],
+    [ 'Anantapur', 30, '#544DDF' ],
+    [ 'Anantapur', 4, '#A994D0' ],
+    [ 'Chittoor', 40, '#544BDF' ]  ];
+
+var sum = {},result;
+
+for (var i=0,c;c=xDataValuesdash[i];++i) {
+    if ( undefined === sum[c[0]] ) {        
+       sum[c[0]] = c;
+    }
+    else {
+        sum[c[0]][1] += c[1];
+    }
+}
+result = Object.keys(sum).map(function(val) { return sum[val]});
+
+alert(JSON.stringify(result));
