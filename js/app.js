@@ -116325,30 +116325,46 @@ function removeDuplicates(arr) {
 }
 
     function removeDuplicatespack(data) {
+      console.log(data)
+    
 
       let filteredpackdata=[]
-      const stockData = getUniqueListBypackcode(data, "PACK_EPC");
+      const stockData = getUniqueListBypackcode(data, "CC_EPCNO");
+      stockData.map((ele)=>{
+        
+        console.log(ele.CC_EPCNO)
+      })
+
+
+      console.log(stockData)
+
+
+      return false
 
 
       stockData.map((element)=>{
-
+        console.log(element)
         if(element.Status == "N"){
-
-          // filteredpackdata.push({
-          //   "MC_NO":element.MC_NO,
-          //     "CC_NO":element.CC_NO,
-          //     "PACK_CODE":element.PACK_CODE,
-          //     "PACK_NAME":element.PACK_NAME,
-          //     "PACK_BATCHNO":element.PACK_BATCHNO,
-          //     "PACK_EXPIRY":element.PACK_EXPIRY,
-          //   "PACK_QTY":"1"     
-          //  })
+          filteredpackdata.push({
+            "MC_NO":element.MC_NO,
+              "CC_NO":element.CC_NO,
+              "PACK_CODE":element.PACK_CODE,
+              "PACK_NAME":element.PACK_NAME,
+              "PACK_BATCHNO":element.PACK_BATCHNO,
+              "PACK_EXPIRY":element.PACK_EXPIRY,
+            "PACK_QTY":"1"     
+           })
 
         } 
 
       })
 
-  
+      setTimeout(()=>{
+        console.log(filteredpackdata)
+
+      },1000)
+
+
      setTimeout(()=>{
       var data, filename, link;
       var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(filteredpackdata);
@@ -116377,7 +116393,7 @@ function downloadCSV(args) {
     const db = ldb.result;
     const txn = db.transaction("tbl_rfid", "readonly");
     const store = txn.objectStore("tbl_rfid");
-    const index = store.index("PACK_EPC");
+    const index = store.index("CC_NO");
     let query = index.getAll();
     query.onsuccess = (event) => {
       if (!event.target.result) {
