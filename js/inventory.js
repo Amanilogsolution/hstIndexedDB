@@ -9,13 +9,20 @@ function removeDuplicates(arr) {
 }
 
 function searchchild() {
+<<<<<<< HEAD
   // alert("aasdf");
   // if (searchValue == "") {
   //   alert("Search Text is empty");
   //   return false;
   // }
+=======
+  var searchValue = document.getElementById("childCube").value;
+  if (searchValue == "") {
+    alert("Search Text is empty");
+    return false;
+  }
+>>>>>>> 537372a4493869990d9257f4100dfe77199db361
 
-  //document.getElementById('loading').style.display = 'flex';
   let id = document.getElementById("childCube").value;
   let uniqueArr = [];
   let chunks = [];
@@ -51,33 +58,60 @@ function searchchild() {
       return x;
     }, {});
 
-    console.log(result);
-
     let result2 = Object.keys(result);
 
     for (i = 0; i < result2.length; i++) {
-      //   displayInvetory +=
-      //     '<ul class="list-group"><li class="list-group-item d-flex justify-content-between align-items-center bg-info text-white">' +
-      //     result[`${result2[i]}`][0]["MC_NAME"] +
-      //     "</li>";
       var result1 = result[`${result2[i]}`].reduce((x, y) => {
         (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
         return x;
       }, {});
 
-      let result3 = Object.keys(result1);
-      for (j = 0; j < result3.length; j++) {
-        displayInvetory += `<tr data-toggle="modal" data-target="#exampleModal" onClick="ab('${
-          result1[result3[j]][0]["PACK_EPC"]
-        }')">
-		<td>${result1[result3[j]][0]["CC_NO"]}</td>
-		<td>${result1[result3[j]][0]["PACK_NAME"]}</td>
-		<td><span class="badge badge-warning">${result1[result3[j]].length}</span></td>
-		<td><span class="badge badge-success">${new Date(
-      result1[result3[j]][0]["BATCH_EXPIRY"]
-    ).toLocaleDateString("en-GB")}
-		</span></td>
-		</tr>`;
+      let result4 = Object.keys(result1);
+
+      for (let j = 0; j < result4.length; j++) {
+        var result5 = result1[`${result4[j]}`].reduce((x, y) => {
+          (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
+          return x;
+        }, {});
+
+        let result6 = Object.keys(result5);
+
+        for (let s = 0; s < result6.length; s++) {
+          var result7 = result5[`${result6[s]}`].reduce((x, y) => {
+            (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
+            return x;
+          }, {});
+
+          let result8 = Object.keys(result7);
+
+          let textColor = "";
+          var date = new Date();
+          var day = date.getDate();
+          var month = date.getMonth() + 1;
+          var year = date.getFullYear();
+          if (month < 10) month = "0" + month;
+          if (day < 10) day = "0" + day;
+          var today = year + "-" + month + "-" + day;
+
+          const date1 = new Date(result6[s]);
+          const date2 = new Date(today);
+          const diffTime = date1 - date2;
+          const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+          if (diffDays < 0) {
+            textColor = "danger";
+          } else {
+            textColor = "success";
+          }
+
+          displayInvetory += `<tr data-toggle="modal" data-target="#exampleModal" onClick="ab('${
+            result5[`${result6[s]}`][0]["PACK_EPC"]
+          }')">
+     <td>${result5[`${result6[s]}`][0]["CC_NO"]}</td>
+     <td>${result5[`${result6[s]}`][0]["PACK_NAME"]}</td>
+     <td><span class="badge badge-warning">${result8.length}</span></td>
+     <td class='text-${textColor}'>${result6[s]}</td>
+     </tr>`;
+        }
       }
     }
     document.getElementById("summery").style.display = "flex";
@@ -109,7 +143,6 @@ function ab(value) {
 
   setTimeout(() => {
     let SkuData = [];
-    console.log(packData[0][0]);
     packData[0].forEach((value, index) => {
       SkuData.push(`  
 		  <tr>
@@ -121,13 +154,7 @@ function ab(value) {
     });
     let data = ` ${packData[0][0].CC_NAME}`;
     let str = SkuData.toString().replaceAll(",", "");
-    console.log(str);
     document.getElementById("skudatavalue").innerHTML = str;
     document.getElementById("modaltitle").innerHTML = data;
   }, 1000);
-}
-
-function xvz(){
-  searchchild()
-
 }

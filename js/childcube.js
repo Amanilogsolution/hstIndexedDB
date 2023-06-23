@@ -85,7 +85,11 @@ function searchdata() {
   let Mismatch = data.filter((e) => !uniqueArr.includes(e.PACK_EPC));
   // MAtch Data Update Data Start//
   match.forEach((e) => UpdateMatchData(e.PACK_EPC));
+<<<<<<< HEAD
   // console.log(Mismatch)
+=======
+
+>>>>>>> 537372a4493869990d9257f4100dfe77199db361
   Mismatch.forEach((e) => UpdateMisMatchData(e.PACK_EPC));
   // MAtch Data Update Data End//
   let mothercube = match.length > 0 ? match[0]["MC_NAME"] : "";
@@ -152,7 +156,7 @@ function searchdata() {
 
 
     let result3 = Object.keys(resultdata);
-    matchdatalength.push(result3.length);
+    // matchdatalength.push(result3.length);
 
     for(let s=0 ; s<result3.length ; s++){
 
@@ -180,6 +184,12 @@ function searchdata() {
        }
 
       let result4 = Object.keys(resultdatass);
+<<<<<<< HEAD
+=======
+      console.log(result4.length)
+
+      matchdatalength.push(result4.length)
+>>>>>>> 537372a4493869990d9257f4100dfe77199db361
       inventoryMatch.push(`
       <tr class="text-dark" style="font-size:14px" onClick="match('${
         resultdata[`${result3[s]}`][0]['PACK_EPC']
@@ -212,6 +222,13 @@ function searchdata() {
     );
     
     let result3 = Object.keys(resultdatapack);
+<<<<<<< HEAD
+=======
+
+
+    // mismatchdatalength.push(result3.length);  Comment by Aman
+    for(let s=0 ; s<result3.length ; s++){
+>>>>>>> 537372a4493869990d9257f4100dfe77199db361
 
     mismatchdatalength.push(result3.length);   
     for(let s=0 ; s<result3.length ; s++){
@@ -239,6 +256,12 @@ function searchdata() {
     }
       
       let result4 = Object.keys(resultdatass);
+<<<<<<< HEAD
+=======
+
+      mismatchdatalength.push(result4.length)
+
+>>>>>>> 537372a4493869990d9257f4100dfe77199db361
       inventoryMisMatch.push(`
       <tr class="text-dark" style="font-size:14px" onClick="match('${
         resultdatapack[`${result3[s]}`][0]['PACK_EPC']

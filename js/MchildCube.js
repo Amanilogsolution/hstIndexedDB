@@ -77,7 +77,6 @@ function searhChildCubeValue() {
   }
 
   let str1 = volume1.toString().replaceAll(",", "");
-
   document.getElementById("volume1").innerHTML = str1;
 }
 
