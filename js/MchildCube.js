@@ -89,3 +89,4 @@ function packData(value) {
     window.location.href = "pack.html";
   }, 1000);
 }
+
