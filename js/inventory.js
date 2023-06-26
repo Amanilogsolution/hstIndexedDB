@@ -9,19 +9,11 @@ function removeDuplicates(arr) {
 }
 
 function searchchild() {
-<<<<<<< HEAD
-  // alert("aasdf");
-  // if (searchValue == "") {
-  //   alert("Search Text is empty");
-  //   return false;
-  // }
-=======
   var searchValue = document.getElementById("childCube").value;
   if (searchValue == "") {
     alert("Search Text is empty");
     return false;
   }
->>>>>>> 537372a4493869990d9257f4100dfe77199db361
 
   let id = document.getElementById("childCube").value;
   let uniqueArr = [];
