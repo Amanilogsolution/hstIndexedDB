@@ -23,7 +23,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0091",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2,
@@ -49,7 +49,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0091",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3,
@@ -75,7 +75,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0091",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4,
@@ -101,7 +101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0091",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 5,
@@ -127,7 +127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0091",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 6,
@@ -147,10 +147,8 @@ var data = [
     PRODUCT_EPC: null,
     PRODUCT_NAME: null,
     PRODUCT_QTY: null,
-    SKU_CODE:
-      "Water Purification Tablets -01 tab for 1/2 ltr water (Pack of 100)",
-    SKU_NAME:
-      "Water Purification Tablets -01 tab for 1/2 ltr water (Pack of 100)",
+    SKU_CODE:"Water Purification Tablets -01 tab for 1/2 ltr water (Pack of 100)",
+    SKU_NAME:"Water Purification Tablets -01 tab for 1/2 ltr water (Pack of 100)",
     SKU_QTY: 3,
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
@@ -1051,7 +1049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 40,
@@ -1077,7 +1075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 41,
@@ -1103,7 +1101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 42,
@@ -1129,7 +1127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 43,
@@ -1155,7 +1153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 44,
@@ -1181,7 +1179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 45,
@@ -1207,7 +1205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0102",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 46,
@@ -1233,7 +1231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 47,
@@ -1259,7 +1257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 48,
@@ -1285,7 +1283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 49,
@@ -1311,7 +1309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 50,
@@ -1337,7 +1335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 51,
@@ -1363,7 +1361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 52,
@@ -1389,7 +1387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 53,
@@ -1415,7 +1413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 54,
@@ -1441,7 +1439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0120",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 55,
@@ -1467,7 +1465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0120",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 56,
@@ -1493,7 +1491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0120",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 57,
@@ -1519,7 +1517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0120",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 58,
@@ -1545,7 +1543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 59,
@@ -1571,7 +1569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0121",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 60,
@@ -1597,7 +1595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0121",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 61,
@@ -1625,7 +1623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0121",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 62,
@@ -1781,7 +1779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 68,
@@ -1807,7 +1805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 69,
@@ -1833,7 +1831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 70,
@@ -1859,7 +1857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 71,
@@ -2017,7 +2015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 77,
@@ -2043,7 +2041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 78,
@@ -2069,7 +2067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 79,
@@ -2095,7 +2093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 80,
@@ -2121,7 +2119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 81,
@@ -2147,7 +2145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 82,
@@ -2173,7 +2171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 83,
@@ -2199,7 +2197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 84,
@@ -2225,7 +2223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 85,
@@ -2251,7 +2249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 86,
@@ -2277,7 +2275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 87,
@@ -2303,7 +2301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0031",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 88,
@@ -2877,7 +2875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0025",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 110,
@@ -2903,7 +2901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 111,
@@ -2929,7 +2927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 112,
@@ -2955,7 +2953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 113,
@@ -2981,7 +2979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 114,
@@ -3007,7 +3005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 115,
@@ -3033,7 +3031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 116,
@@ -3059,7 +3057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 117,
@@ -3085,7 +3083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 118,
@@ -3111,7 +3109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 119,
@@ -3137,7 +3135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 120,
@@ -3163,7 +3161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 121,
@@ -3191,7 +3189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 122,
@@ -3217,7 +3215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 123,
@@ -3245,7 +3243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 124,
@@ -3271,7 +3269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 125,
@@ -3297,7 +3295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 126,
@@ -3323,7 +3321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 127,
@@ -3351,7 +3349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 128,
@@ -3377,7 +3375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 129,
@@ -3403,7 +3401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 130,
@@ -3429,7 +3427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 131,
@@ -3455,7 +3453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 132,
@@ -3481,7 +3479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 133,
@@ -3507,7 +3505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 134,
@@ -3533,7 +3531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 135,
@@ -3559,7 +3557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 136,
@@ -3585,7 +3583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 137,
@@ -3611,7 +3609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 138,
@@ -3637,7 +3635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 139,
@@ -3663,7 +3661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 140,
@@ -3689,7 +3687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 141,
@@ -3715,7 +3713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 142,
@@ -3741,7 +3739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 143,
@@ -3767,7 +3765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 144,
@@ -3793,7 +3791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 145,
@@ -3819,7 +3817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 146,
@@ -3845,7 +3843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0023",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 147,
@@ -3871,7 +3869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0023",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 148,
@@ -3899,7 +3897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0040",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 149,
@@ -3925,7 +3923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 150,
@@ -3951,7 +3949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 151,
@@ -3977,7 +3975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 152,
@@ -4003,7 +4001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 153,
@@ -4029,7 +4027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 154,
@@ -4055,7 +4053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 155,
@@ -4081,7 +4079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 156,
@@ -4107,7 +4105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 157,
@@ -4133,7 +4131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 158,
@@ -4159,7 +4157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 159,
@@ -4185,7 +4183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 160,
@@ -4211,7 +4209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 161,
@@ -4237,7 +4235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 162,
@@ -4263,7 +4261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 163,
@@ -4289,7 +4287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 164,
@@ -4315,7 +4313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 165,
@@ -4341,7 +4339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 166,
@@ -4367,7 +4365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 167,
@@ -4393,7 +4391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 168,
@@ -4419,7 +4417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 169,
@@ -4445,7 +4443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 170,
@@ -4471,7 +4469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 171,
@@ -4497,7 +4495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 172,
@@ -4523,7 +4521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 173,
@@ -4549,7 +4547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 174,
@@ -4575,7 +4573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 175,
@@ -4601,7 +4599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 176,
@@ -4627,7 +4625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 177,
@@ -4653,7 +4651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 178,
@@ -5589,7 +5587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0025",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 214,
@@ -5615,7 +5613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0025",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 215,
@@ -5641,7 +5639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0025",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 216,
@@ -5667,7 +5665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0025",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 217,
@@ -5693,7 +5691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 218,
@@ -5719,7 +5717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 219,
@@ -5745,7 +5743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 220,
@@ -5771,7 +5769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 221,
@@ -5797,7 +5795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 222,
@@ -5823,7 +5821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 223,
@@ -5849,7 +5847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 224,
@@ -5875,7 +5873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 225,
@@ -5901,7 +5899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 226,
@@ -5927,7 +5925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3711,
@@ -5953,7 +5951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 227,
@@ -5979,7 +5977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 228,
@@ -6005,7 +6003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 229,
@@ -6031,7 +6029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 230,
@@ -6057,7 +6055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 231,
@@ -6083,7 +6081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 232,
@@ -6109,7 +6107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 233,
@@ -6135,7 +6133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 234,
@@ -6161,7 +6159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 235,
@@ -6187,7 +6185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 236,
@@ -6213,7 +6211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 237,
@@ -6239,7 +6237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 238,
@@ -6265,7 +6263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 239,
@@ -6291,7 +6289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 240,
@@ -6317,7 +6315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 241,
@@ -6343,7 +6341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 242,
@@ -6369,7 +6367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 243,
@@ -6395,7 +6393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 244,
@@ -6421,7 +6419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 245,
@@ -6447,7 +6445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 246,
@@ -6473,7 +6471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 247,
@@ -6499,7 +6497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 248,
@@ -6525,7 +6523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 249,
@@ -6551,7 +6549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 250,
@@ -6577,7 +6575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 251,
@@ -6603,7 +6601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 252,
@@ -6629,7 +6627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 253,
@@ -6655,7 +6653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 254,
@@ -6681,7 +6679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 255,
@@ -6707,7 +6705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 256,
@@ -6733,7 +6731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 257,
@@ -6759,7 +6757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 258,
@@ -6785,7 +6783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 259,
@@ -6811,7 +6809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 260,
@@ -6837,7 +6835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 261,
@@ -6863,7 +6861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 262,
@@ -6889,7 +6887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 263,
@@ -6915,7 +6913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 264,
@@ -6941,7 +6939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 265,
@@ -6967,7 +6965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 266,
@@ -6993,7 +6991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 267,
@@ -7019,7 +7017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 268,
@@ -7045,7 +7043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 269,
@@ -7071,7 +7069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 270,
@@ -7097,7 +7095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 271,
@@ -7123,7 +7121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 272,
@@ -7149,7 +7147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 273,
@@ -7175,7 +7173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 274,
@@ -7201,7 +7199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 275,
@@ -7227,7 +7225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 276,
@@ -7253,7 +7251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 277,
@@ -7279,7 +7277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 278,
@@ -7305,7 +7303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 279,
@@ -7331,7 +7329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 280,
@@ -7357,7 +7355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 281,
@@ -7383,7 +7381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 282,
@@ -7409,7 +7407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 283,
@@ -7435,7 +7433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 284,
@@ -7461,7 +7459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 285,
@@ -7487,7 +7485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 286,
@@ -7513,7 +7511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 287,
@@ -7539,7 +7537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 288,
@@ -7565,7 +7563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 289,
@@ -7591,7 +7589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 290,
@@ -7617,7 +7615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 291,
@@ -7643,7 +7641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 292,
@@ -7669,7 +7667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0076",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 293,
@@ -7695,7 +7693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 294,
@@ -7721,7 +7719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 295,
@@ -7747,7 +7745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 296,
@@ -7773,7 +7771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 297,
@@ -7799,7 +7797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 298,
@@ -7825,7 +7823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 299,
@@ -7851,7 +7849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 300,
@@ -7877,7 +7875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 301,
@@ -7903,7 +7901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 302,
@@ -7929,7 +7927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 303,
@@ -7955,7 +7953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 304,
@@ -7981,7 +7979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 305,
@@ -8007,7 +8005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 306,
@@ -8033,7 +8031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 307,
@@ -8059,7 +8057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 308,
@@ -8085,7 +8083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 309,
@@ -8111,7 +8109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 310,
@@ -8137,7 +8135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 311,
@@ -8163,7 +8161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 312,
@@ -8189,7 +8187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 313,
@@ -8215,7 +8213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 314,
@@ -8241,7 +8239,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 315,
@@ -8267,7 +8265,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 316,
@@ -8293,7 +8291,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 317,
@@ -8319,7 +8317,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 318,
@@ -8345,7 +8343,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 319,
@@ -8371,7 +8369,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 320,
@@ -8397,7 +8395,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 321,
@@ -8423,7 +8421,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 322,
@@ -8449,7 +8447,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 323,
@@ -8475,7 +8473,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 324,
@@ -8501,7 +8499,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 325,
@@ -8527,7 +8525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 326,
@@ -8553,7 +8551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 327,
@@ -8579,7 +8577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 328,
@@ -8605,7 +8603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 329,
@@ -8631,7 +8629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 330,
@@ -8657,7 +8655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 331,
@@ -8683,7 +8681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 332,
@@ -8709,7 +8707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 333,
@@ -8735,7 +8733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 334,
@@ -8761,7 +8759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 335,
@@ -8787,7 +8785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 336,
@@ -8813,7 +8811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 337,
@@ -8839,7 +8837,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 338,
@@ -8865,7 +8863,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 339,
@@ -8891,7 +8889,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 340,
@@ -8917,7 +8915,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 341,
@@ -8943,7 +8941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 342,
@@ -8969,7 +8967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 343,
@@ -8995,7 +8993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 344,
@@ -9021,7 +9019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 345,
@@ -9047,7 +9045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 346,
@@ -9073,7 +9071,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 347,
@@ -9099,7 +9097,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 348,
@@ -9125,7 +9123,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 349,
@@ -9151,7 +9149,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0027",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 350,
@@ -9177,7 +9175,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 351,
@@ -9203,7 +9201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 352,
@@ -9229,7 +9227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 353,
@@ -9255,7 +9253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 354,
@@ -9283,7 +9281,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 355,
@@ -9309,7 +9307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 356,
@@ -9335,7 +9333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 357,
@@ -9361,7 +9359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 358,
@@ -9387,7 +9385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 359,
@@ -9415,7 +9413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 360,
@@ -9441,7 +9439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 361,
@@ -9467,7 +9465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 362,
@@ -9493,7 +9491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 363,
@@ -9519,7 +9517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 364,
@@ -9547,7 +9545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 365,
@@ -9573,7 +9571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 366,
@@ -9599,7 +9597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 367,
@@ -9625,7 +9623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 368,
@@ -9651,7 +9649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 369,
@@ -9679,7 +9677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 370,
@@ -9705,7 +9703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 371,
@@ -9731,7 +9729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 372,
@@ -9757,7 +9755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 373,
@@ -9783,7 +9781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 374,
@@ -9811,7 +9809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 375,
@@ -9837,7 +9835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 376,
@@ -9863,7 +9861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 377,
@@ -9889,7 +9887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 378,
@@ -9915,7 +9913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 379,
@@ -9943,7 +9941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 380,
@@ -9969,7 +9967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 381,
@@ -9995,7 +9993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 382,
@@ -10021,7 +10019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 383,
@@ -10047,7 +10045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 384,
@@ -10075,7 +10073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 385,
@@ -10101,7 +10099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 386,
@@ -10127,7 +10125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 387,
@@ -10153,7 +10151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 388,
@@ -10179,7 +10177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 389,
@@ -10207,7 +10205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 390,
@@ -10233,7 +10231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 391,
@@ -10259,7 +10257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 392,
@@ -10285,7 +10283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 393,
@@ -10311,7 +10309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 394,
@@ -10339,7 +10337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0065",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 395,
@@ -10365,7 +10363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 396,
@@ -10393,7 +10391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 397,
@@ -10421,7 +10419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 398,
@@ -10447,7 +10445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 399,
@@ -10473,7 +10471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 400,
@@ -10499,7 +10497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 401,
@@ -10525,7 +10523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 402,
@@ -10551,7 +10549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 403,
@@ -10577,7 +10575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 404,
@@ -11175,7 +11173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 428,
@@ -11201,7 +11199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 429,
@@ -11227,7 +11225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 430,
@@ -11253,7 +11251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 431,
@@ -11279,7 +11277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 432,
@@ -11305,7 +11303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 433,
@@ -11331,7 +11329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 434,
@@ -11357,7 +11355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 435,
@@ -11383,7 +11381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 436,
@@ -11409,7 +11407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 437,
@@ -11435,7 +11433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 438,
@@ -11461,7 +11459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 439,
@@ -11487,7 +11485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 440,
@@ -11513,7 +11511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 441,
@@ -11539,7 +11537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0073",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 442,
@@ -11565,7 +11563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 443,
@@ -11591,7 +11589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 444,
@@ -11617,7 +11615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 445,
@@ -11643,7 +11641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 446,
@@ -11669,7 +11667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 447,
@@ -11695,7 +11693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 448,
@@ -11721,7 +11719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 449,
@@ -11747,7 +11745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0107",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 450,
@@ -11773,7 +11771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0052",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 451,
@@ -11799,7 +11797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0052",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 452,
@@ -11825,7 +11823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0052",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 453,
@@ -11851,7 +11849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0052",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 454,
@@ -11877,7 +11875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 455,
@@ -11903,7 +11901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 456,
@@ -11929,7 +11927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 457,
@@ -11955,7 +11953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 458,
@@ -11981,7 +11979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 459,
@@ -12007,7 +12005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 460,
@@ -12033,7 +12031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 461,
@@ -12059,7 +12057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 462,
@@ -12085,7 +12083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 463,
@@ -12111,7 +12109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0003",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 464,
@@ -12137,7 +12135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0017",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 465,
@@ -12165,7 +12163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0017",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 466,
@@ -12191,7 +12189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0018",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 467,
@@ -12219,7 +12217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0018",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 468,
@@ -12245,7 +12243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 469,
@@ -12271,7 +12269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 470,
@@ -12297,7 +12295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 471,
@@ -12323,7 +12321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 472,
@@ -12349,7 +12347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 473,
@@ -12375,7 +12373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 474,
@@ -12401,7 +12399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 475,
@@ -12427,7 +12425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 476,
@@ -12453,7 +12451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0086",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 477,
@@ -12479,7 +12477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 478,
@@ -12507,7 +12505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 479,
@@ -12533,7 +12531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 480,
@@ -12559,7 +12557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 481,
@@ -12585,7 +12583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 482,
@@ -12613,7 +12611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 483,
@@ -12639,7 +12637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 484,
@@ -12665,7 +12663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 485,
@@ -12691,7 +12689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 486,
@@ -12719,7 +12717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 487,
@@ -12745,7 +12743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 488,
@@ -12771,7 +12769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 489,
@@ -12797,7 +12795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 490,
@@ -12825,7 +12823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 491,
@@ -12851,7 +12849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 492,
@@ -12877,7 +12875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 493,
@@ -12905,7 +12903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0035",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 494,
@@ -12933,7 +12931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0067",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 495,
@@ -12959,7 +12957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 496,
@@ -12985,7 +12983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 497,
@@ -13011,7 +13009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 498,
@@ -13037,7 +13035,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 499,
@@ -13063,7 +13061,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0126",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 500,
@@ -13089,7 +13087,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0032",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 501,
@@ -13115,7 +13113,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 502,
@@ -13141,7 +13139,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 503,
@@ -13167,7 +13165,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 504,
@@ -13193,7 +13191,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 505,
@@ -13219,7 +13217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 506,
@@ -13245,7 +13243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 507,
@@ -13271,7 +13269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 508,
@@ -13297,7 +13295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 509,
@@ -13323,7 +13321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 510,
@@ -13349,7 +13347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 511,
@@ -13375,7 +13373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 512,
@@ -13401,7 +13399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 513,
@@ -13427,7 +13425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 514,
@@ -13453,7 +13451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 515,
@@ -13479,7 +13477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 516,
@@ -13507,7 +13505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0089",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 517,
@@ -13533,7 +13531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0089",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 518,
@@ -13559,7 +13557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 519,
@@ -13585,7 +13583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 520,
@@ -13611,7 +13609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 521,
@@ -13637,7 +13635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 522,
@@ -13663,7 +13661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 523,
@@ -13689,7 +13687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 524,
@@ -13715,7 +13713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 525,
@@ -13741,7 +13739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 526,
@@ -13767,7 +13765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 527,
@@ -13793,7 +13791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 528,
@@ -13819,7 +13817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 529,
@@ -13845,7 +13843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 530,
@@ -13871,7 +13869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 531,
@@ -13897,7 +13895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 532,
@@ -13923,7 +13921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 533,
@@ -13949,7 +13947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 534,
@@ -13975,7 +13973,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 535,
@@ -14001,7 +13999,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 536,
@@ -14027,7 +14025,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 537,
@@ -14053,7 +14051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 538,
@@ -14079,7 +14077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 539,
@@ -14105,7 +14103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 540,
@@ -14131,7 +14129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 541,
@@ -14157,7 +14155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 542,
@@ -14183,7 +14181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 543,
@@ -14209,7 +14207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 544,
@@ -14235,7 +14233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 545,
@@ -14261,7 +14259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 546,
@@ -14287,7 +14285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 547,
@@ -14313,7 +14311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 548,
@@ -14339,7 +14337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 549,
@@ -14365,7 +14363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 550,
@@ -14391,7 +14389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 551,
@@ -14417,7 +14415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 552,
@@ -14443,7 +14441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0023",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 553,
@@ -14469,7 +14467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0023",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 554,
@@ -14497,7 +14495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0040",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 555,
@@ -14523,7 +14521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 556,
@@ -14549,7 +14547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 557,
@@ -14575,7 +14573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 558,
@@ -14601,7 +14599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0054",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 559,
@@ -14627,7 +14625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 560,
@@ -14653,7 +14651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 561,
@@ -14679,7 +14677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 562,
@@ -14705,7 +14703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 563,
@@ -14731,7 +14729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 564,
@@ -14757,7 +14755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 565,
@@ -14783,7 +14781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 566,
@@ -14809,7 +14807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 567,
@@ -14835,7 +14833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0056",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 568,
@@ -15277,7 +15275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 585,
@@ -15303,7 +15301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 586,
@@ -15329,7 +15327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 587,
@@ -15355,7 +15353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 588,
@@ -15381,7 +15379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 589,
@@ -15407,7 +15405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 590,
@@ -15433,7 +15431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 591,
@@ -15459,7 +15457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 592,
@@ -15485,7 +15483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 593,
@@ -15511,7 +15509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 594,
@@ -15537,7 +15535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 595,
@@ -15563,7 +15561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 596,
@@ -15589,7 +15587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 597,
@@ -15615,7 +15613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 598,
@@ -15641,7 +15639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 599,
@@ -15667,7 +15665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 600,
@@ -15693,7 +15691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 601,
@@ -15719,7 +15717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 602,
@@ -15745,7 +15743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 603,
@@ -15771,7 +15769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 604,
@@ -15797,7 +15795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 605,
@@ -15823,7 +15821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 606,
@@ -15849,7 +15847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 607,
@@ -15875,7 +15873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 608,
@@ -15901,7 +15899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 609,
@@ -15927,7 +15925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 610,
@@ -15953,7 +15951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 611,
@@ -15979,7 +15977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 612,
@@ -16005,7 +16003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 613,
@@ -16031,7 +16029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 614,
@@ -16057,7 +16055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 615,
@@ -16083,7 +16081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 616,
@@ -16109,7 +16107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 617,
@@ -16135,7 +16133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 618,
@@ -16161,7 +16159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 619,
@@ -16187,7 +16185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 620,
@@ -16213,7 +16211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 621,
@@ -16239,7 +16237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 622,
@@ -16265,7 +16263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 623,
@@ -16291,7 +16289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 624,
@@ -16317,7 +16315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 625,
@@ -16343,7 +16341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 626,
@@ -16369,7 +16367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 627,
@@ -16395,7 +16393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 628,
@@ -16421,7 +16419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 629,
@@ -16447,7 +16445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 630,
@@ -16473,7 +16471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 631,
@@ -16499,7 +16497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 632,
@@ -16525,7 +16523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 633,
@@ -16551,7 +16549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 634,
@@ -16577,7 +16575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 635,
@@ -16603,7 +16601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 636,
@@ -16629,7 +16627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 637,
@@ -16655,7 +16653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 638,
@@ -16681,7 +16679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 639,
@@ -16707,7 +16705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 640,
@@ -16733,7 +16731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 641,
@@ -16759,7 +16757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 642,
@@ -16785,7 +16783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 643,
@@ -16811,7 +16809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 644,
@@ -16837,7 +16835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 645,
@@ -16863,7 +16861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 646,
@@ -16889,7 +16887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 647,
@@ -16915,7 +16913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 648,
@@ -16941,7 +16939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 649,
@@ -16967,7 +16965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 650,
@@ -16993,7 +16991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 651,
@@ -17019,7 +17017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 652,
@@ -17045,7 +17043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 653,
@@ -17071,7 +17069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 654,
@@ -17097,7 +17095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 655,
@@ -17123,7 +17121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 656,
@@ -17149,7 +17147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 657,
@@ -17175,7 +17173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 658,
@@ -17201,7 +17199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 659,
@@ -17227,7 +17225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 660,
@@ -17253,7 +17251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 661,
@@ -17279,7 +17277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 662,
@@ -17305,7 +17303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 663,
@@ -17331,7 +17329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 664,
@@ -17357,7 +17355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 665,
@@ -17383,7 +17381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 666,
@@ -17409,7 +17407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 667,
@@ -17435,7 +17433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 668,
@@ -17461,7 +17459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 669,
@@ -17487,7 +17485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 670,
@@ -17513,7 +17511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 671,
@@ -17539,7 +17537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 672,
@@ -17565,7 +17563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 673,
@@ -17591,7 +17589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 674,
@@ -17617,7 +17615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 675,
@@ -17643,7 +17641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 676,
@@ -17669,7 +17667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 677,
@@ -17695,7 +17693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 678,
@@ -17721,7 +17719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 679,
@@ -17747,7 +17745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 680,
@@ -17773,7 +17771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 681,
@@ -17799,7 +17797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 682,
@@ -17825,7 +17823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 683,
@@ -17851,7 +17849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 684,
@@ -17877,7 +17875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 685,
@@ -17903,7 +17901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 686,
@@ -17929,7 +17927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 687,
@@ -17955,7 +17953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 688,
@@ -17981,7 +17979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 689,
@@ -18007,7 +18005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 690,
@@ -18033,7 +18031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 691,
@@ -18059,7 +18057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 692,
@@ -18085,7 +18083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 693,
@@ -18111,7 +18109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 694,
@@ -18137,7 +18135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 695,
@@ -18163,7 +18161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 696,
@@ -18189,7 +18187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 697,
@@ -18215,7 +18213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 698,
@@ -18241,7 +18239,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 699,
@@ -18267,7 +18265,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 700,
@@ -18293,7 +18291,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 701,
@@ -18319,7 +18317,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 702,
@@ -18345,7 +18343,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 703,
@@ -18371,7 +18369,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 704,
@@ -18397,7 +18395,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 705,
@@ -18423,7 +18421,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 706,
@@ -18449,7 +18447,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 707,
@@ -18475,7 +18473,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 708,
@@ -18501,7 +18499,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 709,
@@ -18527,7 +18525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 710,
@@ -18553,7 +18551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 711,
@@ -18579,7 +18577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 712,
@@ -18605,7 +18603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 713,
@@ -18631,7 +18629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 714,
@@ -18657,7 +18655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 715,
@@ -18683,7 +18681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 716,
@@ -18709,7 +18707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 717,
@@ -18735,7 +18733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 718,
@@ -18761,7 +18759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 719,
@@ -18787,7 +18785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 720,
@@ -18813,7 +18811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 721,
@@ -18839,7 +18837,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 722,
@@ -18865,7 +18863,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 723,
@@ -18891,7 +18889,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 724,
@@ -18917,7 +18915,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 725,
@@ -18943,7 +18941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 726,
@@ -18969,7 +18967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 727,
@@ -18995,7 +18993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 728,
@@ -19021,7 +19019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 729,
@@ -19047,7 +19045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 730,
@@ -19073,7 +19071,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 731,
@@ -19099,7 +19097,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 732,
@@ -19125,7 +19123,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 733,
@@ -19151,7 +19149,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 734,
@@ -19177,7 +19175,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 735,
@@ -19203,7 +19201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 736,
@@ -19229,7 +19227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 737,
@@ -19255,7 +19253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 738,
@@ -19281,7 +19279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 739,
@@ -19307,7 +19305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 740,
@@ -19333,7 +19331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 741,
@@ -19359,7 +19357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 742,
@@ -19385,7 +19383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 743,
@@ -19411,7 +19409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 744,
@@ -19437,7 +19435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 745,
@@ -19463,7 +19461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 746,
@@ -19489,7 +19487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 747,
@@ -19515,7 +19513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 748,
@@ -19541,7 +19539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 749,
@@ -19567,7 +19565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 750,
@@ -19593,7 +19591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 751,
@@ -19619,7 +19617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 752,
@@ -19645,7 +19643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 753,
@@ -19671,7 +19669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 754,
@@ -19697,7 +19695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 755,
@@ -19723,7 +19721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 756,
@@ -19749,7 +19747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 757,
@@ -19775,7 +19773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 758,
@@ -19801,7 +19799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 759,
@@ -19827,7 +19825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 760,
@@ -19853,7 +19851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 761,
@@ -19879,7 +19877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 762,
@@ -19905,7 +19903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 763,
@@ -19931,7 +19929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 764,
@@ -19957,7 +19955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 765,
@@ -19983,7 +19981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 766,
@@ -20009,7 +20007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 767,
@@ -20035,7 +20033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 768,
@@ -20061,7 +20059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 769,
@@ -20087,7 +20085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 770,
@@ -20113,7 +20111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 771,
@@ -20139,7 +20137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 772,
@@ -20165,7 +20163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 773,
@@ -20191,7 +20189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 774,
@@ -20217,7 +20215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 775,
@@ -20243,7 +20241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 776,
@@ -20269,7 +20267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 777,
@@ -20295,7 +20293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 778,
@@ -20321,7 +20319,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 779,
@@ -20347,7 +20345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 780,
@@ -20373,7 +20371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 781,
@@ -20399,7 +20397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 782,
@@ -20425,7 +20423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 783,
@@ -20451,7 +20449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 784,
@@ -20477,7 +20475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 785,
@@ -20503,7 +20501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 786,
@@ -20529,7 +20527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 787,
@@ -20555,7 +20553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 788,
@@ -20581,7 +20579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 789,
@@ -20607,7 +20605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 790,
@@ -20633,7 +20631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 791,
@@ -20659,7 +20657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 792,
@@ -20685,7 +20683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 793,
@@ -20711,7 +20709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 794,
@@ -20737,7 +20735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 795,
@@ -20763,7 +20761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 796,
@@ -20789,7 +20787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 797,
@@ -20815,7 +20813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 798,
@@ -21129,7 +21127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0101",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 810,
@@ -21155,7 +21153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0036",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 811,
@@ -21181,7 +21179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 812,
@@ -21209,7 +21207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 813,
@@ -21237,7 +21235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 814,
@@ -21263,7 +21261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 815,
@@ -21289,7 +21287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 816,
@@ -21315,7 +21313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 817,
@@ -21341,7 +21339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 818,
@@ -21367,7 +21365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 819,
@@ -21393,7 +21391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 820,
@@ -21419,7 +21417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 821,
@@ -21445,7 +21443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 822,
@@ -21471,7 +21469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 823,
@@ -21497,7 +21495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 824,
@@ -21523,7 +21521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 825,
@@ -21549,7 +21547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 826,
@@ -21575,7 +21573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 827,
@@ -21601,7 +21599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 828,
@@ -21627,7 +21625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 829,
@@ -21653,7 +21651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 830,
@@ -21679,7 +21677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 831,
@@ -21705,7 +21703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 832,
@@ -21731,7 +21729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 833,
@@ -21757,7 +21755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 834,
@@ -21783,7 +21781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 835,
@@ -21809,7 +21807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 836,
@@ -21835,7 +21833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 837,
@@ -21861,7 +21859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 838,
@@ -21887,7 +21885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 839,
@@ -21913,7 +21911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 840,
@@ -21939,7 +21937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 841,
@@ -21965,7 +21963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 842,
@@ -21991,7 +21989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 843,
@@ -22017,7 +22015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 844,
@@ -22043,7 +22041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 845,
@@ -22069,7 +22067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 846,
@@ -22095,7 +22093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 847,
@@ -22121,7 +22119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 848,
@@ -22147,7 +22145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 849,
@@ -22173,7 +22171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 850,
@@ -22199,7 +22197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 851,
@@ -22225,7 +22223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 852,
@@ -22251,7 +22249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 853,
@@ -22277,7 +22275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 854,
@@ -22303,7 +22301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 855,
@@ -22329,7 +22327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 856,
@@ -22355,7 +22353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 857,
@@ -22381,7 +22379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 858,
@@ -22407,7 +22405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 859,
@@ -22433,7 +22431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 860,
@@ -22459,7 +22457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 861,
@@ -22485,7 +22483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0124",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 862,
@@ -22511,7 +22509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0124",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 863,
@@ -22537,7 +22535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 864,
@@ -22563,7 +22561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 865,
@@ -22589,7 +22587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 866,
@@ -22615,7 +22613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 867,
@@ -22641,7 +22639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 868,
@@ -22667,7 +22665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 869,
@@ -22693,7 +22691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 870,
@@ -22719,7 +22717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 871,
@@ -22745,7 +22743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 872,
@@ -22771,7 +22769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 873,
@@ -22797,7 +22795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 874,
@@ -22823,7 +22821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 875,
@@ -22849,7 +22847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 876,
@@ -22875,7 +22873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 877,
@@ -22901,7 +22899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 878,
@@ -22927,7 +22925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 879,
@@ -22953,7 +22951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 880,
@@ -22979,7 +22977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 881,
@@ -23005,7 +23003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 882,
@@ -23031,7 +23029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 883,
@@ -23057,7 +23055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 884,
@@ -23083,7 +23081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 885,
@@ -23109,7 +23107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 886,
@@ -23135,7 +23133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 887,
@@ -23161,7 +23159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 888,
@@ -23187,7 +23185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 889,
@@ -23213,7 +23211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 890,
@@ -23239,7 +23237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 891,
@@ -23265,7 +23263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 892,
@@ -23291,7 +23289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 893,
@@ -23317,7 +23315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 894,
@@ -23343,7 +23341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 895,
@@ -23369,7 +23367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 896,
@@ -23395,7 +23393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 897,
@@ -23421,7 +23419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 898,
@@ -23447,7 +23445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 899,
@@ -23473,7 +23471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 900,
@@ -23499,7 +23497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 901,
@@ -23525,7 +23523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 902,
@@ -23551,7 +23549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 903,
@@ -23577,7 +23575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 904,
@@ -23603,7 +23601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 905,
@@ -23629,7 +23627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 906,
@@ -23655,7 +23653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 907,
@@ -23681,7 +23679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 908,
@@ -23707,7 +23705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 909,
@@ -23733,7 +23731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 910,
@@ -23759,7 +23757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 911,
@@ -23785,7 +23783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 912,
@@ -23811,7 +23809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 913,
@@ -23837,7 +23835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 914,
@@ -23863,7 +23861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 915,
@@ -23889,7 +23887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 916,
@@ -23915,7 +23913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 917,
@@ -23941,7 +23939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 918,
@@ -23967,7 +23965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 919,
@@ -23993,7 +23991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 920,
@@ -24019,7 +24017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 921,
@@ -24045,7 +24043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 922,
@@ -24071,7 +24069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 923,
@@ -24097,7 +24095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 924,
@@ -24123,7 +24121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 925,
@@ -24149,7 +24147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 926,
@@ -24175,7 +24173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 927,
@@ -24201,7 +24199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 928,
@@ -24227,7 +24225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 929,
@@ -24253,7 +24251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 930,
@@ -24279,7 +24277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 931,
@@ -24305,7 +24303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 932,
@@ -24331,7 +24329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 933,
@@ -24357,7 +24355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 934,
@@ -24383,7 +24381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 935,
@@ -24409,7 +24407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 936,
@@ -24435,7 +24433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 937,
@@ -24461,7 +24459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 938,
@@ -24487,7 +24485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 939,
@@ -24513,7 +24511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 940,
@@ -24539,7 +24537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 941,
@@ -24565,7 +24563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 942,
@@ -24591,7 +24589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 943,
@@ -24617,7 +24615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 944,
@@ -24643,7 +24641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 945,
@@ -24669,7 +24667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 946,
@@ -24695,7 +24693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 947,
@@ -24721,7 +24719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 948,
@@ -24747,7 +24745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 949,
@@ -24773,7 +24771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 950,
@@ -24799,7 +24797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 951,
@@ -24825,7 +24823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 952,
@@ -24851,7 +24849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 953,
@@ -24877,7 +24875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 954,
@@ -24903,7 +24901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 955,
@@ -24929,7 +24927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 956,
@@ -24955,7 +24953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 957,
@@ -24981,7 +24979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 958,
@@ -25007,7 +25005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 959,
@@ -25033,7 +25031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 960,
@@ -25059,7 +25057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 961,
@@ -25085,7 +25083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 962,
@@ -25111,7 +25109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 963,
@@ -25137,7 +25135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 964,
@@ -25163,7 +25161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 965,
@@ -25189,7 +25187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 966,
@@ -25215,7 +25213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 967,
@@ -25241,7 +25239,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 968,
@@ -25267,7 +25265,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 969,
@@ -25293,7 +25291,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 970,
@@ -25319,7 +25317,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 971,
@@ -25345,7 +25343,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 972,
@@ -25371,7 +25369,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 973,
@@ -25397,7 +25395,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 974,
@@ -25423,7 +25421,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 975,
@@ -25449,7 +25447,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 976,
@@ -25475,7 +25473,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 977,
@@ -25501,7 +25499,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 978,
@@ -25527,7 +25525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 979,
@@ -25553,7 +25551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 980,
@@ -25579,7 +25577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 981,
@@ -25605,7 +25603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 982,
@@ -25631,7 +25629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 983,
@@ -25657,7 +25655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 984,
@@ -25683,7 +25681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 985,
@@ -25709,7 +25707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 986,
@@ -25735,7 +25733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 987,
@@ -25761,7 +25759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 988,
@@ -25787,7 +25785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 989,
@@ -25813,7 +25811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 990,
@@ -25839,7 +25837,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 991,
@@ -25865,7 +25863,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 992,
@@ -25891,7 +25889,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 993,
@@ -25917,7 +25915,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 994,
@@ -25943,7 +25941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 995,
@@ -25969,7 +25967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 996,
@@ -25995,7 +25993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 997,
@@ -26021,7 +26019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 998,
@@ -26047,7 +26045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 999,
@@ -26073,7 +26071,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1000,
@@ -26099,7 +26097,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1001,
@@ -26125,7 +26123,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1002,
@@ -26151,7 +26149,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1003,
@@ -26177,7 +26175,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1004,
@@ -26203,7 +26201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1005,
@@ -26229,7 +26227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1006,
@@ -26255,7 +26253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1007,
@@ -26281,7 +26279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1008,
@@ -26307,7 +26305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1009,
@@ -26333,7 +26331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1010,
@@ -26359,7 +26357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1011,
@@ -26385,7 +26383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1012,
@@ -26411,7 +26409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1013,
@@ -26437,7 +26435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1014,
@@ -26463,7 +26461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1015,
@@ -26489,7 +26487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1016,
@@ -26515,7 +26513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1017,
@@ -26541,7 +26539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1018,
@@ -26567,7 +26565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1019,
@@ -26593,7 +26591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1020,
@@ -26619,7 +26617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1021,
@@ -26645,7 +26643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1022,
@@ -26671,7 +26669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1023,
@@ -26697,7 +26695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1024,
@@ -26723,7 +26721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1025,
@@ -26749,7 +26747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1026,
@@ -26775,7 +26773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1027,
@@ -26801,7 +26799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1028,
@@ -26827,7 +26825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1029,
@@ -26853,7 +26851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1030,
@@ -26879,7 +26877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1031,
@@ -26905,7 +26903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1032,
@@ -26931,7 +26929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1033,
@@ -26957,7 +26955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1034,
@@ -26983,7 +26981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1035,
@@ -27009,7 +27007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1036,
@@ -27035,7 +27033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1037,
@@ -27061,7 +27059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1038,
@@ -27087,7 +27085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1039,
@@ -27113,7 +27111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1040,
@@ -27139,7 +27137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1041,
@@ -27165,7 +27163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1042,
@@ -27191,7 +27189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1043,
@@ -27217,7 +27215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1044,
@@ -27243,7 +27241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1045,
@@ -27269,7 +27267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1046,
@@ -27295,7 +27293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1047,
@@ -27321,7 +27319,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1048,
@@ -27347,7 +27345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1049,
@@ -27373,7 +27371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1050,
@@ -27399,7 +27397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1051,
@@ -27425,7 +27423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1052,
@@ -27451,7 +27449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1053,
@@ -27477,7 +27475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1054,
@@ -27503,7 +27501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1055,
@@ -27529,7 +27527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1056,
@@ -27555,7 +27553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1057,
@@ -27581,7 +27579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1058,
@@ -27607,7 +27605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1059,
@@ -27633,7 +27631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1060,
@@ -27659,7 +27657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1061,
@@ -27685,7 +27683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1062,
@@ -27711,7 +27709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1063,
@@ -27737,7 +27735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1064,
@@ -27763,7 +27761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1065,
@@ -27789,7 +27787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1066,
@@ -27815,7 +27813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1067,
@@ -27841,7 +27839,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1068,
@@ -27867,7 +27865,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1069,
@@ -27893,7 +27891,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1070,
@@ -27919,7 +27917,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1071,
@@ -27945,7 +27943,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1072,
@@ -27971,7 +27969,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1073,
@@ -27997,7 +27995,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1074,
@@ -28023,7 +28021,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1075,
@@ -28049,7 +28047,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1076,
@@ -28075,7 +28073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1077,
@@ -28101,7 +28099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1078,
@@ -28127,7 +28125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1079,
@@ -28153,7 +28151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1080,
@@ -28179,7 +28177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1081,
@@ -28205,7 +28203,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1082,
@@ -28231,7 +28229,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1083,
@@ -28257,7 +28255,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1084,
@@ -28283,7 +28281,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1085,
@@ -28309,7 +28307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1086,
@@ -28335,7 +28333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1087,
@@ -28361,7 +28359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1088,
@@ -28387,7 +28385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1089,
@@ -28413,7 +28411,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1090,
@@ -28439,7 +28437,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1091,
@@ -28465,7 +28463,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1092,
@@ -28491,7 +28489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1093,
@@ -28517,7 +28515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1094,
@@ -28543,7 +28541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1095,
@@ -28569,7 +28567,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1096,
@@ -28595,7 +28593,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1097,
@@ -28621,7 +28619,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1098,
@@ -28647,7 +28645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1099,
@@ -28673,7 +28671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1100,
@@ -28699,7 +28697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1101,
@@ -28725,7 +28723,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1102,
@@ -28751,7 +28749,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1103,
@@ -28777,7 +28775,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1104,
@@ -28803,7 +28801,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1105,
@@ -28829,7 +28827,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1106,
@@ -28855,7 +28853,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1107,
@@ -28881,7 +28879,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1108,
@@ -28907,7 +28905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1109,
@@ -28933,7 +28931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1110,
@@ -28959,7 +28957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1111,
@@ -28985,7 +28983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1112,
@@ -29011,7 +29009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1113,
@@ -29037,7 +29035,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1114,
@@ -29063,7 +29061,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1115,
@@ -29089,7 +29087,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1116,
@@ -29115,7 +29113,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1117,
@@ -29141,7 +29139,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1118,
@@ -29167,7 +29165,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1119,
@@ -29193,7 +29191,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1120,
@@ -29219,7 +29217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1121,
@@ -29245,7 +29243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1122,
@@ -29271,7 +29269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1123,
@@ -29297,7 +29295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1124,
@@ -29323,7 +29321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1125,
@@ -29349,7 +29347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1126,
@@ -29375,7 +29373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1127,
@@ -29401,7 +29399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1128,
@@ -29427,7 +29425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1129,
@@ -29453,7 +29451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1130,
@@ -29479,7 +29477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1131,
@@ -29505,7 +29503,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1132,
@@ -29531,7 +29529,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1133,
@@ -29557,7 +29555,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1134,
@@ -29583,7 +29581,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1135,
@@ -29609,7 +29607,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1136,
@@ -29635,7 +29633,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1137,
@@ -29661,7 +29659,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1138,
@@ -29687,7 +29685,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1139,
@@ -29713,7 +29711,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1140,
@@ -29739,7 +29737,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1141,
@@ -29765,7 +29763,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1142,
@@ -29791,7 +29789,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1143,
@@ -29817,7 +29815,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1144,
@@ -29843,7 +29841,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1145,
@@ -29869,7 +29867,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1146,
@@ -29895,7 +29893,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1147,
@@ -29921,7 +29919,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1148,
@@ -29947,7 +29945,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1149,
@@ -29973,7 +29971,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1150,
@@ -29999,7 +29997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1151,
@@ -30025,7 +30023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1152,
@@ -30051,7 +30049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1153,
@@ -30077,7 +30075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1154,
@@ -30103,7 +30101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1155,
@@ -30129,7 +30127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1156,
@@ -30155,7 +30153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1157,
@@ -30181,7 +30179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1158,
@@ -30207,7 +30205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1159,
@@ -30233,7 +30231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1160,
@@ -30259,7 +30257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1161,
@@ -30285,7 +30283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1239,
@@ -30337,7 +30335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1163,
@@ -30363,7 +30361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1164,
@@ -30389,7 +30387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1165,
@@ -30415,7 +30413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1166,
@@ -30441,7 +30439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1167,
@@ -30467,7 +30465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1168,
@@ -30493,7 +30491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1169,
@@ -30519,7 +30517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1170,
@@ -30545,7 +30543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1171,
@@ -30571,7 +30569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1172,
@@ -30597,7 +30595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1173,
@@ -30623,7 +30621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1174,
@@ -30649,7 +30647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1175,
@@ -30675,7 +30673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1176,
@@ -30701,7 +30699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1177,
@@ -30727,7 +30725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1178,
@@ -30753,7 +30751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1179,
@@ -30779,7 +30777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1180,
@@ -30805,7 +30803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1181,
@@ -30831,7 +30829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1182,
@@ -30857,7 +30855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1183,
@@ -30883,7 +30881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1184,
@@ -30909,7 +30907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1185,
@@ -30935,7 +30933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1186,
@@ -30961,7 +30959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1187,
@@ -30987,7 +30985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1188,
@@ -31013,7 +31011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1189,
@@ -31039,7 +31037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1190,
@@ -31065,7 +31063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1191,
@@ -31091,7 +31089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1192,
@@ -31117,7 +31115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1193,
@@ -31143,7 +31141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1194,
@@ -31169,7 +31167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1195,
@@ -31195,7 +31193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1196,
@@ -31221,7 +31219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1197,
@@ -31247,7 +31245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1198,
@@ -31273,7 +31271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1199,
@@ -31299,7 +31297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1200,
@@ -31325,7 +31323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1201,
@@ -31351,7 +31349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1202,
@@ -31377,7 +31375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1203,
@@ -31403,7 +31401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1204,
@@ -31429,7 +31427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1205,
@@ -31455,7 +31453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1206,
@@ -31481,7 +31479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1207,
@@ -31507,7 +31505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1208,
@@ -39229,7 +39227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1506,
@@ -39255,7 +39253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1507,
@@ -39281,7 +39279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1508,
@@ -39307,7 +39305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1509,
@@ -39333,7 +39331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1510,
@@ -39359,7 +39357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1511,
@@ -39385,7 +39383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1512,
@@ -39411,7 +39409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1513,
@@ -39437,7 +39435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1514,
@@ -39463,7 +39461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1515,
@@ -39489,7 +39487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1516,
@@ -39515,7 +39513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1517,
@@ -39541,7 +39539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1518,
@@ -39567,7 +39565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1519,
@@ -39593,7 +39591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1520,
@@ -39619,7 +39617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1521,
@@ -39645,7 +39643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1522,
@@ -39671,7 +39669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1523,
@@ -39697,7 +39695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1524,
@@ -39723,7 +39721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1525,
@@ -39749,7 +39747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1526,
@@ -39775,7 +39773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1527,
@@ -39801,7 +39799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1528,
@@ -39827,7 +39825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1529,
@@ -39853,7 +39851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1530,
@@ -39879,7 +39877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1531,
@@ -39905,7 +39903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1532,
@@ -39931,7 +39929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1533,
@@ -39957,7 +39955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1534,
@@ -39983,7 +39981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1535,
@@ -40009,7 +40007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1536,
@@ -40035,7 +40033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1537,
@@ -40061,7 +40059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1538,
@@ -40087,7 +40085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1539,
@@ -40113,7 +40111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1540,
@@ -40139,7 +40137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1541,
@@ -40165,7 +40163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1542,
@@ -40191,7 +40189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1543,
@@ -40217,7 +40215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1544,
@@ -40243,7 +40241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1545,
@@ -40269,7 +40267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1546,
@@ -40295,7 +40293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1547,
@@ -40321,7 +40319,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1548,
@@ -40347,7 +40345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1549,
@@ -40373,7 +40371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1550,
@@ -40399,7 +40397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1551,
@@ -40425,7 +40423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1552,
@@ -40451,7 +40449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1553,
@@ -40477,7 +40475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1554,
@@ -40503,7 +40501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1555,
@@ -40529,7 +40527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1556,
@@ -40555,7 +40553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1557,
@@ -40581,7 +40579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1558,
@@ -40607,7 +40605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1559,
@@ -40633,7 +40631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1560,
@@ -40659,7 +40657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1561,
@@ -40685,7 +40683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1562,
@@ -40711,7 +40709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1563,
@@ -40737,7 +40735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1564,
@@ -40763,7 +40761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1565,
@@ -40789,7 +40787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1566,
@@ -40815,7 +40813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1567,
@@ -40841,7 +40839,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1568,
@@ -40867,7 +40865,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1569,
@@ -40893,7 +40891,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1570,
@@ -40919,7 +40917,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1571,
@@ -40945,7 +40943,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1572,
@@ -40971,7 +40969,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1573,
@@ -40997,7 +40995,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1574,
@@ -41023,7 +41021,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1575,
@@ -41049,7 +41047,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1576,
@@ -41075,7 +41073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1577,
@@ -41101,7 +41099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1578,
@@ -41127,7 +41125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1579,
@@ -41153,7 +41151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1580,
@@ -41179,7 +41177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1581,
@@ -41205,7 +41203,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1582,
@@ -41231,7 +41229,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1583,
@@ -41257,7 +41255,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1584,
@@ -41283,7 +41281,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1585,
@@ -41309,7 +41307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1586,
@@ -41335,7 +41333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1587,
@@ -41361,7 +41359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1588,
@@ -41387,7 +41385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1589,
@@ -41413,7 +41411,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1590,
@@ -41439,7 +41437,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1591,
@@ -41465,7 +41463,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1592,
@@ -41491,7 +41489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1593,
@@ -41517,7 +41515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1594,
@@ -41543,7 +41541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1595,
@@ -41569,7 +41567,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1596,
@@ -41595,7 +41593,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1597,
@@ -41621,7 +41619,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1598,
@@ -41647,7 +41645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1599,
@@ -41673,7 +41671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1600,
@@ -41699,7 +41697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1601,
@@ -41725,7 +41723,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1602,
@@ -41751,7 +41749,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1603,
@@ -41777,7 +41775,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1604,
@@ -41803,7 +41801,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1605,
@@ -41829,7 +41827,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1606,
@@ -41855,7 +41853,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1607,
@@ -41881,7 +41879,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1608,
@@ -41907,7 +41905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1609,
@@ -41933,7 +41931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1610,
@@ -41959,7 +41957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1611,
@@ -41985,7 +41983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1612,
@@ -42011,7 +42009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1613,
@@ -45157,7 +45155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1734,
@@ -45183,7 +45181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1735,
@@ -45209,7 +45207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1736,
@@ -45235,7 +45233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1737,
@@ -45261,7 +45259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1738,
@@ -45287,7 +45285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1739,
@@ -45313,7 +45311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1740,
@@ -45339,7 +45337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1741,
@@ -45365,7 +45363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1742,
@@ -45391,7 +45389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1743,
@@ -45417,7 +45415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1744,
@@ -45443,7 +45441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1745,
@@ -45469,7 +45467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1746,
@@ -45495,7 +45493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1747,
@@ -45521,7 +45519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1748,
@@ -45547,7 +45545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1749,
@@ -45573,7 +45571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1750,
@@ -45599,7 +45597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1751,
@@ -45625,7 +45623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1752,
@@ -45651,7 +45649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1753,
@@ -45677,7 +45675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1754,
@@ -45703,7 +45701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1755,
@@ -45729,7 +45727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1756,
@@ -45755,7 +45753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1757,
@@ -45781,7 +45779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1758,
@@ -45807,7 +45805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1759,
@@ -45833,7 +45831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1760,
@@ -45859,7 +45857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1761,
@@ -45885,7 +45883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1762,
@@ -45911,7 +45909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1763,
@@ -45937,7 +45935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1764,
@@ -45963,7 +45961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1765,
@@ -45989,7 +45987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1766,
@@ -46015,7 +46013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1767,
@@ -46041,7 +46039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1768,
@@ -46067,7 +46065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1769,
@@ -46093,7 +46091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1770,
@@ -46119,7 +46117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1771,
@@ -46145,7 +46143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1772,
@@ -46171,7 +46169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1773,
@@ -46197,7 +46195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1774,
@@ -46223,7 +46221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1775,
@@ -46249,7 +46247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1776,
@@ -46275,7 +46273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1777,
@@ -46301,7 +46299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1778,
@@ -46327,7 +46325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1779,
@@ -46353,7 +46351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1780,
@@ -46379,7 +46377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1781,
@@ -46405,7 +46403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1782,
@@ -46431,7 +46429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1783,
@@ -46457,7 +46455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1784,
@@ -46483,7 +46481,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1785,
@@ -46509,7 +46507,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1786,
@@ -46535,7 +46533,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1787,
@@ -46561,7 +46559,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1788,
@@ -46587,7 +46585,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1789,
@@ -46613,7 +46611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1790,
@@ -46639,7 +46637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1791,
@@ -46665,7 +46663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1792,
@@ -46691,7 +46689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1793,
@@ -46717,7 +46715,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1794,
@@ -46743,7 +46741,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1795,
@@ -46769,7 +46767,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1796,
@@ -46795,7 +46793,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1797,
@@ -46821,7 +46819,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1798,
@@ -46847,7 +46845,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1799,
@@ -46873,7 +46871,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1800,
@@ -46899,7 +46897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1801,
@@ -46925,7 +46923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1802,
@@ -46951,7 +46949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1803,
@@ -46977,7 +46975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1804,
@@ -47003,7 +47001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1805,
@@ -47029,7 +47027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1806,
@@ -47055,7 +47053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1807,
@@ -47081,7 +47079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1808,
@@ -47107,7 +47105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1809,
@@ -47133,7 +47131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1810,
@@ -47159,7 +47157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1811,
@@ -47185,7 +47183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1812,
@@ -47211,7 +47209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1813,
@@ -47237,7 +47235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1814,
@@ -47263,7 +47261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1815,
@@ -47289,7 +47287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1816,
@@ -47315,7 +47313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1817,
@@ -47341,7 +47339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1818,
@@ -47367,7 +47365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1819,
@@ -47393,7 +47391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1820,
@@ -47419,7 +47417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1821,
@@ -47445,7 +47443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1822,
@@ -47471,7 +47469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1823,
@@ -47497,7 +47495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1824,
@@ -47523,7 +47521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1825,
@@ -47549,7 +47547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1826,
@@ -47575,7 +47573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1827,
@@ -47601,7 +47599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1828,
@@ -47627,7 +47625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1829,
@@ -47653,7 +47651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1830,
@@ -47679,7 +47677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1831,
@@ -47705,7 +47703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1832,
@@ -47731,7 +47729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1833,
@@ -47757,7 +47755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1834,
@@ -47783,7 +47781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1835,
@@ -47809,7 +47807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1836,
@@ -47835,7 +47833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1837,
@@ -47861,7 +47859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1838,
@@ -47887,7 +47885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1839,
@@ -47913,7 +47911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1840,
@@ -47939,7 +47937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1841,
@@ -47965,7 +47963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1842,
@@ -47991,7 +47989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1843,
@@ -48017,7 +48015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1844,
@@ -48043,7 +48041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1845,
@@ -48069,7 +48067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1846,
@@ -48095,7 +48093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1847,
@@ -48121,7 +48119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1848,
@@ -48147,7 +48145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1849,
@@ -48173,7 +48171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1850,
@@ -48199,7 +48197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1851,
@@ -48225,7 +48223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1852,
@@ -48251,7 +48249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1853,
@@ -48277,7 +48275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1854,
@@ -48303,7 +48301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1855,
@@ -48329,7 +48327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1856,
@@ -48355,7 +48353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1857,
@@ -48407,7 +48405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1859,
@@ -48433,7 +48431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1860,
@@ -48459,7 +48457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1861,
@@ -48485,7 +48483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1862,
@@ -48511,7 +48509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1863,
@@ -48537,7 +48535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1864,
@@ -48563,7 +48561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1865,
@@ -48589,7 +48587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1866,
@@ -48615,7 +48613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1867,
@@ -48641,7 +48639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1868,
@@ -48667,7 +48665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1869,
@@ -48693,7 +48691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1870,
@@ -48719,7 +48717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1871,
@@ -48745,7 +48743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1872,
@@ -48771,7 +48769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1873,
@@ -48797,7 +48795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1874,
@@ -48823,7 +48821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1875,
@@ -48849,7 +48847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1876,
@@ -48875,7 +48873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1877,
@@ -48901,7 +48899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1878,
@@ -48927,7 +48925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1879,
@@ -48953,7 +48951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1880,
@@ -48979,7 +48977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1881,
@@ -49005,7 +49003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1882,
@@ -49031,7 +49029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1883,
@@ -49057,7 +49055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1884,
@@ -49083,7 +49081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1885,
@@ -49109,7 +49107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1886,
@@ -49135,7 +49133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1887,
@@ -49161,7 +49159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1888,
@@ -49187,7 +49185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1889,
@@ -49213,7 +49211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1890,
@@ -49239,7 +49237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1891,
@@ -49265,7 +49263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1892,
@@ -49291,7 +49289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1893,
@@ -49317,7 +49315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1894,
@@ -49343,7 +49341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1895,
@@ -49369,7 +49367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1896,
@@ -49395,7 +49393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1897,
@@ -49421,7 +49419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1898,
@@ -49447,7 +49445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1899,
@@ -49473,7 +49471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1900,
@@ -49499,7 +49497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1901,
@@ -49525,7 +49523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1902,
@@ -49551,7 +49549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1903,
@@ -49577,7 +49575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1904,
@@ -49603,7 +49601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1905,
@@ -49629,7 +49627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1906,
@@ -49655,7 +49653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1907,
@@ -49681,7 +49679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1908,
@@ -49707,7 +49705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1909,
@@ -49733,7 +49731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1910,
@@ -49759,7 +49757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1911,
@@ -49785,7 +49783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1912,
@@ -49811,7 +49809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1913,
@@ -49837,7 +49835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1914,
@@ -49863,7 +49861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1915,
@@ -49889,7 +49887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1916,
@@ -49915,7 +49913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1917,
@@ -49941,7 +49939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1918,
@@ -49967,7 +49965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1919,
@@ -49993,7 +49991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1920,
@@ -50019,7 +50017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1921,
@@ -50045,7 +50043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1922,
@@ -50071,7 +50069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1923,
@@ -50097,7 +50095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1924,
@@ -50123,7 +50121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1925,
@@ -50149,7 +50147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1926,
@@ -50175,7 +50173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1927,
@@ -50201,7 +50199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1928,
@@ -50227,7 +50225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1929,
@@ -50253,7 +50251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1930,
@@ -50279,7 +50277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1931,
@@ -50305,7 +50303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1932,
@@ -50331,7 +50329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1933,
@@ -50357,7 +50355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1934,
@@ -50383,7 +50381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1935,
@@ -50409,7 +50407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1936,
@@ -50435,7 +50433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1937,
@@ -50461,7 +50459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1938,
@@ -50487,7 +50485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1939,
@@ -50513,7 +50511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1940,
@@ -50539,7 +50537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1941,
@@ -50565,7 +50563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1942,
@@ -50591,7 +50589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1943,
@@ -50617,7 +50615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1944,
@@ -50643,7 +50641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1945,
@@ -50669,7 +50667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1946,
@@ -50695,7 +50693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1947,
@@ -50721,7 +50719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1948,
@@ -50747,7 +50745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1949,
@@ -50773,7 +50771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1950,
@@ -50799,7 +50797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1951,
@@ -50825,7 +50823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1952,
@@ -50851,7 +50849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1953,
@@ -50877,7 +50875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1954,
@@ -50903,7 +50901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1955,
@@ -50929,7 +50927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1956,
@@ -50955,7 +50953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0029",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1957,
@@ -51007,7 +51005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1959,
@@ -51033,7 +51031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1960,
@@ -51059,7 +51057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1961,
@@ -51085,7 +51083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1962,
@@ -51111,7 +51109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1963,
@@ -51137,7 +51135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1964,
@@ -51163,7 +51161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1965,
@@ -51189,7 +51187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1966,
@@ -51527,7 +51525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1979,
@@ -51553,7 +51551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1980,
@@ -51579,7 +51577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1981,
@@ -51605,7 +51603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1982,
@@ -51631,7 +51629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1983,
@@ -51657,7 +51655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1984,
@@ -51683,7 +51681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1985,
@@ -51709,7 +51707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1986,
@@ -51735,7 +51733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1987,
@@ -51761,7 +51759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1988,
@@ -51787,7 +51785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1989,
@@ -51813,7 +51811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 1990,
@@ -52515,7 +52513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2017,
@@ -52541,7 +52539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2018,
@@ -52567,7 +52565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2019,
@@ -52593,7 +52591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2020,
@@ -52619,7 +52617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2021,
@@ -52645,7 +52643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2022,
@@ -52671,7 +52669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2023,
@@ -52697,7 +52695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2024,
@@ -52723,7 +52721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2025,
@@ -52749,7 +52747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2026,
@@ -52775,7 +52773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2027,
@@ -52801,7 +52799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2028,
@@ -52827,7 +52825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2029,
@@ -52853,7 +52851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2030,
@@ -52879,7 +52877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2031,
@@ -52905,7 +52903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2032,
@@ -53347,7 +53345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0011",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2049,
@@ -53373,7 +53371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0011",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2050,
@@ -53399,7 +53397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0011",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2051,
@@ -53425,7 +53423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2052,
@@ -53451,7 +53449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2053,
@@ -53477,7 +53475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2054,
@@ -53503,7 +53501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2055,
@@ -53529,7 +53527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0103",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2056,
@@ -53555,7 +53553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2057,
@@ -53581,7 +53579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2058,
@@ -53607,7 +53605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2059,
@@ -53633,7 +53631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2060,
@@ -53659,7 +53657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2061,
@@ -53685,7 +53683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0058",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2062,
@@ -53711,7 +53709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0004",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2063,
@@ -53737,7 +53735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2064,
@@ -53763,7 +53761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2065,
@@ -53789,7 +53787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2066,
@@ -53815,7 +53813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2067,
@@ -53841,7 +53839,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2068,
@@ -53867,7 +53865,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2069,
@@ -53893,7 +53891,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2070,
@@ -53919,7 +53917,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2071,
@@ -53945,7 +53943,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2072,
@@ -53997,7 +53995,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2074,
@@ -54023,7 +54021,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2075,
@@ -54049,7 +54047,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2076,
@@ -54075,7 +54073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0093",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2077,
@@ -54101,7 +54099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0099",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2078,
@@ -54127,7 +54125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0099",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2079,
@@ -54153,7 +54151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0099",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2080,
@@ -54179,7 +54177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0099",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2081,
@@ -54309,7 +54307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2086,
@@ -54337,7 +54335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2087,
@@ -54363,7 +54361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2088,
@@ -54389,7 +54387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2089,
@@ -54415,7 +54413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2090,
@@ -54441,7 +54439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0048",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2091,
@@ -54467,7 +54465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0095",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2092,
@@ -54493,7 +54491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0122",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2093,
@@ -54519,7 +54517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0123",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2094,
@@ -54545,7 +54543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0033",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2095,
@@ -54571,7 +54569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0066",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2096,
@@ -54597,7 +54595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0049",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2097,
@@ -54623,7 +54621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0050",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2098,
@@ -54649,7 +54647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0125",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2099,
@@ -54675,7 +54673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0022",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2100,
@@ -54701,7 +54699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0022",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2101,
@@ -54727,7 +54725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0021",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2102,
@@ -54753,7 +54751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0010",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2103,
@@ -54779,7 +54777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2104,
@@ -54805,7 +54803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2105,
@@ -54831,7 +54829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2106,
@@ -54859,7 +54857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0006",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2107,
@@ -54885,7 +54883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0006",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2108,
@@ -54913,7 +54911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0007",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2109,
@@ -54941,7 +54939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0009",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2110,
@@ -54967,7 +54965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0009",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2111,
@@ -54993,7 +54991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2112,
@@ -55019,7 +55017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2113,
@@ -55045,7 +55043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2114,
@@ -55071,7 +55069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2115,
@@ -55097,7 +55095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2116,
@@ -55123,7 +55121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2117,
@@ -55149,7 +55147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0034",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2118,
@@ -55175,7 +55173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2119,
@@ -55203,7 +55201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2120,
@@ -55229,7 +55227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2121,
@@ -55255,7 +55253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0044",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2122,
@@ -55281,7 +55279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0044",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2123,
@@ -55307,7 +55305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0069",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2124,
@@ -55333,7 +55331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0069",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2125,
@@ -55359,7 +55357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2126,
@@ -55385,7 +55383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2127,
@@ -55411,7 +55409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2128,
@@ -55437,7 +55435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2129,
@@ -55463,7 +55461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2130,
@@ -55489,7 +55487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2131,
@@ -55515,7 +55513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2132,
@@ -55541,7 +55539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2133,
@@ -55567,7 +55565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2134,
@@ -55593,7 +55591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2135,
@@ -55619,7 +55617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2136,
@@ -55645,7 +55643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2137,
@@ -55671,7 +55669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2138,
@@ -55697,7 +55695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2139,
@@ -55723,7 +55721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2140,
@@ -55749,7 +55747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2141,
@@ -55775,7 +55773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2142,
@@ -55801,7 +55799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2143,
@@ -55827,7 +55825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2144,
@@ -55853,7 +55851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2145,
@@ -55879,7 +55877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0090",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2146,
@@ -55907,7 +55905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0089",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2147,
@@ -55933,7 +55931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0089",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2148,
@@ -55959,7 +55957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0036",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2149,
@@ -55987,7 +55985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0101",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2150,
@@ -56013,7 +56011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2151,
@@ -56041,7 +56039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2152,
@@ -56067,7 +56065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2153,
@@ -56093,7 +56091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2154,
@@ -56119,7 +56117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2155,
@@ -56147,7 +56145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2156,
@@ -56173,7 +56171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2157,
@@ -56199,7 +56197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2158,
@@ -56227,7 +56225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0006",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2159,
@@ -56253,7 +56251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0006",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2160,
@@ -56281,7 +56279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0007",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2161,
@@ -56309,7 +56307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0009",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2162,
@@ -56335,7 +56333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0009",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2163,
@@ -56361,7 +56359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2164,
@@ -56387,7 +56385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2165,
@@ -56413,7 +56411,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2166,
@@ -56439,7 +56437,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2167,
@@ -56465,7 +56463,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2168,
@@ -56491,7 +56489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0026",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2169,
@@ -56517,7 +56515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0034",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2170,
@@ -56543,7 +56541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2171,
@@ -56571,7 +56569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2172,
@@ -56597,7 +56595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0038",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2173,
@@ -56623,7 +56621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0044",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2174,
@@ -56649,7 +56647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0044",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2175,
@@ -56675,7 +56673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0069",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2176,
@@ -56701,7 +56699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0069",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2177,
@@ -56727,7 +56725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2178,
@@ -56753,7 +56751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2179,
@@ -56779,7 +56777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2180,
@@ -56805,7 +56803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2181,
@@ -56831,7 +56829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2182,
@@ -56857,7 +56855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0087",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2183,
@@ -56885,7 +56883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0035",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2184,
@@ -56913,7 +56911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0067",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2185,
@@ -56939,7 +56937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2186,
@@ -56965,7 +56963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2187,
@@ -56991,7 +56989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2188,
@@ -57017,7 +57015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0110",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2189,
@@ -57043,7 +57041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2190,
@@ -57069,7 +57067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2191,
@@ -57095,7 +57093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2192,
@@ -57121,7 +57119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2193,
@@ -57147,7 +57145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2194,
@@ -57173,7 +57171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2195,
@@ -57199,7 +57197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2196,
@@ -57225,7 +57223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2197,
@@ -57251,7 +57249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0014",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2198,
@@ -57277,7 +57275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0014",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2199,
@@ -57303,7 +57301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0014",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2200,
@@ -57329,7 +57327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0014",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2201,
@@ -57355,7 +57353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2202,
@@ -57381,7 +57379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2203,
@@ -57407,7 +57405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2204,
@@ -57433,7 +57431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0105",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2205,
@@ -57459,7 +57457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0124",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2206,
@@ -57485,7 +57483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2207,
@@ -57511,7 +57509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2208,
@@ -57537,7 +57535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2209,
@@ -57563,7 +57561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2210,
@@ -57589,7 +57587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0013",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2211,
@@ -57615,7 +57613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2212,
@@ -57641,7 +57639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0037",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2213,
@@ -57667,7 +57665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2214,
@@ -57693,7 +57691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2215,
@@ -57719,7 +57717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2216,
@@ -57745,7 +57743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2217,
@@ -57771,7 +57769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0060",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2218,
@@ -57797,7 +57795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2219,
@@ -57823,7 +57821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2220,
@@ -57849,7 +57847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2221,
@@ -57875,7 +57873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2222,
@@ -57901,7 +57899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0104",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2223,
@@ -57927,7 +57925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2224,
@@ -57953,7 +57951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2225,
@@ -57979,7 +57977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2226,
@@ -58005,7 +58003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2227,
@@ -58031,7 +58029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2228,
@@ -58057,7 +58055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2229,
@@ -58083,7 +58081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2230,
@@ -58109,7 +58107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2231,
@@ -58135,7 +58133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2232,
@@ -58163,7 +58161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2233,
@@ -58189,7 +58187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2234,
@@ -58215,7 +58213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2235,
@@ -64819,7 +64817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2488,
@@ -65469,7 +65467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2513,
@@ -65495,7 +65493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2514,
@@ -65521,7 +65519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2515,
@@ -65547,7 +65545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2516,
@@ -65573,7 +65571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2517,
@@ -65599,7 +65597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2518,
@@ -65625,7 +65623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2519,
@@ -65651,7 +65649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2520,
@@ -65677,7 +65675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2521,
@@ -65703,7 +65701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2522,
@@ -65729,7 +65727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2523,
@@ -65755,7 +65753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2524,
@@ -65781,7 +65779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2525,
@@ -65807,7 +65805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2526,
@@ -65833,7 +65831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2527,
@@ -65859,7 +65857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2528,
@@ -65885,7 +65883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2529,
@@ -65911,7 +65909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2530,
@@ -65937,7 +65935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2531,
@@ -65963,7 +65961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2532,
@@ -65989,7 +65987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2533,
@@ -66015,7 +66013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2534,
@@ -66041,7 +66039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2535,
@@ -66067,7 +66065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2536,
@@ -66093,7 +66091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2537,
@@ -66119,7 +66117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2538,
@@ -66145,7 +66143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2539,
@@ -66171,7 +66169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2540,
@@ -66197,7 +66195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2541,
@@ -66223,7 +66221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2542,
@@ -66249,7 +66247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2543,
@@ -66275,7 +66273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2544,
@@ -66301,7 +66299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2545,
@@ -66327,7 +66325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2546,
@@ -66353,7 +66351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2547,
@@ -66379,7 +66377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2548,
@@ -66405,7 +66403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2549,
@@ -66431,7 +66429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2550,
@@ -66457,7 +66455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2551,
@@ -66483,7 +66481,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2552,
@@ -66509,7 +66507,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2553,
@@ -66535,7 +66533,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2554,
@@ -66561,7 +66559,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2555,
@@ -66587,7 +66585,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2556,
@@ -66613,7 +66611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2557,
@@ -66639,7 +66637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2558,
@@ -66665,7 +66663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2559,
@@ -66691,7 +66689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0092",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2560,
@@ -66717,7 +66715,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2561,
@@ -66743,7 +66741,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2562,
@@ -66769,7 +66767,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2563,
@@ -66795,7 +66793,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2564,
@@ -66821,7 +66819,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2565,
@@ -66847,7 +66845,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2566,
@@ -66873,7 +66871,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2567,
@@ -66899,7 +66897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2568,
@@ -66925,7 +66923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2569,
@@ -66951,7 +66949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2570,
@@ -66977,7 +66975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2571,
@@ -67003,7 +67001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2572,
@@ -67029,7 +67027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2573,
@@ -67055,7 +67053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2574,
@@ -67081,7 +67079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2575,
@@ -67107,7 +67105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2576,
@@ -67133,7 +67131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2577,
@@ -67159,7 +67157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2578,
@@ -67185,7 +67183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2579,
@@ -67211,7 +67209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2580,
@@ -67237,7 +67235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2581,
@@ -67263,7 +67261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2582,
@@ -67289,7 +67287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2583,
@@ -67315,7 +67313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0053",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2584,
@@ -67341,7 +67339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2585,
@@ -67367,7 +67365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2586,
@@ -67393,7 +67391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2587,
@@ -67419,7 +67417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2588,
@@ -67445,7 +67443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2589,
@@ -67471,7 +67469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2590,
@@ -67497,7 +67495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2591,
@@ -67523,7 +67521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2592,
@@ -67549,7 +67547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2593,
@@ -67575,7 +67573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2594,
@@ -67601,7 +67599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2595,
@@ -67627,7 +67625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2596,
@@ -67653,7 +67651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2597,
@@ -67679,7 +67677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2598,
@@ -67705,7 +67703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2599,
@@ -67731,7 +67729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2600,
@@ -67757,7 +67755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2601,
@@ -67783,7 +67781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2602,
@@ -67809,7 +67807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2603,
@@ -67835,7 +67833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2604,
@@ -67861,7 +67859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2605,
@@ -67887,7 +67885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2606,
@@ -67913,7 +67911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2607,
@@ -67939,7 +67937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2608,
@@ -67965,7 +67963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2609,
@@ -67991,7 +67989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2610,
@@ -68017,7 +68015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2611,
@@ -68043,7 +68041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2612,
@@ -68069,7 +68067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2613,
@@ -68095,7 +68093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2614,
@@ -68121,7 +68119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2615,
@@ -68147,7 +68145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2616,
@@ -68173,7 +68171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2617,
@@ -68199,7 +68197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2618,
@@ -68225,7 +68223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2619,
@@ -68251,7 +68249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2620,
@@ -68277,7 +68275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2621,
@@ -68303,7 +68301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2622,
@@ -68329,7 +68327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2623,
@@ -68355,7 +68353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2624,
@@ -68381,7 +68379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2625,
@@ -68407,7 +68405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2626,
@@ -68433,7 +68431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2627,
@@ -68459,7 +68457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2628,
@@ -68485,7 +68483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2629,
@@ -68511,7 +68509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2630,
@@ -68537,7 +68535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2631,
@@ -68563,7 +68561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0109",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2632,
@@ -69759,7 +69757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2678,
@@ -69785,7 +69783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2679,
@@ -69811,7 +69809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2680,
@@ -69837,7 +69835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2681,
@@ -69863,7 +69861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2682,
@@ -69889,7 +69887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2683,
@@ -69915,7 +69913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2684,
@@ -69941,7 +69939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2685,
@@ -69967,7 +69965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2686,
@@ -69993,7 +69991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2687,
@@ -70019,7 +70017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2688,
@@ -70045,7 +70043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2689,
@@ -70071,7 +70069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2690,
@@ -70097,7 +70095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2691,
@@ -70123,7 +70121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2692,
@@ -70149,7 +70147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2693,
@@ -70279,7 +70277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2698,
@@ -70305,7 +70303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2699,
@@ -70331,7 +70329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2700,
@@ -70357,7 +70355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2701,
@@ -70383,7 +70381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2702,
@@ -70409,7 +70407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2703,
@@ -70435,7 +70433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2704,
@@ -70461,7 +70459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2705,
@@ -70487,7 +70485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2706,
@@ -70513,7 +70511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2707,
@@ -70539,7 +70537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2708,
@@ -70565,7 +70563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0064",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2709,
@@ -71883,7 +71881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2759,
@@ -71909,7 +71907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2760,
@@ -71935,7 +71933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2761,
@@ -71961,7 +71959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2762,
@@ -71987,7 +71985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2763,
@@ -72013,7 +72011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2764,
@@ -72039,7 +72037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2765,
@@ -72065,7 +72063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2766,
@@ -72091,7 +72089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2767,
@@ -72117,7 +72115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2768,
@@ -72143,7 +72141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2769,
@@ -72169,7 +72167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2770,
@@ -72195,7 +72193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2771,
@@ -72221,7 +72219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2772,
@@ -72247,7 +72245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2773,
@@ -72273,7 +72271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2774,
@@ -72299,7 +72297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2775,
@@ -72325,7 +72323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2776,
@@ -72351,7 +72349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2777,
@@ -72377,7 +72375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2778,
@@ -72403,7 +72401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2779,
@@ -72429,7 +72427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2780,
@@ -72455,7 +72453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2781,
@@ -72481,7 +72479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2782,
@@ -72507,7 +72505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2783,
@@ -72533,7 +72531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2784,
@@ -72559,7 +72557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2785,
@@ -72585,7 +72583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2786,
@@ -72611,7 +72609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2787,
@@ -72637,7 +72635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2788,
@@ -72663,7 +72661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2789,
@@ -72689,7 +72687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2790,
@@ -72715,7 +72713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2791,
@@ -72741,7 +72739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2792,
@@ -72767,7 +72765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2793,
@@ -72793,7 +72791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2794,
@@ -72819,7 +72817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2795,
@@ -72845,7 +72843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2796,
@@ -72871,7 +72869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2797,
@@ -72897,7 +72895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2798,
@@ -72923,7 +72921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2799,
@@ -72949,7 +72947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2800,
@@ -73053,7 +73051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2804,
@@ -73079,7 +73077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2805,
@@ -73105,7 +73103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2806,
@@ -73131,7 +73129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2807,
@@ -73157,7 +73155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2808,
@@ -73183,7 +73181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2809,
@@ -73209,7 +73207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2810,
@@ -73235,7 +73233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2811,
@@ -73261,7 +73259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0068",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2812,
@@ -73365,7 +73363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2816,
@@ -73391,7 +73389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2817,
@@ -73417,7 +73415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2818,
@@ -73443,7 +73441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2819,
@@ -73469,7 +73467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2820,
@@ -73495,7 +73493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2821,
@@ -73521,7 +73519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2822,
@@ -73547,7 +73545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2823,
@@ -73573,7 +73571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2824,
@@ -73599,7 +73597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2825,
@@ -73625,7 +73623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2826,
@@ -73651,7 +73649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2827,
@@ -73677,7 +73675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2828,
@@ -73703,7 +73701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2829,
@@ -73729,7 +73727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2830,
@@ -73755,7 +73753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2831,
@@ -73781,7 +73779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2832,
@@ -73807,7 +73805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2833,
@@ -73833,7 +73831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2834,
@@ -73859,7 +73857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2835,
@@ -73885,7 +73883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2836,
@@ -73911,7 +73909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2837,
@@ -73937,7 +73935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2838,
@@ -73963,7 +73961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2839,
@@ -73989,7 +73987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2840,
@@ -74015,7 +74013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2841,
@@ -74041,7 +74039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2842,
@@ -74067,7 +74065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2843,
@@ -74093,7 +74091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2844,
@@ -74119,7 +74117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2845,
@@ -74145,7 +74143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2846,
@@ -74171,7 +74169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2847,
@@ -74197,7 +74195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2848,
@@ -74223,7 +74221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2849,
@@ -74249,7 +74247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2850,
@@ -74275,7 +74273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2851,
@@ -74301,7 +74299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2852,
@@ -74327,7 +74325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2853,
@@ -74353,7 +74351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2854,
@@ -74379,7 +74377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2855,
@@ -74405,7 +74403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2856,
@@ -74431,7 +74429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2857,
@@ -74457,7 +74455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2858,
@@ -74483,7 +74481,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2859,
@@ -74509,7 +74507,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2860,
@@ -74535,7 +74533,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2861,
@@ -74561,7 +74559,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2862,
@@ -74587,7 +74585,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2863,
@@ -74613,7 +74611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2864,
@@ -74639,7 +74637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2865,
@@ -74665,7 +74663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2866,
@@ -74691,7 +74689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2867,
@@ -74717,7 +74715,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2868,
@@ -74743,7 +74741,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2869,
@@ -74769,7 +74767,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2870,
@@ -74795,7 +74793,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2871,
@@ -74821,7 +74819,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2872,
@@ -74847,7 +74845,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2873,
@@ -74873,7 +74871,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2874,
@@ -74899,7 +74897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2875,
@@ -74925,7 +74923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2876,
@@ -74951,7 +74949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2877,
@@ -74977,7 +74975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2878,
@@ -75003,7 +75001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2879,
@@ -75029,7 +75027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2880,
@@ -75055,7 +75053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2881,
@@ -75081,7 +75079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2882,
@@ -75107,7 +75105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2883,
@@ -75133,7 +75131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2884,
@@ -75159,7 +75157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2885,
@@ -75185,7 +75183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2886,
@@ -75211,7 +75209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2887,
@@ -75237,7 +75235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2888,
@@ -75263,7 +75261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2889,
@@ -75289,7 +75287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2890,
@@ -75315,7 +75313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2891,
@@ -75341,7 +75339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2892,
@@ -75367,7 +75365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2893,
@@ -75393,7 +75391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2894,
@@ -75419,7 +75417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2895,
@@ -75445,7 +75443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2897,
@@ -75471,7 +75469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2898,
@@ -75497,7 +75495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2899,
@@ -75523,7 +75521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2900,
@@ -75549,7 +75547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2901,
@@ -75575,7 +75573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2902,
@@ -75601,7 +75599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2903,
@@ -75627,7 +75625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2904,
@@ -75653,7 +75651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2905,
@@ -75679,7 +75677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2906,
@@ -75705,7 +75703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2907,
@@ -75731,7 +75729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2908,
@@ -75757,7 +75755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2909,
@@ -75783,7 +75781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2910,
@@ -75809,7 +75807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2911,
@@ -75835,7 +75833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2912,
@@ -75861,7 +75859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2913,
@@ -75887,7 +75885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2914,
@@ -75913,7 +75911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2915,
@@ -75939,7 +75937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2916,
@@ -75965,7 +75963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2917,
@@ -75991,7 +75989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2918,
@@ -76017,7 +76015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2919,
@@ -76043,7 +76041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2920,
@@ -76069,7 +76067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2921,
@@ -76095,7 +76093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2922,
@@ -76121,7 +76119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2923,
@@ -76147,7 +76145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2924,
@@ -76173,7 +76171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2925,
@@ -76199,7 +76197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2926,
@@ -76225,7 +76223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2927,
@@ -76251,7 +76249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2928,
@@ -76277,7 +76275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2929,
@@ -76303,7 +76301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2930,
@@ -76329,7 +76327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2931,
@@ -76355,7 +76353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2932,
@@ -76381,7 +76379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2933,
@@ -76407,7 +76405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2934,
@@ -76433,7 +76431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2935,
@@ -76459,7 +76457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2936,
@@ -76485,7 +76483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2937,
@@ -76511,7 +76509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2938,
@@ -76537,7 +76535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2939,
@@ -76563,7 +76561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2940,
@@ -76667,7 +76665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2944,
@@ -76693,7 +76691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2945,
@@ -76719,7 +76717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2946,
@@ -76745,7 +76743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2947,
@@ -76771,7 +76769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2948,
@@ -76797,7 +76795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2949,
@@ -76823,7 +76821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2950,
@@ -76849,7 +76847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2951,
@@ -76875,7 +76873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2952,
@@ -76901,7 +76899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2953,
@@ -76927,7 +76925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2954,
@@ -76953,7 +76951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2955,
@@ -76979,7 +76977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2956,
@@ -77005,7 +77003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2957,
@@ -77031,7 +77029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2958,
@@ -77057,7 +77055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2959,
@@ -77083,7 +77081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2960,
@@ -77109,7 +77107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2961,
@@ -77135,7 +77133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2962,
@@ -77161,7 +77159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2963,
@@ -77187,7 +77185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2964,
@@ -77213,7 +77211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2965,
@@ -77239,7 +77237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2966,
@@ -77265,7 +77263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2967,
@@ -77291,7 +77289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2968,
@@ -77317,7 +77315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2969,
@@ -77343,7 +77341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2023-02-01",
     PACK_CODE: "KT0078",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2970,
@@ -77369,7 +77367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2971,
@@ -77395,7 +77393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2972,
@@ -77421,7 +77419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2973,
@@ -77447,7 +77445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2974,
@@ -77473,7 +77471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2975,
@@ -77499,7 +77497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2976,
@@ -77525,7 +77523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2977,
@@ -77551,7 +77549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2978,
@@ -77577,7 +77575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2979,
@@ -77603,7 +77601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2980,
@@ -77629,7 +77627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2981,
@@ -77655,7 +77653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2982,
@@ -77681,7 +77679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2983,
@@ -77707,7 +77705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2984,
@@ -77733,7 +77731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2985,
@@ -77759,7 +77757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2986,
@@ -77785,7 +77783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2987,
@@ -77811,7 +77809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2988,
@@ -77837,7 +77835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2989,
@@ -77863,7 +77861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2990,
@@ -77889,7 +77887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2991,
@@ -77915,7 +77913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2992,
@@ -77941,7 +77939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2993,
@@ -77967,7 +77965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2994,
@@ -77993,7 +77991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2995,
@@ -78019,7 +78017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2996,
@@ -78045,7 +78043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2997,
@@ -78071,7 +78069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2998,
@@ -78097,7 +78095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 2999,
@@ -78123,7 +78121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3000,
@@ -78149,7 +78147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3001,
@@ -78175,7 +78173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3002,
@@ -78201,7 +78199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3003,
@@ -78227,7 +78225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3004,
@@ -78253,7 +78251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3005,
@@ -78279,7 +78277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3006,
@@ -78305,7 +78303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3007,
@@ -78331,7 +78329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3008,
@@ -78357,7 +78355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3009,
@@ -78383,7 +78381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3010,
@@ -78409,7 +78407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3011,
@@ -78435,7 +78433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3012,
@@ -78461,7 +78459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3013,
@@ -78487,7 +78485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3014,
@@ -78513,7 +78511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3015,
@@ -78539,7 +78537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3016,
@@ -78565,7 +78563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3017,
@@ -78591,7 +78589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3018,
@@ -78617,7 +78615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3019,
@@ -78643,7 +78641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3020,
@@ -78669,7 +78667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3021,
@@ -78695,7 +78693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3022,
@@ -78721,7 +78719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3023,
@@ -78747,7 +78745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3024,
@@ -78773,7 +78771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3025,
@@ -78799,7 +78797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3026,
@@ -78825,7 +78823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3027,
@@ -78851,7 +78849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3028,
@@ -78877,7 +78875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3029,
@@ -78903,7 +78901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3030,
@@ -78929,7 +78927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3031,
@@ -78955,7 +78953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3032,
@@ -78981,7 +78979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3033,
@@ -79007,7 +79005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3034,
@@ -79033,7 +79031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3035,
@@ -79059,7 +79057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3036,
@@ -79085,7 +79083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3037,
@@ -79111,7 +79109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3038,
@@ -79137,7 +79135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3039,
@@ -79163,7 +79161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3040,
@@ -79189,7 +79187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3041,
@@ -79215,7 +79213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3042,
@@ -79241,7 +79239,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3043,
@@ -79267,7 +79265,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3044,
@@ -79293,7 +79291,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3045,
@@ -79319,7 +79317,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3046,
@@ -79345,7 +79343,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3047,
@@ -79371,7 +79369,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3048,
@@ -79397,7 +79395,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3049,
@@ -79423,7 +79421,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3050,
@@ -79449,7 +79447,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3051,
@@ -79475,7 +79473,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3052,
@@ -79501,7 +79499,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3053,
@@ -79527,7 +79525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3054,
@@ -79553,7 +79551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3055,
@@ -79579,7 +79577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3056,
@@ -79605,7 +79603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3057,
@@ -79631,7 +79629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3058,
@@ -79657,7 +79655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3059,
@@ -79683,7 +79681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3060,
@@ -79709,7 +79707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3061,
@@ -79735,7 +79733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3062,
@@ -79761,7 +79759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3063,
@@ -79787,7 +79785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3064,
@@ -79813,7 +79811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3065,
@@ -79839,7 +79837,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3066,
@@ -79865,7 +79863,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3067,
@@ -79891,7 +79889,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3068,
@@ -79917,7 +79915,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3069,
@@ -79943,7 +79941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3070,
@@ -79969,7 +79967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3071,
@@ -79995,7 +79993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3072,
@@ -80021,7 +80019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3073,
@@ -80047,7 +80045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3074,
@@ -80073,7 +80071,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3075,
@@ -80099,7 +80097,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3076,
@@ -80125,7 +80123,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3077,
@@ -80151,7 +80149,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3078,
@@ -80177,7 +80175,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3079,
@@ -80203,7 +80201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3080,
@@ -80229,7 +80227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3081,
@@ -80255,7 +80253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3082,
@@ -80281,7 +80279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3083,
@@ -80307,7 +80305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3084,
@@ -80333,7 +80331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3085,
@@ -80359,7 +80357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3086,
@@ -80385,7 +80383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3087,
@@ -80411,7 +80409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3088,
@@ -80437,7 +80435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3089,
@@ -80463,7 +80461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3090,
@@ -80489,7 +80487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3091,
@@ -80515,7 +80513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3092,
@@ -80541,7 +80539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3093,
@@ -80567,7 +80565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3094,
@@ -80593,7 +80591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3095,
@@ -80619,7 +80617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3096,
@@ -80645,7 +80643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3097,
@@ -80671,7 +80669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3098,
@@ -80697,7 +80695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3099,
@@ -80723,7 +80721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3100,
@@ -80749,7 +80747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3101,
@@ -80775,7 +80773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3102,
@@ -80801,7 +80799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3103,
@@ -80827,7 +80825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3104,
@@ -80853,7 +80851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3105,
@@ -80879,7 +80877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3106,
@@ -80905,7 +80903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3107,
@@ -80931,7 +80929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3108,
@@ -80957,7 +80955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3109,
@@ -80983,7 +80981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3110,
@@ -81009,7 +81007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3111,
@@ -81035,7 +81033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3112,
@@ -81061,7 +81059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3113,
@@ -81087,7 +81085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3114,
@@ -81113,7 +81111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3115,
@@ -81139,7 +81137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3116,
@@ -81165,7 +81163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3117,
@@ -81191,7 +81189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3118,
@@ -81217,7 +81215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3119,
@@ -81243,7 +81241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3120,
@@ -81269,7 +81267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3121,
@@ -81295,7 +81293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3122,
@@ -83999,7 +83997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3226,
@@ -84025,7 +84023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3227,
@@ -84051,7 +84049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3228,
@@ -84077,7 +84075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3229,
@@ -84103,7 +84101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3230,
@@ -84129,7 +84127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3231,
@@ -84155,7 +84153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3232,
@@ -84181,7 +84179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3233,
@@ -84207,7 +84205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3234,
@@ -84233,7 +84231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3235,
@@ -84259,7 +84257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3236,
@@ -84285,7 +84283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3237,
@@ -84311,7 +84309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3238,
@@ -84337,7 +84335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3239,
@@ -84363,7 +84361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3240,
@@ -84389,7 +84387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3241,
@@ -84415,7 +84413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3242,
@@ -84441,7 +84439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3243,
@@ -84467,7 +84465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3244,
@@ -84493,7 +84491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3245,
@@ -84519,7 +84517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0020",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3246,
@@ -84547,7 +84545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3247,
@@ -84575,7 +84573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3248,
@@ -84603,7 +84601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3249,
@@ -84631,7 +84629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3250,
@@ -84659,7 +84657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3251,
@@ -84687,7 +84685,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3252,
@@ -84713,7 +84711,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3253,
@@ -84739,7 +84737,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3254,
@@ -84765,7 +84763,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3255,
@@ -84791,7 +84789,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0116",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3256,
@@ -84817,7 +84815,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3257,
@@ -84843,7 +84841,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3258,
@@ -84869,7 +84867,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3259,
@@ -84895,7 +84893,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3260,
@@ -84921,7 +84919,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3261,
@@ -84947,7 +84945,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3262,
@@ -84973,7 +84971,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3263,
@@ -84999,7 +84997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3264,
@@ -85025,7 +85023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3265,
@@ -85051,7 +85049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3266,
@@ -85077,7 +85075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3267,
@@ -85103,7 +85101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3268,
@@ -85129,7 +85127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3269,
@@ -85155,7 +85153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3270,
@@ -85181,7 +85179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3271,
@@ -85207,7 +85205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3272,
@@ -85233,7 +85231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3273,
@@ -85259,7 +85257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3274,
@@ -85285,7 +85283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3275,
@@ -85311,7 +85309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3276,
@@ -85337,7 +85335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3277,
@@ -85363,7 +85361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0030",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3278,
@@ -85389,7 +85387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0084",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3279,
@@ -85415,7 +85413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0057",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3280,
@@ -85441,7 +85439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0057",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3281,
@@ -85467,7 +85465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0128",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3282,
@@ -85493,7 +85491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0128",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3283,
@@ -85519,7 +85517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3284,
@@ -85545,7 +85543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3285,
@@ -85571,7 +85569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3286,
@@ -85597,7 +85595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3287,
@@ -85623,7 +85621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3288,
@@ -85649,7 +85647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3289,
@@ -85675,7 +85673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3290,
@@ -85701,7 +85699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3291,
@@ -85727,7 +85725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3292,
@@ -85753,7 +85751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3293,
@@ -85779,7 +85777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3294,
@@ -85805,7 +85803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3295,
@@ -85831,7 +85829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3296,
@@ -85857,7 +85855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3297,
@@ -85883,7 +85881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3298,
@@ -85909,7 +85907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3299,
@@ -85935,7 +85933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3300,
@@ -85961,7 +85959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3301,
@@ -85987,7 +85985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3302,
@@ -86013,7 +86011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3303,
@@ -86039,7 +86037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3304,
@@ -86065,7 +86063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3305,
@@ -86091,7 +86089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3306,
@@ -86117,7 +86115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3307,
@@ -86143,7 +86141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3308,
@@ -86169,7 +86167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3309,
@@ -86195,7 +86193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3310,
@@ -86221,7 +86219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3311,
@@ -86247,7 +86245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3312,
@@ -86273,7 +86271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3313,
@@ -86299,7 +86297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3314,
@@ -86325,7 +86323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3315,
@@ -86351,7 +86349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3316,
@@ -86377,7 +86375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3317,
@@ -86403,7 +86401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3318,
@@ -86429,7 +86427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3319,
@@ -86455,7 +86453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3320,
@@ -86481,7 +86479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3321,
@@ -86507,7 +86505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3322,
@@ -86533,7 +86531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3323,
@@ -86559,7 +86557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3324,
@@ -86585,7 +86583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3325,
@@ -86611,7 +86609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3326,
@@ -86637,7 +86635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3327,
@@ -86663,7 +86661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3328,
@@ -86689,7 +86687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3329,
@@ -86715,7 +86713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3330,
@@ -86741,7 +86739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3331,
@@ -86767,7 +86765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3332,
@@ -86793,7 +86791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3333,
@@ -86819,7 +86817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3334,
@@ -86845,7 +86843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3335,
@@ -86871,7 +86869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3336,
@@ -86897,7 +86895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3337,
@@ -86923,7 +86921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3338,
@@ -86949,7 +86947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3339,
@@ -86975,7 +86973,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3340,
@@ -87001,7 +86999,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3341,
@@ -87027,7 +87025,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3342,
@@ -87053,7 +87051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3343,
@@ -87079,7 +87077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3344,
@@ -87105,7 +87103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3345,
@@ -87131,7 +87129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3346,
@@ -87157,7 +87155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3347,
@@ -87183,7 +87181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3348,
@@ -87209,7 +87207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3349,
@@ -87235,7 +87233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3350,
@@ -87261,7 +87259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3351,
@@ -87287,7 +87285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3352,
@@ -87313,7 +87311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3646,
@@ -87339,7 +87337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3353,
@@ -87365,7 +87363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3354,
@@ -87391,7 +87389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3355,
@@ -87417,7 +87415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3356,
@@ -87443,7 +87441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3357,
@@ -87469,7 +87467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3358,
@@ -87495,7 +87493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3359,
@@ -87521,7 +87519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3360,
@@ -87547,7 +87545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3361,
@@ -87573,7 +87571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3362,
@@ -87599,7 +87597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0028",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3363,
@@ -87625,7 +87623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3364,
@@ -87651,7 +87649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3365,
@@ -87677,7 +87675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3366,
@@ -87703,7 +87701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3367,
@@ -87729,7 +87727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3368,
@@ -87755,7 +87753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3369,
@@ -87781,7 +87779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3370,
@@ -87807,7 +87805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3371,
@@ -87833,7 +87831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3372,
@@ -87859,7 +87857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3373,
@@ -87885,7 +87883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3374,
@@ -87911,7 +87909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3375,
@@ -87937,7 +87935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3376,
@@ -87963,7 +87961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3377,
@@ -87989,7 +87987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3378,
@@ -88015,7 +88013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3379,
@@ -88041,7 +88039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3380,
@@ -88067,7 +88065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3381,
@@ -88093,7 +88091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3382,
@@ -88119,7 +88117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3383,
@@ -88145,7 +88143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3384,
@@ -88171,7 +88169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3385,
@@ -88197,7 +88195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3386,
@@ -88223,7 +88221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3387,
@@ -88249,7 +88247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3388,
@@ -88275,7 +88273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3389,
@@ -88301,7 +88299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3390,
@@ -88327,7 +88325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3391,
@@ -88353,7 +88351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3392,
@@ -88379,7 +88377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3393,
@@ -88405,7 +88403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3394,
@@ -88431,7 +88429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3395,
@@ -88457,7 +88455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3396,
@@ -88483,7 +88481,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3397,
@@ -88509,7 +88507,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3398,
@@ -88535,7 +88533,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3399,
@@ -88561,7 +88559,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3400,
@@ -88587,7 +88585,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3401,
@@ -88613,7 +88611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3402,
@@ -88639,7 +88637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3403,
@@ -88665,7 +88663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3404,
@@ -88691,7 +88689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3405,
@@ -88717,7 +88715,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3406,
@@ -88743,7 +88741,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3407,
@@ -88769,7 +88767,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3408,
@@ -88795,7 +88793,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3409,
@@ -88821,7 +88819,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3410,
@@ -88847,7 +88845,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3411,
@@ -88873,7 +88871,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3412,
@@ -88899,7 +88897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3413,
@@ -88925,7 +88923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3414,
@@ -88951,7 +88949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3415,
@@ -88977,7 +88975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3416,
@@ -89003,7 +89001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3417,
@@ -89029,7 +89027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3418,
@@ -89055,7 +89053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3419,
@@ -89081,7 +89079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3420,
@@ -89107,7 +89105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3421,
@@ -89133,7 +89131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3422,
@@ -89159,7 +89157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3423,
@@ -89185,7 +89183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3424,
@@ -89211,7 +89209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3425,
@@ -89237,7 +89235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3426,
@@ -89263,7 +89261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3427,
@@ -89289,7 +89287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3428,
@@ -89315,7 +89313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3429,
@@ -89341,7 +89339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3430,
@@ -89367,7 +89365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3431,
@@ -89393,7 +89391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3432,
@@ -89419,7 +89417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0119",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3433,
@@ -89445,7 +89443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0114",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3434,
@@ -89471,7 +89469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0114",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3435,
@@ -89497,7 +89495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0114",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3436,
@@ -89523,7 +89521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3437,
@@ -89549,7 +89547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3438,
@@ -89575,7 +89573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3439,
@@ -89601,7 +89599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3440,
@@ -89627,7 +89625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3441,
@@ -89653,7 +89651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3442,
@@ -89679,7 +89677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3443,
@@ -89705,7 +89703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3444,
@@ -89731,7 +89729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3445,
@@ -89757,7 +89755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3446,
@@ -89783,7 +89781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3447,
@@ -89809,7 +89807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3448,
@@ -89835,7 +89833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3449,
@@ -89861,7 +89859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3450,
@@ -89887,7 +89885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3451,
@@ -89913,7 +89911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3452,
@@ -89939,7 +89937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3453,
@@ -89965,7 +89963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3454,
@@ -89991,7 +89989,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3455,
@@ -90017,7 +90015,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3456,
@@ -90043,7 +90041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3457,
@@ -90069,7 +90067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3458,
@@ -90095,7 +90093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3459,
@@ -90121,7 +90119,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3460,
@@ -90147,7 +90145,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3461,
@@ -90173,7 +90171,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3462,
@@ -90199,7 +90197,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3463,
@@ -90225,7 +90223,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3464,
@@ -90251,7 +90249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3465,
@@ -90277,7 +90275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3466,
@@ -90303,7 +90301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3467,
@@ -90329,7 +90327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3468,
@@ -90355,7 +90353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3469,
@@ -90381,7 +90379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3470,
@@ -90407,7 +90405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0106",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3471,
@@ -90433,7 +90431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3472,
@@ -90459,7 +90457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3473,
@@ -90485,7 +90483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3474,
@@ -90511,7 +90509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3475,
@@ -90537,7 +90535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3476,
@@ -90563,7 +90561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3477,
@@ -90591,7 +90589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3478,
@@ -90619,7 +90617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3479,
@@ -90645,7 +90643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0085",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3480,
@@ -90671,7 +90669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3481,
@@ -90697,7 +90695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3482,
@@ -90723,7 +90721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3483,
@@ -90749,7 +90747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3484,
@@ -90775,7 +90773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3485,
@@ -90801,7 +90799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3486,
@@ -90827,7 +90825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3487,
@@ -90853,7 +90851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3488,
@@ -90879,7 +90877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3489,
@@ -90905,7 +90903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3490,
@@ -90931,7 +90929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3491,
@@ -90957,7 +90955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3492,
@@ -90983,7 +90981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3493,
@@ -91009,7 +91007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3494,
@@ -91035,7 +91033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3495,
@@ -91061,7 +91059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3496,
@@ -91087,7 +91085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3497,
@@ -91113,7 +91111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3498,
@@ -91139,7 +91137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3499,
@@ -91165,7 +91163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3500,
@@ -91191,7 +91189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3501,
@@ -91217,7 +91215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3502,
@@ -91243,7 +91241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3503,
@@ -91269,7 +91267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3504,
@@ -91295,7 +91293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3505,
@@ -91321,7 +91319,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3506,
@@ -91347,7 +91345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3507,
@@ -91373,7 +91371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3508,
@@ -91399,7 +91397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3509,
@@ -91425,7 +91423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3510,
@@ -91451,7 +91449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3511,
@@ -91477,7 +91475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3512,
@@ -91503,7 +91501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3513,
@@ -91529,7 +91527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3514,
@@ -91555,7 +91553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3515,
@@ -91581,7 +91579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3516,
@@ -91607,7 +91605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3517,
@@ -91633,7 +91631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3518,
@@ -91659,7 +91657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3519,
@@ -91685,7 +91683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3520,
@@ -91711,7 +91709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3521,
@@ -91737,7 +91735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3522,
@@ -91763,7 +91761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3523,
@@ -91789,7 +91787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3524,
@@ -91815,7 +91813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3525,
@@ -91841,7 +91839,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3526,
@@ -91867,7 +91865,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3527,
@@ -91893,7 +91891,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3528,
@@ -91919,7 +91917,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3529,
@@ -91945,7 +91943,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3530,
@@ -91971,7 +91969,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3531,
@@ -91997,7 +91995,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3532,
@@ -92023,7 +92021,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3533,
@@ -92049,7 +92047,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3534,
@@ -92075,7 +92073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3535,
@@ -92101,7 +92099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3536,
@@ -92127,7 +92125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3537,
@@ -92153,7 +92151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3538,
@@ -92179,7 +92177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3539,
@@ -92205,7 +92203,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3540,
@@ -92231,7 +92229,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3541,
@@ -92257,7 +92255,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3542,
@@ -92283,7 +92281,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3543,
@@ -92309,7 +92307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3544,
@@ -92335,7 +92333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3545,
@@ -92361,7 +92359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3546,
@@ -92387,7 +92385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3547,
@@ -92413,7 +92411,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3548,
@@ -92439,7 +92437,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3549,
@@ -92465,7 +92463,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0083",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3550,
@@ -92491,7 +92489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0098",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3551,
@@ -92517,7 +92515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3552,
@@ -92543,7 +92541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3553,
@@ -92569,7 +92567,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3554,
@@ -92595,7 +92593,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3555,
@@ -92621,7 +92619,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3556,
@@ -92647,7 +92645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3557,
@@ -92673,7 +92671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3558,
@@ -92699,7 +92697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3559,
@@ -92725,7 +92723,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3560,
@@ -92751,7 +92749,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3561,
@@ -92777,7 +92775,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3562,
@@ -92803,7 +92801,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0111",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3563,
@@ -92829,7 +92827,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3564,
@@ -92855,7 +92853,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3565,
@@ -92881,7 +92879,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3566,
@@ -92907,7 +92905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3567,
@@ -92933,7 +92931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3568,
@@ -92959,7 +92957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3569,
@@ -92985,7 +92983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3570,
@@ -93011,7 +93009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3571,
@@ -93037,7 +93035,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3572,
@@ -93063,7 +93061,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3573,
@@ -93089,7 +93087,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3574,
@@ -93115,7 +93113,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3575,
@@ -93141,7 +93139,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3576,
@@ -93167,7 +93165,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3577,
@@ -93193,7 +93191,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3578,
@@ -93219,7 +93217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0112",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3579,
@@ -93245,7 +93243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0080",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3580,
@@ -93271,7 +93269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0080",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3581,
@@ -93297,7 +93295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0080",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3582,
@@ -93323,7 +93321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0080",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3583,
@@ -93349,7 +93347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0113",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3584,
@@ -93375,7 +93373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0113",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3585,
@@ -93401,7 +93399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0113",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3586,
@@ -93427,7 +93425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0113",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3587,
@@ -93453,7 +93451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3588,
@@ -93479,7 +93477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3589,
@@ -93505,7 +93503,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3590,
@@ -93531,7 +93529,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3591,
@@ -93557,7 +93555,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3592,
@@ -93583,7 +93581,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3593,
@@ -93609,7 +93607,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3594,
@@ -93635,7 +93633,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3595,
@@ -93661,7 +93659,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0075",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3596,
@@ -93687,7 +93685,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0129",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3597,
@@ -93713,7 +93711,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0129",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3598,
@@ -93739,7 +93737,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3599,
@@ -93765,7 +93763,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3600,
@@ -93791,7 +93789,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3601,
@@ -93817,7 +93815,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3602,
@@ -93843,7 +93841,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3603,
@@ -93869,7 +93867,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3604,
@@ -93895,7 +93893,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3605,
@@ -93921,7 +93919,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3606,
@@ -93947,7 +93945,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3607,
@@ -93973,7 +93971,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3608,
@@ -93999,7 +93997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3609,
@@ -94025,7 +94023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3610,
@@ -94051,7 +94049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3611,
@@ -94077,7 +94075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0130",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3612,
@@ -94103,7 +94101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0131",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3613,
@@ -94129,7 +94127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0131",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3614,
@@ -94155,7 +94153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0132",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3615,
@@ -94181,7 +94179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0132",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3616,
@@ -94207,7 +94205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0132",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3617,
@@ -94233,7 +94231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0132",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3618,
@@ -94259,7 +94257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0133",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3619,
@@ -94285,7 +94283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0133",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3620,
@@ -94311,7 +94309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0133",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3621,
@@ -94337,7 +94335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0134",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3622,
@@ -94363,7 +94361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0134",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3623,
@@ -94389,7 +94387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0135",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3624,
@@ -94415,7 +94413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0135",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3625,
@@ -94441,7 +94439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0135",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3626,
@@ -94467,7 +94465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0135",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3627,
@@ -94493,7 +94491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0136",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3628,
@@ -94519,7 +94517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3629,
@@ -94545,7 +94543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3630,
@@ -94571,7 +94569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3631,
@@ -94597,7 +94595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3632,
@@ -94623,7 +94621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3633,
@@ -94649,7 +94647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3634,
@@ -94675,7 +94673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3635,
@@ -94701,7 +94699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3636,
@@ -94727,7 +94725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3637,
@@ -94753,7 +94751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3638,
@@ -94779,7 +94777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3639,
@@ -94805,7 +94803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3640,
@@ -94831,7 +94829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3641,
@@ -94857,7 +94855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3642,
@@ -94883,7 +94881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3643,
@@ -94909,7 +94907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3644,
@@ -94935,7 +94933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3645,
@@ -94961,7 +94959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3647,
@@ -94987,7 +94985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3648,
@@ -95013,7 +95011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3649,
@@ -95039,7 +95037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3650,
@@ -95065,7 +95063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3651,
@@ -95091,7 +95089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3652,
@@ -95117,7 +95115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3653,
@@ -95143,7 +95141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3654,
@@ -95169,7 +95167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3655,
@@ -95195,7 +95193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3656,
@@ -95221,7 +95219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3657,
@@ -95247,7 +95245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3658,
@@ -95273,7 +95271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3659,
@@ -95299,7 +95297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3660,
@@ -95325,7 +95323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3661,
@@ -95351,7 +95349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3662,
@@ -95377,7 +95375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3663,
@@ -95403,7 +95401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3664,
@@ -95429,7 +95427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3665,
@@ -95455,7 +95453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3666,
@@ -95481,7 +95479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3667,
@@ -95507,7 +95505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3668,
@@ -95533,7 +95531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3669,
@@ -95559,7 +95557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3670,
@@ -95585,7 +95583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3671,
@@ -95611,7 +95609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3672,
@@ -95637,7 +95635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3673,
@@ -95663,7 +95661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3674,
@@ -95689,7 +95687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3675,
@@ -95715,7 +95713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3676,
@@ -95741,7 +95739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3677,
@@ -95767,7 +95765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3678,
@@ -95793,7 +95791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3679,
@@ -95819,7 +95817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3680,
@@ -95845,7 +95843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3681,
@@ -95871,7 +95869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3682,
@@ -95897,7 +95895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3683,
@@ -95923,7 +95921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3684,
@@ -95949,7 +95947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3685,
@@ -95975,7 +95973,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3686,
@@ -96001,7 +95999,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3687,
@@ -96027,7 +96025,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3688,
@@ -96053,7 +96051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3689,
@@ -96079,7 +96077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3690,
@@ -96105,7 +96103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3691,
@@ -96131,7 +96129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3692,
@@ -96157,7 +96155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3693,
@@ -96183,7 +96181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3694,
@@ -96209,7 +96207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3695,
@@ -96235,7 +96233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3696,
@@ -96261,7 +96259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3697,
@@ -96287,7 +96285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3698,
@@ -96313,7 +96311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3699,
@@ -96339,7 +96337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3700,
@@ -96365,7 +96363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3701,
@@ -96391,7 +96389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3702,
@@ -96417,7 +96415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3703,
@@ -96443,7 +96441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3704,
@@ -96469,7 +96467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3705,
@@ -96495,7 +96493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3706,
@@ -96521,7 +96519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3707,
@@ -96547,7 +96545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3708,
@@ -96573,7 +96571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3709,
@@ -96599,7 +96597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3710,
@@ -96625,7 +96623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3712,
@@ -96651,7 +96649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3713,
@@ -96677,7 +96675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3714,
@@ -96703,7 +96701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3715,
@@ -96729,7 +96727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3716,
@@ -96755,7 +96753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3717,
@@ -96781,7 +96779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3718,
@@ -96807,7 +96805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3719,
@@ -96833,7 +96831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3720,
@@ -96859,7 +96857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3721,
@@ -96885,7 +96883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3722,
@@ -96911,7 +96909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3723,
@@ -96937,7 +96935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3724,
@@ -96963,7 +96961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3725,
@@ -96989,7 +96987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3726,
@@ -97015,7 +97013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3727,
@@ -97041,7 +97039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3728,
@@ -97067,7 +97065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3729,
@@ -97093,7 +97091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3730,
@@ -97119,7 +97117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3731,
@@ -97145,7 +97143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3732,
@@ -97171,7 +97169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3733,
@@ -97197,7 +97195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3734,
@@ -97223,7 +97221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3735,
@@ -97249,7 +97247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3736,
@@ -97275,7 +97273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3737,
@@ -97301,7 +97299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3738,
@@ -97327,7 +97325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3739,
@@ -97353,7 +97351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3740,
@@ -97379,7 +97377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3741,
@@ -97405,7 +97403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3742,
@@ -97431,7 +97429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3743,
@@ -97457,7 +97455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3744,
@@ -97485,7 +97483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3745,
@@ -97513,7 +97511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3746,
@@ -97539,7 +97537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3747,
@@ -97565,7 +97563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3748,
@@ -97591,7 +97589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3749,
@@ -97619,7 +97617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3750,
@@ -97647,7 +97645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3751,
@@ -97673,7 +97671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3752,
@@ -97699,7 +97697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3753,
@@ -97727,7 +97725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0096",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3754,
@@ -97753,7 +97751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3755,
@@ -97779,7 +97777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3756,
@@ -97805,7 +97803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3757,
@@ -97831,7 +97829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3758,
@@ -97857,7 +97855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3759,
@@ -97883,7 +97881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0100",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3760,
@@ -97909,7 +97907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0024",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3761,
@@ -97935,7 +97933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0024",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3762,
@@ -97961,7 +97959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0024",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3763,
@@ -97987,7 +97985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0024",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3764,
@@ -98013,7 +98011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0024",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3765,
@@ -98039,7 +98037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0040",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3766,
@@ -98065,7 +98063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0022",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3767,
@@ -98091,7 +98089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0022",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3768,
@@ -98117,7 +98115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3769,
@@ -98143,7 +98141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3770,
@@ -98169,7 +98167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0047",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3771,
@@ -98197,7 +98195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0077",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3772,
@@ -98223,7 +98221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3773,
@@ -98251,7 +98249,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3774,
@@ -98277,7 +98275,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3775,
@@ -98305,7 +98303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0016",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3776,
@@ -98331,7 +98329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3777,
@@ -98357,7 +98355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3778,
@@ -98383,7 +98381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0019",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3779,
@@ -98411,7 +98409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3780,
@@ -98437,7 +98435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3781,
@@ -98463,7 +98461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3782,
@@ -98491,7 +98489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3783,
@@ -98517,7 +98515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3784,
@@ -98543,7 +98541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0079",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3785,
@@ -98569,7 +98567,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0039",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3786,
@@ -98595,7 +98593,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0039",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3787,
@@ -98621,7 +98619,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0039",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3788,
@@ -98647,7 +98645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0039",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3789,
@@ -98673,7 +98671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0070",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3790,
@@ -98699,7 +98697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3791,
@@ -98725,7 +98723,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3792,
@@ -98751,7 +98749,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3793,
@@ -98777,7 +98775,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0012",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3794,
@@ -98803,7 +98801,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3795,
@@ -98829,7 +98827,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3796,
@@ -98855,7 +98853,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3797,
@@ -98881,7 +98879,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3798,
@@ -98907,7 +98905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3799,
@@ -98933,7 +98931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3800,
@@ -98959,7 +98957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3801,
@@ -98985,7 +98983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3802,
@@ -99011,7 +99009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3803,
@@ -99037,7 +99035,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3804,
@@ -99063,7 +99061,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4432,
@@ -99089,7 +99087,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3805,
@@ -99115,7 +99113,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3806,
@@ -99141,7 +99139,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3807,
@@ -99167,7 +99165,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3808,
@@ -99193,7 +99191,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3809,
@@ -99219,7 +99217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3810,
@@ -99245,7 +99243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3811,
@@ -99271,7 +99269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3812,
@@ -99297,7 +99295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3813,
@@ -99323,7 +99321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3814,
@@ -99349,7 +99347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3815,
@@ -99375,7 +99373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3816,
@@ -99401,7 +99399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3817,
@@ -99427,7 +99425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3818,
@@ -99453,7 +99451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3819,
@@ -99479,7 +99477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3820,
@@ -99505,7 +99503,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3821,
@@ -99531,7 +99529,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3822,
@@ -99557,7 +99555,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3823,
@@ -99583,7 +99581,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3824,
@@ -99609,7 +99607,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3825,
@@ -99635,7 +99633,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3826,
@@ -99661,7 +99659,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3827,
@@ -99687,7 +99685,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3828,
@@ -99713,7 +99711,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3829,
@@ -99739,7 +99737,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3830,
@@ -99765,7 +99763,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3831,
@@ -99791,7 +99789,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3832,
@@ -99817,7 +99815,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3833,
@@ -99843,7 +99841,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3834,
@@ -99869,7 +99867,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3835,
@@ -99895,7 +99893,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3836,
@@ -99921,7 +99919,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3837,
@@ -99947,7 +99945,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3838,
@@ -99973,7 +99971,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3839,
@@ -99999,7 +99997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3840,
@@ -100025,7 +100023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3841,
@@ -100051,7 +100049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3842,
@@ -100077,7 +100075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3843,
@@ -100103,7 +100101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3844,
@@ -100129,7 +100127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3845,
@@ -100155,7 +100153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3846,
@@ -100181,7 +100179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3847,
@@ -100207,7 +100205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3848,
@@ -100233,7 +100231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3849,
@@ -100259,7 +100257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3850,
@@ -100285,7 +100283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3851,
@@ -100311,7 +100309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3852,
@@ -100337,7 +100335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3853,
@@ -100363,7 +100361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3854,
@@ -100389,7 +100387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3855,
@@ -100415,7 +100413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3856,
@@ -100441,7 +100439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3857,
@@ -100467,7 +100465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3858,
@@ -100493,7 +100491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3859,
@@ -100519,7 +100517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3860,
@@ -100545,7 +100543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3861,
@@ -100571,7 +100569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3862,
@@ -100597,7 +100595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3863,
@@ -100623,7 +100621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3864,
@@ -100649,7 +100647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3865,
@@ -100675,7 +100673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3866,
@@ -100701,7 +100699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3867,
@@ -100727,7 +100725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3868,
@@ -100753,7 +100751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3869,
@@ -100779,7 +100777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3870,
@@ -100805,7 +100803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3871,
@@ -100831,7 +100829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3872,
@@ -100857,7 +100855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3873,
@@ -100883,7 +100881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3874,
@@ -100909,7 +100907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3875,
@@ -100935,7 +100933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3876,
@@ -100961,7 +100959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3877,
@@ -100987,7 +100985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3878,
@@ -101013,7 +101011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3879,
@@ -101039,7 +101037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3880,
@@ -101065,7 +101063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3881,
@@ -101091,7 +101089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3882,
@@ -101117,7 +101115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3883,
@@ -101143,7 +101141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3884,
@@ -101169,7 +101167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3885,
@@ -101195,7 +101193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3886,
@@ -101221,7 +101219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3887,
@@ -101247,7 +101245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3888,
@@ -101273,7 +101271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3889,
@@ -101299,7 +101297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3890,
@@ -101325,7 +101323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3891,
@@ -101351,7 +101349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3892,
@@ -101377,7 +101375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3893,
@@ -101403,7 +101401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3894,
@@ -101429,7 +101427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3895,
@@ -101455,7 +101453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3896,
@@ -101481,7 +101479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3897,
@@ -101507,7 +101505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3898,
@@ -101533,7 +101531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3899,
@@ -101559,7 +101557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3900,
@@ -101585,7 +101583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3901,
@@ -101611,7 +101609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3902,
@@ -101637,7 +101635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3903,
@@ -101663,7 +101661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3904,
@@ -101689,7 +101687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3905,
@@ -101715,7 +101713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3906,
@@ -101741,7 +101739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3907,
@@ -101767,7 +101765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3908,
@@ -101793,7 +101791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3909,
@@ -101819,7 +101817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3910,
@@ -101845,7 +101843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3911,
@@ -101871,7 +101869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3912,
@@ -101897,7 +101895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3913,
@@ -101923,7 +101921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3914,
@@ -101949,7 +101947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3915,
@@ -101975,7 +101973,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3916,
@@ -102001,7 +101999,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3917,
@@ -102027,7 +102025,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3918,
@@ -102053,7 +102051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3919,
@@ -102079,7 +102077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3920,
@@ -102105,7 +102103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3921,
@@ -102131,7 +102129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3922,
@@ -102157,7 +102155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3923,
@@ -102183,7 +102181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3924,
@@ -102209,7 +102207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3925,
@@ -102235,7 +102233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3926,
@@ -102261,7 +102259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3927,
@@ -102287,7 +102285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3928,
@@ -102313,7 +102311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3929,
@@ -102339,7 +102337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3930,
@@ -102365,7 +102363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3931,
@@ -102391,7 +102389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3932,
@@ -102417,7 +102415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3933,
@@ -102443,7 +102441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3934,
@@ -102469,7 +102467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3935,
@@ -102495,7 +102493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3936,
@@ -102521,7 +102519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3937,
@@ -102547,7 +102545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3938,
@@ -102573,7 +102571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3939,
@@ -102599,7 +102597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3940,
@@ -102625,7 +102623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3941,
@@ -102651,7 +102649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3942,
@@ -102677,7 +102675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3943,
@@ -102703,7 +102701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3944,
@@ -102729,7 +102727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3945,
@@ -102755,7 +102753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3946,
@@ -102781,7 +102779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3947,
@@ -102807,7 +102805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3948,
@@ -102833,7 +102831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3949,
@@ -102859,7 +102857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3950,
@@ -102885,7 +102883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3951,
@@ -102911,7 +102909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3952,
@@ -102937,7 +102935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3953,
@@ -102963,7 +102961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3954,
@@ -102989,7 +102987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3955,
@@ -103015,7 +103013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3956,
@@ -103041,7 +103039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3957,
@@ -103067,7 +103065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3958,
@@ -103093,7 +103091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3959,
@@ -103119,7 +103117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3960,
@@ -103145,7 +103143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3961,
@@ -103171,7 +103169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3962,
@@ -103197,7 +103195,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3963,
@@ -103223,7 +103221,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3964,
@@ -103249,7 +103247,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3965,
@@ -103275,7 +103273,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3966,
@@ -103301,7 +103299,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3967,
@@ -103327,7 +103325,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3968,
@@ -103353,7 +103351,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3969,
@@ -103379,7 +103377,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3970,
@@ -103405,7 +103403,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3971,
@@ -103431,7 +103429,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3972,
@@ -103457,7 +103455,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3973,
@@ -103483,7 +103481,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3974,
@@ -103509,7 +103507,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3975,
@@ -103535,7 +103533,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3976,
@@ -103561,7 +103559,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3977,
@@ -103587,7 +103585,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3978,
@@ -103613,7 +103611,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3979,
@@ -103639,7 +103637,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3980,
@@ -103665,7 +103663,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3981,
@@ -103691,7 +103689,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3982,
@@ -103717,7 +103715,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3983,
@@ -103743,7 +103741,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3984,
@@ -103769,7 +103767,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3985,
@@ -103795,7 +103793,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3986,
@@ -103821,7 +103819,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3987,
@@ -103847,7 +103845,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3988,
@@ -103873,7 +103871,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3989,
@@ -103899,7 +103897,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3990,
@@ -103925,7 +103923,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3991,
@@ -103951,7 +103949,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3992,
@@ -103977,7 +103975,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3993,
@@ -104003,7 +104001,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3994,
@@ -104029,7 +104027,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3995,
@@ -104055,7 +104053,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3996,
@@ -104081,7 +104079,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3997,
@@ -104107,7 +104105,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3998,
@@ -104133,7 +104131,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 3999,
@@ -104159,7 +104157,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4000,
@@ -104185,7 +104183,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4001,
@@ -104211,7 +104209,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4002,
@@ -104237,7 +104235,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4003,
@@ -104263,7 +104261,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0041",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4004,
@@ -104289,7 +104287,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0015",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4005,
@@ -104315,7 +104313,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0062",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4006,
@@ -104341,7 +104339,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0062",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4007,
@@ -104367,7 +104365,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0062",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4008,
@@ -104393,7 +104391,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0062",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4009,
@@ -104419,7 +104417,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0115",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4010,
@@ -104445,7 +104443,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0115",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4011,
@@ -104471,7 +104469,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0115",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4012,
@@ -104497,7 +104495,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0115",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4013,
@@ -104523,7 +104521,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0115",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4014,
@@ -104549,7 +104547,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4015,
@@ -104575,7 +104573,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4016,
@@ -104601,7 +104599,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4017,
@@ -104627,7 +104625,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4018,
@@ -104653,7 +104651,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4019,
@@ -104679,7 +104677,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4020,
@@ -104705,7 +104703,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4021,
@@ -104731,7 +104729,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4022,
@@ -104757,7 +104755,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4023,
@@ -104783,7 +104781,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4024,
@@ -104809,7 +104807,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4025,
@@ -104835,7 +104833,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4026,
@@ -104861,7 +104859,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4027,
@@ -104887,7 +104885,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4028,
@@ -104913,7 +104911,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4029,
@@ -104939,7 +104937,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0088",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4030,
@@ -104965,7 +104963,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0008",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4031,
@@ -105043,7 +105041,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4034,
@@ -105069,7 +105067,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4035,
@@ -105095,7 +105093,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4036,
@@ -105303,7 +105301,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0094",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4044,
@@ -105329,7 +105327,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0117",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4045,
@@ -105355,7 +105353,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0045",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4046,
@@ -105381,7 +105379,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0045",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4047,
@@ -105407,7 +105405,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0045",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4048,
@@ -105433,7 +105431,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0001",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4049,
@@ -105459,7 +105457,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0001",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4050,
@@ -105485,7 +105483,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4051,
@@ -105511,7 +105509,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4052,
@@ -105537,7 +105535,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0002",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4053,
@@ -105563,7 +105561,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0071",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4054,
@@ -105589,7 +105587,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4055,
@@ -105615,7 +105613,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4056,
@@ -105641,7 +105639,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4057,
@@ -105667,7 +105665,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4058,
@@ -105693,7 +105691,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4059,
@@ -105719,7 +105717,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0108",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4061,
@@ -105745,7 +105743,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4062,
@@ -105771,7 +105769,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4063,
@@ -105797,7 +105795,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4064,
@@ -105823,7 +105821,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4065,
@@ -105849,7 +105847,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4066,
@@ -105875,7 +105873,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4067,
@@ -105901,7 +105899,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4068,
@@ -105927,7 +105925,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4069,
@@ -105953,7 +105951,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4070,
@@ -105979,7 +105977,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4071,
@@ -106005,7 +106003,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4072,
@@ -106031,7 +106029,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4073,
@@ -106057,7 +106055,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4074,
@@ -106083,7 +106081,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4075,
@@ -106109,7 +106107,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4076,
@@ -106135,7 +106133,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4077,
@@ -106161,7 +106159,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4078,
@@ -106187,7 +106185,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4079,
@@ -106213,7 +106211,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4080,
@@ -106239,7 +106237,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4081,
@@ -106265,7 +106263,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4082,
@@ -106291,7 +106289,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4083,
@@ -106317,7 +106315,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4084,
@@ -106343,7 +106341,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4085,
@@ -106369,7 +106367,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4086,
@@ -106395,7 +106393,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4087,
@@ -106421,7 +106419,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4088,
@@ -106447,7 +106445,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4089,
@@ -106473,7 +106471,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4090,
@@ -106499,7 +106497,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4091,
@@ -106525,7 +106523,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4092,
@@ -106551,7 +106549,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4093,
@@ -106577,7 +106575,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4094,
@@ -106603,7 +106601,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4095,
@@ -106629,7 +106627,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4096,
@@ -106655,7 +106653,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4097,
@@ -106681,7 +106679,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4098,
@@ -106707,7 +106705,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4099,
@@ -106733,7 +106731,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4100,
@@ -106759,7 +106757,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4101,
@@ -106785,7 +106783,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4102,
@@ -106811,7 +106809,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4103,
@@ -106837,7 +106835,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4104,
@@ -106863,7 +106861,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4105,
@@ -106889,7 +106887,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4106,
@@ -106915,7 +106913,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4107,
@@ -106941,7 +106939,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4108,
@@ -106967,7 +106965,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4109,
@@ -106993,7 +106991,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4110,
@@ -107019,7 +107017,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4111,
@@ -107045,7 +107043,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4112,
@@ -107071,7 +107069,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4113,
@@ -107097,7 +107095,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4114,
@@ -107123,7 +107121,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4115,
@@ -107149,7 +107147,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4116,
@@ -107175,7 +107173,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4117,
@@ -107201,7 +107199,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4118,
@@ -107227,7 +107225,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4119,
@@ -107253,7 +107251,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4120,
@@ -107279,7 +107277,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4121,
@@ -107305,7 +107303,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4122,
@@ -107331,7 +107329,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4123,
@@ -107357,7 +107355,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4124,
@@ -107383,7 +107381,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4125,
@@ -107409,7 +107407,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4126,
@@ -107435,7 +107433,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4127,
@@ -107461,7 +107459,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4128,
@@ -107487,7 +107485,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4129,
@@ -107513,7 +107511,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4130,
@@ -107539,7 +107537,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4131,
@@ -107565,7 +107563,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4132,
@@ -107591,7 +107589,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4133,
@@ -107617,7 +107615,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4134,
@@ -107643,7 +107641,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4135,
@@ -107669,7 +107667,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4136,
@@ -107695,7 +107693,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4137,
@@ -107721,7 +107719,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4138,
@@ -107747,7 +107745,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4139,
@@ -107773,7 +107771,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4140,
@@ -107799,7 +107797,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4141,
@@ -107825,7 +107823,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4142,
@@ -107851,7 +107849,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4143,
@@ -107877,7 +107875,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4144,
@@ -107903,7 +107901,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4145,
@@ -107929,7 +107927,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4146,
@@ -107955,7 +107953,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4147,
@@ -107981,7 +107979,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4148,
@@ -108007,7 +108005,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4149,
@@ -108033,7 +108031,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4150,
@@ -108059,7 +108057,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4151,
@@ -108085,7 +108083,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4152,
@@ -108111,7 +108109,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4153,
@@ -108137,7 +108135,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4154,
@@ -108163,7 +108161,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4155,
@@ -108189,7 +108187,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4156,
@@ -108215,7 +108213,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4157,
@@ -108241,7 +108239,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4158,
@@ -108267,7 +108265,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4159,
@@ -108293,7 +108291,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4160,
@@ -108319,7 +108317,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4161,
@@ -108345,7 +108343,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4162,
@@ -108371,7 +108369,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4163,
@@ -108397,7 +108395,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4164,
@@ -108423,7 +108421,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4165,
@@ -108449,7 +108447,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4166,
@@ -108475,7 +108473,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4167,
@@ -108501,7 +108499,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4168,
@@ -108527,7 +108525,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4169,
@@ -108553,7 +108551,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4170,
@@ -108579,7 +108577,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4171,
@@ -108605,7 +108603,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4172,
@@ -108631,7 +108629,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4173,
@@ -108657,7 +108655,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4174,
@@ -108683,7 +108681,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4175,
@@ -108709,7 +108707,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4176,
@@ -108735,7 +108733,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4177,
@@ -108761,7 +108759,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4178,
@@ -108787,7 +108785,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4179,
@@ -108813,7 +108811,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4180,
@@ -108839,7 +108837,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4181,
@@ -108865,7 +108863,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4182,
@@ -108891,7 +108889,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4183,
@@ -108917,7 +108915,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4184,
@@ -108943,7 +108941,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4185,
@@ -108969,7 +108967,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4186,
@@ -108995,7 +108993,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4187,
@@ -109021,7 +109019,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4188,
@@ -109047,7 +109045,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4189,
@@ -109073,7 +109071,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4190,
@@ -109099,7 +109097,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4191,
@@ -109125,7 +109123,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4192,
@@ -109151,7 +109149,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4193,
@@ -109177,7 +109175,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4194,
@@ -109203,7 +109201,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4195,
@@ -109229,7 +109227,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4196,
@@ -109255,7 +109253,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4197,
@@ -109281,7 +109279,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4198,
@@ -109307,7 +109305,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4199,
@@ -109333,7 +109331,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4200,
@@ -109359,7 +109357,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4201,
@@ -109385,7 +109383,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4202,
@@ -109411,7 +109409,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4203,
@@ -109437,7 +109435,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4204,
@@ -109463,7 +109461,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4205,
@@ -109489,7 +109487,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4206,
@@ -109515,7 +109513,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4207,
@@ -109541,7 +109539,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4208,
@@ -109567,7 +109565,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4209,
@@ -109593,7 +109591,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4210,
@@ -109619,7 +109617,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4211,
@@ -109645,7 +109643,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4212,
@@ -109671,7 +109669,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4213,
@@ -109697,7 +109695,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4214,
@@ -109723,7 +109721,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4215,
@@ -109749,7 +109747,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4216,
@@ -109775,7 +109773,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4217,
@@ -109801,7 +109799,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4218,
@@ -109827,7 +109825,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4219,
@@ -109853,7 +109851,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4220,
@@ -109879,7 +109877,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4221,
@@ -109905,7 +109903,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4222,
@@ -109931,7 +109929,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4223,
@@ -109957,7 +109955,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4224,
@@ -109983,7 +109981,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4225,
@@ -110009,7 +110007,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4226,
@@ -110035,7 +110033,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4227,
@@ -110061,7 +110059,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4228,
@@ -110087,7 +110085,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4229,
@@ -110113,7 +110111,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4230,
@@ -110139,7 +110137,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4231,
@@ -110165,7 +110163,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4232,
@@ -110191,7 +110189,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4233,
@@ -110217,7 +110215,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4234,
@@ -110243,7 +110241,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4235,
@@ -110269,7 +110267,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4236,
@@ -110295,7 +110293,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4237,
@@ -110321,7 +110319,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4238,
@@ -110347,7 +110345,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4239,
@@ -110373,7 +110371,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4240,
@@ -110399,7 +110397,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4241,
@@ -110425,7 +110423,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4242,
@@ -110451,7 +110449,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4243,
@@ -110477,7 +110475,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4244,
@@ -110503,7 +110501,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4245,
@@ -110529,7 +110527,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4246,
@@ -110555,7 +110553,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4247,
@@ -110581,7 +110579,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4248,
@@ -110607,7 +110605,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4249,
@@ -110633,7 +110631,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4250,
@@ -110659,7 +110657,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4251,
@@ -110685,7 +110683,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4252,
@@ -110711,7 +110709,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4253,
@@ -110737,7 +110735,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4254,
@@ -110763,7 +110761,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4255,
@@ -110789,7 +110787,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4256,
@@ -110815,7 +110813,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4257,
@@ -110841,7 +110839,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4258,
@@ -110867,7 +110865,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4259,
@@ -110893,7 +110891,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4260,
@@ -110919,7 +110917,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4261,
@@ -110945,7 +110943,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4262,
@@ -110971,7 +110969,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4263,
@@ -110997,7 +110995,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4264,
@@ -111023,7 +111021,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4265,
@@ -111049,7 +111047,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4266,
@@ -111075,7 +111073,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4267,
@@ -111101,7 +111099,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4268,
@@ -111127,7 +111125,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4269,
@@ -111153,7 +111151,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4270,
@@ -111179,7 +111177,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4271,
@@ -111205,7 +111203,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4272,
@@ -111231,7 +111229,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4273,
@@ -111257,7 +111255,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4274,
@@ -111283,7 +111281,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4275,
@@ -111309,7 +111307,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4276,
@@ -111335,7 +111333,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4277,
@@ -111361,7 +111359,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4278,
@@ -111387,7 +111385,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4279,
@@ -111413,7 +111411,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4280,
@@ -111439,7 +111437,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4281,
@@ -111465,7 +111463,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4282,
@@ -111491,7 +111489,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4283,
@@ -111517,7 +111515,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4284,
@@ -111543,7 +111541,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4285,
@@ -111569,7 +111567,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4286,
@@ -111595,7 +111593,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4287,
@@ -111621,7 +111619,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4288,
@@ -111647,7 +111645,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4289,
@@ -111673,7 +111671,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4290,
@@ -111699,7 +111697,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4291,
@@ -111725,7 +111723,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4292,
@@ -111751,7 +111749,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4293,
@@ -111777,7 +111775,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4294,
@@ -111803,7 +111801,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4295,
@@ -111829,7 +111827,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4296,
@@ -111855,7 +111853,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4297,
@@ -111881,7 +111879,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4298,
@@ -111907,7 +111905,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4299,
@@ -111933,7 +111931,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4300,
@@ -111959,7 +111957,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4301,
@@ -111985,7 +111983,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4302,
@@ -112011,7 +112009,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4303,
@@ -112037,7 +112035,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4304,
@@ -112063,7 +112061,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4305,
@@ -112089,7 +112087,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4306,
@@ -112115,7 +112113,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4307,
@@ -112141,7 +112139,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4308,
@@ -112167,7 +112165,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4309,
@@ -112193,7 +112191,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4310,
@@ -112219,7 +112217,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4311,
@@ -112245,7 +112243,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4312,
@@ -112271,7 +112269,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4313,
@@ -112297,7 +112295,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4314,
@@ -112323,7 +112321,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4315,
@@ -112349,7 +112347,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4316,
@@ -112375,7 +112373,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4317,
@@ -112401,7 +112399,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4318,
@@ -112427,7 +112425,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4319,
@@ -112453,7 +112451,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4320,
@@ -112479,7 +112477,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4321,
@@ -112505,7 +112503,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4322,
@@ -112531,7 +112529,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4323,
@@ -112557,7 +112555,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4324,
@@ -112583,7 +112581,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4325,
@@ -112609,7 +112607,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4326,
@@ -112635,7 +112633,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4327,
@@ -112661,7 +112659,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4328,
@@ -112687,7 +112685,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4329,
@@ -112713,7 +112711,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4330,
@@ -112739,7 +112737,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4331,
@@ -112765,7 +112763,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4332,
@@ -112791,7 +112789,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4333,
@@ -112817,7 +112815,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4334,
@@ -112843,7 +112841,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4335,
@@ -112869,7 +112867,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4336,
@@ -112895,7 +112893,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4337,
@@ -112921,7 +112919,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4338,
@@ -112947,7 +112945,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4339,
@@ -112973,7 +112971,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4340,
@@ -112999,7 +112997,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4341,
@@ -113025,7 +113023,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4342,
@@ -113051,7 +113049,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4343,
@@ -113077,7 +113075,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4344,
@@ -113103,7 +113101,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4345,
@@ -113129,7 +113127,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4346,
@@ -113155,7 +113153,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4347,
@@ -113181,7 +113179,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4348,
@@ -113207,7 +113205,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4349,
@@ -113233,7 +113231,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4350,
@@ -113259,7 +113257,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4351,
@@ -113285,7 +113283,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4352,
@@ -113311,7 +113309,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4353,
@@ -113337,7 +113335,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4354,
@@ -113363,7 +113361,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4355,
@@ -113389,7 +113387,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4356,
@@ -113415,7 +113413,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4357,
@@ -113441,7 +113439,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4358,
@@ -113467,7 +113465,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4359,
@@ -113493,7 +113491,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4360,
@@ -113519,7 +113517,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4361,
@@ -113545,7 +113543,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4362,
@@ -113571,7 +113569,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4363,
@@ -113597,7 +113595,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4364,
@@ -113623,7 +113621,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4365,
@@ -113649,7 +113647,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4366,
@@ -113675,7 +113673,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4367,
@@ -113701,7 +113699,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4368,
@@ -113727,7 +113725,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4369,
@@ -113753,7 +113751,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4370,
@@ -113779,7 +113777,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4371,
@@ -113805,7 +113803,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4372,
@@ -113831,7 +113829,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4373,
@@ -113857,7 +113855,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4374,
@@ -113883,7 +113881,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4375,
@@ -113909,7 +113907,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4376,
@@ -113935,7 +113933,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4377,
@@ -113961,7 +113959,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4378,
@@ -113987,7 +113985,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4379,
@@ -114013,7 +114011,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4380,
@@ -114039,7 +114037,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4381,
@@ -114065,7 +114063,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4382,
@@ -114091,7 +114089,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4383,
@@ -114117,7 +114115,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4384,
@@ -114143,7 +114141,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4385,
@@ -114169,7 +114167,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4386,
@@ -114195,7 +114193,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4387,
@@ -114221,7 +114219,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4388,
@@ -114247,7 +114245,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4389,
@@ -114273,7 +114271,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4390,
@@ -114299,7 +114297,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4391,
@@ -114325,7 +114323,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4392,
@@ -114351,7 +114349,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4393,
@@ -114377,7 +114375,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4394,
@@ -114403,7 +114401,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4395,
@@ -114429,7 +114427,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4396,
@@ -114455,7 +114453,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4397,
@@ -114481,7 +114479,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4398,
@@ -114507,7 +114505,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4399,
@@ -114533,7 +114531,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4400,
@@ -114559,7 +114557,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4401,
@@ -114585,7 +114583,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4402,
@@ -114611,7 +114609,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4403,
@@ -114637,7 +114635,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4404,
@@ -114663,7 +114661,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4405,
@@ -114689,7 +114687,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4406,
@@ -114715,7 +114713,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4407,
@@ -114741,7 +114739,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4408,
@@ -114767,7 +114765,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0097",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4409,
@@ -114793,7 +114791,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4410,
@@ -114819,7 +114817,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4411,
@@ -114845,7 +114843,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4412,
@@ -114871,7 +114869,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4413,
@@ -114897,7 +114895,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4414,
@@ -114923,7 +114921,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4415,
@@ -114949,7 +114947,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4416,
@@ -114975,7 +114973,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4417,
@@ -115001,7 +114999,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4418,
@@ -115027,7 +115025,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4419,
@@ -115053,7 +115051,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4420,
@@ -115079,7 +115077,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4421,
@@ -115105,7 +115103,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4422,
@@ -115131,7 +115129,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4423,
@@ -115157,7 +115155,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4424,
@@ -115183,7 +115181,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4425,
@@ -115209,7 +115207,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4426,
@@ -115235,7 +115233,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4427,
@@ -115261,7 +115259,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4428,
@@ -115287,7 +115285,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4429,
@@ -115313,7 +115311,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4430,
@@ -115339,7 +115337,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4431,
@@ -115365,7 +115363,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4433,
@@ -115391,7 +115389,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4434,
@@ -115417,7 +115415,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4435,
@@ -115443,7 +115441,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4436,
@@ -115469,7 +115467,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4437,
@@ -115495,7 +115493,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4438,
@@ -115521,7 +115519,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4439,
@@ -115547,7 +115545,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4440,
@@ -115573,7 +115571,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4441,
@@ -115599,7 +115597,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4442,
@@ -115625,7 +115623,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4443,
@@ -115651,7 +115649,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4444,
@@ -115677,7 +115675,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4445,
@@ -115703,7 +115701,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4446,
@@ -115729,7 +115727,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4447,
@@ -115755,7 +115753,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4448,
@@ -115781,7 +115779,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4449,
@@ -115807,7 +115805,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4450,
@@ -115833,7 +115831,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4451,
@@ -115859,7 +115857,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4452,
@@ -115885,7 +115883,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4453,
@@ -115911,7 +115909,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4454,
@@ -115937,7 +115935,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4455,
@@ -115963,7 +115961,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4456,
@@ -115989,7 +115987,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4457,
@@ -116015,7 +116013,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4458,
@@ -116041,7 +116039,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4459,
@@ -116067,7 +116065,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4460,
@@ -116093,7 +116091,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4461,
@@ -116119,7 +116117,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4462,
@@ -116145,7 +116143,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
   {
     ID: 4463,
@@ -116171,7 +116169,7 @@ var data = [
     SKU_BATCH: "A",
     BATCH_EXPIRY: "2025-12-01",
     PACK_CODE: "KT0055",
-    Status: null,
+    Status: "N",
   },
 ];
 
@@ -116326,48 +116324,66 @@ function removeDuplicates(arr) {
   return arr.filter((item, index) => arr.indexOf(item) === index);
 }
 
-    function removeDuplicatespack(data) {
-      console.log(data)
-    
 
+
+// download json
+
+
+
+
+    function removeDuplicatespack(data) {    
       let filteredpackdata=[]
       const stockData = getUniqueListBypackcode(data, "CC_EPCNO");
       stockData.map((ele)=>{
-        
-        console.log(ele.CC_EPCNO)
-      })
+          const dataval =  data.filter(({CC_EPCNO}) => 
+          [CC_EPCNO].some((val)=> val.includes(ele.CC_EPCNO))
+          )
+          const stockData = getUniqueListBypackcode(dataval, "PACK_CODE");
+          uniqueArr = removeDuplicates(dataval);
+          for(i=0;i<stockData.length;i++){
+            var count = 0;
+            var balance = 0;
+
+            uniqueArr.filter((data)=>{
+              if (data.PACK_NAME === stockData[i]["PACK_NAME"]) {
+                count = count + 1;
+                data.Status == "N" ? (balance = balance + 1) : null;
+              } else {
+                null;
+              }
+              stockData[i]["Count"] = count;
+              stockData[i]["PACK_QTY"] = balance;
+
+            })
+
+          }
+
+       setTimeout(()=>{
 
 
-      console.log(stockData)
+        console.log('Stock',stockData)
+        for(i=0;i<stockData.length;i++){
+          console.log(stockData[i].PACK_QTY)
 
 
-      return false
-
-
-      stockData.map((element)=>{
-        console.log(element)
-        if(element.Status == "N"){
           filteredpackdata.push({
-            "MC_NO":element.MC_NO,
-              "CC_NO":element.CC_NO,
-              "PACK_CODE":element.PACK_CODE,
-              "PACK_NAME":element.PACK_NAME,
-              "PACK_BATCHNO":element.PACK_BATCHNO,
-              "PACK_EXPIRY":element.PACK_EXPIRY,
-            "PACK_QTY":"1"     
+            "MC_NO":stockData[i]['MC_NO'],
+              "CC_NO":stockData[i]['CC_NO'],
+              "PACK_CODE":stockData[i]['PACK_CODE'],
+              "PACK_NAME":stockData[i]['PACK_NAME'],
+              "PACK_BATCHNO":stockData[i]['PACK_BATCHNO'],
+              "PACK_EXPIRY":stockData[i]['PACK_EXPIRY'],
+            "PACK_QTY":stockData[i].PACK_QTY    
            })
+        }
 
-        } 
+       },1000)
+ 
 
-      })
-
-      setTimeout(()=>{
-        console.log(filteredpackdata)
-
-      },1000)
+    })
 
 
-     setTimeout(()=>{
+    setTimeout(()=>{
       var data, filename, link;
       var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(filteredpackdata);
             filename = 'jsonDataForTab.json';
@@ -116377,8 +116393,9 @@ function removeDuplicates(arr) {
             link.setAttribute('download', filename);
             link.click();
 
-     },1000) 
+     },2000) 
 
+    
 
     }
 
@@ -116389,13 +116406,12 @@ function removeDuplicates(arr) {
 
 function downloadCSV(args) {
 
-
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
     const db = ldb.result;
     const txn = db.transaction("tbl_rfid", "readonly");
     const store = txn.objectStore("tbl_rfid");
-    const index = store.index("CC_NO");
+    const index = store.index("PACK_EPC");
     let query = index.getAll();
     query.onsuccess = (event) => {
       if (!event.target.result) {
@@ -116410,3 +116426,18 @@ function downloadCSV(args) {
 
 
     }
+
+
+
+    function removeDuplicates(arr) {
+      (seen = Object.create(null)),
+        (result = arr.filter((o) => {
+          var key = ["PACK_NAME", "PACK_EPC"].map((k) => o[k]).join("|");
+          if (!seen[key]) {
+            seen[key] = true;
+            return true;
+          }
+        }));
+      return result;
+    }
+    

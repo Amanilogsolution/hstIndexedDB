@@ -1,14 +1,13 @@
 {
-    "short_name": "CRAWL",
-    "name": "CRAWL",
-    "start_url": "/",
-    "display": "standalone",
-    "theme_color": "#ffffff",
-    
-    "background_color": "#ffffff",
-    
-    "description": "my site description",
-    "icons": [
+  "short_name": "CRAWL",
+  "name": "CRAWL",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",    
+  "background_color": "#ffffff",    
+  "description": "my site description",
+  "icons": 
+    [
       {
         "src": "/img/logo.png",
         "type": "image/png",
@@ -20,5 +19,5 @@
         "sizes": "144x144"
       }
     ]
-  }
+}
   

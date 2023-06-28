@@ -102,7 +102,7 @@
             </li>
 
             <li class="nav-item">
-              <a href="./js/data.json" download style="cursor: pointer;" class="nav-link">
+              <a href="#"  onclick="downloadCSV()" style="cursor: pointer;" class="nav-link">
                 <img class="fa" src="./img/barcode-scanner.png" height="18" width="18" alt="RFID Scanner" />
                 Download</a>
             </li>
@@ -411,6 +411,13 @@
     </div>
   </div>
 </div>
+
+
+
+
+<form name="">
+  <input type="file" name="json" id="selectFiles" onchange="importJson(event)">
+</form>
   <!-- Footer -->
   <footer class="bg-light text-center text-dark card-footer shadow-top" id="footer-main">
     <div class="container">
@@ -438,5 +445,25 @@
   <!-- <script src="js/childcube.js"> </script> -->
   <script src="js/bootstrap.min.js"></script>
   <script src="js/childcube.js"></script>
+  <script> 
+    function importJson(event){
+     var files = event.target.files;
+     console.log(files);
+     if (files.length <= 0) {
+       return false;
+     }
+     var fr = new FileReader();
+     fr.onload = function(e) { 
+       var result = JSON.parse(e.target.result);
+       var formatted = JSON.stringify(result, null, 2);
+       console.log(formatted);
+     }
+   
+     fr.readAsText(files.item(0));
+     }
+   </script>
   </body>
 </html>
+
+
+  
