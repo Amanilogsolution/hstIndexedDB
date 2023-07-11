@@ -81,19 +81,19 @@
             </li>
 
             <li class="nav-item">
-              <a href="#"  onclick="downloadCSV()" style="cursor: pointer;" class="nav-link">
-                <img class="fa" src="./img/barcode-scanner.png" height="18" width="18" alt="RFID Scanner" />
+              <a href="/download.html" style="cursor: pointer;" class="nav-link">
+                <img class="fa" src="./img/downloadicon.png" height="30" width="30" alt="Download" />
                 Download</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div style="background-color: #f8f9fa" class="ml-3 font-italic">
+    <div style="background-color: #f8f9fa" class="ml-3 font-italic ">
       <h1 class="mt-4">
         <a href="index.html"><small>Home</small></a
         >><a href="motherCube.html" class="text-success"
-          ><small>Medical Inv</small>
+          ><small>Stocks</small>
         </a>
       </h1>
     </div>
@@ -107,14 +107,16 @@
       </div>
     </div>
     <section id="boxes" class="px-2">
-      <div class="container my-auto">
-        <div class="row mb-5 text-dark" id="motherContainer"></div>
+      <div class="container my-auto" >
+        <div class="row mb-5 text-dark" id="motherContainer" ></div>
       </div>
     </section>
-
+    <div class="row" style="height: 50px;" >
+       
+    </div>
     <!-- Footer -->
     <footer
-      class="bg-light text-center text-dark card-footer shadow-top"
+      class="bg-light text-center text-dark card-footer shadow-top  fixed-bottom"
       id="footer-main"
     >
       <div class="container">
@@ -151,9 +153,7 @@
       </div>
     </footer>
     <script src="js/jquery-3.3.1.min.js"></script>
-
     <script src="js/bootstrap.min.js"></script>
-
     <script src="js/mothercube.js"></script>
   </body>
 </html>

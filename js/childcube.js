@@ -11,6 +11,7 @@ function ChildCube() {
   for (var i = 0, charsLength = data.length; i < charsLength; i += 24) {
     chunks.push(data.substring(i, i + 24));
   }
+
   uniqueArr = removeDuplicates(chunks);
   uniqueArr.forEach((x) => {
     const ldb = idb.open("CRM", 2);
@@ -74,7 +75,6 @@ function removeDuplicates(arr) {
 
 function searchdata() {
   document.getElementById("loading").style.display = "flex";
-
   const id = document.getElementById("child").value;
   let uniqueArr = [];
   let chunks = [];
@@ -94,13 +94,12 @@ function searchdata() {
   Mismatch.forEach((e) => UpdateMisMatchData(e.PACK_EPC));
   // MAtch Data Update Data End//
 
-  let mothercube = match.length > 0 ? match[0]["MC_NAME"] : "";
-  let childcube = match.length > 0 ? match[0]["CC_NAME"] : "";
+  let mothercube = match.length > 0 ? match[0]["MC_NAME"] : Mismatch[0]["MC_NAME"];
+  let childcube = match.length > 0 ? match[0]["CC_NO"] : Mismatch[0]["MC_NAME"];
   let arr1 = [];
   for (i = 0; i < data.length; i++) {
     arr1.push(data[i].PACK_EPC);
   }
-
   setTimeout(() => {
     let OtherInventory = uniqueArr.filter((e) => !arr1.includes(e));
     const datass = [];
@@ -123,7 +122,6 @@ function searchdata() {
     });
     setTimeout(() => {
       const invdata = [];
-
       for (i = 0; i < datass.length; i++) {
         invdata.push(`
             <tr class="text-dark" style="font-size:12px" >
@@ -141,8 +139,6 @@ function searchdata() {
   }, 1000);
 
 
-
-
   var result = match.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
     return x;
@@ -158,19 +154,13 @@ function searchdata() {
       return x;
     }, {});
 
-
     let result3 = Object.keys(resultdata);
-    // matchdatalength.push(result3.length);
-
     for(let s=0 ; s<result3.length ; s++){
-
       var resultdatass = resultdata[`${result3[s]}`].reduce((x, y) => {
         (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
         return x;
       }, {});
-
       let textColor = ''
-
       var date = new Date();
       var day = date.getDate();
       var month = date.getMonth() + 1;
@@ -178,8 +168,6 @@ function searchdata() {
       if (month < 10) month = "0" + month;
       if (day < 10) day = "0" + day;
       var today = year + "-" + month + "-" + day;
-
-
       const date1 = new Date(result3[s]);
        const date2 = new Date(today);
          const diffTime = date1-date2
@@ -191,25 +179,21 @@ function searchdata() {
        }
 
       let result4 = Object.keys(resultdatass);
-      console.log(result4.length)
-
       matchdatalength.push(result4.length)
       inventoryMatch.push(`
-      <tr class="text-dark" style="font-size:14px" onClick="match('${
+      <tr class="text-dark text-center" style="font-size:14px" onClick="match('${
         resultdata[`${result3[s]}`][0]['PACK_EPC']
       }')">
       <td data-toggle="modal" data-target="#exampleModal">${result2[i]}</td>
-      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdata[`${result3[s]}`][0]['PACK_EPC']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
+      <td> <span  class="mr-4" data-toggle="modal" data-target="#packImage" onClick="imagemodal('${resultdata[`${result3[s]}`][0]['PACK_CODE']}')" > <img src="img/eye.png" style="width:30px;" /></span></td>
       <td>${result4.length}</td>
        <td class='text-${textColor}'>${result3[s]}</td>
       </tr> 
   `);
     }
-   
     const matchsum = matchdatalength.reduce((sum, num) => sum + num);
     document.getElementById("matchdata").innerHTML = matchsum;
   }
-
 
   var resultdata = Mismatch.reduce((x, y) => {
     (x[y.PACK_NAME] = x[y.PACK_NAME] || []).push(y);
@@ -217,9 +201,7 @@ function searchdata() {
   }, {});
 
   let mismatchChildCube = Object.keys(resultdata);
-
   for (i = 0; i < mismatchChildCube.length; i++) {
-
     var resultdatapack = resultdata[`${mismatchChildCube[i]}`].reduce(
       (x, y) => {
         (x[y.PACK_EXPIRY] = x[y.PACK_EXPIRY] || []).push(y);
@@ -229,18 +211,14 @@ function searchdata() {
     );
 
     let result3 = Object.keys(resultdatapack);
-
-
     // mismatchdatalength.push(result3.length);  Comment by Aman
     for(let s=0 ; s<result3.length ; s++){
-
       var resultdatass = resultdatapack[`${result3[s]}`].reduce((x, y) => {
         (x[y.PACK_EPC] = x[y.PACK_EPC] || []).push(y);
         return x;
       }, {});
 
       let textColor = ''
-
       var date = new Date();
       var day = date.getDate();
       var month = date.getMonth() + 1;
@@ -248,8 +226,6 @@ function searchdata() {
       if (month < 10) month = "0" + month;
       if (day < 10) day = "0" + day;
       var today = year + "-" + month + "-" + day;
-
-
       const date1 = new Date(result3[s]);
        const date2 = new Date(today);
          const diffTime = date1-date2
@@ -259,13 +235,10 @@ function searchdata() {
       }else{
          textColor='success'
     }
-      
       let result4 = Object.keys(resultdatass);
-
       mismatchdatalength.push(result4.length)
-
       inventoryMisMatch.push(`
-      <tr class="text-dark" style="font-size:14px" onClick="match('${
+      <tr class="text-dark text-center" style="font-size:14px" onClick="match('${
         resultdatapack[`${result3[s]}`][0]['PACK_EPC']
       }')">
       <td data-toggle="modal" data-target="#exampleModal">${
@@ -276,13 +249,11 @@ function searchdata() {
       <td class='text-${textColor}'>${result3[s]}</td>
       </tr>
   `);
-
     }
   }
 
   let mismatchsum = 0;
   mismatchdatalength.map((x) => (mismatchsum += x));
-
   let Matchstr = inventoryMatch.toString().replaceAll(",", "");
   let MisMatchstr = inventoryMisMatch.toString().replaceAll(",", "");
   document.getElementById("mCube").innerHTML = mothercube;
@@ -297,7 +268,6 @@ function searchdata() {
 }
 function match(value) {
   var packData = [];
-
   const ldb = idb.open("CRM", 2);
   ldb.onsuccess = function () {
     const db = ldb.result;
@@ -331,6 +301,7 @@ function match(value) {
 
     let str = SkuData.toString().replaceAll(",", "");
     document.getElementById("skudatavalue").innerHTML = str;
+    document.getElementById("cchildcubename").innerHTML=packData[0][0]["CC_NAME"]
   }, 1000);
 }
 
@@ -341,9 +312,10 @@ const UpdateMatchData = (id) => {
     const txn = db.transaction(["tbl_rfid"], "readwrite");
     const store = txn.objectStore("tbl_rfid");
     const index = store.index("PACK_EPC");
-    let query1 = index.getKey(id);
+    let query1 = index.getAllKeys(id);
     query1.onsuccess = (event) => {
       key = query1.result;
+      UpdateCubeMatchData(query1.result, id);
       UpdateCubeMatchData(query1.result, id);
     };
   };
@@ -374,14 +346,19 @@ const UpdateCubeMatchData = (key, value) => {
     let query = index.get(value);
     query.onsuccess = (event) => {
       const data = event.target.result;
-      data.Status = "N";
-      const updateRequest = store.put(data, key);
+      data.Status = "Noooooo";
+      const date = new Date().toString()
+      data.scandate = date;
+      for(i=0;i<key.length;i++){
+        const updateRequest = store.put(data, key[i]);
       updateRequest.onsuccess = (event) => {
-        console.log(updateRequest.result);
+        console.log('datassss',updateRequest.result);
         console.log(data);
       };
+      }
     };
-  };
+}
+
 };
 
 const UpdateCubeMisMatchData = (key, value) => {
@@ -397,127 +374,12 @@ const UpdateCubeMisMatchData = (key, value) => {
       data.Status = "Y";
       const updateRequest = store.put(data, key);
       updateRequest.onsuccess = (event) => {
-     
       };
     };
   };
 };
 
-const imagemodal = (kitno) =>{
-  const str = `<img class="img-fluid" src="img/${kitno}.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" style="width: 300px" />`  
- 
+const imagemodal = (PACK_CODE) =>{
+  const str = `<img class="img-fluid" src="img/${PACK_CODE}.png" onerror="this.onerr=null;this.src='img/noImage.jpg'" style="width: 300px" />`  
     document.getElementById('Imagedata').innerHTML = str
-
-}
-
-
-// Download code
-function removeDuplicatespack(data) {    
-  let filteredpackdata=[]
-  const stockData = getUniqueListBypackcode(data, "CC_EPCNO");
-  stockData.map((ele)=>{
-      const dataval =  data.filter(({CC_EPCNO}) => 
-      [CC_EPCNO].some((val)=> val.includes(ele.CC_EPCNO))
-      )
-      const stockData = getUniqueListBypackcode(dataval, "PACK_CODE");
-      uniqueArr = removeDuplicates(dataval);
-      for(i=0;i<stockData.length;i++){
-        var count = 0;
-        var balance = 0;
-
-        uniqueArr.filter((data)=>{
-          if (data.PACK_NAME === stockData[i]["PACK_NAME"]) {
-            count = count + 1;
-            data.Status == "N" ? (balance = balance + 1) : null;
-          } else {
-            null;
-          }
-          stockData[i]["Count"] = count;
-          stockData[i]["PACK_QTY"] = balance;
-
-        })
-
-      }
-
-   setTimeout(()=>{
-
-
-    console.log('Stock',stockData)
-    for(i=0;i<stockData.length;i++){
-      console.log(stockData[i].PACK_QTY)
-
-
-      filteredpackdata.push({
-        "MC_NO":stockData[i]['MC_NO'],
-          "CC_NO":stockData[i]['CC_NO'],
-          "PACK_CODE":stockData[i]['PACK_CODE'],
-          "PACK_NAME":stockData[i]['PACK_NAME'],
-          "PACK_BATCHNO":stockData[i]['PACK_BATCHNO'],
-          "PACK_EXPIRY":stockData[i]['PACK_EXPIRY'],
-        "PACK_QTY":stockData[i].PACK_QTY    
-       })
-    }
-
-   },1000)
-
-
-})
-
-
-setTimeout(()=>{
-  var data, filename, link;
-  var csv = 'data:text/json;charset=utf-8,' + JSON.stringify(filteredpackdata);
-        filename = 'jsonDataForTab.json';
-        data = encodeURI(csv);
-        link = document.createElement('a');
-        link.setAttribute('href', data);
-        link.setAttribute('download', filename);
-        link.click();
-
- },2000) 
-
-
-
-}
-
-function getUniqueListBypackcode(arr, key) {
-  return [...new Map(arr.map((item) => [item[key], item])).values()];
-}
-
-
-function downloadCSV(args) {
-
-const ldb = idb.open("CRM", 2);
-ldb.onsuccess = function () {
-const db = ldb.result;
-const txn = db.transaction("tbl_rfid", "readonly");
-const store = txn.objectStore("tbl_rfid");
-const index = store.index("PACK_EPC");
-let query = index.getAll();
-query.onsuccess = (event) => {
-  if (!event.target.result) {
-    console.log(`this ${value} not match`);
-  } else {
-    console.log(event.target.result);
-    removeDuplicatespack(event.target.result);
-
-  }
-};
-};
-
-
-}
-
-
-
-function removeDuplicates(arr) {
-  (seen = Object.create(null)),
-    (result = arr.filter((o) => {
-      var key = ["PACK_NAME", "PACK_EPC"].map((k) => o[k]).join("|");
-      if (!seen[key]) {
-        seen[key] = true;
-        return true;
-      }
-    }));
-  return result;
 }

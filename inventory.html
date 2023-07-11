@@ -77,8 +77,8 @@
           </li>
         
           <li class="nav-item">
-            <a href="#" onclick="downloadCSV()" style="cursor: pointer;" class="nav-link">
-              <img class="fa" src="./img/barcode-scanner.png" height="18" width="18" alt="RFID Scanner" />
+            <a href="/download.html" style="cursor: pointer;" class="nav-link">
+              <img class="fa" src="./img/downloadicon.png" height="30" width="30" alt="Download" />
               Download</a>
           </li>
         </ul>
@@ -90,10 +90,11 @@
       <section id="boxes" class="px-2 mb-1">
         <div class="bg-light">
           <h6 class="mt-4 "><a href="index.html" class="text-danger"><small> Home</small></a> > 
+            <a href="indentifyinner.html" class="text-danger"><small>identify kits</small></a> >
             <!-- <a href="identtificationInner.html"
             class="text-dark text-decoration-none"><small>Identification</small> </a> ><a href="randomInventory.html"
             class="text-dark text-decoration-none"><small>Random Inventory</small> </a> >  -->
-            <small>RFID</small> </h6>
+            <small>Scan item</small> </h6>
         </div> 
           <div class="row py-1  rounded d-flex justify-content-around bg-light " >
             <label for="inventory" class="mt-2 text-muted" ><strong>Identify Kits</strong></label>
@@ -114,7 +115,7 @@
             <div class="col-md-6">
               
               <div class="form-row ml-2 mt-2" >
-                <input type="text" id="childCube" name="childCube" class="form-control" style="width:85%; "    />
+                <input type="text" id="childCube" name="childCube" class="form-control" style="width:85%;" placeholder="Scan kits"   />
                     <button class="btn btn-outline-primary" onClick="searchchild()">
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                         class="bi bi-search" viewBox="0 0 16 16">
@@ -134,7 +135,7 @@
             <div class="row mt-2  rounded" style="display: none;" id="summery">
               <div class="col pt-2 text-center text-muted">
                 <h5>
-                Total Kit Found 
+                Kits Found 
                 <span class="badge badge-success badge-pill " id="matchdata"></span></h5>
               </div>
               
@@ -165,10 +166,16 @@
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header bg-primary ">
-              <h6 class="modal-title text-white" id="modaltitle"></h6> 
-               <div class="row">
-                <div class="col-md-6 modal-title text-white" id="mcName"></div>
-                <div class="col-md-6 modal-title text-white" ><small id="cchildcubename"></small></div>
+              <!-- <h6 class="modal-title text-white" id="modaltitle"></h6>  -->
+               <div class="row modal-title d-flex flex-column">
+                
+                <div><span class="pl-1"> CC Name: </span><span class=" text-white" id="modaltitle"></span></div>
+                <div><span class="pl-1"> CC No:</span> <span class=" text-white" id="mcName"></span></div>
+                <div><span class="pl-1"> Kit Name: </span> <span class=" text-white" id="cchildcubename"></span></div>
+                
+<!-- 
+                <div class="col-md-6 modal-title text-white" id="mcName"></div><br/>
+                <div class="col-md-6 modal-title text-white" ><small id="cchildcubename"></small></div> -->
                </div>
 
               
@@ -185,6 +192,7 @@
                     <th scope="col">#</th>
                     <th scope="col">Name</th>
                     <th scope="col">Qty</th>
+                    <th scope="col">Expiry</th>
                     
                   </tr>
                 </thead>
@@ -246,7 +254,7 @@
           <a class="btn btn-outline-dark btn-floating " href="childcube.html" role="button">
             <img class="fa" src="./img/childCube.png" height="25" width="25" alt="Child Cube" />
           </a> -->
-          <a class="btn btn-outline-dark btn-floating m-1 float-right" href="/" role="button">
+          <a class="btn btn-outline-dark btn-floating m-1 float-right" href="/indentifyinner.html" role="button">
             Back
           </a>
         </section>

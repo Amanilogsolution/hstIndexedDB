@@ -68,7 +68,8 @@ const cachedata =['index.html','dashboard.html','childcubeinner.html','motherCub
  'img/KT0123.png', 'img/KT0124.png', 'img/KT0125.png', 'img/KT0126.png',
  'img/KT0127.png', 'img/KT0129.png', 'img/KT0130.png', 'img/KT0132.png',
  'img/KT0133.png', 'img/KT0134.png', 'img/KT0135.png', 'img/KT0136.png',
- 'img/childcubehome.png','img/download.jpeg','img/Make_In_India.png','img/scanIndentifyHome.png'
+ 'img/childcubehome.png','img/download.jpeg','img/Make_In_India.png','img/scanIndentifyHome.png',
+ 'img/downloadicon.png','js/download.js','download.html'
 ]
 
 self.addEventListener("install",e=> {
